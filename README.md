@@ -30,6 +30,11 @@ translation.
   choice depends on the next word (AUC 0.88; terminal-only homophones p 0.57 →
   0.27). Voynich-style edge coupling is exactly that case. So the evidence that
   r/l "carry information" does not show that they encode different plaintext.
+* **Coupling-aware test.** A residual-context test that controls for boundary
+  glyphs did not pass calibration: it has too little power. So its Voynich result
+  (only 2 of 34 r/l/n pairs flagged) is not interpreted. The calibration did show
+  that the naive r/l test flags 69% of true coupled homophones as "different". The
+  question of whether r/l/n encode different plaintext is open.
 
 ## Reading order
 
@@ -49,6 +54,9 @@ translation.
    and voynich-collective, as read against this project.
 8. `COUPLED_CIPHER_PROTOCOL.md` → `COUPLED_CIPHER_FINDINGS_2026-09-25.md`: §19
    transfer to a non-Naibbe cipher with and without edge coupling.
+9. `COUPLING_TEST_PROTOCOL.md` → `COUPLING_TEST_FINDINGS_2026-09-25.md`:
+   coupling-aware test for terminal alternations, calibrated on a shared-core
+   cipher.
 
 `CODEX_KICKOFF.md` is the original task brief.
 
@@ -63,6 +71,7 @@ translation.
 | `code/12_reconstruct_claims.py`, `reconstruction.py` | Reconstructions of lost claims |
 | `code/13`–`14`, `equivalence.py` | §19 equivalence-class classifier and post-hoc diagnostics |
 | `code/15`, `slot_cipher.py` | Labelled slot cipher and coupled-cipher transfer test |
+| `code/16`, `coupling_test.py` | Coupling-aware terminal-alternation test |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |

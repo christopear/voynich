@@ -21,7 +21,10 @@
 > * **§4.4 qualified:** distinct following-initial distributions for r/l are
 >   also exactly what edge-conditioned homophony produces
 >   (`COUPLED_CIPHER_FINDINGS_2026-09-25.md`). r/l carry information about the
->   next word; whether they encode different plaintext is open.
+>   next word; whether they encode different plaintext is open. The naive r/l
+>   statistic flags 69% of true coupled homophones as different in a labelled
+>   test. A coupling-aware replacement lacked power
+>   (`COUPLING_TEST_FINDINGS_2026-09-25.md`).
 
 **Purpose:** handoff document for continuing the analysis in Codex without losing the experimental state, negative results, or methodological corrections already established.
 

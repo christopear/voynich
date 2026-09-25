@@ -98,6 +98,16 @@ OPENBLAS_NUM_THREADS=1 uv run --locked python code/15_coupled_cipher_transfer.py
 uv run --locked python -m unittest discover -s code -p 'test_slot_cipher.py' -v
 ```
 
+`16_coupling_aware_test.py` runs the coupling-aware terminal-alternation test
+(`coupling_test.py`), calibrated on a shared-core slot cipher. It follows
+`COUPLING_TEST_PROTOCOL.md`, writes to `results/coupling_test_2026-09-25/`, and
+takes about 2 hours.
+
+```bash
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/16_coupling_aware_test.py
+uv run --locked python -m unittest discover -s code -p 'test_coupling_test.py' -v
+```
+
 `08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible
