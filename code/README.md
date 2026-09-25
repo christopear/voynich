@@ -88,6 +88,16 @@ OPENBLAS_NUM_THREADS=1 uv run --locked python code/14_equivalence_posthoc.py
 uv run --locked python -m unittest discover -s code -p 'test_equivalence.py' -v
 ```
 
+`15_coupled_cipher_transfer.py` tests the frozen §19 classifier on a labelled
+non-Naibbe cipher (`slot_cipher.py`), with and without Voynich-style edge
+coupling. It follows `COUPLED_CIPHER_PROTOCOL.md` and writes to
+`results/coupled_cipher_2026-09-25/`.
+
+```bash
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/15_coupled_cipher_transfer.py
+uv run --locked python -m unittest discover -s code -p 'test_slot_cipher.py' -v
+```
+
 `08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible

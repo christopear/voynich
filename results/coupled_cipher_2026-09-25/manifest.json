@@ -1,0 +1,146 @@
+{
+  "script": "code/15_coupled_cipher_transfer.py",
+  "protocol": "COUPLED_CIPHER_PROTOCOL.md",
+  "grid": [
+    {
+      "h": 3,
+      "s": 0.0,
+      "beta": 0.0
+    },
+    {
+      "h": 3,
+      "s": 0.0,
+      "beta": 1.0
+    },
+    {
+      "h": 3,
+      "s": 0.0,
+      "beta": 2.0
+    },
+    {
+      "h": 3,
+      "s": 0.0,
+      "beta": 4.0
+    },
+    {
+      "h": 3,
+      "s": 1.0,
+      "beta": 0.0
+    },
+    {
+      "h": 3,
+      "s": 1.0,
+      "beta": 1.0
+    },
+    {
+      "h": 3,
+      "s": 1.0,
+      "beta": 2.0
+    },
+    {
+      "h": 3,
+      "s": 1.0,
+      "beta": 4.0
+    },
+    {
+      "h": 6,
+      "s": 0.0,
+      "beta": 0.0
+    },
+    {
+      "h": 6,
+      "s": 0.0,
+      "beta": 1.0
+    },
+    {
+      "h": 6,
+      "s": 0.0,
+      "beta": 2.0
+    },
+    {
+      "h": 6,
+      "s": 0.0,
+      "beta": 4.0
+    },
+    {
+      "h": 6,
+      "s": 1.0,
+      "beta": 0.0
+    },
+    {
+      "h": 6,
+      "s": 1.0,
+      "beta": 1.0
+    },
+    {
+      "h": 6,
+      "s": 1.0,
+      "beta": 2.0
+    },
+    {
+      "h": 6,
+      "s": 1.0,
+      "beta": 4.0
+    },
+    {
+      "h": 10,
+      "s": 0.0,
+      "beta": 0.0
+    },
+    {
+      "h": 10,
+      "s": 0.0,
+      "beta": 1.0
+    },
+    {
+      "h": 10,
+      "s": 0.0,
+      "beta": 2.0
+    },
+    {
+      "h": 10,
+      "s": 0.0,
+      "beta": 4.0
+    },
+    {
+      "h": 10,
+      "s": 1.0,
+      "beta": 0.0
+    },
+    {
+      "h": 10,
+      "s": 1.0,
+      "beta": 1.0
+    },
+    {
+      "h": 10,
+      "s": 1.0,
+      "beta": 2.0
+    },
+    {
+      "h": 10,
+      "s": 1.0,
+      "beta": 4.0
+    }
+  ],
+  "calibration_seeds": [
+    1,
+    2
+  ],
+  "evaluation_seeds": [
+    101,
+    102,
+    103
+  ],
+  "syllable_tokens": 33970,
+  "syllable_types": 824,
+  "python": "3.14.0rc2",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "inputs_sha256": {
+    "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/latin_alfonsi.txt": "5d178cb5a7d46f2bbdd5c9a209473faeffc07a438f0ab82b99ac21b7c7f155ae",
+    "data/naibbe_cipher_pre.txt": "9cdf2de12f371ac7efdb2e78713f229ada508286c1717758184238a59cd64326",
+    "data/naibbe_plain_units.txt": "4979b6826c75dd47b90d6c95ac212a34cd3735b1151ca2a524e9d13b4112e93b"
+  }
+}

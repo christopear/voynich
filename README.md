@@ -25,6 +25,11 @@ translation.
   context alone. This holds on held-out classes and on new plaintexts (ROC-AUC
   0.89–0.95). On Voynich the pre-set gates failed, so its candidate groupings are
   similarity hypotheses only, not homophone classes.
+* **Coupled-cipher test.** On a labelled non-Naibbe cipher the same classifier
+  still works (ROC-AUC 0.95), but it loses true homophones when the homophone
+  choice depends on the next word (AUC 0.88; terminal-only homophones p 0.57 →
+  0.27). Voynich-style edge coupling is exactly that case. So the evidence that
+  r/l "carry information" does not show that they encode different plaintext.
 
 ## Reading order
 
@@ -40,6 +45,10 @@ translation.
    handoff numbers whose drivers were lost.
 6. `EQUIVALENCE_PROTOCOL.md` → `EQUIVALENCE_FINDINGS_2026-09-25.md`: the §19
    same-plaintext classifier, calibrated on Naibbe and applied to Voynich.
+7. `LITERATURE_NOTES_2026-09-25.md`: Parisel (2026), antenore/voynich-toolkit
+   and voynich-collective, as read against this project.
+8. `COUPLED_CIPHER_PROTOCOL.md` → `COUPLED_CIPHER_FINDINGS_2026-09-25.md`: §19
+   transfer to a non-Naibbe cipher with and without edge coupling.
 
 `CODEX_KICKOFF.md` is the original task brief.
 
@@ -53,6 +62,7 @@ translation.
 | `code/08`–`11`, `mechanism_models.py` | Robustness gate and mechanism benchmark |
 | `code/12_reconstruct_claims.py`, `reconstruction.py` | Reconstructions of lost claims |
 | `code/13`–`14`, `equivalence.py` | §19 equivalence-class classifier and post-hoc diagnostics |
+| `code/15`, `slot_cipher.py` | Labelled slot cipher and coupled-cipher transfer test |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |
