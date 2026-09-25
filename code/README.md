@@ -78,6 +78,16 @@ non-plain alternative readings such as `dai[{cto}:@194;]y`. The default keeps
 the original behaviour so earlier results stay reproducible; the effect of the
 fix on the parser-dependent claims is saved in `parser_sensitivity.json`.
 
+The §19 equivalence-class stage follows `EQUIVALENCE_PROTOCOL.md`. `13` is
+prospective and `14` is post hoc. Outputs go to `results/equivalence_2026-09-25/`
+and the findings are in `EQUIVALENCE_FINDINGS_2026-09-25.md`.
+
+```bash
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/13_equivalence_classes.py
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/14_equivalence_posthoc.py
+uv run --locked python -m unittest discover -s code -p 'test_equivalence.py' -v
+```
+
 `08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible

@@ -1,0 +1,629 @@
+{
+  "note": "Candidate groupings from the frozen Naibbe-trained logistic model at p=0.5. Hypotheses only; no semantic interpretation. See interpretation rule in application.json.",
+  "clusters": [
+    [
+      {
+        "type": "dain",
+        "freq": 202
+      },
+      {
+        "type": "dair",
+        "freq": 83
+      },
+      {
+        "type": "dar",
+        "freq": 277
+      },
+      {
+        "type": "dol",
+        "freq": 103
+      }
+    ],
+    [
+      {
+        "type": "or",
+        "freq": 344
+      },
+      {
+        "type": "s",
+        "freq": 294
+      }
+    ],
+    [
+      {
+        "type": "chol",
+        "freq": 370
+      },
+      {
+        "type": "chor",
+        "freq": 208
+      }
+    ],
+    [
+      {
+        "type": "qokedy",
+        "freq": 266
+      },
+      {
+        "type": "qokeedy",
+        "freq": 295
+      }
+    ],
+    [
+      {
+        "type": "okeey",
+        "freq": 154
+      },
+      {
+        "type": "oteey",
+        "freq": 97
+      },
+      {
+        "type": "qokeey",
+        "freq": 298
+      }
+    ],
+    [
+      {
+        "type": "qokaiin",
+        "freq": 262
+      },
+      {
+        "type": "qokain",
+        "freq": 272
+      }
+    ],
+    [
+      {
+        "type": "dal",
+        "freq": 203
+      },
+      {
+        "type": "dy",
+        "freq": 236
+      }
+    ],
+    [
+      {
+        "type": "sho",
+        "freq": 118
+      },
+      {
+        "type": "shol",
+        "freq": 172
+      },
+      {
+        "type": "shor",
+        "freq": 91
+      }
+    ],
+    [
+      {
+        "type": "okaiin",
+        "freq": 200
+      },
+      {
+        "type": "otaiin",
+        "freq": 137
+      }
+    ],
+    [
+      {
+        "type": "sain",
+        "freq": 59
+      },
+      {
+        "type": "sair",
+        "freq": 24
+      },
+      {
+        "type": "sal",
+        "freq": 40
+      },
+      {
+        "type": "sar",
+        "freq": 66
+      },
+      {
+        "type": "sol",
+        "freq": 59
+      },
+      {
+        "type": "sor",
+        "freq": 47
+      },
+      {
+        "type": "tar",
+        "freq": 40
+      }
+    ],
+    [
+      {
+        "type": "okeedy",
+        "freq": 99
+      },
+      {
+        "type": "olkeedy",
+        "freq": 41
+      },
+      {
+        "type": "oteedy",
+        "freq": 86
+      },
+      {
+        "type": "qoteedy",
+        "freq": 73
+      }
+    ],
+    [
+      {
+        "type": "okal",
+        "freq": 132
+      },
+      {
+        "type": "otal",
+        "freq": 122
+      }
+    ],
+    [
+      {
+        "type": "okar",
+        "freq": 119
+      },
+      {
+        "type": "otar",
+        "freq": 122
+      }
+    ],
+    [
+      {
+        "type": "qokal",
+        "freq": 175
+      },
+      {
+        "type": "qotal",
+        "freq": 56
+      }
+    ],
+    [
+      {
+        "type": "chodaiin",
+        "freq": 45
+      },
+      {
+        "type": "odaiin",
+        "freq": 57
+      },
+      {
+        "type": "oraiin",
+        "freq": 28
+      },
+      {
+        "type": "shodaiin",
+        "freq": 22
+      },
+      {
+        "type": "taiin",
+        "freq": 44
+      },
+      {
+        "type": "ytaiin",
+        "freq": 34
+      }
+    ],
+    [
+      {
+        "type": "okain",
+        "freq": 132
+      },
+      {
+        "type": "otain",
+        "freq": 92
+      }
+    ],
+    [
+      {
+        "type": "otedy",
+        "freq": 133
+      },
+      {
+        "type": "qotedy",
+        "freq": 85
+      }
+    ],
+    [
+      {
+        "type": "cheody",
+        "freq": 79
+      },
+      {
+        "type": "chody",
+        "freq": 87
+      },
+      {
+        "type": "ody",
+        "freq": 40
+      }
+    ],
+    [
+      {
+        "type": "chckhy",
+        "freq": 132
+      },
+      {
+        "type": "chcthy",
+        "freq": 73
+      }
+    ],
+    [
+      {
+        "type": "oaiin",
+        "freq": 23
+      },
+      {
+        "type": "qoaiin",
+        "freq": 22
+      },
+      {
+        "type": "saiin",
+        "freq": 117
+      },
+      {
+        "type": "ykaiin",
+        "freq": 41
+      }
+    ],
+    [
+      {
+        "type": "cthol",
+        "freq": 52
+      },
+      {
+        "type": "cthor",
+        "freq": 41
+      },
+      {
+        "type": "cthy",
+        "freq": 101
+      }
+    ],
+    [
+      {
+        "type": "oty",
+        "freq": 96
+      },
+      {
+        "type": "qoty",
+        "freq": 85
+      }
+    ],
+    [
+      {
+        "type": "otchy",
+        "freq": 41
+      },
+      {
+        "type": "qokchy",
+        "freq": 62
+      },
+      {
+        "type": "qotchy",
+        "freq": 59
+      }
+    ],
+    [
+      {
+        "type": "lchedy",
+        "freq": 111
+      },
+      {
+        "type": "lchey",
+        "freq": 49
+      }
+    ],
+    [
+      {
+        "type": "dchol",
+        "freq": 21
+      },
+      {
+        "type": "dchor",
+        "freq": 24
+      },
+      {
+        "type": "dor",
+        "freq": 62
+      },
+      {
+        "type": "kchor",
+        "freq": 20
+      },
+      {
+        "type": "otchol",
+        "freq": 29
+      }
+    ],
+    [
+      {
+        "type": "okol",
+        "freq": 61
+      },
+      {
+        "type": "qokol",
+        "freq": 93
+      }
+    ],
+    [
+      {
+        "type": "aiiin",
+        "freq": 44
+      },
+      {
+        "type": "ain",
+        "freq": 102
+      }
+    ],
+    [
+      {
+        "type": "choky",
+        "freq": 35
+      },
+      {
+        "type": "oky",
+        "freq": 87
+      }
+    ],
+    [
+      {
+        "type": "dchedy",
+        "freq": 26
+      },
+      {
+        "type": "dshedy",
+        "freq": 30
+      },
+      {
+        "type": "pchedy",
+        "freq": 34
+      },
+      {
+        "type": "tchedy",
+        "freq": 30
+      }
+    ],
+    [
+      {
+        "type": "am",
+        "freq": 62
+      },
+      {
+        "type": "oly",
+        "freq": 55
+      }
+    ],
+    [
+      {
+        "type": "dam",
+        "freq": 74
+      },
+      {
+        "type": "otam",
+        "freq": 42
+      }
+    ],
+    [
+      {
+        "type": "kedy",
+        "freq": 47
+      },
+      {
+        "type": "keedy",
+        "freq": 61
+      }
+    ],
+    [
+      {
+        "type": "okeol",
+        "freq": 57
+      },
+      {
+        "type": "qokeol",
+        "freq": 50
+      }
+    ],
+    [
+      {
+        "type": "otol",
+        "freq": 62
+      },
+      {
+        "type": "qotol",
+        "freq": 43
+      }
+    ],
+    [
+      {
+        "type": "sheody",
+        "freq": 44
+      },
+      {
+        "type": "shody",
+        "freq": 52
+      }
+    ],
+    [
+      {
+        "type": "olkeey",
+        "freq": 38
+      },
+      {
+        "type": "ykeey",
+        "freq": 50
+      }
+    ],
+    [
+      {
+        "type": "qotor",
+        "freq": 25
+      },
+      {
+        "type": "tol",
+        "freq": 38
+      },
+      {
+        "type": "tor",
+        "freq": 22
+      }
+    ],
+    [
+      {
+        "type": "lkaiin",
+        "freq": 48
+      },
+      {
+        "type": "olkaiin",
+        "freq": 28
+      }
+    ],
+    [
+      {
+        "type": "lol",
+        "freq": 35
+      },
+      {
+        "type": "lor",
+        "freq": 38
+      }
+    ],
+    [
+      {
+        "type": "oiin",
+        "freq": 29
+      },
+      {
+        "type": "olaiin",
+        "freq": 41
+      }
+    ],
+    [
+      {
+        "type": "qokchedy",
+        "freq": 38
+      },
+      {
+        "type": "qopchedy",
+        "freq": 31
+      }
+    ],
+    [
+      {
+        "type": "kchy",
+        "freq": 33
+      },
+      {
+        "type": "ky",
+        "freq": 30
+      }
+    ],
+    [
+      {
+        "type": "qoteey",
+        "freq": 38
+      },
+      {
+        "type": "qotey",
+        "freq": 23
+      }
+    ],
+    [
+      {
+        "type": "lshedy",
+        "freq": 38
+      },
+      {
+        "type": "olshedy",
+        "freq": 21
+      }
+    ],
+    [
+      {
+        "type": "okor",
+        "freq": 27
+      },
+      {
+        "type": "qokor",
+        "freq": 29
+      }
+    ],
+    [
+      {
+        "type": "okchedy",
+        "freq": 21
+      },
+      {
+        "type": "olchedy",
+        "freq": 34
+      }
+    ],
+    [
+      {
+        "type": "lkain",
+        "freq": 34
+      },
+      {
+        "type": "rain",
+        "freq": 20
+      }
+    ],
+    [
+      {
+        "type": "ykar",
+        "freq": 32
+      },
+      {
+        "type": "ytar",
+        "freq": 21
+      }
+    ],
+    [
+      {
+        "type": "okchey",
+        "freq": 28
+      },
+      {
+        "type": "olchey",
+        "freq": 24
+      }
+    ],
+    [
+      {
+        "type": "ykeedy",
+        "freq": 27
+      },
+      {
+        "type": "yteedy",
+        "freq": 25
+      }
+    ],
+    [
+      {
+        "type": "okam",
+        "freq": 26
+      },
+      {
+        "type": "qokam",
+        "freq": 25
+      }
+    ],
+    [
+      {
+        "type": "ldy",
+        "freq": 21
+      },
+      {
+        "type": "oldy",
+        "freq": 23
+      }
+    ]
+  ]
+}

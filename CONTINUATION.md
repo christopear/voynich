@@ -16,7 +16,8 @@
 > * **Later results:** the terminal/next-initial effect generalizes mainly in
 >   Currier B, and a message-free generator reproduces it
 >   (`FRONTIER_FINDINGS_2026-09-24.md`, `MECHANISM_FINDINGS_2026-09-24.md`).
-> * **Open:** the §19 experiment has not yet been run.
+> * **§19:** now run (`EQUIVALENCE_FINDINGS_2026-09-25.md`). It works on
+>   Naibbe-family ciphers, but it gives no evidence of Voynich homophone classes.
 
 **Purpose:** handoff document for continuing the analysis in Codex without losing the experimental state, negative results, or methodological corrections already established.
 

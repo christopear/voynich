@@ -20,6 +20,11 @@ translation.
   9 now reproduce exactly and 4 within shuffle noise. 5 are approximate and 2
   qualitative. The same-stem cosine values could not be reproduced, and the
   edge-pruning control has no recorded definition.
+* **Hidden equivalence classes (§19).** On Naibbe-family ciphers, a
+  ciphertext-only pair classifier recovers same-plaintext cipher types well beyond
+  context alone. This holds on held-out classes and on new plaintexts (ROC-AUC
+  0.89–0.95). On Voynich the pre-set gates failed, so its candidate groupings are
+  similarity hypotheses only, not homophone classes.
 
 ## Reading order
 
@@ -33,9 +38,10 @@ translation.
    and competing-mechanism benchmark.
 5. `RECONSTRUCTION_FINDINGS_2026-09-25.md`: claim-by-claim reconstruction of the
    handoff numbers whose drivers were lost.
+6. `EQUIVALENCE_PROTOCOL.md` → `EQUIVALENCE_FINDINGS_2026-09-25.md`: the §19
+   same-plaintext classifier, calibrated on Naibbe and applied to Voynich.
 
-`CODEX_KICKOFF.md` is the original task brief. Its §19 latent equivalence-class
-experiment has **not** been carried out yet.
+`CODEX_KICKOFF.md` is the original task brief.
 
 ## Layout
 
@@ -46,6 +52,7 @@ experiment has **not** been carried out yet.
 | `code/06`–`07` | Frontier experiment (prospective protocol) |
 | `code/08`–`11`, `mechanism_models.py` | Robustness gate and mechanism benchmark |
 | `code/12_reconstruct_claims.py`, `reconstruction.py` | Reconstructions of lost claims |
+| `code/13`–`14`, `equivalence.py` | §19 equivalence-class classifier and post-hoc diagnostics |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |
