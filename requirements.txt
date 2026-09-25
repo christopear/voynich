@@ -1,1 +1,6 @@
+# Canonical environment: pyproject.toml + uv.lock (`uv sync --locked`, Python 3.14).
+# This file mirrors the direct dependencies for pip users; versions are not locked here.
+numpy>=2.5.3
 requests>=2.31
+scikit-learn>=1.9.1
+scipy>=1.18.1

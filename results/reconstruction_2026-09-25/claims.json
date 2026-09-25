@@ -1,0 +1,1026 @@
+{
+  "m_line_final": {
+    "claim": "same-stem m forms line-final vs r/l siblings",
+    "snapshot": {
+      "m": 0.685,
+      "siblings": 0.079,
+      "enrichment": 8.7
+    },
+    "reconstructed": {
+      "m": 0.6924101198402131,
+      "siblings": 0.07608551321205684,
+      "enrichment": 9.100419917132013
+    },
+    "status": "approximate",
+    "definition": "Full corpus, P lines. Every m-final type with an attested stem+r or stem+l type; token-level line-final rates pooled over m forms and over siblings.",
+    "range_over_grid": {
+      "m": [
+        0.6750448833034112,
+        0.705078125
+      ],
+      "siblings": [
+        0.07309022320025149,
+        0.09370221048241346
+      ],
+      "enrichment": [
+        7.51000109902187,
+        9.278637770897832
+      ]
+    },
+    "grid": [
+      {
+        "siblings": "rl",
+        "min_m_freq": 1,
+        "min_sibling_freq": 1,
+        "m_tokens": 751,
+        "m_line_final": 0.6924101198402131,
+        "sibling_tokens": 7531,
+        "sibling_line_final": 0.07608551321205684,
+        "enrichment": 9.100419917132013
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 1,
+        "min_sibling_freq": 5,
+        "m_tokens": 622,
+        "m_line_final": 0.6784565916398714,
+        "sibling_tokens": 7240,
+        "sibling_line_final": 0.07417127071823204,
+        "enrichment": 9.14716149622471
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 1,
+        "min_sibling_freq": 10,
+        "m_tokens": 557,
+        "m_line_final": 0.6750448833034112,
+        "sibling_tokens": 6919,
+        "sibling_line_final": 0.07327648504119093,
+        "enrichment": 9.212298910406906
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 2,
+        "min_sibling_freq": 1,
+        "m_tokens": 646,
+        "m_line_final": 0.6965944272445821,
+        "sibling_tokens": 6660,
+        "sibling_line_final": 0.07507507507507508,
+        "enrichment": 9.278637770897832
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 2,
+        "min_sibling_freq": 5,
+        "m_tokens": 589,
+        "m_line_final": 0.6825127334465195,
+        "sibling_tokens": 6563,
+        "sibling_line_final": 0.07420387018131952,
+        "enrichment": 9.197805071066751
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 2,
+        "min_sibling_freq": 10,
+        "m_tokens": 535,
+        "m_line_final": 0.6766355140186916,
+        "sibling_tokens": 6362,
+        "sibling_line_final": 0.07309022320025149,
+        "enrichment": 9.257537935885841
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 3,
+        "min_sibling_freq": 1,
+        "m_tokens": 594,
+        "m_line_final": 0.7037037037037037,
+        "sibling_tokens": 5980,
+        "sibling_line_final": 0.07976588628762542,
+        "enrichment": 8.82211351813029
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 3,
+        "min_sibling_freq": 5,
+        "m_tokens": 559,
+        "m_line_final": 0.6958855098389982,
+        "sibling_tokens": 5923,
+        "sibling_line_final": 0.07884517980752997,
+        "enrichment": 8.825974035923739
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 3,
+        "min_sibling_freq": 10,
+        "m_tokens": 513,
+        "m_line_final": 0.6881091617933723,
+        "sibling_tokens": 5764,
+        "sibling_line_final": 0.07737682165163082,
+        "enrichment": 8.892962351069501
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 5,
+        "min_sibling_freq": 1,
+        "m_tokens": 512,
+        "m_line_final": 0.705078125,
+        "sibling_tokens": 5102,
+        "sibling_line_final": 0.07898863190905528,
+        "enrichment": 8.926324053970223
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 5,
+        "min_sibling_freq": 5,
+        "m_tokens": 495,
+        "m_line_final": 0.701010101010101,
+        "sibling_tokens": 5080,
+        "sibling_line_final": 0.07854330708661417,
+        "enrichment": 8.925141135667452
+      },
+      {
+        "siblings": "rl",
+        "min_m_freq": 5,
+        "min_sibling_freq": 10,
+        "m_tokens": 480,
+        "m_line_final": 0.7020833333333333,
+        "sibling_tokens": 5034,
+        "sibling_line_final": 0.07707588398887565,
+        "enrichment": 9.108988402061854
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 1,
+        "min_sibling_freq": 1,
+        "m_tokens": 757,
+        "m_line_final": 0.6908850726552179,
+        "sibling_tokens": 10166,
+        "sibling_line_final": 0.08577611646665355,
+        "enrichment": 8.054515652079067
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 1,
+        "min_sibling_freq": 5,
+        "m_tokens": 631,
+        "m_line_final": 0.6782884310618067,
+        "sibling_tokens": 9834,
+        "sibling_line_final": 0.08379092942851332,
+        "enrichment": 8.095010231871125
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 1,
+        "min_sibling_freq": 10,
+        "m_tokens": 564,
+        "m_line_final": 0.675531914893617,
+        "sibling_tokens": 9467,
+        "sibling_line_final": 0.08291961550649625,
+        "enrichment": 8.146828838596015
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 2,
+        "min_sibling_freq": 1,
+        "m_tokens": 648,
+        "m_line_final": 0.6959876543209876,
+        "sibling_tokens": 7940,
+        "sibling_line_final": 0.0889168765743073,
+        "enrichment": 7.827396565592977
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 2,
+        "min_sibling_freq": 5,
+        "m_tokens": 589,
+        "m_line_final": 0.6825127334465195,
+        "sibling_tokens": 7817,
+        "sibling_line_final": 0.08724574645004478,
+        "enrichment": 7.822876887612086
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 2,
+        "min_sibling_freq": 10,
+        "m_tokens": 535,
+        "m_line_final": 0.6766355140186916,
+        "sibling_tokens": 7592,
+        "sibling_line_final": 0.08587987355110643,
+        "enrichment": 7.878860157101083
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 3,
+        "min_sibling_freq": 1,
+        "m_tokens": 594,
+        "m_line_final": 0.7037037037037037,
+        "sibling_tokens": 7193,
+        "sibling_line_final": 0.09370221048241346,
+        "enrichment": 7.51000109902187
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 3,
+        "min_sibling_freq": 5,
+        "m_tokens": 559,
+        "m_line_final": 0.6958855098389982,
+        "sibling_tokens": 7113,
+        "sibling_line_final": 0.09208491494446787,
+        "enrichment": 7.556997910663808
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 3,
+        "min_sibling_freq": 10,
+        "m_tokens": 513,
+        "m_line_final": 0.6881091617933723,
+        "sibling_tokens": 6930,
+        "sibling_line_final": 0.09033189033189033,
+        "enrichment": 7.617566279917045
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 5,
+        "min_sibling_freq": 1,
+        "m_tokens": 512,
+        "m_line_final": 0.705078125,
+        "sibling_tokens": 5496,
+        "sibling_line_final": 0.0851528384279476,
+        "enrichment": 8.280148237179487
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 5,
+        "min_sibling_freq": 5,
+        "m_tokens": 495,
+        "m_line_final": 0.701010101010101,
+        "sibling_tokens": 5453,
+        "sibling_line_final": 0.08380707867229048,
+        "enrichment": 8.364569104612867
+      },
+      {
+        "siblings": "nlr",
+        "min_m_freq": 5,
+        "min_sibling_freq": 10,
+        "m_tokens": 480,
+        "m_line_final": 0.7020833333333333,
+        "sibling_tokens": 5383,
+        "sibling_line_final": 0.08136726732305406,
+        "enrichment": 8.62857210806697
+      }
+    ]
+  },
+  "internal_m_sibling": {
+    "claim": "internal (non-line-final) m tokens with an attested same-stem n/l/r sibling",
+    "snapshot": 85.4,
+    "reconstructed": 85.4014598540146,
+    "status": "exact",
+    "definition": "Full corpus; tokens ending m, length >=2, not last on their physical line; sibling = stem+n/l/r attested anywhere in the corpus.",
+    "n_internal_m_tokens": 274,
+    "with_sibling": 234
+  },
+  "rl_families": {
+    "claim": "same-stem r/l families whose following-initial distribution differs beyond the 95th percentile",
+    "snapshot": {
+      "families": 48,
+      "significant": 16
+    },
+    "reconstructed": {
+      "families": 48,
+      "significant": 16
+    },
+    "status": "exact",
+    "definition": "Full corpus, within-line pairs. Family = stem with >=10 stem+r and >=10 stem+l tokens followed by a token on the same line. Statistic MI(terminal; next EVA initial); null relabels r/l within the family (200 shuffles, seed 1).",
+    "significant_stems": [
+      "a",
+      "sho",
+      "o",
+      "sha",
+      "cho",
+      "da",
+      "do",
+      "oka",
+      "lo",
+      "cheo",
+      "so",
+      "sa",
+      "qoka",
+      "ota",
+      "qo",
+      "qota"
+    ],
+    "note": "Uncorrected per-family tests; with 48 tests ~2.4 false positives are expected at 5%."
+  },
+  "context_cosines": {
+    "claim": "contextual cosine of same-stem terminal pairs (chor/chol 0.737 etc.)",
+    "snapshot": {
+      "chor/chol": 0.737,
+      "otchor/otchol": 0.716,
+      "chom/cham": 0.658,
+      "shor/shol": 0.653
+    },
+    "reconstructed": {
+      "chor/chol": 0.9870779429233273,
+      "otchor/otchol": 0.9556789696772662,
+      "chom/cham": 0.9359709753334591,
+      "shor/shol": 0.9863686896758427
+    },
+    "status": "not_reproduced",
+    "definition": "Recorded cosines could not be recovered; the representation used is unknown. voynich_core.context_vectors pools rare neighbours into a shared catch-all dimension, which inflates cosines towards 1.",
+    "representations_tried": {
+      "voynich_core.context_vectors(top=50)": [
+        0.9944544921204788,
+        0.9800568165348189,
+        0.981868138117541,
+        0.9948049068861359
+      ],
+      "voynich_core.context_vectors(top=100)": [
+        0.9890920843422262,
+        0.9639041156656228,
+        0.9643347785082991,
+        0.9895567633449315
+      ],
+      "voynich_core.context_vectors(top=150)": [
+        0.9870779429233273,
+        0.9556789696772662,
+        0.9359709753334591,
+        0.9863686896758427
+      ],
+      "voynich_core.context_vectors(top=200)": [
+        0.9830171089235074,
+        0.9476182700002663,
+        0.9150772842791178,
+        0.9820389256225759
+      ],
+      "voynich_core.context_vectors(top=300)": [
+        0.974672946715191,
+        0.8924995994897337,
+        0.907463882747241,
+        0.9750956301355138
+      ],
+      "word contexts, no catch-all, top=None, within_line=False": [
+        0.6431096029137295,
+        0.23249527748763857,
+        0.0,
+        0.41023734132109035
+      ],
+      "word contexts, no catch-all, top=150, within_line=False": [
+        0.7523147927338218,
+        0.44908871313907184,
+        0.0,
+        0.5847361972980306
+      ],
+      "word contexts, no catch-all, top=300, within_line=False": [
+        0.7347175833424089,
+        0.3618136134933163,
+        0.0,
+        0.5490818192870649
+      ],
+      "word contexts, no catch-all, top=None, within_line=True": [
+        0.6465409338989807,
+        0.21997067253202993,
+        0.0,
+        0.39885181998772423
+      ],
+      "word contexts, no catch-all, top=150, within_line=True": [
+        0.7521787292035625,
+        0.3954372976473721,
+        0.0,
+        0.5609927134532144
+      ],
+      "word contexts, no catch-all, top=300, within_line=True": [
+        0.7341266465801364,
+        0.3290725908572088,
+        0.0,
+        0.5257517456405746
+      ],
+      "neighbour initial glyphs, within line": [
+        0.9534751761381657,
+        0.9170032105390813,
+        0.7940510210053551,
+        0.8913210828251867
+      ]
+    },
+    "substitute_test": {
+      "definition": "Full corpus. All same-stem pairs among n/l/r/m-final types with freq>=10 vs a frequency-matched (0.8-1.25x) unrelated partner of a different stem (seed 20260925), under two context representations.",
+      "n_pairs": 87,
+      "results": {
+        "context_vectors(top=150), with catch-all": {
+          "same_stem_median": 0.9055273137925441,
+          "matched_control_median": 0.8995315078378538,
+          "same_stem_higher_fraction": 0.5747126436781609
+        },
+        "top-150 word contexts, catch-all dropped": {
+          "same_stem_median": 0.22188007849009164,
+          "matched_control_median": 0.1568627450980392,
+          "same_stem_higher_fraction": 0.7586206896551724
+        }
+      }
+    }
+  },
+  "currier": {
+    "claim": "Currier A/B terminal-next-initial excess MI and language/hand page counts",
+    "snapshot": {
+      "A_excess": 0.0283,
+      "B_excess": 0.0778,
+      "A_p": 0.0033,
+      "B_p": 0.0033,
+      "A_hand1": 112,
+      "B_hand2": 46,
+      "B_hand3": 28,
+      "B_hand5": 7,
+      "A_hand3": 2
+    },
+    "reconstructed": {
+      "A_excess": 0.02846690602722013,
+      "B_excess": 0.07803447070334138,
+      "A_p": 0.0033222591362126247,
+      "B_p": 0.0033222591362126247,
+      "A_hand1": 112,
+      "B_hand2": 46,
+      "B_hand3": 28,
+      "B_hand5": 7,
+      "A_hand3": 2
+    },
+    "status": "within_noise",
+    "definition": "All P lines of pages with $L=A / $L=B; voynich_core stem-preserving test, 300 shuffles.",
+    "tests": {
+      "A": {
+        "n": 5027,
+        "observed_mi": 0.048836305147693,
+        "null_mean": 0.02036939912047287,
+        "excess_mi": 0.02846690602722013,
+        "p": 0.0033222591362126247,
+        "null_95": 0.023581360417520052
+      },
+      "B": {
+        "n": 9444,
+        "observed_mi": 0.12877407966199148,
+        "null_mean": 0.050739608958650095,
+        "excess_mi": 0.07803447070334138,
+        "p": 0.0033222591362126247,
+        "null_95": 0.052993346574919005
+      }
+    }
+  },
+  "rare_decomposition": {
+    "claim": "rare long forms decomposable into two frequent tokens, vs interior-shuffle null",
+    "snapshot": {
+      "rare_long_forms": 3250,
+      "decomposable": 1661,
+      "decomposable_pct": 51.1,
+      "null_pct": 4.7
+    },
+    "reconstructed": {
+      "rare_long_forms": 3250,
+      "decomposable": 1661,
+      "decomposable_pct": 51.10769230769231,
+      "null_pct": 4.607692307692308
+    },
+    "status": "exact",
+    "definition": "Full corpus types with freq<=2 and >=6 EVA glyph units; decomposable if some cut (any position) gives two pieces each with corpus frequency >=5. Null shuffles interior glyphs keeping first/last (20 reps, seed 20260925).",
+    "null_range_pct": [
+      3.9384615384615387,
+      5.169230769230769
+    ],
+    "decomposable_pct_by_piece_threshold": {
+      "2": 0.6993846153846154,
+      "3": 0.6095384615384616,
+      "5": 0.5110769230769231,
+      "10": 0.3476923076923077
+    },
+    "note": "Null differs from 4.7% only by shuffle seed: means of 4.6-4.9% across seeds tried, single shuffles 3.9-5.2%."
+  },
+  "cut_positions": {
+    "claim": "cut positions after n/l/r/m vs other glyphs yielding two frequent units",
+    "snapshot": {
+      "after_nlrm_pct": 51.8,
+      "after_other_pct": 7.8,
+      "rate_ratio": 6.62,
+      "odds_ratio": 12.66
+    },
+    "reconstructed": {
+      "after_nlrm_pct": 51.80232558139535,
+      "after_other_pct": 7.8236537033864435,
+      "rate_ratio": 6.621244695297912,
+      "odds_ratio": 12.66289611087142
+    },
+    "status": "exact",
+    "definition": "Every internal cut k=1..len-1 of the rare long forms above; hit if both pieces freq>=5.",
+    "counts": {
+      "nlrm_cuts": 1720,
+      "nlrm_hits": 891,
+      "other_cuts": 17511,
+      "other_hits": 1370
+    },
+    "note": "Cuts within one word are not independent; the ratio is descriptive."
+  },
+  "spaced_alternations": {
+    "claim": "decomposable rare forms with an exact spaced 'A B' realization; direction control",
+    "snapshot": {
+      "decomposable": 1661,
+      "with_spaced": 359,
+      "forward_only": 234,
+      "reverse_only": 97,
+      "occurrence_ratio": 1.66
+    },
+    "reconstructed": {
+      "decomposable": 1661,
+      "with_spaced": 359,
+      "forward_only": 234,
+      "reverse_only": 97,
+      "occurrence_ratio": 1.6637362637362638
+    },
+    "status": "exact",
+    "definition": "Within-line adjacent pairs anywhere in the corpus; any valid cut of the joined form counts.",
+    "forward_occurrences": 757,
+    "reverse_occurrences": 455
+  },
+  "split_vs_unsplit": {
+    "claim": "split-vs-unsplit likelihood-ratio classifier on held-out pages",
+    "snapshot": {
+      "sensitivity": 0.839,
+      "specificity": 0.916,
+      "balanced_accuracy": 0.877,
+      "accepted_boundary_accuracy": 0.993
+    },
+    "reconstructed": {
+      "sensitivity": 0.8563745650110725,
+      "specificity": 0.9292101341281669,
+      "balanced_accuracy": 0.8927923495696197,
+      "accepted_boundary_accuracy": 0.9937199852234947
+    },
+    "status": "approximate",
+    "definition": "Herbal-A/Hand-1, leave-one-page-out frequencies. Positives: held-out within-line pairs joined (script 02 filters, not restricted to ambiguous cases). Negatives: every held-out written token. Split if best one-cut LLR > -2.1654 (boundary bonus 1.0).",
+    "negative_class_variants": {
+      "all_tokens": {
+        "positives": 3161,
+        "negatives": 8052,
+        "sensitivity": 0.8563745650110725,
+        "specificity": 0.9292101341281669,
+        "balanced_accuracy": 0.8927923495696197,
+        "accepted_boundary_accuracy": 0.9937199852234947
+      },
+      "tokens_len>=4": {
+        "positives": 3161,
+        "negatives": 4793,
+        "sensitivity": 0.8563745650110725,
+        "specificity": 0.8810765699979136,
+        "balanced_accuracy": 0.868725567504493,
+        "accepted_boundary_accuracy": 0.9937199852234947
+      },
+      "tokens_with_candidate": {
+        "positives": 3161,
+        "negatives": 1998,
+        "sensitivity": 0.8563745650110725,
+        "specificity": 0.7147147147147147,
+        "balanced_accuracy": 0.7855446398628936,
+        "accepted_boundary_accuracy": 0.9937199852234947
+      }
+    },
+    "note": "The recorded threshold -2.1654 was reused, not re-learned; the original negative class and threshold-learning procedure are unknown. Real tokens may themselves be compounds."
+  },
+  "information_trajectory": {
+    "claim": "Herbal-A/Hand-1 adjacent-unit excess MI: surface -> segmented -> normalized, with random type-collapse control",
+    "snapshot": {
+      "types": [
+        2468,
+        1991,
+        1640
+      ],
+      "excess_mi": [
+        0.0741,
+        0.0885,
+        0.1174
+      ],
+      "random_collapse_mean": 0.0865,
+      "random_collapse_95": [
+        0.0813,
+        0.0925
+      ],
+      "random_edge_pruning": 0.0486
+    },
+    "reconstructed": {
+      "types": [
+        2468,
+        1991,
+        1640
+      ],
+      "excess_mi": [
+        0.07639279835055213,
+        0.08838811401933455,
+        0.11721531780774486
+      ],
+      "random_collapse_mean": 0.08717346718717192,
+      "random_collapse_95": [
+        0.08142871662024032,
+        0.09375711798203312
+      ],
+      "random_edge_pruning": null
+    },
+    "status": "within_noise",
+    "definition": "Flattened Herbal-A/Hand-1 sequence. Segmented = viterbi_segment per token with leave-one-page-out frequencies (threshold -2.1654, bonus 1.0); normalized = conservative_normalizer on that. Excess MI = observed minus mean of 20 shuffles. Control: random surjection of segmented types onto 1640 classes (40 reps).",
+    "surface_excess_mi_by_seed": [
+      0.07639279835055213,
+      0.07494536793082052,
+      0.07301261894205169
+    ],
+    "note": "Surface differs from 0.0741 only by shuffle seed (0.073-0.076). The edge-pruning control is not reconstructed: its definition is not recorded."
+  },
+  "naibbe_trajectory": {
+    "claim": "Naibbe adjacent-unit excess MI: post-deletion cipher, pre-deletion cipher, plaintext units",
+    "snapshot": {
+      "post": 0.0877,
+      "pre": 0.0962,
+      "plain": 0.6481
+    },
+    "reconstructed": {
+      "post": 0.08814041678612305,
+      "pre": 0.09478496254180335,
+      "plain": 0.6476364443756432
+    },
+    "status": "within_noise",
+    "definition": "Whole flattened file, permutation_corrected_adjacent_mi (20 shuffles).",
+    "by_seed": {
+      "post": [
+        0.08814041678612305,
+        0.08608838981544853
+      ],
+      "pre": [
+        0.09478496254180335,
+        0.09636429629588861
+      ],
+      "plain": [
+        0.6476364443756432,
+        0.6475387957964026
+      ]
+    }
+  },
+  "glyph_entropy": {
+    "claim": "matched-window within-word conditional glyph entropy H(next|1), H(next|2)",
+    "snapshot": {
+      "voynich_surface": [
+        2.219,
+        1.824
+      ],
+      "voynich_normalized": [
+        2.09,
+        1.628
+      ],
+      "naibbe": [
+        2.009,
+        1.675
+      ],
+      "latin": [
+        3.165,
+        2.408
+      ],
+      "italian": [
+        2.931,
+        2.259
+      ],
+      "middle_high_german": [
+        2.734,
+        1.702
+      ]
+    },
+    "reconstructed": {
+      "voynich_surface": [
+        2.2310338006790236,
+        1.8278780749681496
+      ],
+      "voynich_normalized": [
+        2.075282871814225,
+        1.600038634869677
+      ],
+      "naibbe": [
+        2.0979906930289975,
+        1.75393830232473
+      ],
+      "latin": [
+        3.169945793798764,
+        2.4029305673639514
+      ],
+      "italian": [
+        3.0077370617794026,
+        2.289046873732714
+      ],
+      "middle_high_german": [
+        2.8159750946445694,
+        1.5551212087680568
+      ]
+    },
+    "status": "approximate",
+    "definition": "Non-overlapping 3000-token windows, averaged. Within-word transitions only (no boundary symbol). EVA compound glyph units for Voynich/Naibbe, Unicode letters for the natural-language texts (lower-cased, regex [^\\W\\d_]+).",
+    "windows": {
+      "voynich_surface": 2,
+      "voynich_normalized": 2,
+      "naibbe": 11,
+      "latin": 4,
+      "italian": 2,
+      "middle_high_german": 2
+    },
+    "note": "Voynich surface and Latin match within ~0.01 bits; other rows differ by up to ~0.15. The ordering (Voynich/Naibbe ~2.0-2.2 vs Latin/Italian ~2.9-3.2 at H1) holds."
+  },
+  "lattice_windows": {
+    "claim": "prefix-pair lattices in matched 6000-token windows across corpora",
+    "snapshot": {
+      "voynich_pairs": 6.27,
+      "voynich_max": 10.1,
+      "naibbe_pairs": 6.9,
+      "naibbe_max": 11.03,
+      "latin_pairs": 0.1,
+      "italian_pairs": 0.0,
+      "mhg_pairs": 0.0,
+      "ok_ot_top_in_every_voynich_window": true
+    },
+    "reconstructed": {
+      "voynich_pairs": 9.833333333333334,
+      "voynich_max": 14,
+      "naibbe_pairs": 3.8,
+      "naibbe_max": 11.4,
+      "latin_pairs": 0.5,
+      "italian_pairs": 0,
+      "mhg_pairs": 0
+    },
+    "status": "qualitative",
+    "definition": "Non-overlapping windows; forms with freq>=5 in the window; 2-unit prefix; pairs sharing >=5 remainders. Voynich = whole-corpus segmented+normalized sequence.",
+    "by_prefix_mode": {
+      "eva_glyphs": {
+        "voynich_normalized": {
+          "windows": 6,
+          "mean_pairs": 9.833333333333334,
+          "mean_max_shared": 14,
+          "top_pair_counts": {
+            "ok/ot": 5,
+            "che/she": 1
+          }
+        },
+        "naibbe": {
+          "windows": 5,
+          "mean_pairs": 3.8,
+          "mean_max_shared": 11.4,
+          "top_pair_counts": {
+            "ok/ot": 5
+          }
+        },
+        "latin": {
+          "windows": 2,
+          "mean_pairs": 0.5,
+          "mean_max_shared": 3,
+          "top_pair_counts": {
+            "qu/su": 1,
+            "none": 1
+          }
+        },
+        "italian": {
+          "windows": 1,
+          "mean_pairs": 0,
+          "mean_max_shared": 0,
+          "top_pair_counts": {
+            "none": 1
+          }
+        },
+        "middle_high_german": {
+          "windows": 1,
+          "mean_pairs": 0,
+          "mean_max_shared": 0,
+          "top_pair_counts": {
+            "none": 1
+          }
+        }
+      },
+      "characters": {
+        "voynich_normalized": {
+          "windows": 6,
+          "mean_pairs": 12.166666666666666,
+          "mean_max_shared": 15.833333333333334,
+          "top_pair_counts": {
+            "ch/sh": 5,
+            "ok/ot": 1
+          }
+        },
+        "naibbe": {
+          "windows": 5,
+          "mean_pairs": 7,
+          "mean_max_shared": 11.4,
+          "top_pair_counts": {
+            "ok/ot": 5
+          }
+        },
+        "latin": {
+          "windows": 2,
+          "mean_pairs": 0.5,
+          "mean_max_shared": 3,
+          "top_pair_counts": {
+            "qu/su": 1,
+            "none": 1
+          }
+        },
+        "italian": {
+          "windows": 1,
+          "mean_pairs": 0,
+          "mean_max_shared": 0,
+          "top_pair_counts": {
+            "none": 1
+          }
+        },
+        "middle_high_german": {
+          "windows": 1,
+          "mean_pairs": 0,
+          "mean_max_shared": 0,
+          "top_pair_counts": {
+            "none": 1
+          }
+        }
+      }
+    },
+    "note": "No single prefix definition reproduces both rows: EVA-glyph prefixes keep OK/OT on top for Voynich but give Naibbe ~3.8 pairs; character prefixes reproduce Naibbe (~7) but make ch/sh the top Voynich pair. Natural-language texts give ~0 either way. Italian and MHG files hold only one 6000-word window each."
+  },
+  "naibbe_localization": {
+    "claim": "Naibbe boundary localization for two-part compounds (resolves 646 vs 634 discrepancy)",
+    "snapshot": {
+      "evaluable": 646,
+      "accuracy": 0.9783
+    },
+    "reconstructed": {
+      "evaluable": 646,
+      "correct": 632,
+      "accuracy": 0.978328173374613
+    },
+    "status": "exact",
+    "definition": "Script 04 setup (3 line-mod folds, min piece freq 2, no bonus). Denominator = two-part compounds with at least one candidate split; a top candidate at the wrong cut is an error.",
+    "script04_denominator": 634,
+    "script04_accuracy": 0.9968454258675079,
+    "note": "Script 04 additionally drops the 12 compounds whose true cut is not among the candidates, giving 632/634. Both count the same 632 correct cases."
+  },
+  "naibbe_compound_detection": {
+    "claim": "Naibbe compound-vs-single detection and accepted-boundary accuracy",
+    "snapshot": {
+      "balanced_accuracy": 0.827,
+      "accepted_boundary_accuracy": 0.996
+    },
+    "reconstructed": {
+      "balanced_accuracy": 0.825899968965092,
+      "accepted_boundary_accuracy": 0.994328922495274
+    },
+    "status": "approximate",
+    "definition": "Script 04 folds; score = best one-cut LLR; threshold chosen on the two training folds to maximise balanced accuracy, applied to the test fold. Universe = single and two-part tokens with at least one candidate split (3+-part compounds excluded).",
+    "universes": {
+      "tokens_with_candidate": {
+        "n": 7229,
+        "cv_balanced_accuracy": 0.825899968965092,
+        "accepted_boundary_accuracy": 0.994328922495274
+      },
+      "all_tokens": {
+        "n": 33722,
+        "cv_balanced_accuracy": 0.7823481076269173,
+        "accepted_boundary_accuracy": 0.9810126582278481
+      }
+    }
+  },
+  "okot_context": {
+    "claim": "OK/OT residual right-context information after conditioning on remainder",
+    "snapshot": {
+      "naibbe_same_excess": -0.0005,
+      "naibbe_same_p": 0.505,
+      "naibbe_diff_excess": 0.0305,
+      "naibbe_diff_p": 0.0033,
+      "voynich_pooled_excess": 0.038,
+      "voynich_pooled_p": 0.012,
+      "voynich_oko_oto_excess": 0.145,
+      "voynich_oko_oto_p": 0.001
+    },
+    "reconstructed": {
+      "naibbe_same_excess": -0.005559482607081834,
+      "naibbe_same_p": 0.7906976744186046,
+      "naibbe_diff_excess": 0.04955074105861568,
+      "naibbe_diff_p": 0.0033222591362126247,
+      "voynich_pooled_excess": 0.009823996610909269,
+      "voynich_pooled_p": 0.013289036544850499,
+      "voynich_oko_oto_excess": 0.042561946964273345,
+      "voynich_oko_oto_p": 0.014
+    },
+    "status": "qualitative",
+    "definition": "Statistic: sum_r P(r) MI(prefix; next token | remainder r), next token kept if among the top 100 types else '*'. Null shuffles ok/ot within remainder (300 reps; 999 for OKO/OTO). Naibbe: pre-respacing cipher, 32 OK/OT pairs (both forms freq>=5), split by majority plaintext label. Voynich: whole-corpus segmented+normalized sequence, remainders with both forms freq>=20.",
+    "naibbe": {
+      "same_plaintext": {
+        "n": 2558,
+        "observed": 0.1657328173397241,
+        "excess": -0.005559482607081834,
+        "p": 0.7906976744186046
+      },
+      "different_plaintext": {
+        "n": 683,
+        "observed": 0.29756421060936933,
+        "excess": 0.04955074105861568,
+        "p": 0.0033222591362126247
+      }
+    },
+    "voynich": {
+      "pooled": {
+        "n": 6734,
+        "observed": 0.1448739889183076,
+        "excess": 0.009823996610909269,
+        "p": 0.013289036544850499
+      },
+      "oko_oto": {
+        "n": 465,
+        "observed": 0.18125956140843263,
+        "excess": 0.042561946964273345,
+        "p": 0.014
+      },
+      "okcho_otcho": {
+        "n": 163,
+        "observed": 0.1983483924604806,
+        "excess": -0.045355344501393585,
+        "p": 0.9435215946843853
+      },
+      "okchy_otchy": {
+        "n": 196,
+        "observed": 0.18571010306819932,
+        "excess": -0.04762349296846671,
+        "p": 0.946843853820598
+      },
+      "okeo_oteo": {
+        "n": 241,
+        "observed": 0.21764019545540178,
+        "excess": 0.00416572284905084,
+        "p": 0.42524916943521596
+      },
+      "oksho_otsho": {
+        "n": 14,
+        "observed": 0.6455933144511465,
+        "excess": -0.02834013991031381,
+        "p": 0.7574750830564784
+      }
+    },
+    "voynich_remainders": [
+      "a",
+      "ai",
+      "aii",
+      "chdy",
+      "chedy",
+      "chey",
+      "cho",
+      "chy",
+      "eda",
+      "edy",
+      "eedy",
+      "eeo",
+      "eey",
+      "eo",
+      "eody",
+      "ey",
+      "o",
+      "y"
+    ],
+    "note": "Pattern reproduced (Naibbe true homophones ~0 and n.s.; different-plaintext and Voynich pooled significant; OKO/OTO strongest; cho/chy/eo/sho null) but excess sizes differ and are not comparable across different sample sizes."
+  },
+  "naibbe_context_homophones": {
+    "claim": "Naibbe context-only homophone recovery",
+    "snapshot": {
+      "frequent_types": 178,
+      "eligible": 152,
+      "same_median": 0.964,
+      "diff_median": 0.921,
+      "auc": 0.748,
+      "nn_rate": 0.329,
+      "top5_rate": 0.474
+    },
+    "reconstructed": {
+      "frequent_types": 178,
+      "eligible": 152,
+      "same_median": 0.9642451758308046,
+      "diff_median": 0.9212125613398106,
+      "auc": 0.7477255899895562,
+      "nn_rate": 0.32894736842105265,
+      "top5_rate": 0.47368421052631576
+    },
+    "status": "exact",
+    "definition": "Pre-respacing cipher types with freq>=20; context_vectors(top=200) over the flattened stream; label = majority plaintext unit (evaluation only). AUC over all type pairs."
+  },
+  "first_token_uniqueness": {
+    "claim": "Herbal-A/Hand-1 page-first tokens unique among the 95 page starts",
+    "snapshot": {
+      "raw_pct": 87.4,
+      "latent_pct": 70.5
+    },
+    "reconstructed": {
+      "raw_pct": 87.36842105263158,
+      "latent_pct_range": [
+        67.36842105263158,
+        74.73684210526316
+      ]
+    },
+    "status": "approximate",
+    "definition": "First token of each page's first P line; unique = occurs once among the 95 first tokens. Latent: first Viterbi unit (subset frequencies), conservative_normalizer, optional removal of an initial t/k/p/f gallows when the remainder is attested.",
+    "latent_variants": {
+      "segmented_first_unit": 85.26315789473684,
+      "normalized": 74.73684210526316,
+      "gallows_then_normalized": 67.36842105263158,
+      "normalized_then_gallows": 68.42105263157895
+    },
+    "note": "Raw value is exact. 'Conservative gallows handling' is not specified; tried variants give 67-75%, bracketing the recorded 70.5%."
+  }
+}

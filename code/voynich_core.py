@@ -43,11 +43,21 @@ def eva_glyphs(word: str) -> list[str]:
     return out
 
 
-def tokenise_ivtff_body(s: str) -> list[str]:
-    """Conservative tokeniser used in the exploratory analysis."""
+def tokenise_ivtff_body(s: str, *, fix_alternatives: bool = False) -> list[str]:
+    """Conservative tokeniser used in the exploratory analysis.
+
+    The original regex keeps the first reading only for plain ``[abc:def]``
+    alternatives. When the first reading contains braces, ``?`` or an ``@`` code
+    (e.g. ``dai[{cto}:@194;]y`` or ``daiiir[{ih}:ch]y``), both readings are
+    concatenated or split into artificial tokens. ``fix_alternatives=True``
+    keeps the first reading for every alternative; the default preserves the
+    original behaviour so earlier results remain reproducible.
+    """
     s = s.replace("<->", " ")
     s = re.sub(r"<!.*?>", " ", s)
     s = s.replace("<%>", " ").replace("<$>", " ").replace("<~>", " ")
+    if fix_alternatives:
+        s = re.sub(r"\[([^:\]]*):[^\]]*\]", r"\1", s)
     s = re.sub(r"\[([a-z']+):[^\]]+\]", r"\1", s, flags=re.I)
     s = re.sub(r"\{([^}]*)\}", r"\1", s)
     s = re.sub(r"@\d+;", " ", s)
@@ -61,7 +71,9 @@ def tokenise_ivtff_body(s: str) -> list[str]:
     return out
 
 
-def parse_zl3b(path: str | Path) -> tuple[dict[str, Page], list[TextLine]]:
+def parse_zl3b(
+    path: str | Path, *, fix_alternatives: bool = False
+) -> tuple[dict[str, Page], list[TextLine]]:
     pages: dict[str, Page] = {}
     lines: list[TextLine] = []
     current_page: str | None = None
@@ -85,7 +97,7 @@ def parse_zl3b(path: str | Path) -> tuple[dict[str, Page], list[TextLine]]:
             if not lm or "P" not in lm.group(2):
                 continue
             page = lm.group(1).split(".")[0]
-            tokens = tokenise_ivtff_body(lm.group(3))
+            tokens = tokenise_ivtff_body(lm.group(3), fix_alternatives=fix_alternatives)
             if tokens:
                 lines.append(
                     TextLine(

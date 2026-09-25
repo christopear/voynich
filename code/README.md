@@ -60,6 +60,24 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/11_mixture_
 uv run --locked python -m unittest discover -s code -p 'test_*.py' -v
 ```
 
+`12_reconstruct_claims.py` recomputes the handoff claims whose original drivers
+were lost (rare-form decomposition, spaced alternations, split-vs-unsplit,
+information trajectory, entropy, lattices, OK/OT context tests, Naibbe
+homophone recovery and others). The claim definitions live in
+`reconstruction.py`; outputs go to `results/reconstruction_2026-09-25/`, and
+the findings are in `RECONSTRUCTION_FINDINGS_2026-09-25.md`. It runs in about
+30 seconds and is the last step of `run_all.sh`.
+
+```bash
+uv run --locked python code/12_reconstruct_claims.py
+uv run --locked python -m unittest discover -s code -p 'test_reconstruction.py' -v
+```
+
+`parse_zl3b(..., fix_alternatives=True)` corrects the tokeniser's handling of
+non-plain alternative readings such as `dai[{cto}:@194;]y`. The default keeps
+the original behaviour so earlier results stay reproducible; the effect of the
+fix on the parser-dependent claims is saved in `parser_sensitivity.json`.
+
 `08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible

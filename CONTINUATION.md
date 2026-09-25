@@ -1,5 +1,23 @@
 # Voynich Manuscript — Cryptanalytic Continuation Brief
 
+> **Status note (25 September 2026).** This is the original handoff, preserved
+> unchanged below. Check its numbers against the later documents before citing them:
+>
+> * **Reproduced exactly:** §4.3 internal m, §4.4 r/l 16/48, §6.1–6.3 decomposition,
+>   cut positions and alternations, §6.4 hidden-boundary prediction, §8.2 Naibbe
+>   localization, §14 homophone recovery, §16 raw first-token uniqueness.
+> * **Reproduced within noise or approximately:** §4.2, §7, §8.3, §9, §10, §15.
+> * **Definition-dependent:** §11 lattice counts and §13 OK/OT effect sizes.
+> * **Not reproduced; do not cite:** §4.1 contextual cosines. The §9 edge-pruning
+>   control has no recorded definition.
+> * **§8.2:** the 646 vs 634 discrepancy comes from the denominator
+>   (`RECONSTRUCTION_FINDINGS_2026-09-25.md`).
+> * **"Sandhi":** `REVIEW_2026-09-24.md` explains why the term overstates the evidence.
+> * **Later results:** the terminal/next-initial effect generalizes mainly in
+>   Currier B, and a message-free generator reproduces it
+>   (`FRONTIER_FINDINGS_2026-09-24.md`, `MECHANISM_FINDINGS_2026-09-24.md`).
+> * **Open:** the §19 experiment has not yet been run.
+
 **Purpose:** handoff document for continuing the analysis in Codex without losing the experimental state, negative results, or methodological corrections already established.
 
 **Current corpus/transcription:** René Zandbergen / Gabriel Landini **ZL3b**, version dated **13 May 2025**, IVTFF/EVA transcription, obtained from the `matthewdgreen/cipher_benchmark` mirror.

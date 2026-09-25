@@ -1,0 +1,63 @@
+# Voynich structural analysis
+
+A research programme on the statistical structure of the Voynich Manuscript's
+text (ZL3b EVA transcription), using Greshko's Naibbe cipher as a positive
+control. It does **not** claim a decipherment, language identification or
+translation.
+
+## Current state (25 September 2026)
+
+* **Strongest result.** In Currier B, the following word's first glyph improves
+  prediction of an n/l/r word ending. This holds when the stem's spelling family
+  and its physical folio are withheld, and survives a second transcription and
+  three glyph segmentations. Currier A is inconclusive.
+* **Key limit.** A generator with no underlying message also passes that test, so
+  the effect does not distinguish meaningful text from structured pseudotext.
+* **Mechanism attribution.** Telling generative mechanisms apart does not yet work
+  reliably. None of the three simulated mechanisms reproduces the manuscript's
+  combination of open vocabulary and modest local repetition.
+* **Reconstructions.** Of 22 claims from the original handoff whose code was lost,
+  9 now reproduce exactly and 4 within shuffle noise. 5 are approximate and 2
+  qualitative. The same-stem cosine values could not be reproduced, and the
+  edge-pruning control has no recorded definition.
+
+## Reading order
+
+1. `CONTINUATION.md`: the original handoff from the exploratory session. Read its
+   status note first: several numbers have since been corrected or qualified.
+2. `REVIEW_2026-09-24.md`: independent reproduction audit and literature context.
+3. `FRONTIER_PROTOCOL.md` → `FRONTIER_FINDINGS_2026-09-24.md`: terminal
+   prediction on unseen folios and stems; transfer to drawing, line and paragraph
+   boundaries.
+4. `MECHANISM_PROTOCOL.md` → `MECHANISM_FINDINGS_2026-09-24.md`: robustness gate
+   and competing-mechanism benchmark.
+5. `RECONSTRUCTION_FINDINGS_2026-09-25.md`: claim-by-claim reconstruction of the
+   handoff numbers whose drivers were lost.
+
+`CODEX_KICKOFF.md` is the original task brief. Its §19 latent equivalence-class
+experiment has **not** been carried out yet.
+
+## Layout
+
+| Path | Contents |
+|---|---|
+| `code/01`–`05`, `voynich_core.py` | Original handoff scripts and helpers |
+| `code/boundary.py` | Recovered driver for the visible-to-hidden boundary test |
+| `code/06`–`07` | Frontier experiment (prospective protocol) |
+| `code/08`–`11`, `mechanism_models.py` | Robustness gate and mechanism benchmark |
+| `code/12_reconstruct_claims.py`, `reconstruction.py` | Reconstructions of lost claims |
+| `code/test_*.py` | Unit and regression tests |
+| `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
+| `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |
+
+## Running
+
+Uses [uv](https://docs.astral.sh/uv/) with Python 3.14 (`pyproject.toml`, `uv.lock`).
+
+```bash
+uv sync --locked
+./run_all.sh          # fetch data (network), scripts 01-05, reconstruction
+uv run --locked python -m unittest discover -s code -p 'test_*.py' -v
+```
+
+The frontier and mechanism commands are listed in `code/README.md`.
