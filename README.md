@@ -57,6 +57,9 @@ translation.
 9. `COUPLING_TEST_PROTOCOL.md` → `COUPLING_TEST_FINDINGS_2026-09-25.md`:
    coupling-aware test for terminal alternations, calibrated on a shared-core
    cipher.
+10. `COUPLING_TEST_V2_PROTOCOL.md`: version 2 of that test (distributional
+    neighbour classes, pooled test, 10-seed calibration). It is set up as an
+    overnight run; see `overnight/README.md`. Results are pending.
 
 `CODEX_KICKOFF.md` is the original task brief.
 
@@ -72,6 +75,7 @@ translation.
 | `code/13`–`14`, `equivalence.py` | §19 equivalence-class classifier and post-hoc diagnostics |
 | `code/15`, `slot_cipher.py` | Labelled slot cipher and coupled-cipher transfer test |
 | `code/16`, `coupling_test.py` | Coupling-aware terminal-alternation test |
+| `code/17`, `coupling_test_v2.py`, `overnight/` | Version 2 test and the overnight runner |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |

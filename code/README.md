@@ -108,6 +108,12 @@ OPENBLAS_NUM_THREADS=1 uv run --locked python code/16_coupling_aware_test.py
 uv run --locked python -m unittest discover -s code -p 'test_coupling_test.py' -v
 ```
 
+`17_coupling_test_v2.py` (`coupling_test_v2.py`) is version 2 of the
+coupling-aware test. It is CPU-parallel and follows
+`COUPLING_TEST_V2_PROTOCOL.md`. The overnight batch, which also runs a
+cross-machine reproducibility check of 13, 15 and 16, is launched with
+`./overnight/run_overnight.sh`; see `overnight/README.md`.
+
 `08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible
