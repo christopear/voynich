@@ -1,0 +1,105 @@
+Loaded 4,130 body-text lines.
+Observed 35,130 tokens and 7,117 surface types.
+
+========================================================================
+VISIBLE → HIDDEN BOUNDARY TEST
+========================================================================
+
+Candidate joined internal boundaries: 769
+
+1. Stem + next-unit initial
+   evaluable: 624
+   correct:   442
+   accuracy:  0.708
+
+2. Stem only
+   evaluable: 769
+   correct:   496
+   accuracy:  0.645
+
+3. Same evaluable cases
+   n:         624
+   stem + next initial: 0.708
+   stem only:           0.639
+   improvement:          +6.9 percentage points
+
+------------------------------------------------------------------------
+Illustrative candidates
+------------------------------------------------------------------------
+daraiin          -> dar        · aiin         terminal=r
+    stem='da', next_initial='a'
+    visible stem+next counts = {'n': 0, 'l': 3, 'r': 39}
+    prediction stem+next = 'r'
+    prediction stem-only = 'r'
+roloty           -> rol        · oty          terminal=l
+    stem='ro', next_initial='o'
+    visible stem+next counts = {'n': 0, 'l': 2, 'r': 2}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+oldain           -> ol         · dain         terminal=l
+    stem='o', next_initial='d'
+    visible stem+next counts = {'n': 0, 'l': 35, 'r': 7}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+ctholdar         -> cthol      · dar          terminal=l
+    stem='ctho', next_initial='d'
+    visible stem+next counts = {'n': 0, 'l': 15, 'r': 5}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+dolchey          -> dol        · chey         terminal=l
+    stem='do', next_initial='ch'
+    visible stem+next counts = {'n': 0, 'l': 19, 'r': 22}
+    prediction stem+next = 'r'
+    prediction stem-only = 'l'
+okolshol         -> okol       · shol         terminal=l
+    stem='oko', next_initial='sh'
+    visible stem+next counts = {'n': 0, 'l': 8, 'r': 4}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+dorchory         -> dor        · chory        terminal=r
+    stem='do', next_initial='ch'
+    visible stem+next counts = {'n': 0, 'l': 19, 'r': 22}
+    prediction stem+next = 'r'
+    prediction stem-only = 'l'
+olsaiin          -> ol         · saiin        terminal=l
+    stem='o', next_initial='s'
+    visible stem+next counts = {'n': 0, 'l': 13, 'r': 1}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+dolody           -> dol        · ody          terminal=l
+    stem='do', next_initial='o'
+    visible stem+next counts = {'n': 0, 'l': 19, 'r': 8}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+chololy          -> chol       · oly          terminal=l
+    stem='cho', next_initial='o'
+    visible stem+next counts = {'n': 0, 'l': 54, 'r': 34}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+otaldam          -> otal       · dam          terminal=l
+    stem='ota', next_initial='d'
+    visible stem+next counts = {'n': 0, 'l': 10, 'r': 7}
+    prediction stem+next = 'l'
+    prediction stem-only = 'r'
+sheoldam         -> sheol      · dam          terminal=l
+    stem='sheo', next_initial='d'
+    visible stem+next counts = {'n': 0, 'l': 7, 'r': 1}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+cholcthom        -> chol       · cthom        terminal=l
+    stem='cho', next_initial='cth'
+    visible stem+next counts = {'n': 0, 'l': 21, 'r': 16}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+otolom           -> otol       · om           terminal=l
+    stem='oto', next_initial='o'
+    visible stem+next counts = {'n': 0, 'l': 13, 'r': 9}
+    prediction stem+next = 'l'
+    prediction stem-only = 'l'
+olytol           -> ol         · ytol         terminal=l
+    stem='o', next_initial='y'
+    visible stem+next counts = {'n': 0, 'l': 7, 'r': 15}
+    prediction stem+next = 'r'
+    prediction stem-only = 'l'
+
+Wrote candidate details to results/review_2026-09-24/boundary_candidates.json

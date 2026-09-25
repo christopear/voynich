@@ -1,0 +1,5876 @@
+{
+  "train_tokens": 11836,
+  "train_slots": 12147,
+  "test_slots": 10277,
+  "test_tokens": 10017,
+  "test_folios": 17,
+  "encoder_units": 552,
+  "encoder_cipher_types": 18848,
+  "calibration_scales": {
+    "length_mean": 0.5,
+    "length_sd": 0.5,
+    "ttr": 0.05,
+    "hapax": 0.08,
+    "internal_h": 0.15,
+    "edge_mi": 0.025
+  },
+  "diagnostics": [
+    "edge_short_minus_long",
+    "edge_line_minus_ordinary",
+    "repeat_1",
+    "repeat_2",
+    "repeat_4",
+    "repeat_8",
+    "repeat_16",
+    "edit_1",
+    "edit_2",
+    "edit_4",
+    "edit_8",
+    "edit_16"
+  ],
+  "best": {
+    "assembly": {
+      "mechanism": "assembly",
+      "level": 2,
+      "coupling": 1,
+      "mean_distance": 0.9164327062786657
+    },
+    "copy": {
+      "mechanism": "copy",
+      "level": 0,
+      "coupling": 1,
+      "mean_distance": 5.877257946833845
+    },
+    "encoding": {
+      "mechanism": "encoding",
+      "level": 1,
+      "coupling": 1,
+      "mean_distance": 1.4650176588880814
+    }
+  },
+  "observed": {
+    "length_mean": 4.679644604172906,
+    "length_sd": 1.6272665300028912,
+    "ttr": 0.25925925925925924,
+    "hapax": 0.6784751636503658,
+    "internal_h": 1.9681089641140308,
+    "edge_mi": 0.08251758110023817,
+    "edge_short_minus_long": 0.06074671748683397,
+    "edge_line_minus_ordinary": -0.055590024099176655,
+    "tokens": 10017,
+    "short_n": 780,
+    "long_n": 2747,
+    "line_n": 221,
+    "repeat_1": 0.0031526123460031688,
+    "edit_1": 0.03970938458243142,
+    "lag_n_1": 9739,
+    "repeat_2": 0.005128479354702881,
+    "edit_2": 0.028945002480158744,
+    "lag_n_2": 9470,
+    "repeat_4": 0.003919658821159415,
+    "edit_4": 0.0006974741838023102,
+    "lag_n_4": 8958,
+    "repeat_8": -0.0006744210148506724,
+    "edit_8": -0.013473462301587302,
+    "lag_n_8": 8015,
+    "repeat_16": 0.0004684724180532503,
+    "edit_16": 0.013295623647186117,
+    "lag_n_16": 6511
+  },
+  "recovery_parameters": {
+    "n": 108,
+    "accuracy": 0.4537037037037037,
+    "rejection_rate": 0.12962962962962962,
+    "confusion": {
+      "assembly": {
+        "assembly": 21,
+        "copy": 0,
+        "encoding": 15
+      },
+      "copy": {
+        "assembly": 12,
+        "copy": 12,
+        "encoding": 12
+      },
+      "encoding": {
+        "assembly": 20,
+        "copy": 0,
+        "encoding": 16
+      }
+    },
+    "by_split": {
+      "0": 0.6944444444444444,
+      "1": 0.3333333333333333,
+      "2": 0.3333333333333333
+    },
+    "predictions": [
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.14699431247600678,
+          "copy": 1.2247164407484354,
+          "encoding": 0.17341794575109415
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71000,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06791910105462895,
+          "copy": 1.1685834176402758,
+          "encoding": 0.19598873003008233
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71001,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09003855900570155,
+          "copy": 1.2691585121347153,
+          "encoding": 0.14893332484789065
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71002,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.8711341279640118,
+          "copy": 1.8003385362189739,
+          "encoding": 0.7623838787284032
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71010,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.17073140208239299,
+          "copy": 1.2101107146162449,
+          "encoding": 0.2672567543851914
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71011,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.8985192971137889,
+          "copy": 2.436983730649254,
+          "encoding": 1.1607819576161649
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71012,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 1.0351980384671704,
+          "copy": 2.365387203084796,
+          "encoding": 1.2697478744754098
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71100,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.7198221032390438,
+          "copy": 1.681600718873456,
+          "encoding": 0.6141294886923546
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71101,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.15744414025552253,
+          "copy": 1.6607790732575465,
+          "encoding": 0.17287576866434476
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71102,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.3094175589592763,
+          "copy": 1.6252850801548033,
+          "encoding": 0.32626377844668747
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71110,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.20355480333667608,
+          "copy": 1.4343967828330308,
+          "encoding": 0.19890478800732403
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71111,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.31476123684779284,
+          "copy": 1.6574869379422674,
+          "encoding": 0.34157592926674935
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 71112,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 162.93057520300215,
+          "copy": 137.6833731926226,
+          "encoding": 166.39255828091467
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71600,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 175.5313627417702,
+          "copy": 148.4997642281256,
+          "encoding": 179.09181903540923
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71601,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 162.84455695780642,
+          "copy": 137.48644084401204,
+          "encoding": 166.26832259380666
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71602,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 160.77741011336744,
+          "copy": 135.26198723897917,
+          "encoding": 164.23143367465573
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71610,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 159.65416613406947,
+          "copy": 134.57392353291388,
+          "encoding": 163.18347833196523
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71611,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 181.73411082696876,
+          "copy": 154.65069259224728,
+          "encoding": 185.4130960322493
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71612,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 174.2343056922568,
+          "copy": 147.65555968825686,
+          "encoding": 177.73221774060244
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71700,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 203.47484144842102,
+          "copy": 174.6384190932896,
+          "encoding": 207.4031152437393
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71701,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 191.81372920599415,
+          "copy": 163.84296934827637,
+          "encoding": 195.7246151431899
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71702,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 196.02139385956932,
+          "copy": 167.92504243233032,
+          "encoding": 200.14372904857797
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71710,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 215.72929971050473,
+          "copy": 185.9399798392329,
+          "encoding": 219.55748967628483
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71711,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 198.42848934588696,
+          "copy": 170.25543761182715,
+          "encoding": 202.39468822449294
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 71712,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.24314216912005246,
+          "copy": 1.6639533450377044,
+          "encoding": 0.21335271291187288
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72200,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.4914639854316715,
+          "copy": 2.173520517675582,
+          "encoding": 0.481240062076177
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72201,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.14861631690744317,
+          "copy": 1.3340341334079293,
+          "encoding": 0.149595543110609
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72202,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.1524994161087778,
+          "copy": 1.2498277198970904,
+          "encoding": 0.16513737803125822
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72210,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10105630479579031,
+          "copy": 1.2752766823598527,
+          "encoding": 0.1285607378623916
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72211,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.2260457805152706,
+          "copy": 1.0340623901876818,
+          "encoding": 0.3280326251956509
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72212,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.19038617171292335,
+          "copy": 1.4031223749118336,
+          "encoding": 0.1849061826794187
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72300,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09986656573789661,
+          "copy": 1.471049559842397,
+          "encoding": 0.10880923567021283
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72301,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3829485266896293,
+          "copy": 1.6605535772285858,
+          "encoding": 0.5678005308877455
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72302,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.6897743587795824,
+          "copy": 2.1062009114063174,
+          "encoding": 0.8665367595320314
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72310,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.25698617295089504,
+          "copy": 2.0279458016813843,
+          "encoding": 0.3514637731444579
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72311,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.2647142722467676,
+          "copy": 1.7755710868918178,
+          "encoding": 0.16023417287980307
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 72312,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.20004242752955614,
+          "copy": 1.7326008733941274,
+          "encoding": 0.09218876269670369
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71200,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07279161872133232,
+          "copy": 1.527589172875057,
+          "encoding": 0.016635718671030954
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71201,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08090354501857866,
+          "copy": 1.5830617156811926,
+          "encoding": 0.028071704048247593
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71202,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04458561352698529,
+          "copy": 1.5170126692920167,
+          "encoding": 0.004813784800949744
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71210,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06777229455139064,
+          "copy": 1.572023920312887,
+          "encoding": 0.012819575334617495
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71211,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.14167578464293742,
+          "copy": 1.700456287568624,
+          "encoding": 0.06613195081018373
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71212,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [],
+        "distances": {
+          "assembly": 0.8946825626285274,
+          "copy": 2.6528368470146426,
+          "encoding": 1.1550886091511323
+        },
+        "rejected": true,
+        "split": "1",
+        "seed": 71300,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.42823852312526206,
+          "copy": 1.7329188551483872,
+          "encoding": 0.32191478441495447
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71301,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.1608281483063126,
+          "copy": 1.7717204381200498,
+          "encoding": 0.18935990771160857
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71302,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.35203342874646243,
+          "copy": 1.63259183780455,
+          "encoding": 0.21702140032756836
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71310,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.2866480658529967,
+          "copy": 1.493228069972291,
+          "encoding": 0.2811185549207811
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71311,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.11163637233715794,
+          "copy": 1.530787914067122,
+          "encoding": 0.18286662378419327
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71312,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.32155972105723024,
+          "copy": 0.5560359978797814,
+          "encoding": 0.3517565763632475
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71800,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3845804910811061,
+          "copy": 0.8190726773683822,
+          "encoding": 0.33516698420222407
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71801,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.2746970306645466,
+          "copy": 0.7598586123896495,
+          "encoding": 0.26453532015006287
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71802,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4733980964372231,
+          "copy": 0.6582471461357535,
+          "encoding": 0.512926967738821
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71810,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.368616534044706,
+          "copy": 0.6470003887501679,
+          "encoding": 0.4219023588363496
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71811,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.273100845173049,
+          "copy": 0.6803853827790056,
+          "encoding": 0.25807437783398374
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71812,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3386969116734033,
+          "copy": 0.7092041980633065,
+          "encoding": 0.40171690930524334
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71900,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.45867595008318984,
+          "copy": 0.8499200466991158,
+          "encoding": 0.4355326844579177
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71901,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4205489479593035,
+          "copy": 0.7312885964457635,
+          "encoding": 0.3714932111483449
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71902,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.7879634473773282,
+          "copy": 1.268011707367963,
+          "encoding": 1.0459335851767284
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71910,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4406590254870239,
+          "copy": 0.7235421913976655,
+          "encoding": 0.41934923911037
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71911,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 1.1289006683983474,
+          "copy": 1.5942738799838911,
+          "encoding": 1.1472363565825299
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 71912,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.021496838672429713,
+          "copy": 1.666674868144942,
+          "encoding": 0.013651370860078726
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72400,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05310738134913442,
+          "copy": 1.7527654110732875,
+          "encoding": 0.03832573762822168
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72401,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08421439068020375,
+          "copy": 1.7985533307817887,
+          "encoding": 0.12299439063269114
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72402,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.15749605278165044,
+          "copy": 1.7530903840009238,
+          "encoding": 0.06569489326565822
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72410,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05001298499617821,
+          "copy": 1.6163900823642265,
+          "encoding": 0.06151972556409711
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72411,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.15702881074686625,
+          "copy": 1.8365694499274223,
+          "encoding": 0.10138160932003559
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72412,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.33656076696878734,
+          "copy": 1.7709710482477548,
+          "encoding": 0.2380202413908852
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72500,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.1291368313982327,
+          "copy": 1.666964092693471,
+          "encoding": 0.057431639237588754
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72501,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.497769822985497,
+          "copy": 1.8499072746085463,
+          "encoding": 0.3145040254777178
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72502,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.039098504439759596,
+          "copy": 1.4865978294105695,
+          "encoding": 0.11507538778041793
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72510,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0229351631163873,
+          "copy": 1.634316156211031,
+          "encoding": 0.007849495671946928
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72511,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.14636706269023744,
+          "copy": 1.6544576571870344,
+          "encoding": 0.12849966490104864
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 72512,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.016629726280532203,
+          "copy": 2.3037936968042128,
+          "encoding": 0.008850909827194678
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71400,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0492961465657322,
+          "copy": 2.2633583628435554,
+          "encoding": 0.05378087243377716
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71401,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07833770094451727,
+          "copy": 2.211882504539401,
+          "encoding": 0.03744488341538032
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71402,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.054142067161270936,
+          "copy": 2.1139213539900394,
+          "encoding": 0.07162221442877231
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71410,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03681212297368566,
+          "copy": 2.0983553133784927,
+          "encoding": 0.039742107272232735
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71411,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.006057418360317535,
+          "copy": 2.119864219855075,
+          "encoding": 0.03683105581489944
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71412,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.2932623246338791,
+          "copy": 2.6583467613295295,
+          "encoding": 0.3448651076843399
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71500,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05992732886210569,
+          "copy": 2.190205686409109,
+          "encoding": 0.07892200297348512
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71501,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [],
+        "distances": {
+          "assembly": 0.7304760216069436,
+          "copy": 2.5730178606529357,
+          "encoding": 0.8578334864765046
+        },
+        "rejected": true,
+        "split": "2",
+        "seed": 71502,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.02865085399596166,
+          "copy": 2.430778458228961,
+          "encoding": 0.031960679090881815
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71510,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10720791114656007,
+          "copy": 2.3329781360555777,
+          "encoding": 0.13508233453315036
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71511,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.033443704283005325,
+          "copy": 2.1976064951374514,
+          "encoding": 0.030341752187777765
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 71512,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03665179405514055,
+          "copy": 2.1084441651134203,
+          "encoding": 0.029408976745998783
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72000,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03587310682909462,
+          "copy": 2.0999658152742584,
+          "encoding": 0.062496187470358754
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72001,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04195542192354154,
+          "copy": 2.0899491963382073,
+          "encoding": 0.10400338471176356
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72002,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.02436877690637715,
+          "copy": 2.2483785137687162,
+          "encoding": 0.004135702154789054
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72010,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.00612942295259275,
+          "copy": 2.1237706136007657,
+          "encoding": 0.018444127244155385
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72011,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.018209680927961703,
+          "copy": 2.0269717806097165,
+          "encoding": 0.050050164020655506
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72012,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06759752558055716,
+          "copy": 2.434750486562959,
+          "encoding": 0.03551853366151697
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72100,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.2668374120234779,
+          "copy": 2.3743922714613754,
+          "encoding": 0.26931249751042713
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72101,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.12476626755564672,
+          "copy": 2.123482361356538,
+          "encoding": 0.21085219814485925
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72102,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.2469480351272343,
+          "copy": 2.229323912744721,
+          "encoding": 0.1667611186768545
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72110,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.5195370355607818,
+          "copy": 2.77369266363894,
+          "encoding": 0.5173975589600158
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72111,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.021649467298298544,
+          "copy": 2.1993863585309104,
+          "encoding": 0.004440668322602132
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72112,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06158127111564885,
+          "copy": 2.074950418833176,
+          "encoding": 0.08904936471113317
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72600,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0777604987407665,
+          "copy": 2.035896795991869,
+          "encoding": 0.11584173396614432
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72601,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.015032471720472576,
+          "copy": 2.2210889965350162,
+          "encoding": 0.03113915698852641
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72602,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.027362866363255953,
+          "copy": 2.2780488049724323,
+          "encoding": 0.03371984621124922
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72610,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06411602024766049,
+          "copy": 2.3128695151733356,
+          "encoding": 0.047004833624198
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72611,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.01575116839390019,
+          "copy": 2.0926965373874133,
+          "encoding": 0.040572626951416606
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72612,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.030871995699519105,
+          "copy": 2.392889089967948,
+          "encoding": 0.029788780332697894
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72700,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04935006393867747,
+          "copy": 2.2976593749239735,
+          "encoding": 0.10040946594687371
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72701,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.032576323793833316,
+          "copy": 2.349004263060444,
+          "encoding": 0.05320450627275638
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72702,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0353642417472807,
+          "copy": 2.5166744507880243,
+          "encoding": 0.02822144756608309
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72710,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04116540545024753,
+          "copy": 2.2773021021696946,
+          "encoding": 0.09258140891035477
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72711,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.055892170026708286,
+          "copy": 2.238448053326986,
+          "encoding": 0.08723271592452377
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 72712,
+        "level": 2,
+        "source": "italian"
+      }
+    ]
+  },
+  "recovery_plaintext": {
+    "n": 108,
+    "accuracy": 0.5555555555555556,
+    "rejection_rate": 0.037037037037037035,
+    "confusion": {
+      "assembly": {
+        "assembly": 14,
+        "copy": 0,
+        "encoding": 22
+      },
+      "copy": {
+        "assembly": 9,
+        "copy": 18,
+        "encoding": 9
+      },
+      "encoding": {
+        "assembly": 8,
+        "copy": 0,
+        "encoding": 28
+      }
+    },
+    "by_split": {
+      "italian->latin": 0.5370370370370371,
+      "latin->italian": 0.5740740740740741
+    },
+    "predictions": [
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.822580181395174,
+          "copy": 1.9592289591583085,
+          "encoding": 0.5666458414653138
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71010,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08632720285194267,
+          "copy": 1.314239198036457,
+          "encoding": 0.02623697977301952
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71011,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.5257362068855983,
+          "copy": 2.062978223594504,
+          "encoding": 0.850870838397349
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71012,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.11471068957790202,
+          "copy": 1.5553287063478463,
+          "encoding": 0.20441352275518887
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71110,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08640683662898774,
+          "copy": 1.292477961874855,
+          "encoding": 0.06835026571329056
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71111,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.32070965249975963,
+          "copy": 1.5270188737764603,
+          "encoding": 0.18078870409599934
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71112,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06008225030284969,
+          "copy": 1.3261728161579929,
+          "encoding": 0.004599700912278524
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71210,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0853347307131504,
+          "copy": 1.3880162646984342,
+          "encoding": 0.00848931911928376
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71211,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.15477185768896504,
+          "copy": 1.5569356679249042,
+          "encoding": 0.048263563303247554
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71212,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.3432841376981662,
+          "copy": 1.438660272425465,
+          "encoding": 0.158637234050621
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71310,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3547333564935949,
+          "copy": 1.4835810874755533,
+          "encoding": 0.3565139886412458
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71311,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.17383946365440453,
+          "copy": 1.505827830729053,
+          "encoding": 0.2811481403915827
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71312,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.12311798726282808,
+          "copy": 1.2576422696324387,
+          "encoding": 0.0580575553042744
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71410,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09588483673389515,
+          "copy": 1.2397459433908529,
+          "encoding": 0.03157030368750808
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71411,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.008578782452015514,
+          "copy": 1.2788992505559933,
+          "encoding": 0.03573419349038153
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71412,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0694785391875003,
+          "copy": 1.5520979786477114,
+          "encoding": 0.028275223833242435
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71510,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.11711574323134366,
+          "copy": 1.5712005634066306,
+          "encoding": 0.2252056725506879
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71511,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05823659343480477,
+          "copy": 1.3688259630837034,
+          "encoding": 0.06289900480308658
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71512,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 7.431522440354709,
+          "copy": 2.5136375791966157,
+          "encoding": 7.513411097353559
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71610,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 7.895625230827014,
+          "copy": 3.1776064732635585,
+          "encoding": 8.250898846476295
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71611,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 8.711305330689816,
+          "copy": 3.3382497955524886,
+          "encoding": 8.712651769949908
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71612,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 10.74482336642243,
+          "copy": 5.396537665655711,
+          "encoding": 11.431520444205368
+        },
+        "rejected": true,
+        "split": "latin->italian",
+        "seed": 71710,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 10.336900113903706,
+          "copy": 4.343611028611719,
+          "encoding": 10.444692212506824
+        },
+        "rejected": true,
+        "split": "latin->italian",
+        "seed": 71711,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 9.807535598826389,
+          "copy": 4.276226173987397,
+          "encoding": 10.08529654580916
+        },
+        "rejected": true,
+        "split": "latin->italian",
+        "seed": 71712,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.6617558104476503,
+          "copy": 0.4653223477337007,
+          "encoding": 0.7307789769142877
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71810,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.49933834879365974,
+          "copy": 0.37007053462962514,
+          "encoding": 0.5870518330046992
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71811,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3939428434968683,
+          "copy": 0.4338507545475862,
+          "encoding": 0.382387784918709
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71812,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.8839825716070612,
+          "copy": 1.1006424474415042,
+          "encoding": 1.2584110832871367
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71910,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.6300454210938997,
+          "copy": 0.44183324946773067,
+          "encoding": 0.6127059803530116
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71911,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 1.440122539061371,
+          "copy": 1.2877369539396921,
+          "encoding": 1.4685517763020994
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 71912,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07149963332896438,
+          "copy": 1.3849640727307533,
+          "encoding": 0.014528043693673777
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72010,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.02528607797774757,
+          "copy": 1.2779773135556731,
+          "encoding": 0.021614832976792956
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72011,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.01646386666111942,
+          "copy": 1.2064474417937838,
+          "encoding": 0.06280100838061431
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72012,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.40925793942753774,
+          "copy": 1.4049928419301396,
+          "encoding": 0.22799115576907725
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72110,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.8869677633635619,
+          "copy": 2.0472969834641526,
+          "encoding": 0.6573782081481324
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72111,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07025587037009166,
+          "copy": 1.3343276812520883,
+          "encoding": 0.008696777545723861
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72112,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.14581549422535017,
+          "copy": 1.3397342246326478,
+          "encoding": 0.034695230685952906
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72210,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05321120942143235,
+          "copy": 1.3410433234154258,
+          "encoding": 0.015482396993518693
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72211,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09052417297207616,
+          "copy": 1.1750545725666786,
+          "encoding": 0.053582872677306194
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72212,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.6570628785578684,
+          "copy": 1.8927016992093166,
+          "encoding": 0.642129951248255
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72310,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.13125645570419284,
+          "copy": 1.6757249360601616,
+          "encoding": 0.18000629478978147
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72311,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.12363649704568645,
+          "copy": 1.486527565128539,
+          "encoding": 0.028876772964458952
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72312,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.18673652407721045,
+          "copy": 1.5931506447246526,
+          "encoding": 0.05600068938761401
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72410,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.059955229423588156,
+          "copy": 1.3845195930265197,
+          "encoding": 0.0757125791646187
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72411,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.17456354375094255,
+          "copy": 1.7369104917467986,
+          "encoding": 0.09345873962441076
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72412,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05063753280116326,
+          "copy": 1.3457072908239527,
+          "encoding": 0.16068576922684039
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72510,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03541839374222574,
+          "copy": 1.4525743880678954,
+          "encoding": 0.010858118853342175
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72511,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.17108253985745167,
+          "copy": 1.5929794772352146,
+          "encoding": 0.15052286524413258
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72512,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07300197782332758,
+          "copy": 1.4028111639409289,
+          "encoding": 0.02100730927823311
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72610,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.1495377291840979,
+          "copy": 1.4356388030983025,
+          "encoding": 0.04446764750480334
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72611,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.041552895340812857,
+          "copy": 1.2371075305934243,
+          "encoding": 0.02578404907427224
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72612,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.060486204372414754,
+          "copy": 1.6576147858355192,
+          "encoding": 0.056296234608040174
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72710,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05407834332560247,
+          "copy": 1.4212026278961514,
+          "encoding": 0.07437876890728333
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72711,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10663975261784775,
+          "copy": 1.3829263699082992,
+          "encoding": 0.07532501565385882
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 72712,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.02210622018501927,
+          "copy": 1.3317081810590436,
+          "encoding": 0.016134195410825777
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71000,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05286923392449694,
+          "copy": 1.2949522586665128,
+          "encoding": 0.05920604684913472
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71001,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0947639085675549,
+          "copy": 1.3680293290547094,
+          "encoding": 0.09277126702132427
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71002,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.8864908009984592,
+          "copy": 1.9709411781069077,
+          "encoding": 0.9119810950759145
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71100,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.42012339291976236,
+          "copy": 1.7491594958185994,
+          "encoding": 0.38714472142114986
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71101,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10440180954826993,
+          "copy": 1.474255303411393,
+          "encoding": 0.10428045227024912
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71102,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10436149267556695,
+          "copy": 1.6376153493078507,
+          "encoding": 0.09164497271363392
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71200,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.024475462362733614,
+          "copy": 1.3914181119965745,
+          "encoding": 0.02239754689081849
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71201,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04814165427389463,
+          "copy": 1.4335027656239145,
+          "encoding": 0.03750955178920027
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71202,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 1.2730556457797635,
+          "copy": 2.406652093458239,
+          "encoding": 1.2716922020512051
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71300,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.283070937771566,
+          "copy": 1.699336345748364,
+          "encoding": 0.2951718582061901
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71301,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.25738715973909204,
+          "copy": 1.5590697874724846,
+          "encoding": 0.2389485361663839
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71302,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.01136763082252555,
+          "copy": 1.474775089331778,
+          "encoding": 0.00883490848770284
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71400,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06737645555428001,
+          "copy": 1.4437083163447524,
+          "encoding": 0.05414827101922671
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71401,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06773798822414114,
+          "copy": 1.425805788970582,
+          "encoding": 0.07290023501039754
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71402,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.35029004230158006,
+          "copy": 1.8291319722708625,
+          "encoding": 0.3592581294771508
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71500,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.061991550557401985,
+          "copy": 1.3725939590211393,
+          "encoding": 0.07690634160032507
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71501,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.8757703785328955,
+          "copy": 1.8338034559998928,
+          "encoding": 0.9188789911289558
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71502,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 6.870532526357551,
+          "copy": 2.2882212276969236,
+          "encoding": 7.015619833203985
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71600,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 8.254147413914216,
+          "copy": 2.947911536818108,
+          "encoding": 8.414226344929025
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71601,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 7.108532353847096,
+          "copy": 2.552866873808614,
+          "encoding": 7.249525733841453
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71602,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 7.8608515959810665,
+          "copy": 2.962680682104391,
+          "encoding": 8.001128889129264
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71700,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 9.786562017496294,
+          "copy": 4.1720511316207185,
+          "encoding": 9.988854962620028
+        },
+        "rejected": true,
+        "split": "italian->latin",
+        "seed": 71701,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 9.63539021522704,
+          "copy": 4.057410527592753,
+          "encoding": 9.799332946722751
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71702,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.44836606641089644,
+          "copy": 0.3415562656329187,
+          "encoding": 0.48241326321506794
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71800,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4299236357485374,
+          "copy": 0.5964858358577759,
+          "encoding": 0.45395163407323613
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71801,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3480377034822834,
+          "copy": 0.5260408287833614,
+          "encoding": 0.3691676721046726
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71802,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.5123134020855998,
+          "copy": 0.451403138236608,
+          "encoding": 0.5388441678602734
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71900,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.564273767791939,
+          "copy": 0.5921250964024681,
+          "encoding": 0.5801285326007518
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71901,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4964620195805236,
+          "copy": 0.5021659835586031,
+          "encoding": 0.5127237178609011
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 71902,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.029863317555240243,
+          "copy": 1.3028764948720675,
+          "encoding": 0.028468544981289767
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72000,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04562755963469672,
+          "copy": 1.280051215079378,
+          "encoding": 0.05931330737213563
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72001,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10847381476438138,
+          "copy": 1.3036657838640162,
+          "encoding": 0.11073511260208387
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72002,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06620498459598952,
+          "copy": 1.6069588924102465,
+          "encoding": 0.053684342034041176
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72100,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.2282223443264325,
+          "copy": 1.5341894228283397,
+          "encoding": 0.25797375846629267
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72101,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.23888464912406468,
+          "copy": 1.3637282537271602,
+          "encoding": 0.22659757504727204
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72102,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.039843512653048,
+          "copy": 1.51834789079392,
+          "encoding": 0.03001467991667146
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72200,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10850789815119148,
+          "copy": 1.7259531693102659,
+          "encoding": 0.09432764314124563
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72201,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.047145770675199074,
+          "copy": 1.4210670511904107,
+          "encoding": 0.04379533371377655
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72202,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10118975972709522,
+          "copy": 1.4754140730190262,
+          "encoding": 0.08452924753287787
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72300,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.032941612823936456,
+          "copy": 1.476634288366239,
+          "encoding": 0.028193591661443838
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72301,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.18410784624413146,
+          "copy": 1.3951438387093351,
+          "encoding": 0.20334162686698512
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72302,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.01671420423914968,
+          "copy": 1.5457695814899288,
+          "encoding": 0.011567102659301864
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72400,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07351214095391857,
+          "copy": 1.6040870906324471,
+          "encoding": 0.058903656848027335
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72401,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10399172715633302,
+          "copy": 1.711287668451554,
+          "encoding": 0.10191167894059726
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72402,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.20215837739305387,
+          "copy": 1.731483908639713,
+          "encoding": 0.21254391060164315
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72500,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05381062700797201,
+          "copy": 1.5720368622418395,
+          "encoding": 0.05356129387129862
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72501,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3190275403634984,
+          "copy": 1.7829602220453047,
+          "encoding": 0.31499199910397674
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72502,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0842321183679927,
+          "copy": 1.2862149161609226,
+          "encoding": 0.08574369093113134
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72600,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10743967341497529,
+          "copy": 1.2512131528069776,
+          "encoding": 0.11111337289168433
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72601,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.02485424664831806,
+          "copy": 1.3961299001005132,
+          "encoding": 0.019952576495469745
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72602,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.043257021694302185,
+          "copy": 1.5615228924736153,
+          "encoding": 0.03378622756906393
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72700,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10431958344875741,
+          "copy": 1.4882323714621837,
+          "encoding": 0.09708869313753143
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72701,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06503379993509563,
+          "copy": 1.5212515550685854,
+          "encoding": 0.05099083866192258
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 72702,
+        "level": 2,
+        "source": "latin"
+      }
+    ]
+  },
+  "voynich_compatibility": {
+    "truth": "Voynich",
+    "closest": "assembly",
+    "compatible": [
+      "assembly",
+      "copy"
+    ],
+    "distances": {
+      "assembly": 0.6359723937531883,
+      "copy": 1.6415242589663812,
+      "encoding": 0.8209104604922582
+    },
+    "rejected": false
+  },
+  "synthetic_distance_thresholds": {
+    "assembly": 0.7369418398254568,
+    "copy": 4.186746342719604,
+    "encoding": 0.24090838438548762
+  },
+  "best_model_predictions": {
+    "assembly": {
+      "length_mean": {
+        "mean": 4.546321253868424,
+        "minimum": 4.532195268044324,
+        "maximum": 4.570230607966457,
+        "observed": 4.679644604172906
+      },
+      "length_sd": {
+        "mean": 1.637855387897855,
+        "minimum": 1.6239436144088186,
+        "maximum": 1.6509030463378833,
+        "observed": 1.6272665300028912
+      },
+      "ttr": {
+        "mean": 0.2489933779241955,
+        "minimum": 0.24777877608066287,
+        "maximum": 0.25187181790955376,
+        "observed": 0.25925925925925924
+      },
+      "hapax": {
+        "mean": 0.5490781790140385,
+        "minimum": 0.5358581788879936,
+        "maximum": 0.5583266291230893,
+        "observed": 0.6784751636503658
+      },
+      "internal_h": {
+        "mean": 2.048575970980281,
+        "minimum": 2.0361810670176177,
+        "maximum": 2.0632715825874315,
+        "observed": 1.9681089641140308
+      },
+      "edge_mi": {
+        "mean": 0.10236314086114667,
+        "minimum": 0.09428557669493522,
+        "maximum": 0.11592930352439278,
+        "observed": 0.08251758110023817
+      },
+      "edge_short_minus_long": {
+        "mean": 0.028927652328346303,
+        "minimum": -0.0039054473059859235,
+        "maximum": 0.06793292874927101,
+        "observed": 0.06074671748683397
+      },
+      "edge_line_minus_ordinary": {
+        "mean": -0.024484584135033415,
+        "minimum": -0.06675851925791558,
+        "maximum": -0.0043376528492103245,
+        "observed": -0.055590024099176655
+      },
+      "repeat_1": {
+        "mean": -0.0001772715490295818,
+        "minimum": -0.0013499485552759642,
+        "maximum": 0.0007739448467252994,
+        "observed": 0.0031526123460031688
+      },
+      "repeat_2": {
+        "mean": -0.000167229377744407,
+        "minimum": -0.00047492936407982084,
+        "maximum": 0.0005268362821687774,
+        "observed": 0.005128479354702881
+      },
+      "repeat_4": {
+        "mean": 0.00014238626799675458,
+        "minimum": -0.0007091877888173304,
+        "maximum": 0.0009920642960688155,
+        "observed": 0.003919658821159415
+      },
+      "repeat_8": {
+        "mean": 0.0001078701394082737,
+        "minimum": -0.0009050300916330493,
+        "maximum": 0.00154223191435654,
+        "observed": -0.0006744210148506724
+      },
+      "repeat_16": {
+        "mean": -0.0005633139256032253,
+        "minimum": -0.0018617547655136498,
+        "maximum": 0.00026299196715569105,
+        "observed": 0.0004684724180532503
+      },
+      "edit_1": {
+        "mean": -0.007579844200937949,
+        "minimum": -0.03067491319444443,
+        "maximum": 0.01390424896284273,
+        "observed": 0.03970938458243142
+      },
+      "edit_2": {
+        "mean": -0.003563689818572626,
+        "minimum": -0.027707389181998554,
+        "maximum": 0.01570926902958153,
+        "observed": 0.028945002480158744
+      },
+      "edit_4": {
+        "mean": 0.0015504984743265938,
+        "minimum": -0.023199207476551215,
+        "maximum": 0.009767034181096701,
+        "observed": 0.0006974741838023102
+      },
+      "edit_8": {
+        "mean": -0.007039141414141428,
+        "minimum": -0.026790364583333365,
+        "maximum": 0.01484938672438671,
+        "observed": -0.013473462301587302
+      },
+      "edit_16": {
+        "mean": -0.0036050257974086183,
+        "minimum": -0.019873962842712867,
+        "maximum": 0.017347442054473305,
+        "observed": 0.013295623647186117
+      }
+    },
+    "copy": {
+      "length_mean": {
+        "mean": 4.529549765398822,
+        "minimum": 4.363282419886193,
+        "maximum": 4.70020964360587,
+        "observed": 4.679644604172906
+      },
+      "length_sd": {
+        "mean": 1.7245273515855672,
+        "minimum": 1.6314654386540748,
+        "maximum": 1.824667902373778,
+        "observed": 1.6272665300028912
+      },
+      "ttr": {
+        "mean": 0.16823067451998272,
+        "minimum": 0.16262353998203055,
+        "maximum": 0.17699910152740342,
+        "observed": 0.25925925925925924
+      },
+      "hapax": {
+        "mean": 0.37885797828149514,
+        "minimum": 0.3670963781461019,
+        "maximum": 0.39384979302188056,
+        "observed": 0.6784751636503658
+      },
+      "internal_h": {
+        "mean": 2.583986888995908,
+        "minimum": 2.536466071942974,
+        "maximum": 2.636938009108787,
+        "observed": 1.9681089641140308
+      },
+      "edge_mi": {
+        "mean": 0.178157476364057,
+        "minimum": 0.1315512842982081,
+        "maximum": 0.2149360150247744,
+        "observed": 0.08251758110023817
+      },
+      "edge_short_minus_long": {
+        "mean": 0.03512226793115808,
+        "minimum": -0.026582514185297418,
+        "maximum": 0.08185798354132987,
+        "observed": 0.06074671748683397
+      },
+      "edge_line_minus_ordinary": {
+        "mean": -0.016617876398243466,
+        "minimum": -0.10700699794946908,
+        "maximum": 0.05296420812964142,
+        "observed": -0.055590024099176655
+      },
+      "repeat_1": {
+        "mean": 0.20335319631300586,
+        "minimum": 0.1922040524515462,
+        "maximum": 0.21627844297052043,
+        "observed": 0.0031526123460031688
+      },
+      "repeat_2": {
+        "mean": 0.21093148370173487,
+        "minimum": 0.1968717497604548,
+        "maximum": 0.22691858497418532,
+        "observed": 0.005128479354702881
+      },
+      "repeat_4": {
+        "mean": 0.20505060598786026,
+        "minimum": 0.1947209481406073,
+        "maximum": 0.21819372092414613,
+        "observed": 0.003919658821159415
+      },
+      "repeat_8": {
+        "mean": 0.2015776068406029,
+        "minimum": 0.19154553240514083,
+        "maximum": 0.21217281821923395,
+        "observed": -0.0006744210148506724
+      },
+      "repeat_16": {
+        "mean": 0.08114495344046768,
+        "minimum": 0.07619937711237568,
+        "maximum": 0.08962422423908055,
+        "observed": 0.0004684724180532503
+      },
+      "edit_1": {
+        "mean": 0.2190608418635763,
+        "minimum": 0.1745729476686508,
+        "maximum": 0.25122514204545454,
+        "observed": 0.03970938458243142
+      },
+      "edit_2": {
+        "mean": 0.23180610983345362,
+        "minimum": 0.20448690307088752,
+        "maximum": 0.26093714770472587,
+        "observed": 0.028945002480158744
+      },
+      "edit_4": {
+        "mean": 0.20779366033272284,
+        "minimum": 0.17838619171626985,
+        "maximum": 0.22279129832840772,
+        "observed": 0.0006974741838023102
+      },
+      "edit_8": {
+        "mean": 0.21049789511703576,
+        "minimum": 0.1808058965773809,
+        "maximum": 0.23496706743777063,
+        "observed": -0.013473462301587302
+      },
+      "edit_16": {
+        "mean": 0.12204621550324678,
+        "minimum": 0.09720855316558438,
+        "maximum": 0.14357096354166665,
+        "observed": 0.013295623647186117
+      }
+    },
+    "encoding": {
+      "length_mean": {
+        "mean": 4.778742803900037,
+        "minimum": 4.733053808525507,
+        "maximum": 4.834880702805231,
+        "observed": 4.679644604172906
+      },
+      "length_sd": {
+        "mean": 1.5432519353429761,
+        "minimum": 1.4982633999449222,
+        "maximum": 1.5917635751659347,
+        "observed": 1.6272665300028912
+      },
+      "ttr": {
+        "mean": 0.3031013942963629,
+        "minimum": 0.2977937506239393,
+        "maximum": 0.3110711789957073,
+        "observed": 0.25925925925925924
+      },
+      "hapax": {
+        "mean": 0.59416244934706,
+        "minimum": 0.5757071547420965,
+        "maximum": 0.6139281129653402,
+        "observed": 0.6784751636503658
+      },
+      "internal_h": {
+        "mean": 2.124522436022121,
+        "minimum": 2.0998135032033027,
+        "maximum": 2.1345943956818787,
+        "observed": 1.9681089641140308
+      },
+      "edge_mi": {
+        "mean": 0.044100199410305234,
+        "minimum": 0.04172256702373203,
+        "maximum": 0.04823621566389772,
+        "observed": 0.08251758110023817
+      },
+      "edge_short_minus_long": {
+        "mean": 0.00850101113684326,
+        "minimum": -0.01488691811194786,
+        "maximum": 0.0247126364494914,
+        "observed": 0.06074671748683397
+      },
+      "edge_line_minus_ordinary": {
+        "mean": 0.014818480767278708,
+        "minimum": -0.02648713927679102,
+        "maximum": 0.049862624660866224,
+        "observed": -0.055590024099176655
+      },
+      "repeat_1": {
+        "mean": -0.0022496357089558444,
+        "minimum": -0.0027739521477741667,
+        "maximum": -0.0017469324819423793,
+        "observed": 0.0031526123460031688
+      },
+      "repeat_2": {
+        "mean": 3.406385501613646e-06,
+        "minimum": -0.00041571099666287546,
+        "maximum": 0.000963455895061599,
+        "observed": 0.005128479354702881
+      },
+      "repeat_4": {
+        "mean": 0.00010894937380538324,
+        "minimum": -0.0011035618516297904,
+        "maximum": 0.0010295238592569157,
+        "observed": 0.003919658821159415
+      },
+      "repeat_8": {
+        "mean": -0.0002252784870581744,
+        "minimum": -0.0010101871825420558,
+        "maximum": 0.0006128279642940078,
+        "observed": -0.0006744210148506724
+      },
+      "repeat_16": {
+        "mean": 0.0004161853642601283,
+        "minimum": -0.0009210648520218846,
+        "maximum": 0.00203454920077817,
+        "observed": 0.0004684724180532503
+      },
+      "edit_1": {
+        "mean": -0.00195521528529341,
+        "minimum": -0.012030319940476208,
+        "maximum": 0.0031924293154761973,
+        "observed": 0.03970938458243142
+      },
+      "edit_2": {
+        "mean": -0.007288918763528135,
+        "minimum": -0.0165153206168831,
+        "maximum": 0.0066995287698412564,
+        "observed": 0.028945002480158744
+      },
+      "edit_4": {
+        "mean": -0.0026779138107263095,
+        "minimum": -0.023451450892857134,
+        "maximum": 0.015603298611111122,
+        "observed": 0.0006974741838023102
+      },
+      "edit_8": {
+        "mean": -0.014458573833573851,
+        "minimum": -0.02036365327380954,
+        "maximum": -0.006819661458333376,
+        "observed": -0.013473462301587302
+      },
+      "edit_16": {
+        "mean": 0.000885646832912465,
+        "minimum": -0.01207590694895383,
+        "maximum": 0.006502666170634941,
+        "observed": 0.013295623647186117
+      }
+    }
+  },
+  "large_recovery_parameters": {
+    "n": 36,
+    "accuracy": 0.4166666666666667,
+    "rejection_rate": 0.1388888888888889,
+    "confusion": {
+      "assembly": {
+        "assembly": 5,
+        "copy": 0,
+        "encoding": 7
+      },
+      "copy": {
+        "assembly": 3,
+        "copy": 4,
+        "encoding": 5
+      },
+      "encoding": {
+        "assembly": 6,
+        "copy": 0,
+        "encoding": 6
+      }
+    },
+    "by_split": {
+      "0": 0.6666666666666666,
+      "1": 0.3333333333333333,
+      "2": 0.25
+    },
+    "predictions": [
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.3891648038324294,
+          "copy": 1.565397171379997,
+          "encoding": 0.546236923932714
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 81000,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.3641540213161818,
+          "copy": 1.5507076886965878,
+          "encoding": 0.42201805222603433
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 81010,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.4807709657933979,
+          "copy": 1.4627274939211297,
+          "encoding": 0.4887595561165163
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 81100,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [],
+        "distances": {
+          "assembly": 1.9857765979911985,
+          "copy": 2.904789434638424,
+          "encoding": 1.8215780702938673
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 81110,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 193.6310605174568,
+          "copy": 167.06138543551634,
+          "encoding": 196.98204030374754
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 81600,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 190.264264458736,
+          "copy": 163.99054970620762,
+          "encoding": 193.66434993791188
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 81610,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 244.81027994347835,
+          "copy": 214.57465578235713,
+          "encoding": 248.91664149956296
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 81700,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 242.03423232878643,
+          "copy": 211.75896503182182,
+          "encoding": 246.0285437409302
+        },
+        "rejected": true,
+        "split": "0",
+        "seed": 81710,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.16615198415588714,
+          "copy": 1.5839877736843988,
+          "encoding": 0.20762573666409265
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 82200,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.14945997336925934,
+          "copy": 1.4975503013329063,
+          "encoding": 0.11977409076100547
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 82210,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.25538400477473727,
+          "copy": 1.500661488702411,
+          "encoding": 0.2789690294676294
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 82300,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.12866856445769417,
+          "copy": 1.427518781161652,
+          "encoding": 0.24898732070701043
+        },
+        "rejected": false,
+        "split": "0",
+        "seed": 82310,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.01786410132159866,
+          "copy": 1.5859730680387767,
+          "encoding": 0.012852517591334616
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81200,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04398077263500044,
+          "copy": 1.535151851649619,
+          "encoding": 0.03432925388488398
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81210,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0315846030180186,
+          "copy": 1.673907744088176,
+          "encoding": 0.03221460007987174
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81300,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.2564267937826993,
+          "copy": 1.7009745888440666,
+          "encoding": 0.27548142464151104
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81310,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.2967011381900185,
+          "copy": 0.9725275084670253,
+          "encoding": 0.2605418888345668
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81800,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.47358002606987365,
+          "copy": 0.8061640944837959,
+          "encoding": 0.44057399078225945
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81810,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.39709756539099345,
+          "copy": 0.6087228272868431,
+          "encoding": 0.3889304446666099
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81900,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4413554089431064,
+          "copy": 0.600563800715139,
+          "encoding": 0.4462657486056199
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 81910,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03667808983325944,
+          "copy": 1.5439586633936353,
+          "encoding": 0.019704992265749535
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 82400,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.026996631380000427,
+          "copy": 1.762049737691333,
+          "encoding": 0.04451499029667416
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 82410,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.074679152111188,
+          "copy": 1.821882360786055,
+          "encoding": 0.09043832057225132
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 82500,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10472273587462895,
+          "copy": 1.5657937657869416,
+          "encoding": 0.0615155309900452
+        },
+        "rejected": false,
+        "split": "1",
+        "seed": 82510,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08697048917921253,
+          "copy": 2.355063658759373,
+          "encoding": 0.0037871950409942147
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 81400,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.13821560663614513,
+          "copy": 2.280700464571694,
+          "encoding": 0.03487305141153987
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 81410,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.17268348499039962,
+          "copy": 2.3619208673096597,
+          "encoding": 0.059978725568479996
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 81500,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.47210078743642253,
+          "copy": 2.5686215337486717,
+          "encoding": 0.19193530677469195
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 81510,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.16973060544829563,
+          "copy": 2.0584160025621663,
+          "encoding": 0.0548081602087141
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82000,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05658747076864281,
+          "copy": 2.535193332457253,
+          "encoding": 0.025510787904944154
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82010,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.0201748879410199,
+          "copy": 2.296717989044156,
+          "encoding": 0.12301463154843777
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82100,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.5382540101936627,
+          "copy": 2.9911490235751117,
+          "encoding": 0.8882823147227846
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82110,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06545436918010329,
+          "copy": 2.370743484536929,
+          "encoding": 0.025580781760369934
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82600,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06072879649925669,
+          "copy": 2.4003385084048343,
+          "encoding": 0.031148074671458515
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82610,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09534835331519849,
+          "copy": 2.5057126343600067,
+          "encoding": 0.049894103150517434
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82700,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly"
+        ],
+        "distances": {
+          "assembly": 0.1105992441355133,
+          "copy": 2.2688772531119996,
+          "encoding": 0.15088109761359303
+        },
+        "rejected": false,
+        "split": "2",
+        "seed": 82710,
+        "level": 2,
+        "source": "italian"
+      }
+    ]
+  },
+  "large_recovery_plaintext": {
+    "n": 36,
+    "accuracy": 0.5277777777777778,
+    "rejection_rate": 0.08333333333333333,
+    "confusion": {
+      "assembly": {
+        "assembly": 5,
+        "copy": 0,
+        "encoding": 7
+      },
+      "copy": {
+        "assembly": 3,
+        "copy": 7,
+        "encoding": 2
+      },
+      "encoding": {
+        "assembly": 5,
+        "copy": 0,
+        "encoding": 7
+      }
+    },
+    "by_split": {
+      "italian->latin": 0.5,
+      "latin->italian": 0.5555555555555556
+    },
+    "predictions": [
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.32218942429932884,
+          "copy": 1.722461150164594,
+          "encoding": 0.21099478269099514
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81010,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [],
+        "distances": {
+          "assembly": 2.9644200136489816,
+          "copy": 4.342410953204823,
+          "encoding": 3.1470643521404393
+        },
+        "rejected": true,
+        "split": "latin->italian",
+        "seed": 81110,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.1162663294733909,
+          "copy": 1.3851468425552949,
+          "encoding": 0.07588096491054079
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81210,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.7637600614966162,
+          "copy": 1.9870890728168762,
+          "encoding": 0.8275366306827104
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81310,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08843747183119562,
+          "copy": 1.464293357030746,
+          "encoding": 0.09110107964397397
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81410,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.6720841538151193,
+          "copy": 2.164947472896749,
+          "encoding": 0.594960626187345
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81510,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 7.170448161208224,
+          "copy": 2.2856052115290995,
+          "encoding": 7.2858789378204065
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81610,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 11.527319754556052,
+          "copy": 5.147141277285852,
+          "encoding": 11.671498588713492
+        },
+        "rejected": true,
+        "split": "latin->italian",
+        "seed": 81710,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.8123285341025902,
+          "copy": 0.6728139764305462,
+          "encoding": 0.6852121463071429
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81810,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.7541234027051994,
+          "copy": 0.5694573951344333,
+          "encoding": 0.876705100520034
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 81910,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.027106059310248273,
+          "copy": 1.631982879050038,
+          "encoding": 0.04084868191556095
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82010,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 2.041216647593595,
+          "copy": 3.2839639367219937,
+          "encoding": 2.294859326919112
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82110,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10394015506273009,
+          "copy": 1.4934068436554881,
+          "encoding": 0.056243807128744557
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82210,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.010079713417638117,
+          "copy": 1.467234071056943,
+          "encoding": 0.041174777943096215
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82310,
+        "level": 0,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04739684927559973,
+          "copy": 1.6660587731536642,
+          "encoding": 0.07612709085738863
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82410,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.2352782618786119,
+          "copy": 1.4435538752385038,
+          "encoding": 0.147538539664272
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82510,
+        "level": 1,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.061777193167441534,
+          "copy": 1.5412827490018843,
+          "encoding": 0.03873469030481547
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82610,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.24162999113087294,
+          "copy": 1.4523013263926539,
+          "encoding": 0.2769363694480789
+        },
+        "rejected": false,
+        "split": "latin->italian",
+        "seed": 82710,
+        "level": 2,
+        "source": "italian"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.1539597915264217,
+          "copy": 1.4002214815806966,
+          "encoding": 0.07228353368294871
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81000,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.0767979638448165,
+          "copy": 1.4845498189049817,
+          "encoding": 0.16159024095844723
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81100,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03845402019514859,
+          "copy": 1.422616948788476,
+          "encoding": 0.018692362661764956
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81200,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.017530502575720756,
+          "copy": 1.5032418110816834,
+          "encoding": 0.041838345378749205
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81300,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.0429261220655466,
+          "copy": 1.4696301839678776,
+          "encoding": 0.003689745360768973
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81400,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "assembly",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.13496516018878535,
+          "copy": 1.4569546625794023,
+          "encoding": 0.07705594333316373
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81500,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "copy"
+        ],
+        "distances": {
+          "assembly": 7.478089229208415,
+          "copy": 2.709832360946274,
+          "encoding": 7.669670359979771
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81600,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [],
+        "distances": {
+          "assembly": 9.901104764623271,
+          "copy": 3.955574940207026,
+          "encoding": 9.985443736684877
+        },
+        "rejected": true,
+        "split": "italian->latin",
+        "seed": 81700,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3206210103069665,
+          "copy": 0.7144374724826124,
+          "encoding": 0.30601261616827324
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81800,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "copy",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.4650231215597349,
+          "copy": 0.37901950831702463,
+          "encoding": 0.48567671673678764
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 81900,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09013107266074631,
+          "copy": 1.2307430795975451,
+          "encoding": 0.06503780197008684
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82000,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "copy",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03491770447807463,
+          "copy": 1.3487546767366465,
+          "encoding": 0.07001725468645455
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82100,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.05554755010656794,
+          "copy": 1.5210717184244675,
+          "encoding": 0.03581109061804844
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82200,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.09453760764374429,
+          "copy": 1.3788873828119808,
+          "encoding": 0.028720496625021213
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82300,
+        "level": 0,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.03825904734433325,
+          "copy": 1.345180024783458,
+          "encoding": 0.016292642452278166
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82400,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.051462355343519985,
+          "copy": 1.6537297609592343,
+          "encoding": 0.10643406903063161
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82500,
+        "level": 1,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.032431949235564056,
+          "copy": 1.491743635060981,
+          "encoding": 0.03448407353633522
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82600,
+        "level": 2,
+        "source": "latin"
+      },
+      {
+        "truth": "encoding",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07372925044485915,
+          "copy": 1.6328639678044035,
+          "encoding": 0.05158610696498741
+        },
+        "rejected": false,
+        "split": "italian->latin",
+        "seed": 82700,
+        "level": 2,
+        "source": "latin"
+      }
+    ]
+  },
+  "large_slots": 33970,
+  "representative_family_transfer": {
+    "assembly": {
+      "summary": {
+        "n": 10697,
+        "folios": 98,
+        "stems": 983,
+        "loss_base": 0.8041623655727919,
+        "loss_full": 0.7756955857849838,
+        "accuracy_base": 0.7078620173880528,
+        "accuracy_full": 0.7425446386837431,
+        "brier_base": 0.3675604549243172,
+        "brier_full": 0.34275716251268196,
+        "gain_bits": 0.028466779787808094,
+        "gain_ci_folio": [
+          0.019397443165808752,
+          0.03908504523084513
+        ],
+        "gain_ci_stem": [
+          0.015387900474179499,
+          0.04206986782894328
+        ],
+        "gain_by_fold": {
+          "0": 0.02638897894555507,
+          "1": 0.034054714506493784,
+          "2": 0.05357337282076073,
+          "3": 0.020860208249762823,
+          "4": 0.018760036731446692
+        },
+        "gain_ci_family": [
+          0.013930562376762184,
+          0.044025014539573776
+        ]
+      },
+      "seed": 91000,
+      "generation_audit": {
+        "seed": 91000,
+        "n": 33970,
+        "source_wraps": 0
+      }
+    },
+    "copy": {
+      "summary": {
+        "n": 10944,
+        "folios": 98,
+        "stems": 1396,
+        "loss_base": 1.0937535457473508,
+        "loss_full": 1.0307255622138227,
+        "accuracy_base": 0.6879568713450293,
+        "accuracy_full": 0.721125730994152,
+        "brier_base": 0.4340860138029379,
+        "brier_full": 0.40193470751184296,
+        "gain_bits": 0.06302798353352812,
+        "gain_ci_folio": [
+          0.02991547767777758,
+          0.10190490796876951
+        ],
+        "gain_ci_stem": [
+          0.03547174855700461,
+          0.09510525734785218
+        ],
+        "gain_by_fold": {
+          "0": 0.050840241539476014,
+          "1": 0.13629569089437119,
+          "2": 0.02542483725029124,
+          "3": 0.04668245674612321,
+          "4": 0.04232224636647638
+        },
+        "gain_ci_family": [
+          0.03438939583337992,
+          0.09476131289051035
+        ]
+      },
+      "seed": 91100,
+      "generation_audit": {
+        "seed": 91100,
+        "n": 33970,
+        "source_wraps": 0
+      }
+    },
+    "encoding": {
+      "summary": {
+        "n": 12092,
+        "folios": 98,
+        "stems": 1522,
+        "loss_base": 1.0481068672925864,
+        "loss_full": 1.0374582238832672,
+        "accuracy_base": 0.6036222295732716,
+        "accuracy_full": 0.6358749586503474,
+        "brier_base": 0.48328500535079044,
+        "brier_full": 0.467072574788467,
+        "gain_bits": 0.010648643409319147,
+        "gain_ci_folio": [
+          0.00010806960734447086,
+          0.021110678820332022
+        ],
+        "gain_ci_stem": [
+          -0.010164323040233717,
+          0.0313507056519429
+        ],
+        "gain_by_fold": {
+          "0": 0.0011917617729917172,
+          "1": -0.008076893698286134,
+          "2": 0.024666422286103058,
+          "3": 0.003938319925379435,
+          "4": 0.03377000039949878
+        },
+        "gain_ci_family": [
+          -0.008257461450157814,
+          0.03252299207809073
+        ]
+      },
+      "seed": 91200,
+      "generation_audit": {
+        "seed": 91200,
+        "n": 33970,
+        "source_wraps": 4,
+        "decoded_characters": 50852,
+        "roundtrip": true,
+        "source_start": 1468,
+        "source_end": 52320
+      }
+    }
+  },
+  "limits": [
+    "Specified implementations only; neither rejection nor acceptance establishes meaning.",
+    "Rejection thresholds are empirical simulation distances, not posterior probabilities.",
+    "Recovery uses few parameter levels and two plaintext works; no universal mechanism recovery claim.",
+    "Large simulations reuse observed layout counts but never its text outcomes; no layout prediction credit.",
+    "Only one best-model representative per mechanism in the costly family-transfer diagnostic."
+  ]
+}

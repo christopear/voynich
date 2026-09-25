@@ -1,0 +1,334 @@
+{
+  "alignment_errors": 0,
+  "post_tokens": 33750,
+  "compound_tokens": 985,
+  "compound_pct": 2.9185185185185185,
+  "two_part": 957,
+  "boundary_localization_n": 634,
+  "boundary_localization_accuracy": 0.9968454258675079,
+  "okot_pairs": 32,
+  "okot_same_plain_type_pct": 43.75,
+  "okot_weighted_same_plain_pct": 84.84641638225256,
+  "okot_examples": [
+    {
+      "remainder": "edy",
+      "ok": "okedy",
+      "ot": "otedy",
+      "f_ok": 121,
+      "f_ot": 302,
+      "plain_ok": "c",
+      "plain_ot": "i",
+      "same_plain": false
+    },
+    {
+      "remainder": "aiin",
+      "ok": "okaiin",
+      "ot": "otaiin",
+      "f_ok": 210,
+      "f_ot": 212,
+      "plain_ok": "t",
+      "plain_ot": "t",
+      "same_plain": true
+    },
+    {
+      "remainder": "ain",
+      "ok": "okain",
+      "ot": "otain",
+      "f_ok": 205,
+      "f_ot": 197,
+      "plain_ok": "u",
+      "plain_ot": "u",
+      "same_plain": true
+    },
+    {
+      "remainder": "eedy",
+      "ok": "okeedy",
+      "ot": "oteedy",
+      "f_ok": 177,
+      "f_ot": 189,
+      "plain_ok": "r",
+      "plain_ot": "r",
+      "same_plain": true
+    },
+    {
+      "remainder": "eey",
+      "ok": "okeey",
+      "ot": "oteey",
+      "f_ok": 173,
+      "f_ot": 169,
+      "plain_ok": "s",
+      "plain_ot": "s",
+      "same_plain": true
+    },
+    {
+      "remainder": "ar",
+      "ok": "okar",
+      "ot": "otar",
+      "f_ok": 125,
+      "f_ot": 139,
+      "plain_ok": "m",
+      "plain_ot": "m",
+      "same_plain": true
+    },
+    {
+      "remainder": "al",
+      "ok": "okal",
+      "ot": "otal",
+      "f_ok": 91,
+      "f_ot": 97,
+      "plain_ok": "l",
+      "plain_ot": "l",
+      "same_plain": true
+    },
+    {
+      "remainder": "y",
+      "ok": "oky",
+      "ot": "oty",
+      "f_ok": 75,
+      "f_ot": 68,
+      "plain_ok": "p",
+      "plain_ot": "p",
+      "same_plain": true
+    },
+    {
+      "remainder": "chdy",
+      "ok": "okchdy",
+      "ot": "otchdy",
+      "f_ok": 43,
+      "f_ot": 44,
+      "plain_ok": "b",
+      "plain_ot": "b",
+      "same_plain": true
+    },
+    {
+      "remainder": "ol",
+      "ok": "okol",
+      "ot": "otol",
+      "f_ok": 39,
+      "f_ot": 40,
+      "plain_ok": "q",
+      "plain_ot": "q",
+      "same_plain": true
+    },
+    {
+      "remainder": "chy",
+      "ok": "okchy",
+      "ot": "otchy",
+      "f_ok": 33,
+      "f_ot": 36,
+      "plain_ok": "g",
+      "plain_ot": "g",
+      "same_plain": true
+    },
+    {
+      "remainder": "chey",
+      "ok": "okchey",
+      "ot": "otchey",
+      "f_ok": 32,
+      "f_ot": 27,
+      "plain_ok": "f",
+      "plain_ot": "f",
+      "same_plain": true
+    },
+    {
+      "remainder": "ey",
+      "ok": "okey",
+      "ot": "otey",
+      "f_ok": 27,
+      "f_ot": 31,
+      "plain_ok": "v",
+      "plain_ot": "v",
+      "same_plain": true
+    },
+    {
+      "remainder": "or",
+      "ok": "okor",
+      "ot": "otor",
+      "f_ok": 25,
+      "f_ot": 20,
+      "plain_ok": "x",
+      "plain_ot": "x",
+      "same_plain": true
+    },
+    {
+      "remainder": "chedy",
+      "ok": "okchedy",
+      "ot": "otchedy",
+      "f_ok": 17,
+      "f_ot": 17,
+      "plain_ok": "h",
+      "plain_ot": "h",
+      "same_plain": true
+    },
+    {
+      "remainder": "eeo",
+      "ok": "okeeo",
+      "ot": "oteeo",
+      "f_ok": 8,
+      "f_ot": 15,
+      "plain_ok": "es",
+      "plain_ot": "us",
+      "same_plain": false
+    },
+    {
+      "remainder": "daiin",
+      "ok": "okdaiin",
+      "ot": "otdaiin",
+      "f_ok": 5,
+      "f_ot": 15,
+      "plain_ok": "er",
+      "plain_ot": "ur",
+      "same_plain": false
+    },
+    {
+      "remainder": "d",
+      "ok": "okd",
+      "ot": "otd",
+      "f_ok": 8,
+      "f_ot": 11,
+      "plain_ok": "en",
+      "plain_ot": "un",
+      "same_plain": false
+    },
+    {
+      "remainder": "cheey",
+      "ok": "okcheey",
+      "ot": "otcheey",
+      "f_ok": 7,
+      "f_ot": 11,
+      "plain_ok": "nu",
+      "plain_ot": "ru",
+      "same_plain": false
+    },
+    {
+      "remainder": "eeor",
+      "ok": "okeeor",
+      "ot": "oteeor",
+      "f_ok": 7,
+      "f_ot": 9,
+      "plain_ok": "er",
+      "plain_ot": "ur",
+      "same_plain": false
+    },
+    {
+      "remainder": "edain",
+      "ok": "okedain",
+      "ot": "otedain",
+      "f_ok": 5,
+      "f_ot": 11,
+      "plain_ok": "em",
+      "plain_ot": "um",
+      "same_plain": false
+    },
+    {
+      "remainder": "edaiin",
+      "ok": "okedaiin",
+      "ot": "otedaiin",
+      "f_ok": 8,
+      "f_ot": 8,
+      "plain_ok": "et",
+      "plain_ot": "ut",
+      "same_plain": false
+    },
+    {
+      "remainder": "eod",
+      "ok": "okeod",
+      "ot": "oteod",
+      "f_ok": 6,
+      "f_ot": 9,
+      "plain_ok": "en",
+      "plain_ot": "un",
+      "same_plain": false
+    },
+    {
+      "remainder": "eol",
+      "ok": "okeol",
+      "ot": "oteol",
+      "f_ok": 9,
+      "f_ot": 6,
+      "plain_ok": "ea",
+      "plain_ot": "ua",
+      "same_plain": false
+    },
+    {
+      "remainder": "dam",
+      "ok": "okdam",
+      "ot": "otdam",
+      "f_ok": 8,
+      "f_ot": 6,
+      "plain_ok": "er",
+      "plain_ot": "ur",
+      "same_plain": false
+    },
+    {
+      "remainder": "oiin",
+      "ok": "okoiin",
+      "ot": "otoiin",
+      "f_ok": 5,
+      "f_ot": 9,
+      "plain_ok": "en",
+      "plain_ot": "un",
+      "same_plain": false
+    },
+    {
+      "remainder": "ed",
+      "ok": "oked",
+      "ot": "oted",
+      "f_ok": 5,
+      "f_ot": 9,
+      "plain_ok": "ea",
+      "plain_ot": "ua",
+      "same_plain": false
+    },
+    {
+      "remainder": "chaiin",
+      "ok": "okchaiin",
+      "ot": "otchaiin",
+      "f_ok": 5,
+      "f_ot": 8,
+      "plain_ok": "na",
+      "plain_ot": "ra",
+      "same_plain": false
+    },
+    {
+      "remainder": "eeal",
+      "ok": "okeeal",
+      "ot": "oteeal",
+      "f_ok": 5,
+      "f_ot": 8,
+      "plain_ok": "em",
+      "plain_ot": "um",
+      "same_plain": false
+    },
+    {
+      "remainder": "am",
+      "ok": "okam",
+      "ot": "otam",
+      "f_ok": 5,
+      "f_ot": 7,
+      "plain_ok": "et",
+      "plain_ot": "ut",
+      "same_plain": false
+    },
+    {
+      "remainder": "ees",
+      "ok": "okees",
+      "ot": "otees",
+      "f_ok": 5,
+      "f_ot": 6,
+      "plain_ok": "et",
+      "plain_ot": "ut",
+      "same_plain": false
+    },
+    {
+      "remainder": "eees",
+      "ok": "okeees",
+      "ot": "oteees",
+      "f_ok": 5,
+      "f_ot": 6,
+      "plain_ok": "en",
+      "plain_ot": "un",
+      "same_plain": false
+    }
+  ]
+}

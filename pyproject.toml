@@ -1,0 +1,11 @@
+[project]
+name = "voynich-codex-handoff"
+version = "0.1.0"
+description = "Reproducible structural analysis of the Voynich Manuscript"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "requests>=2.31",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+]

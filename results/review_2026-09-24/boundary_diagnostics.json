@@ -1,0 +1,59 @@
+{
+  "paired": {
+    "stem_True_context_True": 353,
+    "stem_True_context_False": 46,
+    "stem_False_context_True": 89,
+    "stem_False_context_False": 136
+  },
+  "distinct_stems": 86,
+  "distinct_stem_initial_cells": 237,
+  "largest_net_gains": [
+    [
+      "a",
+      9
+    ],
+    [
+      "da",
+      8
+    ],
+    [
+      "ota",
+      7
+    ],
+    [
+      "ko",
+      5
+    ],
+    [
+      "lo",
+      5
+    ],
+    [
+      "qota",
+      4
+    ],
+    [
+      "cha",
+      4
+    ],
+    [
+      "ta",
+      3
+    ],
+    [
+      "po",
+      3
+    ],
+    [
+      "ka",
+      3
+    ]
+  ],
+  "predictor_only_page_exclusion_diagnostic": {
+    "stem_True_context_True": 346,
+    "stem_True_context_False": 47,
+    "stem_False_context_True": 89,
+    "stem_False_context_False": 138
+  },
+  "diagnostic_caveat": "Candidate selection still uses full-corpus frequencies; this is not end-to-end held-out validation."
+}

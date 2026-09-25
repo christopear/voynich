@@ -1,0 +1,66 @@
+# Code handoff
+
+The project uses uv with Python 3.14. Run these commands from the project root:
+
+```bash
+uv sync --locked
+./run_all.sh
+```
+
+To run the boundary experiment against the downloaded transcription:
+
+```bash
+uv run --locked python code/boundary.py data/ZL3b-n.txt
+```
+
+`uv run` uses `.venv` automatically; manual activation is unnecessary.
+`pyproject.toml` declares dependencies and `uv.lock` records resolved versions.
+The existing `requirements.txt` is retained for the original handoff workflow.
+The original scripts use `requests`; the frontier experiments additionally use
+NumPy, SciPy and scikit-learn, all recorded in `uv.lock`.
+`run_all.sh` downloads the source corpora before running the analyses, so it
+requires network access.
+
+The scripts intentionally favour readability and reproducibility over performance.
+They recreate the core experimental logic from the exploratory ChatGPT session,
+not every scratch calculation.
+
+Important: `conservative_normalizer()` destroys information and exists only for
+family/lattice discovery. Do not use its output as the final hidden plaintext
+state.
+
+The new combined generalization/layout experiments preserve the earlier scripts
+and outputs. Their prospective specification is `FRONTIER_PROTOCOL.md`.
+
+```bash
+uv sync --locked
+uv run --locked python code/fetch_frontier_coordinates.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/06_boundary_frontier.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/07_boundary_robustness.py
+uv run --locked python -m unittest discover -s code -p 'test_boundary_frontier.py' -v
+```
+
+`06` writes the primary experiment and individual held-out predictions to
+`results/frontier_2026-09-24/`. `07` adds explicitly exploratory checks without
+changing the primary results. See `FRONTIER_FINDINGS_2026-09-24.md` for findings,
+scope, attribution and limitations. Coordinate input provenance is recorded in
+`data/frontier/README.md`. The coordinate fetch requires network access only when
+files are missing; model fitting and tests use local inputs.
+
+The next stage tests spelling-family/transcription robustness and compares
+specified generative mechanisms. Its protocol is `MECHANISM_PROTOCOL.md` and
+findings are in `MECHANISM_FINDINGS_2026-09-24.md`. Inputs and attribution are in
+`data/mechanisms/README.md`; outputs are separate from the frontier results.
+
+```bash
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/08_robustness_gate.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/09_mechanism_benchmark.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/10_recovery_sensitivity.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 uv run --locked python code/11_mixture_controls.py
+uv run --locked python -m unittest discover -s code -p 'test_*.py' -v
+```
+
+`08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
+post-result sensitivities. `mechanism_models.py` implements all three generators
+and their diagnostics. The encoder is an independently weighted, invertible
+adaptation using published Naibbe tables, not the published card-deck algorithm.

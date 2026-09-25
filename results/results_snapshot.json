@@ -1,0 +1,142 @@
+{
+  "corpus": {
+    "transcription": "ZL3b-n, 13 May 2025",
+    "controlled_subset": "Herbal / Currier A / Hand 1",
+    "controlled_subset_pages": 95,
+    "controlled_subset_surface_tokens": 8052,
+    "controlled_subset_surface_types": 2468
+  },
+  "terminal_system": {
+    "same_stem_m_line_final_rate_approx": 0.685,
+    "same_stem_rl_line_final_rate_approx": 0.079,
+    "within_line_terminal_next_initial_excess_mi_full_bits": 0.0594,
+    "within_line_terminal_next_initial_perm_p_full": 0.0033,
+    "across_line_terminal_next_initial_excess_mi_full_bits": 0.0019,
+    "across_line_terminal_next_initial_perm_p_full": 0.276,
+    "internal_m_with_nlr_sibling_pct": 85.4
+  },
+  "hidden_segmentation": {
+    "rare_long_forms": 3250,
+    "rare_long_decomposable_pct": 51.1,
+    "interior_shuffle_decomposable_pct": 4.7,
+    "split_hit_rate_after_nlrm_pct": 51.8,
+    "split_hit_rate_after_other_pct": 7.8,
+    "terminal_boundary_rate_ratio": 6.62,
+    "terminal_boundary_odds_ratio": 12.66,
+    "decomposable_rare_forms": 1661,
+    "with_exact_spaced_realization": 359,
+    "forward_to_reverse_adjacency_occurrence_ratio": 1.66,
+    "joined_boundary_terminal_prediction_stem_only": 0.639,
+    "joined_boundary_terminal_prediction_stem_plus_next": 0.708
+  },
+  "segmenter": {
+    "ambiguous_missing_space_boundary_accuracy_approx": 0.907,
+    "split_vs_real_token_sensitivity": 0.839,
+    "split_vs_real_token_specificity": 0.916,
+    "split_vs_real_token_balanced_accuracy": 0.877,
+    "accepted_positive_boundary_accuracy": 0.993,
+    "f3r_surface_tokens": 114,
+    "f3r_latent_units": 126,
+    "f3r_split_surface_tokens": 12
+  },
+  "naibbe_positive_control": {
+    "post_tokens": 33750,
+    "true_compound_tokens": 985,
+    "true_compound_pct": 2.9185,
+    "two_part_compounds": 957,
+    "evaluable_two_part_compounds": 646,
+    "boundary_localization_accuracy": 0.9783,
+    "compound_vs_single_balanced_accuracy_approx": 0.827,
+    "accepted_boundary_accuracy_approx": 0.996,
+    "post_cipher_adjacent_excess_mi_bits": 0.0877,
+    "pre_space_deletion_cipher_adjacent_excess_mi_bits": 0.0962,
+    "plaintext_unit_adjacent_excess_mi_bits": 0.6481
+  },
+  "voynich_information_trajectory": {
+    "surface_adjacent_excess_mi_bits": 0.0741,
+    "segmented_adjacent_excess_mi_bits": 0.0885,
+    "normalized_adjacent_excess_mi_bits": 0.1174,
+    "random_type_collapse_mean_excess_mi_bits": 0.0865,
+    "random_type_collapse_95pct_low": 0.0813,
+    "random_type_collapse_95pct_high": 0.0925,
+    "random_edge_pruning_mean_excess_mi_bits": 0.0486
+  },
+  "matched_window_symbol_entropy": {
+    "voynich_surface_H1": 2.219,
+    "voynich_surface_H2": 1.824,
+    "voynich_normalized_H1": 2.090,
+    "voynich_normalized_H2": 1.628,
+    "naibbe_H1": 2.009,
+    "naibbe_H2": 1.675,
+    "latin_H1": 3.165,
+    "latin_H2": 2.408,
+    "italian_H1": 2.931,
+    "italian_H2": 2.259,
+    "middle_high_german_H1": 2.734,
+    "middle_high_german_H2": 1.702
+  },
+  "lattice_size_matched_6000_tokens": {
+    "voynich_normalized_mean_qualifying_pairs": 6.27,
+    "voynich_normalized_mean_max_shared_remainders": 10.1,
+    "naibbe_mean_qualifying_pairs": 6.9,
+    "naibbe_mean_max_shared_remainders": 11.03,
+    "latin_mean_qualifying_pairs": 0.1,
+    "italian_mean_qualifying_pairs": 0.0,
+    "mhg_mean_qualifying_pairs": 0.0
+  },
+  "naibbe_ok_ot_answer_key": {
+    "attested_ok_ot_pairs": 32,
+    "same_plaintext_type_pct": 43.8,
+    "frequency_weighted_same_plaintext_pct": 84.8,
+    "examples": {
+      "okaiin/otaiin": "t",
+      "okain/otain": "u",
+      "okeedy/oteedy": "r",
+      "okeey/oteey": "s",
+      "okar/otar": "m",
+      "okal/otal": "l",
+      "oky/oty": "p",
+      "okchdy/otchdy": "b",
+      "okchy/otchy": "g",
+      "okchey/otchey": "f",
+      "okey/otey": "v",
+      "okor/otor": "x"
+    }
+  },
+  "okot_context_calibration": {
+    "naibbe_true_homophone_right_context_excess_mi_bits": -0.0005,
+    "naibbe_true_homophone_right_context_perm_p": 0.505,
+    "naibbe_different_plain_right_context_excess_mi_bits": 0.0305,
+    "naibbe_different_plain_right_context_perm_p": 0.0033,
+    "voynich_high_support_okot_right_context_excess_mi_bits": 0.038,
+    "voynich_high_support_okot_perm_p": 0.012,
+    "voynich_oko_oto_right_context_excess_mi_bits": 0.145,
+    "voynich_oko_oto_perm_p": 0.001
+  },
+  "naibbe_contextual_homophone_recovery": {
+    "frequent_cipher_types": 178,
+    "eligible_with_homophone": 152,
+    "same_plain_median_cosine": 0.964,
+    "different_plain_median_cosine": 0.921,
+    "auc": 0.748,
+    "nearest_neighbor_true_homophone_rate": 0.329,
+    "top5_contains_true_homophone_rate": 0.474
+  },
+  "currier": {
+    "A_terminal_next_excess_mi_bits": 0.0283,
+    "A_perm_p": 0.0033,
+    "B_terminal_next_excess_mi_bits": 0.0778,
+    "B_perm_p": 0.0033,
+    "A_hand1_pages": 112,
+    "B_hand2_pages": 46,
+    "B_hand3_pages": 28,
+    "B_hand5_pages": 7,
+    "A_hand3_pages": 2
+  },
+  "f3r": {
+    "surface_first_line": ["tsheos", "qopal", "chol", "cthol", "daimg"],
+    "approx_structural_parse": "T·SHEOS  Q·OPA·L  CHO·L  CTHO·L  DAI·M·G",
+    "raw_first_token_unique_pct_across_95_pages": 87.4,
+    "latent_first_token_unique_pct_across_95_pages": 70.5
+  }
+}

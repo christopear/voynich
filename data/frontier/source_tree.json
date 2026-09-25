@@ -1,0 +1,2582 @@
+{
+  "sha": "956a7c4fc39981f4d116fa3f4edfccce6d065571",
+  "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/956a7c4fc39981f4d116fa3f4edfccce6d065571",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f126ade090e6447a27dc366a11c7a16e9500a0",
+      "size": 127,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/82f126ade090e6447a27dc366a11c7a16e9500a0"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d57218b2b9bdac5a7f7f2acc8111d29d1d2b37c4",
+      "size": 1074,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d57218b2b9bdac5a7f7f2acc8111d29d1d2b37c4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29270b7815d046a9bb8d42797ae989d696e317b1",
+      "size": 5167,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/29270b7815d046a9bb8d42797ae989d696e317b1"
+    },
+    {
+      "path": "analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2639e9695776b19b87002322768ec4843270f4a8",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/2639e9695776b19b87002322768ec4843270f4a8"
+    },
+    {
+      "path": "analysis/direct_pixel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d31c7c6d6ec87cec71fc9ab1fd521029263d35c",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/7d31c7c6d6ec87cec71fc9ab1fd521029263d35c"
+    },
+    {
+      "path": "analysis/direct_pixel/analyze_direct_morphometry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "896beed9835348a03127199412a1c19bb61a5398",
+      "size": 2540,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/896beed9835348a03127199412a1c19bb61a5398"
+    },
+    {
+      "path": "analysis/direct_pixel/measure_direct_pixels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e8fd46a0212d31c5b607661159303632b81d47",
+      "size": 4301,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/28e8fd46a0212d31c5b607661159303632b81d47"
+    },
+    {
+      "path": "analysis/reproduce_cipher_calibration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c2f2c637f8bcddc21539bcf0bd4e218b9edb3d",
+      "size": 10191,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/73c2f2c637f8bcddc21539bcf0bd4e218b9edb3d"
+    },
+    {
+      "path": "analysis/reproduce_dialect_linestart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "284327f0f1fef943cae69c323f8d0b5d746049b3",
+      "size": 28228,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/284327f0f1fef943cae69c323f8d0b5d746049b3"
+    },
+    {
+      "path": "analysis/reproduce_direct_pixel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8002e3efc5b56ff27f0f2104c3bf260e9b11a80d",
+      "size": 6923,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8002e3efc5b56ff27f0f2104c3bf260e9b11a80d"
+    },
+    {
+      "path": "analysis/reproduce_edge_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0dea3baee5a5e1b6d6425b9bf083bb0a8e2271b",
+      "size": 24645,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d0dea3baee5a5e1b6d6425b9bf083bb0a8e2271b"
+    },
+    {
+      "path": "analysis/reproduce_headlines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59371d4be35517bd354fc0be6b6f06a60cc7323f",
+      "size": 45050,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/59371d4be35517bd354fc0be6b6f06a60cc7323f"
+    },
+    {
+      "path": "analysis/reproduce_naibbe_control.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3879c271130c89cbb219a6b051bd4f0e4d9d1c03",
+      "size": 36691,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3879c271130c89cbb219a6b051bd4f0e4d9d1c03"
+    },
+    {
+      "path": "analysis/reproduce_scale_transition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf3ebf2018213f2d4ea9905ab05cd92b58095de",
+      "size": 18603,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0cf3ebf2018213f2d4ea9905ab05cd92b58095de"
+    },
+    {
+      "path": "analysis/reproduce_selfcitation_control.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c66a5966be440fc62912c8f5114a6ebdaac06259",
+      "size": 58724,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c66a5966be440fc62912c8f5114a6ebdaac06259"
+    },
+    {
+      "path": "analysis/reproduce_space_sensitivity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8c4e67ae16b0ab56eb9d1d7fe9903eae0489d2",
+      "size": 15784,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ed8c4e67ae16b0ab56eb9d1d7fe9903eae0489d2"
+    },
+    {
+      "path": "analysis/reproduce_unit_inventory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7c781f854c0b28c288482efa363fc03ce152109",
+      "size": 21122,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a7c781f854c0b28c288482efa363fc03ce152109"
+    },
+    {
+      "path": "analysis/reproduce_unit_scale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c4a3e3dd6764199230b96c480d97f36b0d8c30",
+      "size": 17532,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/22c4a3e3dd6764199230b96c480d97f36b0d8c30"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "964d0b7a2ecf99750187ae24412c81abb7b560a8",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/964d0b7a2ecf99750187ae24412c81abb7b560a8"
+    },
+    {
+      "path": "data/controls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70b04521ef7c0aa89a83bd1207b95e6f8851c642",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/70b04521ef7c0aa89a83bd1207b95e6f8851c642"
+    },
+    {
+      "path": "data/controls/naibbe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f635c36f7b8918f14342954322223dbe451526d0",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/f635c36f7b8918f14342954322223dbe451526d0"
+    },
+    {
+      "path": "data/controls/naibbe/LICENSE_greshko.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6570cbe139bc3530b7d5f6f73d9aa8bc796950e5",
+      "size": 1064,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6570cbe139bc3530b7d5f6f73d9aa8bc796950e5"
+    },
+    {
+      "path": "data/controls/naibbe/PROVENANCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cd84368aacddc3e8eff24d92247b2e16f1af13a",
+      "size": 3766,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5cd84368aacddc3e8eff24d92247b2e16f1af13a"
+    },
+    {
+      "path": "data/controls/naibbe/greshko_naibbe_tables.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cd34fb81d80faf3b4d57dbf1719c05ffde25302",
+      "size": 8913,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5cd34fb81d80faf3b4d57dbf1719c05ffde25302"
+    },
+    {
+      "path": "data/controls/naibbe/greshko_nathist_output_ciphertext.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5f1e7509773361ea1acf5b4019efdc83cd17e4",
+      "size": 217307,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/fb5f1e7509773361ea1acf5b4019efdc83cd17e4"
+    },
+    {
+      "path": "data/controls/naibbe/greshko_nathist_pre_encryption_respaced_plaintext.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1cca30c06fb5f99aff480e1e128245529b63a35",
+      "size": 87982,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/e1cca30c06fb5f99aff480e1e128245529b63a35"
+    },
+    {
+      "path": "data/controls/naibbe/naibbe_caesar_ciphertext_lines.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2403d5f6123e0d4048e49bc1bf09e3496853adcb",
+      "size": 504535,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2403d5f6123e0d4048e49bc1bf09e3496853adcb"
+    },
+    {
+      "path": "data/controls/naibbe/naibbe_tables.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62b451069e10856013d87c976d98294b0f9564d",
+      "size": 8213,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d62b451069e10856013d87c976d98294b0f9564d"
+    },
+    {
+      "path": "data/controls/selfcitation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "695c14cdb6908d0d05da38a34824d3e515c51882",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/695c14cdb6908d0d05da38a34824d3e515c51882"
+    },
+    {
+      "path": "data/controls/selfcitation/selfcite_seed1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67408fde1beafd928539b0cf238f37286dd53e50",
+      "size": 244359,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/67408fde1beafd928539b0cf238f37286dd53e50"
+    },
+    {
+      "path": "data/controls/selfcitation/selfcite_seed2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53ea31e25c78a1c3f5e290b10f847c55b92dbcc",
+      "size": 232426,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/e53ea31e25c78a1c3f5e290b10f847c55b92dbcc"
+    },
+    {
+      "path": "data/controls/selfcitation/selfcite_seed3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59d9140cca2ee1b24195613b70422138aea7628b",
+      "size": 241702,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/59d9140cca2ee1b24195613b70422138aea7628b"
+    },
+    {
+      "path": "data/direct_pixel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a658004d7d19f1ae80b5f24b58cbeaf3a59d8a6c",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/a658004d7d19f1ae80b5f24b58cbeaf3a59d8a6c"
+    },
+    {
+      "path": "data/direct_pixel/estimator_robustness.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb57233b2acd6a43a39c1dd13544b93fa72e318",
+      "size": 703,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5bb57233b2acd6a43a39c1dd13544b93fa72e318"
+    },
+    {
+      "path": "data/direct_pixel/results_unblinded.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb0788d339fd3486d6954357598c4c776713cbd5",
+      "size": 44646,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/fb0788d339fd3486d6954357598c4c776713cbd5"
+    },
+    {
+      "path": "data/direct_pixel/threshold_sensitivity.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4c181db12bba8baca4adf4cb60cc7f8a4b20cf",
+      "size": 1340,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8d4c181db12bba8baca4adf4cb60cc7f8a4b20cf"
+    },
+    {
+      "path": "data/v101",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34ce08d7f37f3c65e9388cda42dd6920a5310535",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/34ce08d7f37f3c65e9388cda42dd6920a5310535"
+    },
+    {
+      "path": "data/v101/voyn_101.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c646841de5a704bc72b8afd690020465d24efa",
+      "size": 248567,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a9c646841de5a704bc72b8afd690020465d24efa"
+    },
+    {
+      "path": "data/voynich-units",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94f9c7926ea8c45e16f0e0685e9bd839bf448978",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/94f9c7926ea8c45e16f0e0685e9bd839bf448978"
+    },
+    {
+      "path": "data/voynich-units/ZL3b.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19149908dac479b4428e709324a197a0760b9e76",
+      "size": 410325,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/19149908dac479b4428e709324a197a0760b9e76"
+    },
+    {
+      "path": "data/voynich-units/herbal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5aef5fca4b43d42954fa83f7330d3bf8cef0cb9",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/f5aef5fca4b43d42954fa83f7330d3bf8cef0cb9"
+    },
+    {
+      "path": "data/voynich-units/herbal/culpeper_en.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e4f02c5028d089cb615780b90b0aaaa4d53603",
+      "size": 1532157,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/45e4f02c5028d089cb615780b90b0aaaa4d53603"
+    },
+    {
+      "path": "data/voynich-units/herbal/pliny_the_elder.naturalis_historia.part.4.books_16-20.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b880c391e76ab9a2f359d83a91a02264799999f6",
+      "size": 502458,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b880c391e76ab9a2f359d83a91a02264799999f6"
+    },
+    {
+      "path": "data/voynich-units/herbal/pliny_the_elder.naturalis_historia.part.5.books_21-25.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79b1d8a811f0682690498ed050f27e9660acee5d",
+      "size": 346821,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/79b1d8a811f0682690498ed050f27e9660acee5d"
+    },
+    {
+      "path": "data/voynich-units/herbal/pliny_the_elder.naturalis_historia.part.6.books_26-30.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29b1cde0bed4a71c27a00842a28104d132a4ca27",
+      "size": 347515,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/29b1cde0bed4a71c27a00842a28104d132a4ca27"
+    },
+    {
+      "path": "data/voynich-units/italian",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "559e58f2e0d1e90081311fa335882cf32d6abb34",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/559e58f2e0d1e90081311fa335882cf32d6abb34"
+    },
+    {
+      "path": "data/voynich-units/italian/26166.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7326ec814f475fd43562ecf634a7c896eaaf06",
+      "size": 148219,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2e7326ec814f475fd43562ecf634a7c896eaaf06"
+    },
+    {
+      "path": "data/voynich-units/italian/27608.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a3206c4d2bd80f2154b6c4f4dbcf0360601e9d2",
+      "size": 697312,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3a3206c4d2bd80f2154b6c4f4dbcf0360601e9d2"
+    },
+    {
+      "path": "data/voynich-units/latin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "428e5ffbe12209c50bfb97083160408e57f6979f",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/428e5ffbe12209c50bfb97083160408e57f6979f"
+    },
+    {
+      "path": "data/voynich-units/latin/caesar.de_bello_gallico.part.1.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1365afe1302a00237f461365427f76e98eceff",
+      "size": 64010,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0d1365afe1302a00237f461365427f76e98eceff"
+    },
+    {
+      "path": "data/voynich-units/latin/caesar.de_bello_gallico.part.2.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09eb8a1ecac7afe132d51f870e7fcaf69967d8b6",
+      "size": 33443,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/09eb8a1ecac7afe132d51f870e7fcaf69967d8b6"
+    },
+    {
+      "path": "data/voynich-units/latin/caesar.de_bello_gallico.part.3.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d863b55cebe211bf4caaeb28fd580f0942be9208",
+      "size": 29322,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d863b55cebe211bf4caaeb28fd580f0942be9208"
+    },
+    {
+      "path": "data/voynich-units/latin/celsus.de_medicina.part.1.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99f055bf7e82f8fbaab2a2def9c63b9702bfea0f",
+      "size": 52060,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/99f055bf7e82f8fbaab2a2def9c63b9702bfea0f"
+    },
+    {
+      "path": "data/voynich-units/latin/celsus.de_medicina.part.2.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c0cbf279ec04dd35185defb07dc99ebb58b17dc",
+      "size": 90099,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9c0cbf279ec04dd35185defb07dc99ebb58b17dc"
+    },
+    {
+      "path": "data/voynich-units/latin/celsus.de_medicina.part.3.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdbc39d728b1a97bf6a275579bfc47acee8175fe",
+      "size": 90559,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/fdbc39d728b1a97bf6a275579bfc47acee8175fe"
+    },
+    {
+      "path": "data/voynich-units/latin/celsus.de_medicina.part.4.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79690e8ac3c03d5e624d2e23e8f093ca2c4f00d8",
+      "size": 75283,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/79690e8ac3c03d5e624d2e23e8f093ca2c4f00d8"
+    },
+    {
+      "path": "data/voynich-units/latin/celsus.de_medicina.part.5.tess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c63d30cd53f97067c7ad2bbcd57c1457c8089703",
+      "size": 120382,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c63d30cd53f97067c7ad2bbcd57c1457c8089703"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0811a70ddf7d8cb668b5150e62381c88ce4252b0",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/0811a70ddf7d8cb668b5150e62381c88ce4252b0"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53d08b7570fa8014bb9a7d805b0d94e73a989453",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/53d08b7570fa8014bb9a7d805b0d94e73a989453"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f100r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f05a99422342b6cc10d828becdee6b57e092c9d",
+      "size": 5307,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0f05a99422342b6cc10d828becdee6b57e092c9d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f100v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8606498b1303dc2b798c9be296928d3c8742aaf4",
+      "size": 4583,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8606498b1303dc2b798c9be296928d3c8742aaf4"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f102r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2218eb0dac8164a004edc5618ef576e50c4c4f02",
+      "size": 5507,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2218eb0dac8164a004edc5618ef576e50c4c4f02"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f102r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9be1929ecc0105341d5c5d5477ee3c55e0897b0",
+      "size": 6272,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a9be1929ecc0105341d5c5d5477ee3c55e0897b0"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f102v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c1719b033f0faa4bb9272f0e1ad7e05039a56f",
+      "size": 6206,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/66c1719b033f0faa4bb9272f0e1ad7e05039a56f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f102v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34a8c4a0b03d1131ed9b61a80b15b2485a26e53b",
+      "size": 8867,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/34a8c4a0b03d1131ed9b61a80b15b2485a26e53b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f103r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27016a6298de2aa166098e0116487104f7c6281",
+      "size": 20614,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/e27016a6298de2aa166098e0116487104f7c6281"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f103v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "482e46be08e4c81dbcd8df85f0414d13cdad3129",
+      "size": 17619,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/482e46be08e4c81dbcd8df85f0414d13cdad3129"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f104r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ede376e52d814c9c1b76f55f2f6ec8f25400065c",
+      "size": 19974,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ede376e52d814c9c1b76f55f2f6ec8f25400065c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f104v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0df4116a92d26a2e96cb7781c0607b787c7d10",
+      "size": 20187,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0c0df4116a92d26a2e96cb7781c0607b787c7d10"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f105r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de17886f2e62458a2689cbfa30c71b23116710cc",
+      "size": 17066,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/de17886f2e62458a2689cbfa30c71b23116710cc"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f105v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe22ece58a4dfd0ecf6efea1f84a9a3d388b5c3",
+      "size": 17484,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/bfe22ece58a4dfd0ecf6efea1f84a9a3d388b5c3"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f106r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b655a06d22773634df1ea42458c7757ff3b4fb3",
+      "size": 18890,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2b655a06d22773634df1ea42458c7757ff3b4fb3"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f106v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca2f1a77b49f829f8d0e3580a09c8d749d4408c",
+      "size": 19988,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1ca2f1a77b49f829f8d0e3580a09c8d749d4408c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f107r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc219b419e5a86dca68cbbe29ad4cf02c7f34970",
+      "size": 20829,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/bc219b419e5a86dca68cbbe29ad4cf02c7f34970"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f107v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "893a5fa0af5d5f82d4c8acf375447ce4901ec32d",
+      "size": 18201,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/893a5fa0af5d5f82d4c8acf375447ce4901ec32d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f108r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f51d65c19af6c896159d79baab3870afe78e25c",
+      "size": 19559,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6f51d65c19af6c896159d79baab3870afe78e25c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f108v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc16a9d1bb0d07c0467a339f5f5a0db797dfe636",
+      "size": 22100,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/fc16a9d1bb0d07c0467a339f5f5a0db797dfe636"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f10r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a46a3fcededeb07f54942324c85d3fabfea1b0f",
+      "size": 4235,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6a46a3fcededeb07f54942324c85d3fabfea1b0f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f10v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4520781acae08fd9c6cf10aae04627472bae6683",
+      "size": 2414,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4520781acae08fd9c6cf10aae04627472bae6683"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f111r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60ae718ae335fc3bec84764b684042663e49e099",
+      "size": 24675,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/60ae718ae335fc3bec84764b684042663e49e099"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f111v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f69a00d55aa37068f5bf2fba209fa5506f9ec6e",
+      "size": 22001,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8f69a00d55aa37068f5bf2fba209fa5506f9ec6e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f112r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "184c1b3195d7a23d75e12ae314f8949379d91da1",
+      "size": 17061,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/184c1b3195d7a23d75e12ae314f8949379d91da1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f112v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0eb30dcca2c5b5d0e6c543b1a311d7f25c0900",
+      "size": 17428,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2f0eb30dcca2c5b5d0e6c543b1a311d7f25c0900"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f113r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f07f616c623f23dd360609adf2833b29d85d34d2",
+      "size": 23268,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f07f616c623f23dd360609adf2833b29d85d34d2"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f113v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea271246c83631707cae583b21cb7859c7a84ef",
+      "size": 20527,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7ea271246c83631707cae583b21cb7859c7a84ef"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f114r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dee014eef40ca630a3a9176960b78b8bfd1ca4e",
+      "size": 19862,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7dee014eef40ca630a3a9176960b78b8bfd1ca4e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f114v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d1479cc1da35ae91afec87a577a1dac23712b81",
+      "size": 16839,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5d1479cc1da35ae91afec87a577a1dac23712b81"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f115r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13106c3c15da3d8b86af5d9676d6ca96dbd299ef",
+      "size": 19943,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/13106c3c15da3d8b86af5d9676d6ca96dbd299ef"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f115v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6a55096d258830d44ad967316158a0fb4479101",
+      "size": 18997,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c6a55096d258830d44ad967316158a0fb4479101"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f116r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "decd28f0daf993e52ea8ebcfadcc98e1166f178d",
+      "size": 19944,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/decd28f0daf993e52ea8ebcfadcc98e1166f178d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f11r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21979c05faf8fe465fe2590b2441637ba31f7746",
+      "size": 2547,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/21979c05faf8fe465fe2590b2441637ba31f7746"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f11v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92083ec61e824a56478f7820516a0e03e8f20b93",
+      "size": 2403,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/92083ec61e824a56478f7820516a0e03e8f20b93"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f13r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87594915d3157cff2832f9bf66905205fe0d35d1",
+      "size": 3621,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/87594915d3157cff2832f9bf66905205fe0d35d1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f13v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "626519dd45f2aeaa13c858cc97d604f3d8a014d2",
+      "size": 3263,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/626519dd45f2aeaa13c858cc97d604f3d8a014d2"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f14r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f7894a681527127182daf01142679d880bd07e",
+      "size": 3764,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c8f7894a681527127182daf01142679d880bd07e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f14v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a95aaef5daafbfe6f2ce953e3e603fa5a578b8",
+      "size": 3206,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b7a95aaef5daafbfe6f2ce953e3e603fa5a578b8"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f15r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "450aebe37528c6bf245c3b04c6a8d612a970c5a0",
+      "size": 4341,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/450aebe37528c6bf245c3b04c6a8d612a970c5a0"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f15v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f8b87658b7c221c5db887a30499ccbb9128429a",
+      "size": 3105,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6f8b87658b7c221c5db887a30499ccbb9128429a"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f16r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99633f9fac4889f386e0398f1e9e2096a161a506",
+      "size": 3763,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/99633f9fac4889f386e0398f1e9e2096a161a506"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f16v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda0bf6de9a80c0f181115e9bb2f46b3df8d9fbe",
+      "size": 3470,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/cda0bf6de9a80c0f181115e9bb2f46b3df8d9fbe"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f17r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7721f9bf20a66eecd203a8269d79b6c8687b07eb",
+      "size": 3743,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7721f9bf20a66eecd203a8269d79b6c8687b07eb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f17v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268258739c2889eb4322e2226552fa87537c5baa",
+      "size": 6437,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/268258739c2889eb4322e2226552fa87537c5baa"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f18r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7972fe39054e0713e0244e1c72ddda0a25298b35",
+      "size": 3732,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7972fe39054e0713e0244e1c72ddda0a25298b35"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f18v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bf437b096a02c54d24bd73a4f35e5cb3779a58d",
+      "size": 3473,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5bf437b096a02c54d24bd73a4f35e5cb3779a58d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f19r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "355045f8db4fd4decf45c9db6ff2532bbcbf9e5e",
+      "size": 3099,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/355045f8db4fd4decf45c9db6ff2532bbcbf9e5e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f19v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a17043263e49080ce0d01118dab2f63b90e220a",
+      "size": 3626,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0a17043263e49080ce0d01118dab2f63b90e220a"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f1r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c1496e260c1bce920e8384eb6bbf003d5715f6",
+      "size": 9348,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/03c1496e260c1bce920e8384eb6bbf003d5715f6"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f1v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb0c72c46657ff5c3c88f82043a995b570dda0ac",
+      "size": 3923,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/eb0c72c46657ff5c3c88f82043a995b570dda0ac"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f20r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1045df2d0fcd6d4b6fad0ed266779d30ee3060f1",
+      "size": 4244,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1045df2d0fcd6d4b6fad0ed266779d30ee3060f1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f20v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38d0af4825d9590da802b54377f422bd14f4ef5",
+      "size": 4182,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d38d0af4825d9590da802b54377f422bd14f4ef5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f21r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ac1f8562f2d5406424e50bfc6c78969cb14bec",
+      "size": 4609,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/e2ac1f8562f2d5406424e50bfc6c78969cb14bec"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f21v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a65982f61e4a9f847a9d28ce05917b51ddc6b4c",
+      "size": 2533,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9a65982f61e4a9f847a9d28ce05917b51ddc6b4c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f22r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af6650f367a06cb78a057ba48152e158d6ec5a70",
+      "size": 4716,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/af6650f367a06cb78a057ba48152e158d6ec5a70"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f22v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eebad24a8cf386b07abdc04c15d449660949ebd",
+      "size": 3504,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3eebad24a8cf386b07abdc04c15d449660949ebd"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f23r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17686a37b815a40bd4d79b7273659739d2f099e2",
+      "size": 4756,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/17686a37b815a40bd4d79b7273659739d2f099e2"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f23v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c4165f893e4afaf776313cf5c90f9cadb54223",
+      "size": 4319,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f6c4165f893e4afaf776313cf5c90f9cadb54223"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f24r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11e62ae77a260016e3665aacd696b53ab3eeb658",
+      "size": 4808,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/11e62ae77a260016e3665aacd696b53ab3eeb658"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f24v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8f9e926996710b0db362361cfb7c54edc553721",
+      "size": 4015,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b8f9e926996710b0db362361cfb7c54edc553721"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f25r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4931e093ec1522a1128ca08dbdca47609c7f1d38",
+      "size": 2298,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4931e093ec1522a1128ca08dbdca47609c7f1d38"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f25v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f612f8aa071dc13c327ae8013a6c9e4f9d06d64b",
+      "size": 2500,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f612f8aa071dc13c327ae8013a6c9e4f9d06d64b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f26r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "952be7bedeab8c49d90a75e2e44b9ea68c355dd4",
+      "size": 3991,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/952be7bedeab8c49d90a75e2e44b9ea68c355dd4"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f26v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6a61a0a088ba1fdbe194bdccf1db5f394c3894",
+      "size": 4366,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4e6a61a0a088ba1fdbe194bdccf1db5f394c3894"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f27r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a84dc60ef5f6dc529521bd3eef619df69d47de",
+      "size": 3963,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f2a84dc60ef5f6dc529521bd3eef619df69d47de"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f27v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffbb8c95055aefb631a9c38dd8df04a6d20a7f3c",
+      "size": 2749,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ffbb8c95055aefb631a9c38dd8df04a6d20a7f3c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f28r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a85da19e0b35bd1496ccd215f8093e5ab8a04153",
+      "size": 3268,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a85da19e0b35bd1496ccd215f8093e5ab8a04153"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f28v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f844a9d70d2a82b2120c522af7e9aeb8bc41e084",
+      "size": 3103,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f844a9d70d2a82b2120c522af7e9aeb8bc41e084"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f29r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c12bcfa35aa0efc76f439e6226a00b683a4595",
+      "size": 3259,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/10c12bcfa35aa0efc76f439e6226a00b683a4595"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f29v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "097d2936b3012a515c012b9bad461ac166c68dce",
+      "size": 4457,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/097d2936b3012a515c012b9bad461ac166c68dce"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f2r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047827d45eafb448e6f50f8d1ecdbb3d9c56e3d5",
+      "size": 4630,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/047827d45eafb448e6f50f8d1ecdbb3d9c56e3d5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f2v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c435f4212f347df61a2bc757ce4458f2e82686aa",
+      "size": 2897,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c435f4212f347df61a2bc757ce4458f2e82686aa"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f30r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfa528fd2bd1debc4fe55f429ef841e2d17cb80f",
+      "size": 4538,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/dfa528fd2bd1debc4fe55f429ef841e2d17cb80f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f30v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24831a3b4cbc902f5f722ef25124c52a47797c4b",
+      "size": 2997,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/24831a3b4cbc902f5f722ef25124c52a47797c4b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f31r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86714f32361992bca9810d53fa18e36362d9e3db",
+      "size": 4749,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/86714f32361992bca9810d53fa18e36362d9e3db"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f31v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9824f98868f0488c64bc62279411a415f076384e",
+      "size": 5574,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9824f98868f0488c64bc62279411a415f076384e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f32r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaec631a155e732ba3998b5c7eb3cd390c4533ef",
+      "size": 3671,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/aaec631a155e732ba3998b5c7eb3cd390c4533ef"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f32v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca7a0ed03f7829f879f15de70e2e8468037c9c4",
+      "size": 3813,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/fca7a0ed03f7829f879f15de70e2e8468037c9c4"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f33r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32f6baaae93995642846c317e521e35c3936b71",
+      "size": 3442,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d32f6baaae93995642846c317e521e35c3936b71"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f33v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3451718f07fcbe88d40fbf382487f12cbdf0665",
+      "size": 4908,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c3451718f07fcbe88d40fbf382487f12cbdf0665"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f34r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2c91852c44d57ac552e1e8e851d95e6bce101f",
+      "size": 6998,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1c2c91852c44d57ac552e1e8e851d95e6bce101f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f34v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b8fa63d37da2e4d8eed7c031352d9ee5e46231f",
+      "size": 5575,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4b8fa63d37da2e4d8eed7c031352d9ee5e46231f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f35r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ec66b7c154ff0ed455dd059465aa23e4306b28",
+      "size": 4179,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b8ec66b7c154ff0ed455dd059465aa23e4306b28"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f35v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "823a479422e2d1329521ef99f4e660da75adb359",
+      "size": 4165,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/823a479422e2d1329521ef99f4e660da75adb359"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f36r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b94f14b8b0592ecc65a997105c1d1e2d3d1c652",
+      "size": 3069,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6b94f14b8b0592ecc65a997105c1d1e2d3d1c652"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f36v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "090f17eff41c507ac25195aa9c63690ed7de9800",
+      "size": 3399,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/090f17eff41c507ac25195aa9c63690ed7de9800"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f37r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231e74c175749e7a96a507fdf7812aa3fc1acb47",
+      "size": 3617,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/231e74c175749e7a96a507fdf7812aa3fc1acb47"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f37v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20708966b1571cd7b9c7f92ab26b580001817ac5",
+      "size": 3898,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/20708966b1571cd7b9c7f92ab26b580001817ac5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f38r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb97b1f05cbb63a7e680a558de7fc8dd10d3774",
+      "size": 1994,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7cb97b1f05cbb63a7e680a558de7fc8dd10d3774"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f38v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0fa5044414a9c360fd07ec5a97e19010cfa7696",
+      "size": 2963,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c0fa5044414a9c360fd07ec5a97e19010cfa7696"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f39r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe420c64004a431e8108de83692a8ef7be89342",
+      "size": 7232,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ebe420c64004a431e8108de83692a8ef7be89342"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f39v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b0be5dcde20d948a0c7c738af5a228cb82bcc96",
+      "size": 6490,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8b0be5dcde20d948a0c7c738af5a228cb82bcc96"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f3r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d222337263ec37122843b131d20a03834961d28",
+      "size": 5132,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6d222337263ec37122843b131d20a03834961d28"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f3v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9894673687941dbfcea7c14c5dd22e52ff7bb929",
+      "size": 4020,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9894673687941dbfcea7c14c5dd22e52ff7bb929"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f40r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25316117d6b3de3762b1574fb1072250539ff4e4",
+      "size": 4603,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/25316117d6b3de3762b1574fb1072250539ff4e4"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f40v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908c2596caa0950f30dce95aa469f8e85e71fcf1",
+      "size": 5052,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/908c2596caa0950f30dce95aa469f8e85e71fcf1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f41r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0406251c421c71fce7a7854b7d320f737f31a508",
+      "size": 4580,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0406251c421c71fce7a7854b7d320f737f31a508"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f41v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a05f9afaa853720ceab455436f347ff305e2794",
+      "size": 3492,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6a05f9afaa853720ceab455436f347ff305e2794"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f42r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce6c07d1529d7be59e0bf5aa3568a1d3be7d8cb",
+      "size": 6422,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5ce6c07d1529d7be59e0bf5aa3568a1d3be7d8cb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f42v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a930307b4215099ba6163b5847cd42d0a4a12a",
+      "size": 5419,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d1a930307b4215099ba6163b5847cd42d0a4a12a"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f43r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ec1c8fdbb38bf854fabddafe4839786b0db4a7",
+      "size": 6911,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/69ec1c8fdbb38bf854fabddafe4839786b0db4a7"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f43v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce94f70e813c39ebdced7feb5c647955e037ce14",
+      "size": 7497,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ce94f70e813c39ebdced7feb5c647955e037ce14"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f44r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea4ab901bb81d94cf196c00a9a9c3aa25bd6d4d",
+      "size": 3713,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/fea4ab901bb81d94cf196c00a9a9c3aa25bd6d4d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f44v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9490aaf2e0df68dae0bb6c2ad8a9e9cd2159d38",
+      "size": 4497,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d9490aaf2e0df68dae0bb6c2ad8a9e9cd2159d38"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f45r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800b434f4c3d938443aaa5c0b0527d3f17e23021",
+      "size": 4336,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/800b434f4c3d938443aaa5c0b0527d3f17e23021"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f45v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018ca9718d5125ed78de7fd0568460a401b0900d",
+      "size": 4269,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/018ca9718d5125ed78de7fd0568460a401b0900d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f46r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c81cf6da43be15c248a7412e694f456e2e94b754",
+      "size": 7249,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c81cf6da43be15c248a7412e694f456e2e94b754"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f46v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f26ac2ed758714af77934611b6336245999b31e",
+      "size": 5203,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2f26ac2ed758714af77934611b6336245999b31e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f47r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3473fe5d08883c0046493df4c2406fd01aa6f6fb",
+      "size": 3513,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3473fe5d08883c0046493df4c2406fd01aa6f6fb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f47v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4939f60d7a6c7d330a749a6644ca6ff2c086c45f",
+      "size": 3984,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4939f60d7a6c7d330a749a6644ca6ff2c086c45f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f48r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abdc6ada372a6486c7864d2f52fd84061939b6aa",
+      "size": 4701,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/abdc6ada372a6486c7864d2f52fd84061939b6aa"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f48v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4719faa38a6f49a6d0ea02c0d44795d1183e7e61",
+      "size": 6121,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4719faa38a6f49a6d0ea02c0d44795d1183e7e61"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f49r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f370de9a91efe7dedee95ac64f6b4f41cc4b9b1",
+      "size": 5094,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4f370de9a91efe7dedee95ac64f6b4f41cc4b9b1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f49v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b7aeb4c428ac995ca4e3f20839fd4c8d421d97e",
+      "size": 6814,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3b7aeb4c428ac995ca4e3f20839fd4c8d421d97e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f4r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b07a25911bead7c8816182ddee861c0af364ae9",
+      "size": 2895,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4b07a25911bead7c8816182ddee861c0af364ae9"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f4v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4ebee4eeee78abc5100963790b86e46d04cb39",
+      "size": 4085,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ce4ebee4eeee78abc5100963790b86e46d04cb39"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f50r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3d4f9444403c1d7ff0e919c3a6716613d89f52",
+      "size": 4351,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5a3d4f9444403c1d7ff0e919c3a6716613d89f52"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f50v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "885629fa68f452d29ff5b5e6b9512a6c81898b0b",
+      "size": 4923,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/885629fa68f452d29ff5b5e6b9512a6c81898b0b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f51r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ee29466f8de2e8a64e3aed81425a98f8927da8",
+      "size": 4474,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/36ee29466f8de2e8a64e3aed81425a98f8927da8"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f51v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0beb00223a6b5d9e9f1ebf200d01910bb99ad6eb",
+      "size": 4029,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0beb00223a6b5d9e9f1ebf200d01910bb99ad6eb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f52r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d982c2328dbcbd3a2af9b1e4f45b3b72327ac936",
+      "size": 3344,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d982c2328dbcbd3a2af9b1e4f45b3b72327ac936"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f52v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff65c0525275207ab45c36a6188f96db940e19f",
+      "size": 3812,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/eff65c0525275207ab45c36a6188f96db940e19f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f53r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5d2e53c020de536cd7ed0bec88ad295d34c51c",
+      "size": 2815,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ec5d2e53c020de536cd7ed0bec88ad295d34c51c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f53v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af8c3bd9fcf8c9280dbca89858c9de5817c44d49",
+      "size": 3606,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/af8c3bd9fcf8c9280dbca89858c9de5817c44d49"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f54r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a46600e399ada69646a7f3c973b23b29b476997",
+      "size": 4739,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7a46600e399ada69646a7f3c973b23b29b476997"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f54v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d10c0e4344d40d307bee74fd2f00f11e8930a3f7",
+      "size": 4358,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d10c0e4344d40d307bee74fd2f00f11e8930a3f7"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f55r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dff401cc27724cdfca1677401f8e54f2bf847bb",
+      "size": 5648,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9dff401cc27724cdfca1677401f8e54f2bf847bb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f55v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f1af8680b3f06a6527bb74ca10da708e54bebc",
+      "size": 4700,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/19f1af8680b3f06a6527bb74ca10da708e54bebc"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f56r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb1e454f5741ffcbf2b86f080a9d1b214a120e5",
+      "size": 4560,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0fb1e454f5741ffcbf2b86f080a9d1b214a120e5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f56v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e8bb5149f2020ba33ab7ee5f84570c47defdef",
+      "size": 4065,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/e8e8bb5149f2020ba33ab7ee5f84570c47defdef"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f57r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "378eee35b3754726d8a3022bb1b5d314acd14c4b",
+      "size": 4295,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/378eee35b3754726d8a3022bb1b5d314acd14c4b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f57v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "846fbb15687679ee2c88b22eaafbfb6d1af9d7fc",
+      "size": 5953,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/846fbb15687679ee2c88b22eaafbfb6d1af9d7fc"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f58r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e705ae3dd8a04c56e6bf67b9c2c78bce3b7f441",
+      "size": 16697,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7e705ae3dd8a04c56e6bf67b9c2c78bce3b7f441"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f58v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8d7aea8633204d07b9936382e96cb0bdc6ed03",
+      "size": 15833,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5b8d7aea8633204d07b9936382e96cb0bdc6ed03"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f5r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901ba92d6a36348a087ec58a4fff12dfedb596fd",
+      "size": 2659,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/901ba92d6a36348a087ec58a4fff12dfedb596fd"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f5v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "848f837e3dc839886b1b9fc5546256c9c370b83f",
+      "size": 2090,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/848f837e3dc839886b1b9fc5546256c9c370b83f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f65r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5400839cc38cc95c48a328f6aab00eb147e15e8d",
+      "size": 167,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5400839cc38cc95c48a328f6aab00eb147e15e8d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f65v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9df496b7fdb14e596bc57fcb320e36cc35938d6",
+      "size": 2342,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b9df496b7fdb14e596bc57fcb320e36cc35938d6"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f66r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf5c5b161eb1c14853cb781decdd783299c468c9",
+      "size": 15454,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/bf5c5b161eb1c14853cb781decdd783299c468c9"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f66v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e403b1be9105a952f5ddb9532f101fc8d016dd",
+      "size": 5293,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c5e403b1be9105a952f5ddb9532f101fc8d016dd"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f67r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7675722a4ba9dcc9fd716f3efdcc1657ba9ec43",
+      "size": 7482,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f7675722a4ba9dcc9fd716f3efdcc1657ba9ec43"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f67r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6063dc3861b7513ff22ebc1f7a1d71f2c5f24014",
+      "size": 8445,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6063dc3861b7513ff22ebc1f7a1d71f2c5f24014"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f67v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb702ed0cf41cda6770e2ed9ab8fe4d7e495adbd",
+      "size": 3651,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/eb702ed0cf41cda6770e2ed9ab8fe4d7e495adbd"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f67v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d79c5fdfa951bb29e2bf1172aa3b31a919c1ae5",
+      "size": 2936,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0d79c5fdfa951bb29e2bf1172aa3b31a919c1ae5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f68r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c4230fdefc8c566e9bdb3626fc6009c70a7533",
+      "size": 3407,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/12c4230fdefc8c566e9bdb3626fc6009c70a7533"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f68r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2426b31d62759d3d0ec63d74e5a2b83d0040a5fa",
+      "size": 4067,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2426b31d62759d3d0ec63d74e5a2b83d0040a5fa"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f68r3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49760b90d65a7e8904819dd3dc71ac662db601fe",
+      "size": 5103,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/49760b90d65a7e8904819dd3dc71ac662db601fe"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f68v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c39fbcd04387845210552366f9ec8010a2cf6b0",
+      "size": 4576,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7c39fbcd04387845210552366f9ec8010a2cf6b0"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f68v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b14346d1f4c3178d3a14f6a99cf53a7fc601d490",
+      "size": 5209,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b14346d1f4c3178d3a14f6a99cf53a7fc601d490"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f68v3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "228e616ff7369ace2e77a9cb6eb0176fea77361d",
+      "size": 7740,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/228e616ff7369ace2e77a9cb6eb0176fea77361d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f69r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b396e931c3a25b181d58a8b88b19738bc3af9207",
+      "size": 7578,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b396e931c3a25b181d58a8b88b19738bc3af9207"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f69v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f1c4ab1947e8fdd398817e957c4ef7d4b30913d",
+      "size": 6526,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3f1c4ab1947e8fdd398817e957c4ef7d4b30913d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f6r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1327d7d68a9af146780d54ac1737399fecae7b5b",
+      "size": 3947,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1327d7d68a9af146780d54ac1737399fecae7b5b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f6v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51f961a337e5574f3a663c41785a763476df9e1",
+      "size": 5152,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b51f961a337e5574f3a663c41785a763476df9e1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f70r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2200b28e61e004b402c8bc890e8771d51c3dd8eb",
+      "size": 5435,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2200b28e61e004b402c8bc890e8771d51c3dd8eb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f70r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "605883cd9237e76b14305677901b7fc94b777336",
+      "size": 10725,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/605883cd9237e76b14305677901b7fc94b777336"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f70v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e366b057c8ba011e1b9002e7fe76d2e07f9bfa5",
+      "size": 4324,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9e366b057c8ba011e1b9002e7fe76d2e07f9bfa5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f70v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd1e5df1837a9422fcdc95cac9d1ddfa6b69361b",
+      "size": 6690,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/bd1e5df1837a9422fcdc95cac9d1ddfa6b69361b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f71r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5bc620fd7e45f7911f40f6a80ccb8b5b2430c0b",
+      "size": 4184,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b5bc620fd7e45f7911f40f6a80ccb8b5b2430c0b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f71v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a0b3487f3be62bd2991298b0fae2662dc1610a3",
+      "size": 4865,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1a0b3487f3be62bd2991298b0fae2662dc1610a3"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f72r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb160bafad60a1d1007046cd3702f357112c7361",
+      "size": 5123,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/cb160bafad60a1d1007046cd3702f357112c7361"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f72r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cf0033ea4da00785f8e82d8095dc853100a071",
+      "size": 5320,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/89cf0033ea4da00785f8e82d8095dc853100a071"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f72r3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4976f3805ae57748e1487e596cd02e141d5bb1ac",
+      "size": 7922,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4976f3805ae57748e1487e596cd02e141d5bb1ac"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f72v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0aa830c2c6932274df10ee6a2ba23fa7b965b85",
+      "size": 5124,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d0aa830c2c6932274df10ee6a2ba23fa7b965b85"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f72v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472ee7b7704dcbf2320252736b6b19b9a662a1f6",
+      "size": 5615,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/472ee7b7704dcbf2320252736b6b19b9a662a1f6"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f72v3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "365ee08d45acd63a016481bfcf2409cca59cf2f4",
+      "size": 5974,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/365ee08d45acd63a016481bfcf2409cca59cf2f4"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f73r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a267c2b9da8bcd984fbcbbb88712352614839f65",
+      "size": 4699,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a267c2b9da8bcd984fbcbbb88712352614839f65"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f73v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e1001e9f939c370b2b04a63d73f403fa56f7e28",
+      "size": 4871,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3e1001e9f939c370b2b04a63d73f403fa56f7e28"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f75r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c8cc4de6e153c777eaad947780f5de7ba662d87",
+      "size": 15216,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6c8cc4de6e153c777eaad947780f5de7ba662d87"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f75v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa029538265a6e9fe0b93506a5a9f4ef327af83",
+      "size": 13826,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9aa029538265a6e9fe0b93506a5a9f4ef327af83"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f76r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ccf5d4a86f52e35d7ce51d6ae3d96102334b7f0",
+      "size": 20352,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4ccf5d4a86f52e35d7ce51d6ae3d96102334b7f0"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f76v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76598cb768c0a0f3f2af0bd96b64424134f1c861",
+      "size": 15890,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/76598cb768c0a0f3f2af0bd96b64424134f1c861"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f77r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f92645d5f0026f0c01f9aa2e25189c27a3bffa54",
+      "size": 12464,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f92645d5f0026f0c01f9aa2e25189c27a3bffa54"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f77v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de658b8157e525820105b845bda4b34073cf71a3",
+      "size": 12711,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/de658b8157e525820105b845bda4b34073cf71a3"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f78r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da90641555a5b51bfb27614eaa6df2765f0fa0a",
+      "size": 11752,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6da90641555a5b51bfb27614eaa6df2765f0fa0a"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f78v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11676cb318a61bde7febc11109432963cfd28834",
+      "size": 11507,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/11676cb318a61bde7febc11109432963cfd28834"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f79r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e5a3bf46f390c3fe8045eb3a578fba66dde7d10",
+      "size": 15359,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1e5a3bf46f390c3fe8045eb3a578fba66dde7d10"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f79v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4fa1db042f40523718c772abfd76556c3af1da7",
+      "size": 14285,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f4fa1db042f40523718c772abfd76556c3af1da7"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f7r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a6c3589c41719f41db1b8860746df412c3a1b7",
+      "size": 3123,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c2a6c3589c41719f41db1b8860746df412c3a1b7"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f7v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5da8aa3827c8328983d94bc05984fe708fc749c2",
+      "size": 3393,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5da8aa3827c8328983d94bc05984fe708fc749c2"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f80r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2c13730784a190f1835764f6c1c481950febe3",
+      "size": 17081,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ee2c13730784a190f1835764f6c1c481950febe3"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f80v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36b57e60f77448c069ad1fb78559b6fb2f765f41",
+      "size": 14643,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/36b57e60f77448c069ad1fb78559b6fb2f765f41"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f81r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2531753e5b42a3e3950d5d7cdc065418e39427eb",
+      "size": 8752,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2531753e5b42a3e3950d5d7cdc065418e39427eb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f81v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "291553c63c58d2f3caced04abdb681c6357a51a9",
+      "size": 10747,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/291553c63c58d2f3caced04abdb681c6357a51a9"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f82r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "478a7cf0eefd714a976f22a6850c0cb6bf455369",
+      "size": 11971,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/478a7cf0eefd714a976f22a6850c0cb6bf455369"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f82v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7be8086d494e8be894a00a0c1df7c06e98bc821d",
+      "size": 12688,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/7be8086d494e8be894a00a0c1df7c06e98bc821d"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f83r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733c55f564ace597fdfe588bc68865b1d88b76ed",
+      "size": 13746,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/733c55f564ace597fdfe588bc68865b1d88b76ed"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f83v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "836ad03fe97a2d4c6e9254b8955acced430057c0",
+      "size": 10377,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/836ad03fe97a2d4c6e9254b8955acced430057c0"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f84r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0da63b2b2011fa034b8bab87d1b7bb4bd47d0ce",
+      "size": 14160,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c0da63b2b2011fa034b8bab87d1b7bb4bd47d0ce"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f84v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "816dd9ea69b63a6835030d2ed66af07f8670fd59",
+      "size": 12411,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/816dd9ea69b63a6835030d2ed66af07f8670fd59"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f85r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a8f54a6781634cf245b9b6835aba0d53b1bdd5",
+      "size": 15154,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/72a8f54a6781634cf245b9b6835aba0d53b1bdd5"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f85r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98062f0d4511cf312fc18f877eea449cd9a8d61c",
+      "size": 7149,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/98062f0d4511cf312fc18f877eea449cd9a8d61c"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f86v3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a860545ddebb7a15e63701302f09bc3ed7b7ec44",
+      "size": 12702,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a860545ddebb7a15e63701302f09bc3ed7b7ec44"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f86v4.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4d432751eabdd04d13a065b70b191c0a560051",
+      "size": 8664,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ed4d432751eabdd04d13a065b70b191c0a560051"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f86v5.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60fde61fb50d809f979a2aa476cf252854035c6f",
+      "size": 15698,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/60fde61fb50d809f979a2aa476cf252854035c6f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f86v6.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f965c535ec619be19b5b8c32d40f7e4a13ba88a1",
+      "size": 19694,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/f965c535ec619be19b5b8c32d40f7e4a13ba88a1"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f87r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c2234772696bab5558f9c3bbcbbf27b840ac70",
+      "size": 4855,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/85c2234772696bab5558f9c3bbcbbf27b840ac70"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f87v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "001399133a205adf7b1a1eadfc041af8ac87c9f8",
+      "size": 4537,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/001399133a205adf7b1a1eadfc041af8ac87c9f8"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f88r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f00bd4bf0d008fbae4e94dd45107532e5a503c7",
+      "size": 6906,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8f00bd4bf0d008fbae4e94dd45107532e5a503c7"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f88v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2488a573178f9dd6e4856532b0360e6bb0f06b33",
+      "size": 6994,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2488a573178f9dd6e4856532b0360e6bb0f06b33"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f89r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d584a1e109eefa649eb6a3f104ec91f391ff6ede",
+      "size": 6595,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d584a1e109eefa649eb6a3f104ec91f391ff6ede"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f89r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc2e11c20e957f6a39634f156b76e6cbab4df64",
+      "size": 10329,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/ecc2e11c20e957f6a39634f156b76e6cbab4df64"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f89v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd106694eb9b2e801242a3aad622ad44a19845f",
+      "size": 7648,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/bcd106694eb9b2e801242a3aad622ad44a19845f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f89v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ed802841b7a06b4440c8dc205f550d4e14e7cc",
+      "size": 8194,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/70ed802841b7a06b4440c8dc205f550d4e14e7cc"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f8r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3cf0c8c913eedeaa1f7c8dfa67d69135c564ca3",
+      "size": 6638,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c3cf0c8c913eedeaa1f7c8dfa67d69135c564ca3"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f8v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41b7bac500c61a756ff7c582f6015cb4898fa3d9",
+      "size": 5278,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/41b7bac500c61a756ff7c582f6015cb4898fa3d9"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f90r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d45cf86d95b46852fc0fd1d455e707614b99c03",
+      "size": 3646,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9d45cf86d95b46852fc0fd1d455e707614b99c03"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f90r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "991461bceec763e57dbcf39b5e00d80d955f248e",
+      "size": 2325,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/991461bceec763e57dbcf39b5e00d80d955f248e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f90v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "081deb11d0440535487377f7081458a0f6856110",
+      "size": 4755,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/081deb11d0440535487377f7081458a0f6856110"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f90v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f256480db153c82a7f34da0e4d9bacefe58571",
+      "size": 3531,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/27f256480db153c82a7f34da0e4d9bacefe58571"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f93r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b8b724823a14db13c89ecdff5fcb0cc8e3ebfb",
+      "size": 6821,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/24b8b724823a14db13c89ecdff5fcb0cc8e3ebfb"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f93v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4985e0bc8465b390e6c11e60d2fa1b600b61ddc9",
+      "size": 4283,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4985e0bc8465b390e6c11e60d2fa1b600b61ddc9"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f94r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84521b40c8d0ce0cef13b2911ec065d2c2b4342e",
+      "size": 4330,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/84521b40c8d0ce0cef13b2911ec065d2c2b4342e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f94v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e6405a2b8895ab704efb57e5abba7edc1ee367f",
+      "size": 5096,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/6e6405a2b8895ab704efb57e5abba7edc1ee367f"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f95r1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7edab4060117ce17d203a315454678c19ff0f98",
+      "size": 4849,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c7edab4060117ce17d203a315454678c19ff0f98"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f95r2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "352eed762792cc39420ad4371616a7c00d874b9e",
+      "size": 3878,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/352eed762792cc39420ad4371616a7c00d874b9e"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f95v1.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8875daa3945da11f62bb6fa9d03605c050b3fafa",
+      "size": 5896,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8875daa3945da11f62bb6fa9d03605c050b3fafa"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f95v2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e748bfa3a9661399293b8a944f0357cd2aa82eed",
+      "size": 3222,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/e748bfa3a9661399293b8a944f0357cd2aa82eed"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f96r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c612e76a5ff9cbda5e464526e06ca88423ceecf",
+      "size": 4453,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8c612e76a5ff9cbda5e464526e06ca88423ceecf"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f96v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d24f0229c35b7a02b2254ec32157aaacf1a8f8",
+      "size": 3040,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b6d24f0229c35b7a02b2254ec32157aaacf1a8f8"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f99r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc081421ed2060fe186367781ce4909b2c5d91b",
+      "size": 9004,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2bc081421ed2060fe186367781ce4909b2c5d91b"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f99v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da8e2ec93c208efe6f0a9d34480a8f2cea20d34",
+      "size": 8376,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3da8e2ec93c208efe6f0a9d34480a8f2cea20d34"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f9r.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4f8ed38e907c9b9b263e244d878d46de71f1df",
+      "size": 4129,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/0f4f8ed38e907c9b9b263e244d878d46de71f1df"
+    },
+    {
+      "path": "data/voynich-units/morphometry_voynichese/voynichese_boxes/f9v.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b99d21a6da07c09de2fba4224a547b882b6d0bef",
+      "size": 3884,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/b99d21a6da07c09de2fba4224a547b882b6d0bef"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ade3307a5ec7ffd731076d1727fa9453c774400",
+      "size": 271,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3ade3307a5ec7ffd731076d1727fa9453c774400"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57d9efe3a232b4b4bb35ad4cff7610d2344332fa",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/57d9efe3a232b4b4bb35ad4cff7610d2344332fa"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd3d5a10f0832a3361f017bfd63993e2ecbb83a7",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/bd3d5a10f0832a3361f017bfd63993e2ecbb83a7"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack/plant_crib_attack.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a8720d482db2f1b7ac8ab8ac019cd0d8651d0cbc",
+      "size": 11294,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a8720d482db2f1b7ac8ab8ac019cd0d8651d0cbc"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "077e9e9bd6ffae01d5f71e49484566bb949a4369",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/077e9e9bd6ffae01d5f71e49484566bb949a4369"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/REPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693ede94a9aca51c6ab476d54f1b566820c6c0be",
+      "size": 3230,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/693ede94a9aca51c6ab476d54f1b566820c6c0be"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cbb017332c79ba08d01c677f4dca2d14bc1c322",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/2cbb017332c79ba08d01c677f4dca2d14bc1c322"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/output/syllabic_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "169990b02424c4693b6716123eb7662b929eb0e8",
+      "size": 2314,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/169990b02424c4693b6716123eb7662b929eb0e8"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/syllabic_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb83de826db776038b9f368af3a2c13368b9c195",
+      "size": 6754,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/eb83de826db776038b9f368af3a2c13368b9c195"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/zh_corpora",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2c3907f42e16b9b1a81d3c875a81a90ec50336c",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/a2c3907f42e16b9b1a81d3c875a81a90ec50336c"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/zh_corpora/zh_bencao.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a5089c4a8d5a7e2538fb5e9f08e57b1c0032ce",
+      "size": 410285,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/78a5089c4a8d5a7e2538fb5e9f08e57b1c0032ce"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v10/zh_corpora/zh_sanguo.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76bc500488621eaf67f16828e823c9ac72cb4a90",
+      "size": 1863656,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/76bc500488621eaf67f16828e823c9ac72cb4a90"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3631600a6b6e9399224d3432b4a3399a3a5ec0fb",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/3631600a6b6e9399224d3432b4a3399a3a5ec0fb"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/e3_positional.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e845252b8c5cbd53a2105564ec0e3a2e9adf82",
+      "size": 3275,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/93e845252b8c5cbd53a2105564ec0e3a2e9adf82"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/e4_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9845a01ef61b4127c6c334dfd030f407b8124f97",
+      "size": 4139,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/9845a01ef61b4127c6c334dfd030f407b8124f97"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/latin_controls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a987e924abb5a7cb3f67dd9fdcedec66bb2e1dae",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/a987e924abb5a7cb3f67dd9fdcedec66bb2e1dae"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/latin_controls/caesar_la.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9969fe76091c3fbf2200babcd3aa64f0979f6dd",
+      "size": 169899,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d9969fe76091c3fbf2200babcd3aa64f0979f6dd"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/latin_controls/caesar_la2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8e07bf31575c4d08f6cfeeefb43f4ea0844126",
+      "size": 255543,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2b8e07bf31575c4d08f6cfeeefb43f4ea0844126"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/latin_controls/species1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cffa66cc23ae3e973aa6d4117e3066aa4b1ef2bc",
+      "size": 228908,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/cffa66cc23ae3e973aa6d4117e3066aa4b1ef2bc"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/latin_controls/species2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf5b08d8d83a7c15b82ffd5ae5d1ddc7cb2448c",
+      "size": 427414,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5cf5b08d8d83a7c15b82ffd5ae5d1ddc7cb2448c"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v5/unit_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3787f4fbe1b667b130d5560729105f40016eeeed",
+      "size": 13165,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3787f4fbe1b667b130d5560729105f40016eeeed"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a428f1736a9eb557cbe3b548c65631aab9be710d",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/a428f1736a9eb557cbe3b548c65631aab9be710d"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/attack_lib.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8683c3395b9bf729bc252ca0c9253f3ebffe2ef7",
+      "size": 11769,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/8683c3395b9bf729bc252ca0c9253f3ebffe2ef7"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/attack_voynich.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "697ff05becd65d827a2082769661d8764cfa7729",
+      "size": 4220,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/697ff05becd65d827a2082769661d8764cfa7729"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e208315690b7892004d730179b121b555d07e14e",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/e208315690b7892004d730179b121b555d07e14e"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/caesar_la.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9969fe76091c3fbf2200babcd3aa64f0979f6dd",
+      "size": 169899,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/d9969fe76091c3fbf2200babcd3aa64f0979f6dd"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/caesar_la2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8e07bf31575c4d08f6cfeeefb43f4ea0844126",
+      "size": 255543,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2b8e07bf31575c4d08f6cfeeefb43f4ea0844126"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/lm_english.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf88befa411efcf731bc94dc3eaf965c27c6577",
+      "size": 964554,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/cbf88befa411efcf731bc94dc3eaf965c27c6577"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/lm_french.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5baa3ad5e07ae10bb3825ae1e7537c722a3a3d1b",
+      "size": 942632,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/5baa3ad5e07ae10bb3825ae1e7537c722a3a3d1b"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/lm_german.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025ae04956803c306b2399d2afe00f19e124ed93",
+      "size": 581357,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/025ae04956803c306b2399d2afe00f19e124ed93"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/lm_hebrew.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d96e1558671e83e483e55fe9746662763e3e8c4",
+      "size": 287184,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/2d96e1558671e83e483e55fe9746662763e3e8c4"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/lm_italian.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72bdf24ed0d3cf220dc2b89b76ba50601f043c1",
+      "size": 1472526,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c72bdf24ed0d3cf220dc2b89b76ba50601f043c1"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a8cfaaf6e7a023364f8599763b97069ca967a85",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/9a8cfaaf6e7a023364f8599763b97069ca967a85"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output/attack_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a66316c336856b91ff70a756def02166aa767ea5",
+      "size": 6699,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a66316c336856b91ff70a756def02166aa767ea5"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output/differential_log.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bd434732fa93e49a4c600692e0e370658436680",
+      "size": 265,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3bd434732fa93e49a4c600692e0e370658436680"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output/differentials.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6bab96c021dc8f18a437153d22634d8e6e05bf",
+      "size": 33207,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/4e6bab96c021dc8f18a437153d22634d8e6e05bf"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output/ngram_ctl_log.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c442905665f8d5609d64949d832b9535b1f6c765",
+      "size": 1408,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c442905665f8d5609d64949d832b9535b1f6c765"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output/validation_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ece3540dbeb4d936bc161d7cc20ceb29c8d9a7a",
+      "size": 2762,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/3ece3540dbeb4d936bc161d7cc20ceb29c8d9a7a"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/output/validation_results_archived_composite.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c744f09c8b133f2e15ad878890a81e3b77a73cdd",
+      "size": 1797,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/c744f09c8b133f2e15ad878890a81e3b77a73cdd"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/run_differentials.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1232251434c2d12cf5541d4297d1e9b29f44fad",
+      "size": 8601,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/a1232251434c2d12cf5541d4297d1e9b29f44fad"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/decipherment_attack_v6/validate_synthetics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a49451fe7f0e7b852d5bc04ba2305a05ac975c1",
+      "size": 6978,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/1a49451fe7f0e7b852d5bc04ba2305a05ac975c1"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/voynich_calibration_sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "add868bd4b5eefd0e31644df8246ffc2a2e71cba",
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/trees/add868bd4b5eefd0e31644df8246ffc2a2e71cba"
+    },
+    {
+      "path": "voynich_decipherment_repro_bundle/voynich_calibration_sources/ZL3b.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19149908dac479b4428e709324a197a0760b9e76",
+      "size": 410325,
+      "url": "https://api.github.com/repos/lrozanova/voynich-units/git/blobs/19149908dac479b4428e709324a197a0760b9e76"
+    }
+  ],
+  "truncated": false
+}

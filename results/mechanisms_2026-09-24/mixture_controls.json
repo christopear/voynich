@@ -1,0 +1,619 @@
+{
+  "status": "Exploratory hybrid challenge chosen after primary recovery. These mixtures are outside the three pure labels, not outside all conceivable mechanisms.",
+  "n": 12,
+  "centroid_rejected": 0,
+  "forest_score_at_least_08": 5,
+  "controls": [
+    {
+      "length_mean": 4.68094239792353,
+      "length_sd": 1.5726489463234088,
+      "ttr": 0.31626235399820307,
+      "hapax": 0.6423611111111112,
+      "internal_h": 2.1118659487808302,
+      "edge_mi": 0.05216990938203132,
+      "edge_short_minus_long": 0.005305564237808896,
+      "edge_line_minus_ordinary": 0.01046035742176945,
+      "tokens": 10017,
+      "short_n": 885,
+      "long_n": 2671,
+      "line_n": 364,
+      "repeat_1": -0.0011030188542826612,
+      "edit_1": -0.025166635664682524,
+      "lag_n_1": 9739,
+      "repeat_2": -0.0017702392724810061,
+      "edit_2": 0.00921928548881673,
+      "lag_n_2": 9470,
+      "repeat_4": -0.0005475805778904425,
+      "edit_4": 0.02346307663690478,
+      "lag_n_4": 8958,
+      "repeat_8": 0.0001896854774589223,
+      "edit_8": 0.0008192978896104097,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0010740812498220996,
+      "edit_16": -0.0031005507079726324,
+      "lag_n_16": 6511,
+      "block": 8,
+      "seed": 101000,
+      "assembly_fraction": 0.497907949790795,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.06371959732997073,
+          "copy": 1.3677902434405163,
+          "encoding": 0.03644316460411507
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.8479920634920636
+      }
+    },
+    {
+      "length_mean": 4.682939003693721,
+      "length_sd": 1.5613318802434912,
+      "ttr": 0.3231506439053609,
+      "hapax": 0.6617238183503243,
+      "internal_h": 2.1118902920982117,
+      "edge_mi": 0.049798251963789605,
+      "edge_short_minus_long": -0.0028619522498187847,
+      "edge_line_minus_ordinary": 0.01348482623328326,
+      "tokens": 10017,
+      "short_n": 895,
+      "long_n": 2695,
+      "line_n": 340,
+      "repeat_1": -0.0011362687006909258,
+      "edit_1": -0.006052362351190499,
+      "lag_n_1": 9739,
+      "repeat_2": -0.00042813728070311866,
+      "edit_2": -0.008100043402777757,
+      "lag_n_2": 9470,
+      "repeat_4": -0.0004600084103705356,
+      "edit_4": 0.009283825983044725,
+      "lag_n_4": 8958,
+      "repeat_8": 0.0005539687620280143,
+      "edit_8": -0.016051277281746046,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0004828416191990434,
+      "edit_16": 0.0034863140331890252,
+      "lag_n_16": 6511,
+      "block": 8,
+      "seed": 101001,
+      "assembly_fraction": 0.48623139048360414,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07674333582882466,
+          "copy": 1.426080982060341,
+          "encoding": 0.0285136506458384
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.8227698412698411
+      }
+    },
+    {
+      "length_mean": 4.668862933013877,
+      "length_sd": 1.583476951567422,
+      "ttr": 0.31486472995906956,
+      "hapax": 0.6528218135700697,
+      "internal_h": 2.1106881895820924,
+      "edge_mi": 0.05618581341991389,
+      "edge_short_minus_long": -0.0011447400539004171,
+      "edge_line_minus_ordinary": 0.008307776820018868,
+      "tokens": 10017,
+      "short_n": 886,
+      "long_n": 2643,
+      "line_n": 349,
+      "repeat_1": -0.0010151711757908598,
+      "edit_1": -0.014710018713924966,
+      "lag_n_1": 9739,
+      "repeat_2": 0.0008580908562446876,
+      "edit_2": 0.013124549062049073,
+      "lag_n_2": 9470,
+      "repeat_4": 0.0006763152584723935,
+      "edit_4": 0.010226920431998576,
+      "lag_n_4": 8958,
+      "repeat_8": -0.00029683082492996406,
+      "edit_8": 0.024028721929112568,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0005037579294737292,
+      "edit_16": -0.013280827245671034,
+      "lag_n_16": 6511,
+      "block": 8,
+      "seed": 101002,
+      "assembly_fraction": 0.4974214264863287,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.07842047706957715,
+          "copy": 1.364699328753619,
+          "encoding": 0.0469990839772065
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.7142341269841269
+      }
+    },
+    {
+      "length_mean": 4.709993011879805,
+      "length_sd": 1.5958457130729138,
+      "ttr": 0.32335030448237995,
+      "hapax": 0.6471133065761038,
+      "internal_h": 2.110810904485803,
+      "edge_mi": 0.051982564034749934,
+      "edge_short_minus_long": 0.01968809208253003,
+      "edge_line_minus_ordinary": 0.016635608878107222,
+      "tokens": 10017,
+      "short_n": 839,
+      "long_n": 2625,
+      "line_n": 333,
+      "repeat_1": -0.0015541520969152966,
+      "edit_1": 0.004368038645382405,
+      "lag_n_1": 9739,
+      "repeat_2": -0.00012143533308119924,
+      "edit_2": -0.0036078559027777624,
+      "lag_n_2": 9470,
+      "repeat_4": -0.0003652496055410128,
+      "edit_4": 0.0006058774125180244,
+      "lag_n_4": 8958,
+      "repeat_8": 0.00139562139909963,
+      "edit_8": -0.026409885687229462,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0004210194170675129,
+      "edit_16": 0.0049209308486652115,
+      "lag_n_16": 6511,
+      "block": 8,
+      "seed": 101003,
+      "assembly_fraction": 0.4768901430378515,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10090422820431555,
+          "copy": 1.4541041914277155,
+          "encoding": 0.08342204831940071
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.7242777777777778
+      }
+    },
+    {
+      "length_mean": 4.709793351302785,
+      "length_sd": 1.5850129573276037,
+      "ttr": 0.32035539582709394,
+      "hapax": 0.6650046743533811,
+      "internal_h": 2.107759247789495,
+      "edge_mi": 0.054306109207570535,
+      "edge_short_minus_long": 0.0019121943291349683,
+      "edge_line_minus_ordinary": 0.04361211778827197,
+      "tokens": 10017,
+      "short_n": 846,
+      "long_n": 2756,
+      "line_n": 343,
+      "repeat_1": -0.0015899661223728434,
+      "edit_1": 0.0032084235209235146,
+      "lag_n_1": 9739,
+      "repeat_2": -0.00016093870681541464,
+      "edit_2": -0.010868450126262641,
+      "lag_n_2": 9470,
+      "repeat_4": -7.774029755995771e-05,
+      "edit_4": 0.0038045071248196116,
+      "lag_n_4": 8958,
+      "repeat_8": 0.00046013891167512295,
+      "edit_8": -0.00676533752705627,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0007899099588285148,
+      "edit_16": -0.0016270404942280159,
+      "lag_n_16": 6511,
+      "block": 8,
+      "seed": 101004,
+      "assembly_fraction": 0.5056923226622555,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.2682264725427832,
+          "copy": 1.6213000520087972,
+          "encoding": 0.17702459844935267
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.8269365079365077
+      }
+    },
+    {
+      "length_mean": 4.683537985424778,
+      "length_sd": 1.5764063386620466,
+      "ttr": 0.31905760207647,
+      "hapax": 0.6551939924906133,
+      "internal_h": 2.1152527755365726,
+      "edge_mi": 0.06762417804666579,
+      "edge_short_minus_long": -0.0005097235803039127,
+      "edge_line_minus_ordinary": 0.01636184756242605,
+      "tokens": 10017,
+      "short_n": 890,
+      "long_n": 2583,
+      "line_n": 354,
+      "repeat_1": -0.00014777247718111426,
+      "edit_1": -0.021659606669372305,
+      "lag_n_1": 9739,
+      "repeat_2": -0.0003603963936168028,
+      "edit_2": -0.020372178819444448,
+      "lag_n_2": 9470,
+      "repeat_4": 0.00039430764569586043,
+      "edit_4": -0.016967244994588765,
+      "lag_n_4": 8958,
+      "repeat_8": -0.001613030545124481,
+      "edit_8": -0.012341748962842708,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0017893980312271099,
+      "edit_16": -0.011056012130230886,
+      "lag_n_16": 6511,
+      "block": 8,
+      "seed": 101005,
+      "assembly_fraction": 0.49635107521650285,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.10528130470821308,
+          "copy": 1.6861367134381613,
+          "encoding": 0.04863019634873372
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "assembly",
+        "max_score": 0.5123333333333333
+      }
+    },
+    {
+      "length_mean": 4.703204552261156,
+      "length_sd": 1.5585036177026907,
+      "ttr": 0.32005590496156533,
+      "hapax": 0.6522145976294448,
+      "internal_h": 2.110706976306432,
+      "edge_mi": 0.055279204742258566,
+      "edge_short_minus_long": 0.018238786063323943,
+      "edge_line_minus_ordinary": 0.004890122977872044,
+      "tokens": 10017,
+      "short_n": 906,
+      "long_n": 2728,
+      "line_n": 372,
+      "repeat_1": -0.0010837295943391763,
+      "edit_1": -0.027631363861832625,
+      "lag_n_1": 9739,
+      "repeat_2": -0.0015393705095453221,
+      "edit_2": -0.004094657512626276,
+      "lag_n_2": 9470,
+      "repeat_4": -0.0013076995165397633,
+      "edit_4": 0.02827240034271286,
+      "lag_n_4": 8958,
+      "repeat_8": 0.0005905072833724076,
+      "edit_8": 0.005163662292568538,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0008029395440535253,
+      "edit_16": -0.016558159722222188,
+      "lag_n_16": 6511,
+      "block": 64,
+      "seed": 101000,
+      "assembly_fraction": 0.48311764133501994,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.08380529219827672,
+          "copy": 1.4927588443990538,
+          "encoding": 0.08315162419311183
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.8130476190476192
+      }
+    },
+    {
+      "length_mean": 4.704801836877309,
+      "length_sd": 1.5604711736146748,
+      "ttr": 0.32305081361685134,
+      "hapax": 0.6566749072929543,
+      "internal_h": 2.1143039372005696,
+      "edge_mi": 0.06451768127446231,
+      "edge_short_minus_long": 0.000354605667408317,
+      "edge_line_minus_ordinary": 0.024044591409071073,
+      "tokens": 10017,
+      "short_n": 865,
+      "long_n": 2716,
+      "line_n": 351,
+      "repeat_1": -0.001083730402390133,
+      "edit_1": 0.006089917027417041,
+      "lag_n_1": 9739,
+      "repeat_2": 0.0007862109634629378,
+      "edit_2": 0.010437593005952345,
+      "lag_n_2": 9470,
+      "repeat_4": 0.0004859329814177935,
+      "edit_4": -0.008629965954184693,
+      "lag_n_4": 8958,
+      "repeat_8": -0.0006405456235106477,
+      "edit_8": -0.017526196676587336,
+      "lag_n_8": 8015,
+      "repeat_16": 0.001306397796326541,
+      "edit_16": 0.0020120287698412453,
+      "lag_n_16": 6511,
+      "block": 64,
+      "seed": 101001,
+      "assembly_fraction": 0.5417923518536538,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.12443388855100844,
+          "copy": 1.439837702639086,
+          "encoding": 0.06527807244169014
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.7772380952380952
+      }
+    },
+    {
+      "length_mean": 4.666866327243686,
+      "length_sd": 1.5833733837091024,
+      "ttr": 0.3141659179395028,
+      "hapax": 0.6587225929456625,
+      "internal_h": 2.104435418699326,
+      "edge_mi": 0.06433402670333281,
+      "edge_short_minus_long": -0.00023717954821779463,
+      "edge_line_minus_ordinary": -0.022810643484951987,
+      "tokens": 10017,
+      "short_n": 872,
+      "long_n": 2646,
+      "line_n": 336,
+      "repeat_1": -0.00124561434158549,
+      "edit_1": -0.011046781994047628,
+      "lag_n_1": 9739,
+      "repeat_2": 0.0009426716347960882,
+      "edit_2": -0.020450952042748938,
+      "lag_n_2": 9470,
+      "repeat_4": 0.0012214952513596783,
+      "edit_4": 0.013699776785714296,
+      "lag_n_4": 8958,
+      "repeat_8": 0.000830921218376266,
+      "edit_8": 0.011010354662698424,
+      "lag_n_8": 8015,
+      "repeat_16": 0.00023566495795014554,
+      "edit_16": 0.01373930431547618,
+      "lag_n_16": 6511,
+      "block": 64,
+      "seed": 101002,
+      "assembly_fraction": 0.5142551328208621,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.04736156334762579,
+          "copy": 1.277921981873887,
+          "encoding": 0.07051460722088741
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.6019087301587304
+      }
+    },
+    {
+      "length_mean": 4.709194369571728,
+      "length_sd": 1.5754266001952675,
+      "ttr": 0.3161625237096935,
+      "hapax": 0.6561414587938111,
+      "internal_h": 2.094405497263887,
+      "edge_mi": 0.06114876177449163,
+      "edge_short_minus_long": -0.004440855470044358,
+      "edge_line_minus_ordinary": 0.04983170025722397,
+      "tokens": 10017,
+      "short_n": 863,
+      "long_n": 2690,
+      "line_n": 362,
+      "repeat_1": -0.0012099242463818234,
+      "edit_1": 0.009527684771825418,
+      "lag_n_1": 9739,
+      "repeat_2": -0.00039443800831189045,
+      "edit_2": 0.005181206597222238,
+      "lag_n_2": 9470,
+      "repeat_4": -0.00041708696450437713,
+      "edit_4": 0.00872240823412701,
+      "lag_n_4": 8958,
+      "repeat_8": -0.0005030921616076117,
+      "edit_8": -0.026760208107864364,
+      "lag_n_8": 8015,
+      "repeat_16": -1.1806056729082955e-05,
+      "edit_16": 0.010422796604437207,
+      "lag_n_16": 6511,
+      "block": 64,
+      "seed": 101003,
+      "assembly_fraction": 0.4359248808017904,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.3618114097522624,
+          "copy": 1.6304206455364658,
+          "encoding": 0.25198463060872006
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.7303253968253965
+      }
+    },
+    {
+      "length_mean": 4.731855845063392,
+      "length_sd": 1.5803577689345263,
+      "ttr": 0.32364979534790855,
+      "hapax": 0.6582356570018507,
+      "internal_h": 2.11674338141078,
+      "edge_mi": 0.05974837266016511,
+      "edge_short_minus_long": 0.008356493296219847,
+      "edge_line_minus_ordinary": -0.01635579469429216,
+      "tokens": 10017,
+      "short_n": 865,
+      "long_n": 2753,
+      "line_n": 312,
+      "repeat_1": -0.0013657533764995088,
+      "edit_1": -0.006729262490981214,
+      "lag_n_1": 9739,
+      "repeat_2": -0.00024383281153454538,
+      "edit_2": 0.0022561693948412453,
+      "lag_n_2": 9470,
+      "repeat_4": -0.001274678641776399,
+      "edit_4": 0.023526630704365087,
+      "lag_n_4": 8958,
+      "repeat_8": 0.00026070570939400097,
+      "edit_8": -0.008649553571428575,
+      "lag_n_8": 8015,
+      "repeat_16": -0.0004982164545937855,
+      "edit_16": -0.000885177105880236,
+      "lag_n_16": 6511,
+      "block": 64,
+      "seed": 101004,
+      "assembly_fraction": 0.4359248808017904,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "assembly",
+        "compatible": [
+          "assembly",
+          "copy",
+          "encoding"
+        ],
+        "distances": {
+          "assembly": 0.012524053674137758,
+          "copy": 1.3021675206221162,
+          "encoding": 0.035864053196954945
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.7511746031746032
+      }
+    },
+    {
+      "length_mean": 4.704003194569232,
+      "length_sd": 1.5858315428600283,
+      "ttr": 0.32714385544574226,
+      "hapax": 0.6658529142508391,
+      "internal_h": 2.1288804998887376,
+      "edge_mi": 0.06301331153895277,
+      "edge_short_minus_long": 0.023157372662586377,
+      "edge_line_minus_ordinary": 0.07640802776869236,
+      "tokens": 10017,
+      "short_n": 884,
+      "long_n": 2654,
+      "line_n": 346,
+      "repeat_1": -0.0011723563269026307,
+      "edit_1": -0.007599361359126977,
+      "lag_n_1": 9739,
+      "repeat_2": 0.00016236229799749041,
+      "edit_2": -0.030683227362914844,
+      "lag_n_2": 9470,
+      "repeat_4": 0.0008210124372276245,
+      "edit_4": 0.014901878720238099,
+      "lag_n_4": 8958,
+      "repeat_8": -0.0007857173573802231,
+      "edit_8": -0.012809526627886036,
+      "lag_n_8": 8015,
+      "repeat_16": 0.0004618200940197977,
+      "edit_16": -0.014543805803571452,
+      "lag_n_16": 6511,
+      "block": 64,
+      "seed": 101005,
+      "assembly_fraction": 0.46083487399046413,
+      "centroid": {
+        "truth": "Voynich",
+        "closest": "encoding",
+        "compatible": [
+          "assembly",
+          "copy"
+        ],
+        "distances": {
+          "assembly": 0.7281475370485001,
+          "copy": 2.248257087440226,
+          "encoding": 0.6087237567829179
+        },
+        "rejected": false
+      },
+      "forest": {
+        "prediction": "encoding",
+        "max_score": 0.8274761904761904
+      }
+    }
+  ],
+  "code_sha256": "17db188dd915239b398539fb70f4f25d9dba04479abc7351157286f9ffbd095b"
+}

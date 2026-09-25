@@ -1,0 +1,1828 @@
+{
+  "evaluation": {
+    "forest": {
+      "accuracy": 0.7685185185185185,
+      "n": 108,
+      "confusion": {
+        "assembly": {
+          "assembly": 34,
+          "copy": 0,
+          "encoding": 2
+        },
+        "copy": {
+          "assembly": 12,
+          "copy": 24,
+          "encoding": 0
+        },
+        "encoding": {
+          "assembly": 10,
+          "copy": 1,
+          "encoding": 25
+        }
+      },
+      "predictions": [
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71000
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71001
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71002
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71010
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71011
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71012
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71100
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71101
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71102
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71110
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71111
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71112
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71600
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71601
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71602
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71610
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71611
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71612
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71700
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71701
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71702
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71710
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71711
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71712
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72200
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72201
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72202
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72210
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72211
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72212
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72300
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72301
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72302
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72310
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 72311
+        },
+        {
+          "truth": "encoding",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 72312
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71200
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71201
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71202
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71210
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71211
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71212
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71300
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71301
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71302
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71310
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71311
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71312
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71800
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71801
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71802
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71810
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71811
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71812
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71900
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71901
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71902
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71910
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71911
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71912
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72400
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72401
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72402
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72410
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72411
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72412
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72500
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72501
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72502
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72510
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72511
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72512
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71400
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71401
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71402
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71410
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71411
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71412
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71500
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71501
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71502
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71510
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71511
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71512
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72000
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72001
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72002
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72010
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72011
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72012
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72100
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72101
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72102
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72110
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72111
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72112
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72600
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72601
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72602
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72610
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72611
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72612
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72700
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72701
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72702
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72710
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72711
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72712
+        }
+      ]
+    },
+    "knn3": {
+      "accuracy": 0.49074074074074076,
+      "n": 108,
+      "confusion": {
+        "assembly": {
+          "assembly": 21,
+          "copy": 3,
+          "encoding": 12
+        },
+        "copy": {
+          "assembly": 11,
+          "copy": 14,
+          "encoding": 11
+        },
+        "encoding": {
+          "assembly": 15,
+          "copy": 3,
+          "encoding": 18
+        }
+      },
+      "predictions": [
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71000
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71001
+        },
+        {
+          "truth": "assembly",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71002
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71010
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71011
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71012
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71100
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71101
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 71102
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 71110
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 71111
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 71112
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71600
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71601
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71602
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71610
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71611
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71612
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71700
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71701
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71702
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71710
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71711
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 71712
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72200
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72201
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72202
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72210
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72211
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72212
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 72300
+        },
+        {
+          "truth": "encoding",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 72301
+        },
+        {
+          "truth": "encoding",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 72302
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72310
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 72311
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 72312
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71200
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71201
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71202
+        },
+        {
+          "truth": "assembly",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71210
+        },
+        {
+          "truth": "assembly",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71211
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71212
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71300
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71301
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71302
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71310
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71311
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71312
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71800
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71801
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71802
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71810
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71811
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71812
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 71900
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71901
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71902
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71910
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 71911
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 71912
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 72400
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72401
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72402
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72410
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72411
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72412
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 72500
+        },
+        {
+          "truth": "encoding",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 72501
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 72502
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 72510
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 72511
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 72512
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71400
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71401
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71402
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71410
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71411
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71412
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71500
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71501
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 71502
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71510
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71511
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 71512
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72000
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72001
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72002
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72010
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72011
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72012
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72100
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72101
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72102
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72110
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72111
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72112
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72600
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72601
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72602
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72610
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 72611
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72612
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72700
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72701
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72702
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72710
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72711
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 72712
+        }
+      ]
+    }
+  },
+  "manuscript": {
+    "forest": {
+      "accuracy": 0.8055555555555556,
+      "n": 36,
+      "confusion": {
+        "assembly": {
+          "assembly": 12,
+          "copy": 0,
+          "encoding": 0
+        },
+        "copy": {
+          "assembly": 4,
+          "copy": 8,
+          "encoding": 0
+        },
+        "encoding": {
+          "assembly": 3,
+          "copy": 0,
+          "encoding": 9
+        }
+      },
+      "predictions": [
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 81000
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 81010
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 81100
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 81110
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81600
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81610
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81700
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81710
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82200
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82210
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 82300
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82310
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81200
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81210
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81300
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81310
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 81800
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 81810
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 81900
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 81910
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 82400
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 82410
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 82500
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 82510
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 81400
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 81410
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 81500
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 81510
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82000
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82010
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82100
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82110
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82600
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82610
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82700
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82710
+        }
+      ]
+    },
+    "knn3": {
+      "accuracy": 0.4444444444444444,
+      "n": 36,
+      "confusion": {
+        "assembly": {
+          "assembly": 6,
+          "copy": 0,
+          "encoding": 6
+        },
+        "copy": {
+          "assembly": 4,
+          "copy": 5,
+          "encoding": 3
+        },
+        "encoding": {
+          "assembly": 7,
+          "copy": 0,
+          "encoding": 5
+        }
+      },
+      "predictions": [
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 81000
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 81010
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 0,
+          "seed": 81100
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 81110
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81600
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81610
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81700
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 0,
+          "seed": 81710
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82200
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82210
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82300
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 0,
+          "seed": 82310
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81200
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81210
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 81300
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81310
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81800
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 81810
+        },
+        {
+          "truth": "copy",
+          "prediction": "copy",
+          "level": 1,
+          "seed": 81900
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 81910
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 82400
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 1,
+          "seed": 82410
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 82500
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 1,
+          "seed": 82510
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 81400
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 81410
+        },
+        {
+          "truth": "assembly",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 81500
+        },
+        {
+          "truth": "assembly",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 81510
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82000
+        },
+        {
+          "truth": "copy",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82010
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82100
+        },
+        {
+          "truth": "copy",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82110
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82600
+        },
+        {
+          "truth": "encoding",
+          "prediction": "assembly",
+          "level": 2,
+          "seed": 82610
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82700
+        },
+        {
+          "truth": "encoding",
+          "prediction": "encoding",
+          "level": 2,
+          "seed": 82710
+        }
+      ]
+    }
+  },
+  "status": "Exploratory learner sensitivity selected after primary recovery results; no Voynich labels inferred.",
+  "code_sha256": "a93b57277a81c0dce4e78686e5992803122ccccb2c0e67e7182d824473a200d7"
+}

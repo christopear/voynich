@@ -1,0 +1,626 @@
+{
+  "surface_types": 2468,
+  "normalized_types": 2040,
+  "top_lattices": [
+    {
+      "pair": [
+        "ok",
+        "ot"
+      ],
+      "shared_remainders": 13,
+      "examples": [
+        {
+          "remainder": "o",
+          "a": "oko",
+          "b": "oto",
+          "fa": 75,
+          "fb": 78,
+          "cosine": 0.9251408479571399
+        },
+        {
+          "remainder": "y",
+          "a": "oky",
+          "b": "oty",
+          "fa": 59,
+          "fb": 67,
+          "cosine": 0.9566475311829019
+        },
+        {
+          "remainder": "a",
+          "a": "oka",
+          "b": "ota",
+          "fa": 35,
+          "fb": 26,
+          "cosine": 0.899833996024608
+        },
+        {
+          "remainder": "cho",
+          "a": "okcho",
+          "b": "otcho",
+          "fa": 52,
+          "fb": 78,
+          "cosine": 0.9393704913868336
+        },
+        {
+          "remainder": "cha",
+          "a": "okcha",
+          "b": "otcha",
+          "fa": 8,
+          "fb": 12,
+          "cosine": 0.7030942780210975
+        },
+        {
+          "remainder": "aii",
+          "a": "okaii",
+          "b": "otaii",
+          "fa": 45,
+          "fb": 39,
+          "cosine": 0.8724282766446126
+        },
+        {
+          "remainder": "eey",
+          "a": "okeey",
+          "b": "oteey",
+          "fa": 20,
+          "fb": 15,
+          "cosine": 0.686006343445511
+        },
+        {
+          "remainder": "chy",
+          "a": "okchy",
+          "b": "otchy",
+          "fa": 51,
+          "fb": 76,
+          "cosine": 0.9404927411794799
+        },
+        {
+          "remainder": "eo",
+          "a": "okeo",
+          "b": "oteo",
+          "fa": 24,
+          "fb": 8,
+          "cosine": 0.8243357397108934
+        },
+        {
+          "remainder": "eeo",
+          "a": "okeeo",
+          "b": "oteeo",
+          "fa": 7,
+          "fb": 5,
+          "cosine": 0.6431196942844081
+        },
+        {
+          "remainder": "shy",
+          "a": "okshy",
+          "b": "otshy",
+          "fa": 8,
+          "fb": 8,
+          "cosine": 0.7201579347479219
+        },
+        {
+          "remainder": "chey",
+          "a": "okchey",
+          "b": "otchey",
+          "fa": 14,
+          "fb": 18,
+          "cosine": 0.8305476411165243
+        }
+      ],
+      "median_context_cosine": 0.8305476411165243
+    },
+    {
+      "pair": [
+        "ok",
+        "yk"
+      ],
+      "shared_remainders": 7,
+      "examples": [
+        {
+          "remainder": "o",
+          "a": "oko",
+          "b": "yko",
+          "fa": 75,
+          "fb": 15,
+          "cosine": 0.761378271506479
+        },
+        {
+          "remainder": "y",
+          "a": "oky",
+          "b": "yky",
+          "fa": 59,
+          "fb": 9,
+          "cosine": 0.6769425614681748
+        },
+        {
+          "remainder": "cho",
+          "a": "okcho",
+          "b": "ykcho",
+          "fa": 52,
+          "fb": 14,
+          "cosine": 0.8447947355128501
+        },
+        {
+          "remainder": "aii",
+          "a": "okaii",
+          "b": "ykaii",
+          "fa": 45,
+          "fb": 8,
+          "cosine": 0.7491109582924913
+        },
+        {
+          "remainder": "eey",
+          "a": "okeey",
+          "b": "ykeey",
+          "fa": 20,
+          "fb": 12,
+          "cosine": 0.6423640548375729
+        },
+        {
+          "remainder": "chy",
+          "a": "okchy",
+          "b": "ykchy",
+          "fa": 51,
+          "fb": 17,
+          "cosine": 0.8564974275509836
+        },
+        {
+          "remainder": "eo",
+          "a": "okeo",
+          "b": "ykeo",
+          "fa": 24,
+          "fb": 6,
+          "cosine": 0.7938223013709341
+        }
+      ],
+      "median_context_cosine": 0.761378271506479
+    },
+    {
+      "pair": [
+        "ok",
+        "yt"
+      ],
+      "shared_remainders": 7,
+      "examples": [
+        {
+          "remainder": "o",
+          "a": "oko",
+          "b": "yto",
+          "fa": 75,
+          "fb": 22,
+          "cosine": 0.8994728533322993
+        },
+        {
+          "remainder": "y",
+          "a": "oky",
+          "b": "yty",
+          "fa": 59,
+          "fb": 9,
+          "cosine": 0.7160180143380986
+        },
+        {
+          "remainder": "a",
+          "a": "oka",
+          "b": "yta",
+          "fa": 35,
+          "fb": 7,
+          "cosine": 0.39460073000914336
+        },
+        {
+          "remainder": "cho",
+          "a": "okcho",
+          "b": "ytcho",
+          "fa": 52,
+          "fb": 15,
+          "cosine": 0.8392535056230076
+        },
+        {
+          "remainder": "aii",
+          "a": "okaii",
+          "b": "ytaii",
+          "fa": 45,
+          "fb": 12,
+          "cosine": 0.6291601408218773
+        },
+        {
+          "remainder": "chy",
+          "a": "okchy",
+          "b": "ytchy",
+          "fa": 51,
+          "fb": 11,
+          "cosine": 0.7372198794694371
+        },
+        {
+          "remainder": "chey",
+          "a": "okchey",
+          "b": "ytchey",
+          "fa": 14,
+          "fb": 5,
+          "cosine": 0.6985006985010478
+        }
+      ],
+      "median_context_cosine": 0.7160180143380986
+    },
+    {
+      "pair": [
+        "ot",
+        "yk"
+      ],
+      "shared_remainders": 7,
+      "examples": [
+        {
+          "remainder": "o",
+          "a": "oto",
+          "b": "yko",
+          "fa": 78,
+          "fb": 15,
+          "cosine": 0.8071491388253871
+        },
+        {
+          "remainder": "y",
+          "a": "oty",
+          "b": "yky",
+          "fa": 67,
+          "fb": 9,
+          "cosine": 0.699395052279782
+        },
+        {
+          "remainder": "cho",
+          "a": "otcho",
+          "b": "ykcho",
+          "fa": 78,
+          "fb": 14,
+          "cosine": 0.8655187456137526
+        },
+        {
+          "remainder": "aii",
+          "a": "otaii",
+          "b": "ykaii",
+          "fa": 39,
+          "fb": 8,
+          "cosine": 0.7938596159284909
+        },
+        {
+          "remainder": "eey",
+          "a": "oteey",
+          "b": "ykeey",
+          "fa": 15,
+          "fb": 12,
+          "cosine": 0.7147384583396833
+        },
+        {
+          "remainder": "chy",
+          "a": "otchy",
+          "b": "ykchy",
+          "fa": 76,
+          "fb": 17,
+          "cosine": 0.8142671836865029
+        },
+        {
+          "remainder": "eo",
+          "a": "oteo",
+          "b": "ykeo",
+          "fa": 8,
+          "fb": 6,
+          "cosine": 0.7063064336961281
+        }
+      ],
+      "median_context_cosine": 0.7938596159284909
+    },
+    {
+      "pair": [
+        "ot",
+        "yt"
+      ],
+      "shared_remainders": 7,
+      "examples": [
+        {
+          "remainder": "o",
+          "a": "oto",
+          "b": "yto",
+          "fa": 78,
+          "fb": 22,
+          "cosine": 0.9048214576296357
+        },
+        {
+          "remainder": "y",
+          "a": "oty",
+          "b": "yty",
+          "fa": 67,
+          "fb": 9,
+          "cosine": 0.7239426569290844
+        },
+        {
+          "remainder": "a",
+          "a": "ota",
+          "b": "yta",
+          "fa": 26,
+          "fb": 7,
+          "cosine": 0.41278636667739155
+        },
+        {
+          "remainder": "cho",
+          "a": "otcho",
+          "b": "ytcho",
+          "fa": 78,
+          "fb": 15,
+          "cosine": 0.8942441228506047
+        },
+        {
+          "remainder": "aii",
+          "a": "otaii",
+          "b": "ytaii",
+          "fa": 39,
+          "fb": 12,
+          "cosine": 0.6551895733374616
+        },
+        {
+          "remainder": "chy",
+          "a": "otchy",
+          "b": "ytchy",
+          "fa": 76,
+          "fb": 11,
+          "cosine": 0.7110282504246376
+        },
+        {
+          "remainder": "chey",
+          "a": "otchey",
+          "b": "ytchey",
+          "fa": 18,
+          "fb": 5,
+          "cosine": 0.7584748452711474
+        }
+      ],
+      "median_context_cosine": 0.7239426569290844
+    },
+    {
+      "pair": [
+        "che",
+        "kch"
+      ],
+      "shared_remainders": 5,
+      "examples": [
+        {
+          "remainder": "ey",
+          "a": "cheey",
+          "b": "kchey",
+          "fa": 20,
+          "fb": 11,
+          "cosine": 0.7097208632298361
+        },
+        {
+          "remainder": "o",
+          "a": "cheo",
+          "b": "kcho",
+          "fa": 70,
+          "fb": 48,
+          "cosine": 0.8885332870661992
+        },
+        {
+          "remainder": "y",
+          "a": "chey",
+          "b": "kchy",
+          "fa": 60,
+          "fb": 29,
+          "cosine": 0.8326852107966026
+        },
+        {
+          "remainder": "a",
+          "a": "chea",
+          "b": "kcha",
+          "fa": 19,
+          "fb": 5,
+          "cosine": 0.16984155512168936
+        },
+        {
+          "remainder": "eo",
+          "a": "cheeo",
+          "b": "kcheo",
+          "fa": 7,
+          "fb": 7,
+          "cosine": 0.565752381856018
+        }
+      ],
+      "median_context_cosine": 0.7097208632298361
+    },
+    {
+      "pair": [
+        "che",
+        "ok"
+      ],
+      "shared_remainders": 5,
+      "examples": [
+        {
+          "remainder": "ey",
+          "a": "cheey",
+          "b": "okey",
+          "fa": 20,
+          "fb": 9,
+          "cosine": 0.5652767597611372
+        },
+        {
+          "remainder": "o",
+          "a": "cheo",
+          "b": "oko",
+          "fa": 70,
+          "fb": 75,
+          "cosine": 0.9173991955053722
+        },
+        {
+          "remainder": "y",
+          "a": "chey",
+          "b": "oky",
+          "fa": 60,
+          "fb": 59,
+          "cosine": 0.9299676884052652
+        },
+        {
+          "remainder": "a",
+          "a": "chea",
+          "b": "oka",
+          "fa": 19,
+          "fb": 35,
+          "cosine": 0.7473720904919128
+        },
+        {
+          "remainder": "eo",
+          "a": "cheeo",
+          "b": "okeo",
+          "fa": 7,
+          "fb": 24,
+          "cosine": 0.697137002317335
+        }
+      ],
+      "median_context_cosine": 0.7473720904919128
+    },
+    {
+      "pair": [
+        "dch",
+        "ok"
+      ],
+      "shared_remainders": 5,
+      "examples": [
+        {
+          "remainder": "ey",
+          "a": "dchey",
+          "b": "okey",
+          "fa": 9,
+          "fb": 9,
+          "cosine": 0.5729365606426321
+        },
+        {
+          "remainder": "o",
+          "a": "dcho",
+          "b": "oko",
+          "fa": 49,
+          "fb": 75,
+          "cosine": 0.8999607246500241
+        },
+        {
+          "remainder": "y",
+          "a": "dchy",
+          "b": "oky",
+          "fa": 24,
+          "fb": 59,
+          "cosine": 0.8766358991326645
+        },
+        {
+          "remainder": "eey",
+          "a": "dcheey",
+          "b": "okeey",
+          "fa": 5,
+          "fb": 20,
+          "cosine": 0.6720102263811929
+        },
+        {
+          "remainder": "eo",
+          "a": "dcheo",
+          "b": "okeo",
+          "fa": 5,
+          "fb": 24,
+          "cosine": 0.8844691709074513
+        }
+      ],
+      "median_context_cosine": 0.8766358991326645
+    },
+    {
+      "pair": [
+        "kch",
+        "ok"
+      ],
+      "shared_remainders": 5,
+      "examples": [
+        {
+          "remainder": "ey",
+          "a": "kchey",
+          "b": "okey",
+          "fa": 11,
+          "fb": 9,
+          "cosine": 0.6686478498357316
+        },
+        {
+          "remainder": "o",
+          "a": "kcho",
+          "b": "oko",
+          "fa": 48,
+          "fb": 75,
+          "cosine": 0.8588867236581924
+        },
+        {
+          "remainder": "y",
+          "a": "kchy",
+          "b": "oky",
+          "fa": 29,
+          "fb": 59,
+          "cosine": 0.8005594408182775
+        },
+        {
+          "remainder": "a",
+          "a": "kcha",
+          "b": "oka",
+          "fa": 5,
+          "fb": 35,
+          "cosine": 0.2764654065504548
+        },
+        {
+          "remainder": "eo",
+          "a": "kcheo",
+          "b": "okeo",
+          "fa": 7,
+          "fb": 24,
+          "cosine": 0.7551038459588312
+        }
+      ],
+      "median_context_cosine": 0.7551038459588312
+    },
+    {
+      "pair": [
+        "yk",
+        "yt"
+      ],
+      "shared_remainders": 5,
+      "examples": [
+        {
+          "remainder": "o",
+          "a": "yko",
+          "b": "yto",
+          "fa": 15,
+          "fb": 22,
+          "cosine": 0.8313843876330611
+        },
+        {
+          "remainder": "y",
+          "a": "yky",
+          "b": "yty",
+          "fa": 9,
+          "fb": 9,
+          "cosine": 0.48304589153964794
+        },
+        {
+          "remainder": "cho",
+          "a": "ykcho",
+          "b": "ytcho",
+          "fa": 14,
+          "fb": 15,
+          "cosine": 0.8087360843031884
+        },
+        {
+          "remainder": "aii",
+          "a": "ykaii",
+          "b": "ytaii",
+          "fa": 8,
+          "fb": 12,
+          "cosine": 0.5922200922639821
+        },
+        {
+          "remainder": "chy",
+          "a": "ykchy",
+          "b": "ytchy",
+          "fa": 17,
+          "fb": 11,
+          "cosine": 0.7157479178923354
+        }
+      ],
+      "median_context_cosine": 0.7157479178923354
+    }
+  ]
+}

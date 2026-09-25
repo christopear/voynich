@@ -1,0 +1,37 @@
+{
+  "voyn_101.txt": {
+    "url": "https://raw.githubusercontent.com/lrozanova/voynich-units/956a7c4fc39981f4d116fa3f4edfccce6d065571/data/v101/voyn_101.txt",
+    "sha256": "f278a451d873c520f7ab509c4af12152698a1d3efd2353924e177a565c17ba7e"
+  },
+  "upstream_naibbe.py": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe.py",
+    "commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+    "sha256": "3f5e353d2c50f4e6a6b81567ca31cee4f0537a490b6346d054d26661648a6003"
+  },
+  "upstream_naibbe_v2.py": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_v2.py",
+    "commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+    "sha256": "8a28fc7677a9a117ad79e8060b42059eb17069bea58d82ccf7ef1f0747ea06b7"
+  },
+  "upstream_README.md": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/README.md",
+    "commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+    "sha256": "b9e78e849a3478341d1c3167b7c3ae960e18f57b4857a0297d296adfe480ec99"
+  },
+  "upstream_LICENSE": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/LICENSE",
+    "commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+    "sha256": "e8fb5c1110aaa38618eab2013d1e7c5cae343efd21ea9859478df4930f7746bc"
+  },
+  "naibbe_tables.csv": {
+    "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv",
+    "sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec"
+  },
+  "IT2a-n.txt": {
+    "url": "https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt",
+    "original": "https://www.voynich.nu/data/IT2a-n.txt",
+    "sha256": "32b11a0b584a75bbe9817c96a316a246f82d02d69996d789bc2cb908190bab77",
+    "commit": "2d7c61c387ad6962de730caf73c48612bc8f6957",
+    "note": "Origin returned HTTP 406; used version-pinned public mirror."
+  }
+}

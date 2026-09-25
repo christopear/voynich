@@ -1,0 +1,37 @@
+{
+  "subset_tokens": 8052,
+  "m_stats_full_rl_families": {
+    "m": {
+      "n": 751,
+      "line_final": 520,
+      "rate": 0.6924101198402131
+    },
+    "rl": {
+      "n": 7531,
+      "line_final": 573,
+      "rate": 0.07608551321205684
+    }
+  },
+  "m_stats_subset_rl_families": {
+    "m": {
+      "n": 178,
+      "line_final": 91,
+      "rate": 0.5112359550561798
+    },
+    "rl": {
+      "n": 1727,
+      "line_final": 144,
+      "rate": 0.08338158656629995
+    }
+  },
+  "parser_edge_case": {
+    "input": "dai[{cto}:@194;]y",
+    "actual": [
+      "daicto",
+      "y"
+    ],
+    "first_alternative_expected": [
+      "daictoy"
+    ]
+  }
+}

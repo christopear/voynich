@@ -1,0 +1,379 @@
+{
+  "herbal_A_hand1_pages": 95,
+  "m_families_top": [
+    {
+      "m": "dam",
+      "m_n": 30,
+      "m_last_rate": 0.5666666666666667,
+      "siblings": [
+        "dan",
+        "dal",
+        "dar"
+      ],
+      "sib_n": 127,
+      "sib_last_rate": 0.3700787401574803
+    },
+    {
+      "m": "am",
+      "m_n": 11,
+      "m_last_rate": 0.9090909090909091,
+      "siblings": [
+        "an",
+        "al",
+        "ar"
+      ],
+      "sib_n": 34,
+      "sib_last_rate": 0.29411764705882354
+    },
+    {
+      "m": "chom",
+      "m_n": 11,
+      "m_last_rate": 0.45454545454545453,
+      "siblings": [
+        "chon",
+        "chol",
+        "chor"
+      ],
+      "sib_n": 369,
+      "sib_last_rate": 0.02168021680216802
+    },
+    {
+      "m": "cham",
+      "m_n": 7,
+      "m_last_rate": 0.42857142857142855,
+      "siblings": [
+        "chan",
+        "chal",
+        "char"
+      ],
+      "sib_n": 46,
+      "sib_last_rate": 0.08695652173913043
+    },
+    {
+      "m": "dom",
+      "m_n": 7,
+      "m_last_rate": 0.8571428571428571,
+      "siblings": [
+        "dol",
+        "dor"
+      ],
+      "sib_n": 80,
+      "sib_last_rate": 0.075
+    },
+    {
+      "m": "om",
+      "m_n": 6,
+      "m_last_rate": 0.6666666666666666,
+      "siblings": [
+        "ol",
+        "or"
+      ],
+      "sib_n": 119,
+      "sib_last_rate": 0.07563025210084033
+    },
+    {
+      "m": "cthom",
+      "m_n": 5,
+      "m_last_rate": 0.4,
+      "siblings": [
+        "cthol",
+        "cthor"
+      ],
+      "sib_n": 87,
+      "sib_last_rate": 0.09195402298850575
+    },
+    {
+      "m": "otam",
+      "m_n": 5,
+      "m_last_rate": 0.6,
+      "siblings": [
+        "otan",
+        "otal",
+        "otar"
+      ],
+      "sib_n": 16,
+      "sib_last_rate": 0.25
+    },
+    {
+      "m": "shom",
+      "m_n": 3,
+      "m_last_rate": 0.0,
+      "siblings": [
+        "shon",
+        "shol",
+        "shor"
+      ],
+      "sib_n": 165,
+      "sib_last_rate": 0.024242424242424242
+    },
+    {
+      "m": "sam",
+      "m_n": 3,
+      "m_last_rate": 0.6666666666666666,
+      "siblings": [
+        "san",
+        "sal",
+        "sar"
+      ],
+      "sib_n": 19,
+      "sib_last_rate": 0.3157894736842105
+    },
+    {
+      "m": "otcham",
+      "m_n": 3,
+      "m_last_rate": 0.3333333333333333,
+      "siblings": [
+        "otchal",
+        "otchar"
+      ],
+      "sib_n": 5,
+      "sib_last_rate": 0.0
+    },
+    {
+      "m": "ckham",
+      "m_n": 3,
+      "m_last_rate": 0.3333333333333333,
+      "siblings": [
+        "ckhal"
+      ],
+      "sib_n": 2,
+      "sib_last_rate": 0.0
+    },
+    {
+      "m": "qokam",
+      "m_n": 3,
+      "m_last_rate": 0.6666666666666666,
+      "siblings": [
+        "qokal",
+        "qokar"
+      ],
+      "sib_n": 6,
+      "sib_last_rate": 0.0
+    },
+    {
+      "m": "kom",
+      "m_n": 3,
+      "m_last_rate": 0.6666666666666666,
+      "siblings": [
+        "kol",
+        "kor"
+      ],
+      "sib_n": 35,
+      "sib_last_rate": 0.02857142857142857
+    },
+    {
+      "m": "okam",
+      "m_n": 3,
+      "m_last_rate": 0.6666666666666666,
+      "siblings": [
+        "okal",
+        "okar"
+      ],
+      "sib_n": 21,
+      "sib_last_rate": 0.09523809523809523
+    },
+    {
+      "m": "okeom",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "okeol",
+        "okeor"
+      ],
+      "sib_n": 12,
+      "sib_last_rate": 0.0
+    },
+    {
+      "m": "okom",
+      "m_n": 2,
+      "m_last_rate": 0.0,
+      "siblings": [
+        "okol",
+        "okor"
+      ],
+      "sib_n": 33,
+      "sib_last_rate": 0.09090909090909091
+    },
+    {
+      "m": "daiim",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "daiin",
+        "daiir"
+      ],
+      "sib_n": 394,
+      "sib_last_rate": 0.24873096446700507
+    },
+    {
+      "m": "odam",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "odan",
+        "odal",
+        "odar"
+      ],
+      "sib_n": 12,
+      "sib_last_rate": 0.3333333333333333
+    },
+    {
+      "m": "qokom",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "qokol",
+        "qokor"
+      ],
+      "sib_n": 34,
+      "sib_last_rate": 0.0
+    },
+    {
+      "m": "kam",
+      "m_n": 2,
+      "m_last_rate": 1.0,
+      "siblings": [
+        "kan",
+        "kal",
+        "kar"
+      ],
+      "sib_n": 7,
+      "sib_last_rate": 0.2857142857142857
+    },
+    {
+      "m": "daim",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "dain",
+        "dail",
+        "dair"
+      ],
+      "sib_n": 111,
+      "sib_last_rate": 0.1891891891891892
+    },
+    {
+      "m": "okchom",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "okchol",
+        "okchor"
+      ],
+      "sib_n": 19,
+      "sib_last_rate": 0.0
+    },
+    {
+      "m": "som",
+      "m_n": 2,
+      "m_last_rate": 0.0,
+      "siblings": [
+        "sol",
+        "sor"
+      ],
+      "sib_n": 29,
+      "sib_last_rate": 0.13793103448275862
+    },
+    {
+      "m": "chotom",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "chotol",
+        "chotor"
+      ],
+      "sib_n": 9,
+      "sib_last_rate": 0.2222222222222222
+    },
+    {
+      "m": "sham",
+      "m_n": 2,
+      "m_last_rate": 0.0,
+      "siblings": [
+        "shan",
+        "shal",
+        "shar"
+      ],
+      "sib_n": 13,
+      "sib_last_rate": 0.3076923076923077
+    },
+    {
+      "m": "ytam",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "ytal",
+        "ytar"
+      ],
+      "sib_n": 5,
+      "sib_last_rate": 0.2
+    },
+    {
+      "m": "dchom",
+      "m_n": 2,
+      "m_last_rate": 0.0,
+      "siblings": [
+        "dchol",
+        "dchor"
+      ],
+      "sib_n": 39,
+      "sib_last_rate": 0.05128205128205128
+    },
+    {
+      "m": "okeam",
+      "m_n": 2,
+      "m_last_rate": 0.5,
+      "siblings": [
+        "okeal",
+        "okear"
+      ],
+      "sib_n": 3,
+      "sib_last_rate": 0.3333333333333333
+    },
+    {
+      "m": "sheom",
+      "m_n": 2,
+      "m_last_rate": 0.0,
+      "siblings": [
+        "sheol",
+        "sheor"
+      ],
+      "sib_n": 30,
+      "sib_last_rate": 0.06666666666666667
+    }
+  ],
+  "terminal_next_initial": {
+    "full_within_line": {
+      "n": 14672,
+      "observed_mi": 0.08859379574978427,
+      "null_mean": 0.029188828403669268,
+      "excess_mi": 0.059404967346115,
+      "p": 0.0033222591362126247,
+      "null_95": 0.03083962189531806
+    },
+    "full_across_line": {
+      "n": 1354,
+      "observed_mi": 0.031988183298166696,
+      "null_mean": 0.030154536335550385,
+      "excess_mi": 0.0018336469626163109,
+      "p": 0.27906976744186046,
+      "null_95": 0.03554241584593309
+    },
+    "herbal_A_hand1_within_line": {
+      "n": 3392,
+      "observed_mi": 0.04896406253980512,
+      "null_mean": 0.02486201921013504,
+      "excess_mi": 0.02410204332967008,
+      "p": 0.0033222591362126247,
+      "null_95": 0.02862380709822972
+    },
+    "herbal_A_hand1_across_line": {
+      "n": 460,
+      "observed_mi": 0.07487930399826134,
+      "null_mean": 0.06563663407564932,
+      "excess_mi": 0.009242669922612023,
+      "p": 0.16279069767441862,
+      "null_95": 0.0811838096248271
+    }
+  }
+}

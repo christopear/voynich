@@ -1,0 +1,149 @@
+{
+  "configurations": [
+    {
+      "mechanism": "assembly",
+      "level": 0,
+      "coupling": 0
+    },
+    {
+      "mechanism": "assembly",
+      "level": 0,
+      "coupling": 1
+    },
+    {
+      "mechanism": "assembly",
+      "level": 1,
+      "coupling": 0
+    },
+    {
+      "mechanism": "assembly",
+      "level": 1,
+      "coupling": 1
+    },
+    {
+      "mechanism": "assembly",
+      "level": 2,
+      "coupling": 0
+    },
+    {
+      "mechanism": "assembly",
+      "level": 2,
+      "coupling": 1
+    },
+    {
+      "mechanism": "copy",
+      "level": 0,
+      "coupling": 0
+    },
+    {
+      "mechanism": "copy",
+      "level": 0,
+      "coupling": 1
+    },
+    {
+      "mechanism": "copy",
+      "level": 1,
+      "coupling": 0
+    },
+    {
+      "mechanism": "copy",
+      "level": 1,
+      "coupling": 1
+    },
+    {
+      "mechanism": "copy",
+      "level": 2,
+      "coupling": 0
+    },
+    {
+      "mechanism": "copy",
+      "level": 2,
+      "coupling": 1
+    },
+    {
+      "mechanism": "encoding",
+      "level": 0,
+      "coupling": 0
+    },
+    {
+      "mechanism": "encoding",
+      "level": 0,
+      "coupling": 1
+    },
+    {
+      "mechanism": "encoding",
+      "level": 1,
+      "coupling": 0
+    },
+    {
+      "mechanism": "encoding",
+      "level": 1,
+      "coupling": 1
+    },
+    {
+      "mechanism": "encoding",
+      "level": 2,
+      "coupling": 0
+    },
+    {
+      "mechanism": "encoding",
+      "level": 2,
+      "coupling": 1
+    }
+  ],
+  "train_folios": [
+    "f106",
+    "f107",
+    "f111",
+    "f113",
+    "f115",
+    "f116",
+    "f26",
+    "f34",
+    "f39",
+    "f43",
+    "f46",
+    "f48",
+    "f50",
+    "f55",
+    "f57",
+    "f66",
+    "f77",
+    "f78",
+    "f80",
+    "f81",
+    "f84",
+    "f86",
+    "f94"
+  ],
+  "test_folios": [
+    "f103",
+    "f104",
+    "f105",
+    "f108",
+    "f112",
+    "f114",
+    "f31",
+    "f33",
+    "f40",
+    "f41",
+    "f75",
+    "f76",
+    "f79",
+    "f82",
+    "f83",
+    "f85",
+    "f95"
+  ],
+  "hashes": {
+    "code/09_mechanism_benchmark.py": "30a44a4bbc2aff31cede2e90d8c3a8c8c7325cd7b358b7151000d329a6a95ef7",
+    "code/mechanism_models.py": "d3307fbb641b7818cb7b13271e07606861b2032392d6c5cd8eb94f030bbf6877",
+    "code/08_robustness_gate.py": "8115dde3d9983a39abfda179ea019013df59930c26017cafc170a871addb99b5",
+    "MECHANISM_PROTOCOL.md": "ccd5d30072f33e0fa01f3029c157822bbb3211d18730c0dad129b5b3237a6b12",
+    "uv.lock": "f33467df98bd38e81937a87007e05de5765b8110e59b9091d16394b9ac8df47e",
+    "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/latin_alfonsi.txt": "5d178cb5a7d46f2bbdd5c9a209473faeffc07a438f0ab82b99ac21b7c7f155ae",
+    "data/italian_dante.txt": "8df50e1cc51dce149f2b0278c40f3d7ca569d3c44192cdef6c4ca88c2b74f633",
+    "data/mechanisms/naibbe_tables.csv": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec"
+  }
+}

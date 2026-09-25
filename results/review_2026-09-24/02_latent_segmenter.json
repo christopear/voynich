@@ -1,0 +1,1039 @@
+{
+  "pages": 95,
+  "ambiguous_missing_space_cases": 257,
+  "boundary_accuracy": 0.9066147859922179,
+  "examples": [
+    {
+      "hold": "f10r",
+      "joined": "okydaiin",
+      "true": "oky \u00b7 daiin",
+      "pred": "oky \u00b7 daiin"
+    },
+    {
+      "hold": "f10r",
+      "joined": "tchydaiin",
+      "true": "tchy \u00b7 daiin",
+      "pred": "tchy \u00b7 daiin"
+    },
+    {
+      "hold": "f10r",
+      "joined": "cholor",
+      "true": "chol \u00b7 or",
+      "pred": "chol \u00b7 or"
+    },
+    {
+      "hold": "f10v",
+      "joined": "qotydaiin",
+      "true": "qoty \u00b7 daiin",
+      "pred": "qoty \u00b7 daiin"
+    },
+    {
+      "hold": "f10v",
+      "joined": "qotchodaiin",
+      "true": "qot \u00b7 chodaiin",
+      "pred": "qotcho \u00b7 daiin"
+    },
+    {
+      "hold": "f10v",
+      "joined": "cthydaiin",
+      "true": "cthy \u00b7 daiin",
+      "pred": "cthy \u00b7 daiin"
+    },
+    {
+      "hold": "f10v",
+      "joined": "choldy",
+      "true": "chol \u00b7 dy",
+      "pred": "chol \u00b7 dy"
+    },
+    {
+      "hold": "f10v",
+      "joined": "qokchyky",
+      "true": "qokchy \u00b7 ky",
+      "pred": "qokchy \u00b7 ky"
+    },
+    {
+      "hold": "f10v",
+      "joined": "choraiin",
+      "true": "chor \u00b7 aiin",
+      "pred": "chor \u00b7 aiin"
+    },
+    {
+      "hold": "f10v",
+      "joined": "qokolchy",
+      "true": "qokol \u00b7 chy",
+      "pred": "qokol \u00b7 chy"
+    },
+    {
+      "hold": "f11r",
+      "joined": "sheytchody",
+      "true": "shey \u00b7 tchody",
+      "pred": "shey \u00b7 tchody"
+    },
+    {
+      "hold": "f11r",
+      "joined": "daiinytchy",
+      "true": "daiin \u00b7 ytchy",
+      "pred": "daiin \u00b7 ytchy"
+    },
+    {
+      "hold": "f11r",
+      "joined": "qotychol",
+      "true": "qoty \u00b7 chol",
+      "pred": "qoty \u00b7 chol"
+    },
+    {
+      "hold": "f11r",
+      "joined": "cthydor",
+      "true": "cthy \u00b7 dor",
+      "pred": "cthy \u00b7 dor"
+    },
+    {
+      "hold": "f11r",
+      "joined": "chotydain",
+      "true": "choty \u00b7 dain",
+      "pred": "choty \u00b7 dain"
+    },
+    {
+      "hold": "f11v",
+      "joined": "qotyshol",
+      "true": "qoty \u00b7 shol",
+      "pred": "qoty \u00b7 shol"
+    },
+    {
+      "hold": "f11v",
+      "joined": "sholdy",
+      "true": "shol \u00b7 dy",
+      "pred": "shol \u00b7 dy"
+    },
+    {
+      "hold": "f11v",
+      "joined": "tchydar",
+      "true": "tchy \u00b7 dar",
+      "pred": "tchy \u00b7 dar"
+    },
+    {
+      "hold": "f11v",
+      "joined": "qotchor",
+      "true": "qot \u00b7 chor",
+      "pred": "qot \u00b7 chor"
+    },
+    {
+      "hold": "f13r",
+      "joined": "sholdy",
+      "true": "shol \u00b7 dy",
+      "pred": "shol \u00b7 dy"
+    }
+  ],
+  "f3r": [
+    {
+      "line": "f3r.1",
+      "tokens": [
+        {
+          "surface": "tsheos",
+          "parts": [
+            "tsheos"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qopal",
+          "parts": [
+            "qopal"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chol",
+          "parts": [
+            "chol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cthol",
+          "parts": [
+            "cthol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "daimg",
+          "parts": [
+            "daimg"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.2",
+      "tokens": [
+        {
+          "surface": "ycheor",
+          "parts": [
+            "ycheor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "dam",
+          "parts": [
+            "dam"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qotcham",
+          "parts": [
+            "qotcham"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cham",
+          "parts": [
+            "cham"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.3",
+      "tokens": [
+        {
+          "surface": "ochor",
+          "parts": [
+            "ochor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qocheor",
+          "parts": [
+            "qo",
+            "cheor"
+          ],
+          "margin": 1.7075641464404825
+        },
+        {
+          "surface": "chol",
+          "parts": [
+            "chol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "daiin",
+          "parts": [
+            "daiin"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cthy",
+          "parts": [
+            "cthy"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.4",
+      "tokens": [
+        {
+          "surface": "schey",
+          "parts": [
+            "schey"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chal",
+          "parts": [
+            "chal"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chag",
+          "parts": [
+            "chag"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cham",
+          "parts": [
+            "cham"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cho",
+          "parts": [
+            "cho"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.5",
+      "tokens": [
+        {
+          "surface": "qokol",
+          "parts": [
+            "qokol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chololy",
+          "parts": [
+            "chol",
+            "oly"
+          ],
+          "margin": 3.6236887162521434
+        },
+        {
+          "surface": "s",
+          "parts": [
+            "s"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cham",
+          "parts": [
+            "cham"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cthol",
+          "parts": [
+            "cthol"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.6",
+      "tokens": [
+        {
+          "surface": "ychtaiin",
+          "parts": [
+            "ychtaiin"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cthom",
+          "parts": [
+            "cthom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "otaldam",
+          "parts": [
+            "otal",
+            "dam"
+          ],
+          "margin": 2.1416156815269023
+        }
+      ]
+    },
+    {
+      "line": "f3r.7",
+      "tokens": [
+        {
+          "surface": "otchol",
+          "parts": [
+            "otchol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qodaiin",
+          "parts": [
+            "qodaiin"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chom",
+          "parts": [
+            "chom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "shom",
+          "parts": [
+            "shom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "damo",
+          "parts": [
+            "damo"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.8",
+      "tokens": [
+        {
+          "surface": "ysheor",
+          "parts": [
+            "ysheor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chol",
+          "parts": [
+            "chol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "oky",
+          "parts": [
+            "oky"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "dago",
+          "parts": [
+            "dago"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.9",
+      "tokens": [
+        {
+          "surface": "sho",
+          "parts": [
+            "sho"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "vor",
+          "parts": [
+            "vor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "sheoldam",
+          "parts": [
+            "sheol",
+            "dam"
+          ],
+          "margin": 2.6078995296701066
+        },
+        {
+          "surface": "otchody",
+          "parts": [
+            "otchody"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "ol",
+          "parts": [
+            "ol"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.10",
+      "tokens": [
+        {
+          "surface": "ydar",
+          "parts": [
+            "ydar"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cholcthom",
+          "parts": [
+            "chol",
+            "cthom"
+          ],
+          "margin": 3.2263869187831418
+        }
+      ]
+    },
+    {
+      "line": "f3r.11",
+      "tokens": [
+        {
+          "surface": "pcheol",
+          "parts": [
+            "pcheol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "shol",
+          "parts": [
+            "shol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "sols",
+          "parts": [
+            "sols"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "sheol",
+          "parts": [
+            "sheol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "shey",
+          "parts": [
+            "shey"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.12",
+      "tokens": [
+        {
+          "surface": "okadaiin",
+          "parts": [
+            "oka",
+            "daiin"
+          ],
+          "margin": 2.1537824690524836
+        },
+        {
+          "surface": "qokchor",
+          "parts": [
+            "qokchor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qo",
+          "parts": [
+            "qo"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "schodam",
+          "parts": [
+            "schodam"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "octhy",
+          "parts": [
+            "octhy"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.13",
+      "tokens": [
+        {
+          "surface": "qokeey",
+          "parts": [
+            "qokeey"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qot",
+          "parts": [
+            "qot"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "shey",
+          "parts": [
+            "shey"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qokody",
+          "parts": [
+            "qokody"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qokshey",
+          "parts": [
+            "qok",
+            "shey"
+          ],
+          "margin": 0.08927747737635983
+        },
+        {
+          "surface": "cheody",
+          "parts": [
+            "cheody"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.14",
+      "tokens": [
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qodair",
+          "parts": [
+            "qo",
+            "dair"
+          ],
+          "margin": 1.7437999948945269
+        },
+        {
+          "surface": "okeey",
+          "parts": [
+            "okeey"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qokeey",
+          "parts": [
+            "qokeey"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.15",
+      "tokens": [
+        {
+          "surface": "tsheoarom",
+          "parts": [
+            "tsheoarom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "shor",
+          "parts": [
+            "shor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "or",
+          "parts": [
+            "or"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "olchsy",
+          "parts": [
+            "olchsy"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chom",
+          "parts": [
+            "chom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "otchom",
+          "parts": [
+            "otchom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "oporar",
+          "parts": [
+            "oporar"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.16",
+      "tokens": [
+        {
+          "surface": "oteol",
+          "parts": [
+            "oteol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chol",
+          "parts": [
+            "chol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "s",
+          "parts": [
+            "s"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cheol",
+          "parts": [
+            "cheol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "ekshy",
+          "parts": [
+            "ekshy"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qokeom",
+          "parts": [
+            "qokeom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qokol",
+          "parts": [
+            "qokol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "daiin",
+          "parts": [
+            "daiin"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "soleeg",
+          "parts": [
+            "soleeg"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.17",
+      "tokens": [
+        {
+          "surface": "soeom",
+          "parts": [
+            "soeom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "okeom",
+          "parts": [
+            "okeom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "yteody",
+          "parts": [
+            "yteody"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qokeeodal",
+          "parts": [
+            "qokeeodal"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "sam",
+          "parts": [
+            "sam"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.18",
+      "tokens": [
+        {
+          "surface": "pcheoldom",
+          "parts": [
+            "pcheoldom"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "shodaiin",
+          "parts": [
+            "sho",
+            "daiin"
+          ],
+          "margin": 0.9750430382108508
+        },
+        {
+          "surface": "qopchor",
+          "parts": [
+            "qopchor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qopol",
+          "parts": [
+            "qop",
+            "ol"
+          ],
+          "margin": 0.26244509208948585
+        },
+        {
+          "surface": "opchol",
+          "parts": [
+            "opchol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qoty",
+          "parts": [
+            "qoty"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "otolom",
+          "parts": [
+            "otol",
+            "om"
+          ],
+          "margin": 1.6711560264363374
+        }
+      ]
+    },
+    {
+      "line": "f3r.19",
+      "tokens": [
+        {
+          "surface": "otchor",
+          "parts": [
+            "otchor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "ol",
+          "parts": [
+            "ol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cheor",
+          "parts": [
+            "cheor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qoeor",
+          "parts": [
+            "qoeor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "dair",
+          "parts": [
+            "dair"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qoteol",
+          "parts": [
+            "qoteol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "qosaiin",
+          "parts": [
+            "qo",
+            "saiin"
+          ],
+          "margin": 1.630898264692565
+        },
+        {
+          "surface": "chor",
+          "parts": [
+            "chor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "cthy",
+          "parts": [
+            "cthy"
+          ],
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "line": "f3r.20",
+      "tokens": [
+        {
+          "surface": "ycheor",
+          "parts": [
+            "ycheor"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chol",
+          "parts": [
+            "chol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "odaiin",
+          "parts": [
+            "odaiin"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "chol",
+          "parts": [
+            "chol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "s",
+          "parts": [
+            "s"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "aiin",
+          "parts": [
+            "aiin"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "okol",
+          "parts": [
+            "okol"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "or",
+          "parts": [
+            "or"
+          ],
+          "margin": 0.0
+        },
+        {
+          "surface": "am",
+          "parts": [
+            "am"
+          ],
+          "margin": 0.0
+        }
+      ]
+    }
+  ]
+}
