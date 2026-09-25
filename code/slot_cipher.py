@@ -98,6 +98,48 @@ class CodeBook:
         return p + self.cores[unit] + t
 
 
+class SharedCoreCodeBook(CodeBook):
+    """Syllable types paired by adjacent frequency rank share one core.
+
+    The pair's six terminals are split at random into two disjoint sets of three,
+    so same-stem terminal alternations are either the same unit (homophones) or
+    different units, with the answer known (COUPLING_TEST_PROTOCOL.md).
+    """
+    def __init__(self, unit_counts: dict, training, config: Config, seed: int):
+        rng = random.Random(seed)
+        ranked = sorted(unit_counts, key=lambda u: (-unit_counts[u], u))
+        groups = [ranked[i:i + 2] for i in range(0, len(ranked), 2)]
+        combos_all = [(p, t) for p in PREFIXES for t in TERMINALS]
+        used, cores = set(), {}
+        self.variants, self.decode = {}, {}
+        for group in groups:
+            for _ in range(10000):
+                core = training.fresh(rng)
+                if (core and not core.startswith(BAD_START) and core[-1] not in BAD_END
+                        and core not in set(cores.values())):
+                    if not {p + core + t for p, t in combos_all} & used:
+                        break
+            else:
+                raise RuntimeError(f"no core for {group}")
+            if len(group) == 2:
+                terms = list(TERMINALS); rng.shuffle(terms)
+                split = [sorted(terms[:3]), sorted(terms[3:])]
+            else:
+                split = [list(TERMINALS)]
+            for unit, allowed in zip(group, split):
+                cores[unit] = core
+                combos = [(p, t) for p in PREFIXES for t in allowed]
+                chosen = rng.sample(combos, min(config.h, len(combos)))
+                weights = [(r + 1) ** -config.s for r in range(len(chosen))]
+                self.variants[unit] = [(p, t, w) for (p, t), w in zip(chosen, weights)]
+                for p, t, _ in self.variants[unit]:
+                    word = p + core + t
+                    assert word not in self.decode
+                    self.decode[word] = unit
+            used |= {p + core + t for p, t in combos_all}
+        self.cores = cores
+
+
 def encipher(units_seq, book: CodeBook, edge: dict, config: Config, seed: int) -> list[str]:
     """Two-pass choice: prefixes (hence initials) first, then coupled terminals."""
     rng = random.Random(seed)
