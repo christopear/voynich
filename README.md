@@ -46,10 +46,12 @@ translation.
 * **Third transcription: Glen Claston's v101.** An EM-inferred v101→EVA
   mapping matches ZL3b on 89.7% of words, as closely as IT2a does. Of the
   eight glyph-variant sets that EVA merges, six could be tested with
-  calibrated power, and none carries word-level (letter-like) information. They look like allographs (gallows by word position, d by hand
-  and preceding glyph) or unexplained variation. The Currier B next-initial
-  coupling and its hidden-boundary transfer both replicate on v101. Keeping the
-  variants adds nothing to either, nor to §19.
+  calibrated power, and none carries word-level (letter-like) information.
+  They look like allographs (gallows by word position, d by hand and preceding
+  glyph) or unexplained variation. The Currier B next-initial coupling and its
+  hidden-boundary transfer both replicate on v101. By the pre-set rule, keeping
+  the variants adds nothing to either, nor to §19. Descriptively, variant
+  spelling predicts a word's own ending slightly better.
 
 ## Reading order
 
