@@ -1,0 +1,20 @@
+{
+  "script": "code/19_v101_mapping.py",
+  "accept": 0.5,
+  "min_set_count": 20,
+  "max_emit": 4,
+  "length_prior": {
+    "0": 0.05,
+    "1": 1.0,
+    "2": 0.4,
+    "3": 0.2,
+    "4": 0.05
+  },
+  "sha256": {
+    "data/mechanisms/voyn_101.txt": "f278a451d873c520f7ab509c4af12152698a1d3efd2353924e177a565c17ba7e",
+    "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/mechanisms/IT2a-n.txt": "32b11a0b584a75bbe9817c96a316a246f82d02d69996d789bc2cb908190bab77",
+    "code/19_v101_mapping.py": "842a375fea4a4d352f11700ea7818d6e8c7781c95b5409ec1be51ebe69e1642d",
+    "code/v101.py": "51173d15d0a7dba885a49c413e1d1f7e9920a7e5ce1b3bf4af654198beb7889d"
+  }
+}

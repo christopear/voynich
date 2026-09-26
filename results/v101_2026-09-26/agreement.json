@@ -1,0 +1,39 @@
+{
+  "v101_text_lines": 3978,
+  "v101_label_lines": 508,
+  "v101_text_lines_aligned_to_zl": 3978,
+  "aligned_to_zl_paragraph_lines": 3976,
+  "v101_vs_zl_all_aligned_word_pairs": {
+    "word_pairs": 32812,
+    "exact_match": 0.8968974765329757,
+    "char_error_rate": 0.03865555367381995
+  },
+  "v101_vs_zl_accepted_pairs(dist<=0.5)": {
+    "word_pairs": 32667,
+    "exact_match": 0.9008785624636483,
+    "char_error_rate": 0.035336269404837216
+  },
+  "reference_it2a_vs_zl_same_loci": {
+    "lines": 5214,
+    "word_pairs": 35925,
+    "exact_match": 0.9009324982602644,
+    "char_error_rate": 0.03351303857335011
+  },
+  "em_history": [
+    {
+      "round": 0,
+      "pairs": 15657,
+      "loglik": -16403.03343715186
+    },
+    {
+      "round": 1,
+      "pairs": 32665,
+      "loglik": -27592.147629124076
+    },
+    {
+      "round": 2,
+      "pairs": 32667,
+      "loglik": -27583.500782382103
+    }
+  ]
+}
