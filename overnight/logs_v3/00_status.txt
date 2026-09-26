@@ -1,0 +1,9 @@
+start:   2026-09-26T11:48:23+01:00
+host:    christopc  cpus: 20  workers: 20
+commit:  9e811dda3a4e8aa763bbe9ff231e3e2200fffe31  branch: claude/gifted-wright-ctbvn0
+uv:      uv 0.12.3 (x86_64-unknown-linux-gnu)
+[2026-09-26T11:48:23+01:00] uv sync
+[2026-09-26T11:48:23+01:00] unit tests
+[2026-09-26T11:48:28+01:00] coupling-aware test v3 (18_coupling_test_v3.py), workers=20
+[2026-09-26T12:03:09+01:00] exit code: 0
+[2026-09-26T12:03:09+01:00] done
