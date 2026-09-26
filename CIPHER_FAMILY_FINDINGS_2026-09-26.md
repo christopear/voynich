@@ -207,3 +207,6 @@ for F5 and F6 only and was **not applied to Voynich**.
 * **Unit counts.** Simulated F5–F7, R1 and R2 tokens are EVA strings and were
   counted in EVA glyphs; F1–F4 tokens were counted in characters. Only the
   secondary fingerprints use units.
+* **Output files.** Step B wrote one file, `step_b_results.json`, instead of
+  the protocol's `step_b_calibration.json` and `step_b_application.json`,
+  because there was no application.
