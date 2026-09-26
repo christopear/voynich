@@ -1,0 +1,37 @@
+{
+  "script": "code/17_coupling_test_v2.py",
+  "protocol": "COUPLING_TEST_V2_PROTOCOL.md",
+  "smoke": false,
+  "workers": 1,
+  "cpu_count": 20,
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "seeds": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310
+  ],
+  "arms": [
+    "k100",
+    "k50",
+    "k200",
+    "top30"
+  ],
+  "reps": 300,
+  "elapsed_seconds": 11309,
+  "inputs_sha256": {
+    "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/mechanisms/IT2a-n.txt": "32b11a0b584a75bbe9817c96a316a246f82d02d69996d789bc2cb908190bab77",
+    "data/latin_alfonsi.txt": "5d178cb5a7d46f2bbdd5c9a209473faeffc07a438f0ab82b99ac21b7c7f155ae"
+  }
+}
