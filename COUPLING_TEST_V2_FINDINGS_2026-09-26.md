@@ -5,6 +5,12 @@ run. The run was on the user's machine (Ubuntu, Python 3.14.4), on commit
 `5f5eff7`. Results are in `results/coupling_test_v2_2026-09-25/` and logs in
 `overnight/logs/`.
 
+> **Correction (26 September 2026, after version 3).** With the leak removed by
+> cross-fitting, per-pair power falls back to 11.7% (AUC 0.67;
+> `COUPLING_TEST_V3_FINDINGS_2026-09-26.md`). The power gain reported below
+> (AUC 0.85, 48% detected) was therefore mostly produced by the leak. It is not
+> a real improvement from distributional classes.
+
 ## Summary
 
 * **The pre-set gates fail, so the Voynich result is not interpreted.**

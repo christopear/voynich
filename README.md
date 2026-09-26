@@ -35,6 +35,14 @@ translation.
   (only 2 of 34 r/l/n pairs flagged) is not interpreted. The calibration did show
   that the naive r/l test flags 69% of true coupled homophones as "different". The
   question of whether r/l/n encode different plaintext is open.
+* **Coupling-aware test, closed (v2/v3).** A cross-fitted, pooled version passes
+  its leakage and pooled-calibration gates. On Voynich, however, ZL3b and
+  Takahashi disagree (p = 0.12 vs 0.03), and the test is underpowered even
+  against random distinct Voynich pairs (60–72%). As the protocol pre-declared,
+  whether r/l/n alternations are one unit or several is recorded as **not
+  decidable by context statistics** on this corpus. Stable result across all
+  versions: the naive r/l test flags 71% of true coupled homophones as
+  "different".
 
 ## Reading order
 
@@ -62,9 +70,9 @@ translation.
     overnight run; see `overnight/README.md`. Findings are in
     `COUPLING_TEST_V2_FINDINGS_2026-09-26.md`: power improved (AUC 0.85), but
     the gates failed and a class-leakage flaw was identified.
-11. `COUPLING_TEST_V3_PROTOCOL.md`: version 3, with cross-fitted neighbour
-    classes and a leakage gate. It is the final attempt at this question. Code is
-    ready (`overnight/run_v3.sh`); results are pending.
+11. `COUPLING_TEST_V3_PROTOCOL.md` → `COUPLING_TEST_V3_FINDINGS_2026-09-26.md`:
+    version 3, with cross-fitted classes. The leak is fixed and the pooled test is
+    valid, but the Voynich result is inconclusive. The question is closed.
 
 `CODEX_KICKOFF.md` is the original task brief.
 
