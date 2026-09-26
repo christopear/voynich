@@ -1,0 +1,172 @@
+{
+ "G1_self_consistency": {
+  "F1_plain": {
+   "rate": 1.0,
+   "n": 12,
+   "pass": true
+  },
+  "F2_homophonic": {
+   "rate": 1.0,
+   "n": 36,
+   "pass": true
+  },
+  "F3_nomenclator": {
+   "rate": 1.0,
+   "n": 72,
+   "pass": true
+  },
+  "F4_abbreviation": {
+   "rate": 1.0,
+   "n": 24,
+   "pass": true
+  },
+  "F5_verbose_naibbe": {
+   "rate": 1.0,
+   "n": 72,
+   "pass": true
+  },
+  "F6_verbose_syllabic": {
+   "rate": 1.0,
+   "n": 144,
+   "pass": true
+  },
+  "F7_verbose_nulls": {
+   "rate": 1.0,
+   "n": 48,
+   "pass": true
+  },
+  "R1_assembly": {
+   "rate": 1.0,
+   "n": 24,
+   "pass": true
+  },
+  "R2_copy": {
+   "rate": 1.0,
+   "n": 24,
+   "pass": true
+  }
+ },
+ "G2_cross_compatibility": {
+  "F1_plain": {
+   "F1_plain": 1.0,
+   "F2_homophonic": 0.0,
+   "F3_nomenclator": 0.9166666666666666,
+   "F4_abbreviation": 0.9166666666666666,
+   "F5_verbose_naibbe": 0.08333333333333333,
+   "F6_verbose_syllabic": 0.0,
+   "F7_verbose_nulls": 0.08333333333333333,
+   "R1_assembly": 0.08333333333333333,
+   "R2_copy": 0.0
+  },
+  "F2_homophonic": {
+   "F1_plain": 0.0,
+   "F2_homophonic": 1.0,
+   "F3_nomenclator": 0.7777777777777778,
+   "F4_abbreviation": 0.1111111111111111,
+   "F5_verbose_naibbe": 0.16666666666666666,
+   "F6_verbose_syllabic": 0.0,
+   "F7_verbose_nulls": 0.0,
+   "R1_assembly": 0.3333333333333333,
+   "R2_copy": 0.0
+  },
+  "F3_nomenclator": {
+   "F1_plain": 0.4444444444444444,
+   "F2_homophonic": 0.3611111111111111,
+   "F3_nomenclator": 1.0,
+   "F4_abbreviation": 0.5277777777777778,
+   "F5_verbose_naibbe": 0.2777777777777778,
+   "F6_verbose_syllabic": 0.08333333333333333,
+   "F7_verbose_nulls": 0.2916666666666667,
+   "R1_assembly": 0.3472222222222222,
+   "R2_copy": 0.0
+  },
+  "F4_abbreviation": {
+   "F1_plain": 0.9166666666666666,
+   "F2_homophonic": 0.16666666666666666,
+   "F3_nomenclator": 1.0,
+   "F4_abbreviation": 1.0,
+   "F5_verbose_naibbe": 0.20833333333333334,
+   "F6_verbose_syllabic": 0.0,
+   "F7_verbose_nulls": 0.125,
+   "R1_assembly": 0.08333333333333333,
+   "R2_copy": 0.0
+  },
+  "F5_verbose_naibbe": {
+   "F1_plain": 0.2638888888888889,
+   "F2_homophonic": 0.2916666666666667,
+   "F3_nomenclator": 0.3472222222222222,
+   "F4_abbreviation": 0.06944444444444445,
+   "F5_verbose_naibbe": 1.0,
+   "F6_verbose_syllabic": 0.2222222222222222,
+   "F7_verbose_nulls": 0.5972222222222222,
+   "R1_assembly": 0.5277777777777778,
+   "R2_copy": 0.0
+  },
+  "F6_verbose_syllabic": {
+   "F1_plain": 0.0,
+   "F2_homophonic": 0.0,
+   "F3_nomenclator": 0.1736111111111111,
+   "F4_abbreviation": 0.0,
+   "F5_verbose_naibbe": 0.05555555555555555,
+   "F6_verbose_syllabic": 1.0,
+   "F7_verbose_nulls": 0.13194444444444445,
+   "R1_assembly": 0.18055555555555555,
+   "R2_copy": 0.0
+  },
+  "F7_verbose_nulls": {
+   "F1_plain": 0.3958333333333333,
+   "F2_homophonic": 0.041666666666666664,
+   "F3_nomenclator": 0.5208333333333334,
+   "F4_abbreviation": 0.22916666666666666,
+   "F5_verbose_naibbe": 1.0,
+   "F6_verbose_syllabic": 0.5625,
+   "F7_verbose_nulls": 1.0,
+   "R1_assembly": 0.8333333333333334,
+   "R2_copy": 0.0
+  },
+  "R1_assembly": {
+   "F1_plain": 0.0,
+   "F2_homophonic": 0.6666666666666666,
+   "F3_nomenclator": 0.875,
+   "F4_abbreviation": 0.08333333333333333,
+   "F5_verbose_naibbe": 0.9583333333333334,
+   "F6_verbose_syllabic": 0.375,
+   "F7_verbose_nulls": 0.625,
+   "R1_assembly": 1.0,
+   "R2_copy": 0.0
+  },
+  "R2_copy": {
+   "F1_plain": 0.0,
+   "F2_homophonic": 0.0,
+   "F3_nomenclator": 0.0,
+   "F4_abbreviation": 0.0,
+   "F5_verbose_naibbe": 0.0,
+   "F6_verbose_syllabic": 0.0,
+   "F7_verbose_nulls": 0.0,
+   "R1_assembly": 0.0,
+   "R2_copy": 1.0
+  }
+ },
+ "confusable_pairs": [
+  [
+   "F1_plain",
+   "F4_abbreviation"
+  ],
+  [
+   "F3_nomenclator",
+   "F4_abbreviation"
+  ],
+  [
+   "F5_verbose_naibbe",
+   "F7_verbose_nulls"
+  ],
+  [
+   "F5_verbose_naibbe",
+   "R1_assembly"
+  ],
+  [
+   "F7_verbose_nulls",
+   "R1_assembly"
+  ]
+ ]
+}

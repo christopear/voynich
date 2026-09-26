@@ -1,0 +1,130 @@
+{
+ "surviving_families": [],
+ "scope": [
+  "F5_verbose_naibbe",
+  "F6_verbose_syllabic"
+ ],
+ "voynich_application": false,
+ "families": {
+  "F5_verbose_naibbe": {
+   "configs_used": [
+    "F5_verbose_naibbe|coupling=0,level=0|german|L0",
+    "F5_verbose_naibbe|coupling=0,level=0|german|L1",
+    "F5_verbose_naibbe|coupling=0,level=0|latin|L0",
+    "F5_verbose_naibbe|coupling=0,level=0|latin|L1",
+    "F5_verbose_naibbe|coupling=0,level=1|german|L0",
+    "F5_verbose_naibbe|coupling=0,level=1|german|L1",
+    "F5_verbose_naibbe|coupling=0,level=1|latin|L0",
+    "F5_verbose_naibbe|coupling=0,level=1|latin|L1",
+    "F5_verbose_naibbe|coupling=0,level=2|german|L0",
+    "F5_verbose_naibbe|coupling=0,level=2|german|L1",
+    "F5_verbose_naibbe|coupling=0,level=2|latin|L0",
+    "F5_verbose_naibbe|coupling=0,level=2|latin|L1",
+    "F5_verbose_naibbe|coupling=1,level=0|german|L0",
+    "F5_verbose_naibbe|coupling=1,level=0|german|L1",
+    "F5_verbose_naibbe|coupling=1,level=0|latin|L0",
+    "F5_verbose_naibbe|coupling=1,level=0|latin|L1",
+    "F5_verbose_naibbe|coupling=1,level=1|german|L0",
+    "F5_verbose_naibbe|coupling=1,level=1|german|L1",
+    "F5_verbose_naibbe|coupling=1,level=1|latin|L0",
+    "F5_verbose_naibbe|coupling=1,level=1|latin|L1",
+    "F5_verbose_naibbe|coupling=1,level=2|german|L0",
+    "F5_verbose_naibbe|coupling=1,level=2|german|L1",
+    "F5_verbose_naibbe|coupling=1,level=2|latin|L0",
+    "F5_verbose_naibbe|coupling=1,level=2|latin|L1"
+   ],
+   "configs_from_step_a_compatible": false,
+   "evaluations": [
+    {
+     "split": "held_out_seed",
+     "auc": 0.810664860441767,
+     "precision_p08": 0.95,
+     "pairs_p08": 100,
+     "positives": 2849,
+     "pairs": 76809
+    }
+   ],
+   "H1_pass": false
+  },
+  "F6_verbose_syllabic": {
+   "configs_used": [
+    "F6_verbose_syllabic|beta=0,h=2,s=0|german|L0",
+    "F6_verbose_syllabic|beta=0,h=2,s=0|german|L1",
+    "F6_verbose_syllabic|beta=0,h=2,s=0|latin|L0",
+    "F6_verbose_syllabic|beta=0,h=2,s=0|latin|L1",
+    "F6_verbose_syllabic|beta=0,h=2,s=1|german|L0",
+    "F6_verbose_syllabic|beta=0,h=2,s=1|german|L1",
+    "F6_verbose_syllabic|beta=0,h=2,s=1|latin|L0",
+    "F6_verbose_syllabic|beta=0,h=2,s=1|latin|L1",
+    "F6_verbose_syllabic|beta=0,h=4,s=0|german|L0",
+    "F6_verbose_syllabic|beta=0,h=4,s=0|german|L1",
+    "F6_verbose_syllabic|beta=0,h=4,s=0|latin|L0",
+    "F6_verbose_syllabic|beta=0,h=4,s=0|latin|L1",
+    "F6_verbose_syllabic|beta=0,h=4,s=1|german|L0",
+    "F6_verbose_syllabic|beta=0,h=4,s=1|german|L1",
+    "F6_verbose_syllabic|beta=0,h=4,s=1|latin|L0",
+    "F6_verbose_syllabic|beta=0,h=4,s=1|latin|L1",
+    "F6_verbose_syllabic|beta=0,h=8,s=0|german|L0",
+    "F6_verbose_syllabic|beta=0,h=8,s=0|german|L1",
+    "F6_verbose_syllabic|beta=0,h=8,s=0|latin|L0",
+    "F6_verbose_syllabic|beta=0,h=8,s=0|latin|L1",
+    "F6_verbose_syllabic|beta=0,h=8,s=1|german|L0",
+    "F6_verbose_syllabic|beta=0,h=8,s=1|german|L1",
+    "F6_verbose_syllabic|beta=0,h=8,s=1|latin|L0",
+    "F6_verbose_syllabic|beta=0,h=8,s=1|latin|L1",
+    "F6_verbose_syllabic|beta=2,h=2,s=0|german|L0",
+    "F6_verbose_syllabic|beta=2,h=2,s=0|german|L1",
+    "F6_verbose_syllabic|beta=2,h=2,s=0|latin|L0",
+    "F6_verbose_syllabic|beta=2,h=2,s=0|latin|L1",
+    "F6_verbose_syllabic|beta=2,h=2,s=1|german|L0",
+    "F6_verbose_syllabic|beta=2,h=2,s=1|german|L1",
+    "F6_verbose_syllabic|beta=2,h=2,s=1|latin|L0",
+    "F6_verbose_syllabic|beta=2,h=2,s=1|latin|L1",
+    "F6_verbose_syllabic|beta=2,h=4,s=0|german|L0",
+    "F6_verbose_syllabic|beta=2,h=4,s=0|german|L1",
+    "F6_verbose_syllabic|beta=2,h=4,s=0|latin|L0",
+    "F6_verbose_syllabic|beta=2,h=4,s=0|latin|L1",
+    "F6_verbose_syllabic|beta=2,h=4,s=1|german|L0",
+    "F6_verbose_syllabic|beta=2,h=4,s=1|german|L1",
+    "F6_verbose_syllabic|beta=2,h=4,s=1|latin|L0",
+    "F6_verbose_syllabic|beta=2,h=4,s=1|latin|L1",
+    "F6_verbose_syllabic|beta=2,h=8,s=0|german|L0",
+    "F6_verbose_syllabic|beta=2,h=8,s=0|german|L1",
+    "F6_verbose_syllabic|beta=2,h=8,s=0|latin|L0",
+    "F6_verbose_syllabic|beta=2,h=8,s=0|latin|L1",
+    "F6_verbose_syllabic|beta=2,h=8,s=1|german|L0",
+    "F6_verbose_syllabic|beta=2,h=8,s=1|german|L1",
+    "F6_verbose_syllabic|beta=2,h=8,s=1|latin|L0",
+    "F6_verbose_syllabic|beta=2,h=8,s=1|latin|L1"
+   ],
+   "configs_from_step_a_compatible": false,
+   "evaluations": [
+    {
+     "split": "held_out_seed",
+     "auc": 0.9996908631518467,
+     "precision_p08": 0.9805849936413734,
+     "pairs_p08": 11795,
+     "positives": 14043,
+     "pairs": 1278398
+    },
+    {
+     "split": "held_out_language_latin_to_german",
+     "auc": 0.9995107948857318,
+     "precision_p08": 0.9931605471562275,
+     "pairs_p08": 5556,
+     "positives": 7120,
+     "pairs": 561582
+    },
+    {
+     "split": "held_out_language_german_to_latin",
+     "auc": 0.9997313555750452,
+     "precision_p08": 0.9594813614262561,
+     "pairs_p08": 6170,
+     "positives": 6923,
+     "pairs": 716816
+    }
+   ],
+   "H1_pass": true
+  }
+ }
+}

@@ -58,6 +58,14 @@ translation.
   check confirms "not letter-like" for y, k and r. A locality check showed
   that apparent per-set variant effects on endings are refitting spillover, and
   that the ambiguous symbol `A` (EVA o/a) accounts for the rest.
+* **Cipher families.** Seven cipher families available around 1420 (plain
+  or simple substitution, homophonic, nomenclator, abbreviation, three verbose
+  ciphers including Naibbe-type) and two message-free generators were
+  simulated on Latin, Italian and German. All were laid out like Currier B
+  and all are robustly excluded by alphabet-independent fingerprints. The
+  strongest constraint is page-specific vocabulary: Voynich words follow topic,
+  which letter-level verbose ciphers cannot do. Line effects need a layout
+  convention in every family.
 
 ## Reading order
 
@@ -95,6 +103,9 @@ translation.
 13. `V101_FOLLOWUP_PROTOCOL.md` → `V101_FOLLOWUP_FINDINGS_2026-09-26.md`:
     decomposition of the ZL3b/v101 gain gap (spacing), variant-test power at
     real minority rates, and per-set variant effects (with a locality check).
+14. `CIPHER_FAMILY_PROTOCOL.md` → `CIPHER_FAMILY_FINDINGS_2026-09-26.md`:
+    which historically plausible ciphers can reproduce the Voynich
+    fingerprints (none tested can), and homophone recovery calibration.
 
 `CODEX_KICKOFF.md` is the original task brief.
 
@@ -113,6 +124,7 @@ translation.
 | `code/17`, `coupling_test_v2.py`, `overnight/` | Version 2 test and the overnight runner |
 | `code/18`, `coupling_test_v3.py` | Version 3 test (cross-fitted classes); run via `overnight/run_v3.sh` |
 | `code/v101.py`, `v101_data.py`, `19`–`23` | v101 parser, mapping inference, glyph-variant test, ports |
+| `code/cipher_families.py`, `24`–`25` | Cipher-family benchmark and homophone recovery |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |

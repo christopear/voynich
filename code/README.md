@@ -147,3 +147,12 @@ OPENBLAS_NUM_THREADS=1 uv run --locked python code/22b_v101_spacing_posthoc.py
 OPENBLAS_NUM_THREADS=1 uv run --locked python code/23_v101_variant_followups.py 2b 2a --workers 4   # ~40 min
 OPENBLAS_NUM_THREADS=1 uv run --locked python code/23b_v101_locality_posthoc.py
 ```
+
+Cipher-family benchmark (`CIPHER_FAMILY_PROTOCOL.md`, outputs in
+`results/cipher_families_2026-09-26/`):
+
+```bash
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/24_cipher_family_benchmark.py --workers 4   # ~15 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/25_homophone_recovery.py                    # ~20 min
+uv run --locked python -m unittest discover -s code -p 'test_cipher_families.py' -v
+```
