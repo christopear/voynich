@@ -137,3 +137,13 @@ uv run --locked python code/20b_v101_variant_posthoc.py                # post ho
 OPENBLAS_NUM_THREADS=1 uv run --locked python code/21_v101_ports.py    # ~30 min
 uv run --locked python -m unittest discover -s code -p 'test_v101.py' -v
 ```
+
+Follow-ups (`V101_FOLLOWUP_PROTOCOL.md`, outputs in
+`results/v101_followup_2026-09-26/`); `22b` and `23b` are post hoc diagnostics:
+
+```bash
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/22_v101_gain_decomposition.py --workers 4   # ~10 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/22b_v101_spacing_posthoc.py
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/23_v101_variant_followups.py 2b 2a --workers 4   # ~40 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/23b_v101_locality_posthoc.py
+```

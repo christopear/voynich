@@ -50,8 +50,14 @@ translation.
   They look like allographs (gallows by word position, d by hand and preceding
   glyph) or unexplained variation. The Currier B next-initial coupling and its
   hidden-boundary transfer both replicate on v101. By the pre-set rule, keeping
-  the variants adds nothing to either, nor to §19. Descriptively, variant
-  spelling predicts a word's own ending slightly better.
+  the variants adds nothing to either, nor to §19.
+* **Why v101's coupling gain is twice ZL3b's: spacing.** v101 writes most of
+  ZL3b's *uncertain* spaces as full spaces, and the coupling is about six times
+  stronger there (+0.19 vs +0.03 bits at clear spaces). Readings contribute
+  nothing, and identical observations give identical gains. The low-rate power
+  check confirms "not letter-like" for y, k and r. A locality check showed
+  that apparent per-set variant effects on endings are refitting spillover, and
+  that the ambiguous symbol `A` (EVA o/a) accounts for the rest.
 
 ## Reading order
 
@@ -86,6 +92,9 @@ translation.
 12. `V101_PROTOCOL.md` → `V101_FINDINGS_2026-09-26.md`: the v101 parser and
     inferred glyph mapping, the glyph-variant test, and the paired
     full/collapsed/sham ports of 06/08, 13 and the hidden-boundary test.
+13. `V101_FOLLOWUP_PROTOCOL.md` → `V101_FOLLOWUP_FINDINGS_2026-09-26.md`:
+    decomposition of the ZL3b/v101 gain gap (spacing), variant-test power at
+    real minority rates, and per-set variant effects (with a locality check).
 
 `CODEX_KICKOFF.md` is the original task brief.
 
@@ -103,7 +112,7 @@ translation.
 | `code/16`, `coupling_test.py` | Coupling-aware terminal-alternation test |
 | `code/17`, `coupling_test_v2.py`, `overnight/` | Version 2 test and the overnight runner |
 | `code/18`, `coupling_test_v3.py` | Version 3 test (cross-fitted classes); run via `overnight/run_v3.sh` |
-| `code/v101.py`, `v101_data.py`, `19`–`21` | v101 parser, mapping inference, glyph-variant test, ports |
+| `code/v101.py`, `v101_data.py`, `19`–`23` | v101 parser, mapping inference, glyph-variant test, ports |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |

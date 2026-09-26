@@ -1,0 +1,165 @@
+{
+ "note": "POST HOC diagnostic. Positive = arm B has higher loss (worse) than arm A, in total bits.",
+ "FULL_vs_COLLAPSED": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 1315,
+   "total_bits": 154.16442628778563,
+   "bits_in_changed_rows": 73.16232650778394,
+   "bits_in_unchanged_rows": 81.00209978000169,
+   "mean_abs_unchanged": 0.10999380673298942
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 2129,
+   "total_bits": -71.27844132481279,
+   "bits_in_changed_rows": -26.502420233186786,
+   "bits_in_unchanged_rows": -44.776021091626,
+   "mean_abs_unchanged": 0.11181865329788292
+  }
+ },
+ "FULL_vs_SHAM1": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 2258,
+   "total_bits": 280.93916651807416,
+   "bits_in_changed_rows": 183.01673759681586,
+   "bits_in_unchanged_rows": 97.92242892125833,
+   "mean_abs_unchanged": 0.11963847524705419
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 3556,
+   "total_bits": 29.103980191896355,
+   "bits_in_changed_rows": 57.20319998530608,
+   "bits_in_unchanged_rows": -28.099219793409723,
+   "mean_abs_unchanged": 0.14210098580522001
+  }
+ },
+ "FULL_vs_DROP_d": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 429,
+   "total_bits": 29.947667558781408,
+   "bits_in_changed_rows": -5.9928629734102685,
+   "bits_in_unchanged_rows": 35.94053053219168,
+   "mean_abs_unchanged": 0.04284559648074691
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 583,
+   "total_bits": 34.03603409201408,
+   "bits_in_changed_rows": 7.870417426897959,
+   "bits_in_unchanged_rows": 26.16561666511612,
+   "mean_abs_unchanged": 0.041796234821505455
+  }
+ },
+ "FULL_vs_DROP_r": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 12,
+   "total_bits": 40.26503516272659,
+   "bits_in_changed_rows": -6.182115292506346,
+   "bits_in_unchanged_rows": 46.447150455232936,
+   "mean_abs_unchanged": 0.013500308487904764
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 19,
+   "total_bits": 3.8175415658205356,
+   "bits_in_changed_rows": 1.826416458293595,
+   "bits_in_unchanged_rows": 1.9911251075269407,
+   "mean_abs_unchanged": 0.010476897329249215
+  }
+ },
+ "FULL_vs_DROP_k": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 30,
+   "total_bits": 42.9339143032188,
+   "bits_in_changed_rows": -0.8220725748413579,
+   "bits_in_unchanged_rows": 43.755986878060156,
+   "mean_abs_unchanged": 0.013335324225917974
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 33,
+   "total_bits": -14.085246400755842,
+   "bits_in_changed_rows": -2.577817218574513,
+   "bits_in_unchanged_rows": -11.50742918218133,
+   "mean_abs_unchanged": 0.011526216184906846
+  }
+ },
+ "FULL_vs_DROP_sh": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 242,
+   "total_bits": -56.09462100860732,
+   "bits_in_changed_rows": -24.219999300141552,
+   "bits_in_unchanged_rows": -31.87462170846577,
+   "mean_abs_unchanged": 0.03354837541662971
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 741,
+   "total_bits": -62.21967201618611,
+   "bits_in_changed_rows": -24.5045895500708,
+   "bits_in_unchanged_rows": -37.71508246611531,
+   "mean_abs_unchanged": 0.04791772514946595
+  }
+ },
+ "FULL_vs_DROP_other": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 411,
+   "total_bits": 44.88580776508428,
+   "bits_in_changed_rows": 104.51768980966305,
+   "bits_in_unchanged_rows": -59.63188204457878,
+   "mean_abs_unchanged": 0.05776032982836838
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 572,
+   "total_bits": -37.72077347580293,
+   "bits_in_changed_rows": -29.72721493626256,
+   "bits_in_unchanged_rows": -7.993558539540368,
+   "mean_abs_unchanged": 0.056993783871226195
+  }
+ },
+ "ADD_r_vs_ADDSHAM_r1": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 25,
+   "total_bits": 7.633420000705121,
+   "bits_in_changed_rows": -7.889704643862248,
+   "bits_in_unchanged_rows": 15.52312464456737,
+   "mean_abs_unchanged": 0.014916219994049166
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 33,
+   "total_bits": -13.439134673347764,
+   "bits_in_changed_rows": 2.644369705284226,
+   "bits_in_unchanged_rows": -16.08350437863199,
+   "mean_abs_unchanged": 0.013302121201790484
+  }
+ },
+ "FULL_vs_RELABEL_o": {
+  "base": {
+   "rows": 14192,
+   "changed_rows": 8481,
+   "total_bits": -0.1313910556700065,
+   "bits_in_changed_rows": -0.10979010272816636,
+   "bits_in_unchanged_rows": -0.02160095294184014,
+   "mean_abs_unchanged": 0.00014920039739058988
+  },
+  "gain": {
+   "rows": 14192,
+   "changed_rows": 9881,
+   "total_bits": -0.14653966126134782,
+   "bits_in_changed_rows": -0.03572453085996574,
+   "bits_in_unchanged_rows": -0.11081513040138208,
+   "mean_abs_unchanged": 0.00022970283162922515
+  }
+ }
+}
