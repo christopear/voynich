@@ -25,6 +25,8 @@ in `sources.json`. Downloaded 24 September 2026.
   Rozanova/Temerev archive used in the previous stage. This is a legacy-byte
   alphabet, not UTF-8 EVA. It was inspected but NOT converted or analyzed in the
   direct n/l/r robustness check, to avoid unvalidated character mapping.
+  It was later parsed and mapped to EVA with an inferred, validated mapping in
+  the v101 stage (`V101_PROTOCOL.md`, `code/v101.py`).
 * `benchmark_tree.json`: discovery metadata from a public transcription archive;
   no text from it enters the experiments.
 

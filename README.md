@@ -5,7 +5,7 @@ text (ZL3b EVA transcription), using Greshko's Naibbe cipher as a positive
 control. It does **not** claim a decipherment, language identification or
 translation.
 
-## Current state (25 September 2026)
+## Current state (26 September 2026)
 
 * **Strongest result.** In Currier B, the following word's first glyph improves
   prediction of an n/l/r word ending. This holds when the stem's spelling family
@@ -43,6 +43,13 @@ translation.
   decidable by context statistics** on this corpus. Stable result across all
   versions: the naive r/l test flags 71% of true coupled homophones as
   "different".
+* **Third transcription: Glen Claston's v101.** An EM-inferred v101→EVA
+  mapping matches ZL3b on 89.7% of words, as closely as IT2a does. Of the
+  eight glyph-variant sets that EVA merges, six could be tested with
+  calibrated power, and none carries word-level (letter-like) information. They look like allographs (gallows by word position, d by hand
+  and preceding glyph) or unexplained variation. The Currier B next-initial
+  coupling and its hidden-boundary transfer both replicate on v101. Keeping the
+  variants adds nothing to either, nor to §19.
 
 ## Reading order
 
@@ -74,6 +81,10 @@ translation.
     version 3, with cross-fitted classes. The leak is fixed and the pooled test is
     valid, but the Voynich result is inconclusive. The question is closed.
 
+12. `V101_PROTOCOL.md` → `V101_FINDINGS_2026-09-26.md`: the v101 parser and
+    inferred glyph mapping, the glyph-variant test, and the paired
+    full/collapsed/sham ports of 06/08, 13 and the hidden-boundary test.
+
 `CODEX_KICKOFF.md` is the original task brief.
 
 ## Layout
@@ -90,6 +101,7 @@ translation.
 | `code/16`, `coupling_test.py` | Coupling-aware terminal-alternation test |
 | `code/17`, `coupling_test_v2.py`, `overnight/` | Version 2 test and the overnight runner |
 | `code/18`, `coupling_test_v3.py` | Version 3 test (cross-fitted classes); run via `overnight/run_v3.sh` |
+| `code/v101.py`, `v101_data.py`, `19`–`21` | v101 parser, mapping inference, glyph-variant test, ports |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |

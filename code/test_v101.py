@@ -47,5 +47,32 @@ class AlignerTests(unittest.TestCase):
         self.assertEqual(v101.collapse("7a8", table), "8a8")
 
 
+class PortTests(unittest.TestCase):
+    def test_sham_preserves_classes_and_counts(self):
+        import v101_data as vd
+        table = {"8": "8", "7": "8", "a": "a", "m": "m"}
+        lines = [{"words": [{"word": "8am", "clean": True}, {"word": "7a", "clean": True}]},
+                 {"words": [{"word": "a8", "clean": True}, {"word": "77m", "clean": True}]}]
+        sham = vd.sham_lines(lines, table, seed=1)
+        col = lambda ls: [v101.collapse(w["word"], table) for ln in ls for w in ln["words"]]
+        self.assertEqual(col(sham), col(lines))
+        chars = lambda ls: Counter(c for ln in ls for w in ln["words"] for c in w["word"])
+        self.assertEqual(chars(sham), chars(lines))
+
+    def test_hidden_boundary_port_reproduces_boundary_py(self):
+        import importlib.util
+        from pathlib import Path
+        import boundary
+        spec = importlib.util.spec_from_file_location("p21", Path(__file__).with_name("21_v101_ports.py"))
+        p = importlib.util.module_from_spec(spec); spec.loader.exec_module(p)
+        lines = boundary.load_zl3b(v101.ZL_PATH)
+        r = p.hidden_boundary([ln.tokens for ln in lines], lambda w: w[-1] if w and w[-1] in "nlr" else None,
+                              lambda w: p.ORIGINAL_GLYPHS(w)[0], units=False)
+        self.assertEqual(r["candidates"], 769)
+        self.assertEqual(r["both"]["n"], 624)
+        self.assertAlmostEqual(r["both"]["stem_initial_acc"], 0.708, places=3)
+        self.assertAlmostEqual(r["both"]["stem_only_acc"], 0.639, places=3)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -123,3 +123,17 @@ folds. It follows `COUPLING_TEST_V3_PROTOCOL.md` and is launched with
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible
 adaptation using published Naibbe tables, not the published card-deck algorithm.
+
+The v101 stage follows `V101_PROTOCOL.md`; findings are in
+`V101_FINDINGS_2026-09-26.md` and outputs in `results/v101_2026-09-26/`.
+`v101.py` parses Glen Claston's latin-1 v101 file and infers the v101 → EVA
+mapping by EM alignment against ZL3b; `v101_data.py` builds the full, collapsed
+and sham representations used by the paired tests.
+
+```bash
+uv run --locked python code/19_v101_mapping.py                         # ~3 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/20_v101_variant_test.py --workers 4   # ~10 min
+uv run --locked python code/20b_v101_variant_posthoc.py                # post hoc tables
+OPENBLAS_NUM_THREADS=1 uv run --locked python code/21_v101_ports.py    # ~30 min
+uv run --locked python -m unittest discover -s code -p 'test_v101.py' -v
+```
