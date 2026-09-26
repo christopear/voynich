@@ -59,7 +59,9 @@ translation.
    cipher.
 10. `COUPLING_TEST_V2_PROTOCOL.md`: version 2 of that test (distributional
     neighbour classes, pooled test, 10-seed calibration). It is set up as an
-    overnight run; see `overnight/README.md`. Results are pending.
+    overnight run; see `overnight/README.md`. Findings are in
+    `COUPLING_TEST_V2_FINDINGS_2026-09-26.md`: power improved (AUC 0.85), but
+    the gates failed and a class-leakage flaw was identified.
 
 `CODEX_KICKOFF.md` is the original task brief.
 

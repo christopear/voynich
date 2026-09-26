@@ -7,13 +7,14 @@ set -uo pipefail
 cd "$(dirname "$0")/.."
 LOG=overnight/logs
 mkdir -p "$LOG"
+# Decide the worker count BEFORE limiting BLAS threads: nproc obeys OMP_NUM_THREADS.
+WORKERS=${WORKERS:-$(nproc --all)}
 export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-WORKERS=${WORKERS:-$(nproc)}
 STATUS="$LOG/00_status.txt"
 
 {
   echo "start:   $(date -Is)"
-  echo "host:    $(hostname)  cpus: $(nproc)  workers: $WORKERS"
+  echo "host:    $(hostname)  cpus: $(nproc --all)  workers: $WORKERS"
   echo "commit:  $(git rev-parse HEAD)  branch: $(git rev-parse --abbrev-ref HEAD)"
   echo "uv:      $(uv --version 2>&1)"
   echo "kernel:  $(uname -srm)"
