@@ -62,6 +62,9 @@ translation.
     overnight run; see `overnight/README.md`. Findings are in
     `COUPLING_TEST_V2_FINDINGS_2026-09-26.md`: power improved (AUC 0.85), but
     the gates failed and a class-leakage flaw was identified.
+11. `COUPLING_TEST_V3_PROTOCOL.md`: version 3, with cross-fitted neighbour
+    classes and a leakage gate. It is the final attempt at this question. Code is
+    ready (`overnight/run_v3.sh`); results are pending.
 
 `CODEX_KICKOFF.md` is the original task brief.
 
@@ -78,6 +81,7 @@ translation.
 | `code/15`, `slot_cipher.py` | Labelled slot cipher and coupled-cipher transfer test |
 | `code/16`, `coupling_test.py` | Coupling-aware terminal-alternation test |
 | `code/17`, `coupling_test_v2.py`, `overnight/` | Version 2 test and the overnight runner |
+| `code/18`, `coupling_test_v3.py` | Version 3 test (cross-fitted classes); run via `overnight/run_v3.sh` |
 | `code/test_*.py` | Unit and regression tests |
 | `data/` | Corpora (fetched by `code/fetch_data.py`); provenance READMEs in subfolders |
 | `results/` | Outputs by stage; `results_snapshot.json` holds the original recorded values |

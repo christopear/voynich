@@ -114,6 +114,11 @@ coupling-aware test. It is CPU-parallel and follows
 cross-machine reproducibility check of 13, 15 and 16, is launched with
 `./overnight/run_overnight.sh`; see `overnight/README.md`.
 
+`18_coupling_test_v3.py` (`coupling_test_v3.py`) is version 3 of the test: the
+same design as version 2, but with neighbour classes cross-fitted across page
+folds. It follows `COUPLING_TEST_V3_PROTOCOL.md` and is launched with
+`./overnight/run_v3.sh`.
+
 `08` and `09` are prospective tests for this stage. `10` and `11` are explicitly
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible
