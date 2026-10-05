@@ -1,0 +1,86 @@
+{
+ "protocol": "CIPHER_FAMILY_PROTOCOL.md",
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "held_out": [
+  101,
+  102
+ ],
+ "z_max": 3.0,
+ "bootstrap": 200,
+ "window_pages": {
+  "W1": [
+   "f26r",
+   "f26v",
+   "f31r",
+   "f31v",
+   "f33r",
+   "f33v",
+   "f34r",
+   "f34v",
+   "f39r",
+   "f39v",
+   "f40r",
+   "f40v",
+   "f41r",
+   "f41v",
+   "f43r",
+   "f43v",
+   "f46r",
+   "f46v",
+   "f48r",
+   "f48v",
+   "f50r",
+   "f50v",
+   "f55r",
+   "f55v",
+   "f57r",
+   "f66r",
+   "f66v",
+   "f75r",
+   "f75v",
+   "f76r",
+   "f76v",
+   "f77r"
+  ],
+  "W2": [
+   "f77v",
+   "f78r",
+   "f78v",
+   "f79r",
+   "f79v",
+   "f80r",
+   "f80v",
+   "f81r",
+   "f81v",
+   "f82r",
+   "f82v",
+   "f83r",
+   "f83v",
+   "f84r",
+   "f84v",
+   "f85r1",
+   "f86v4",
+   "f86v6"
+  ]
+ },
+ "window_slots": {
+  "W1": 5122,
+  "W2": 5454
+ },
+ "sha256": {
+  "CIPHER_FAMILY_PROTOCOL.md": "ddd7c6910b62627f8bb208db7cb422e6f29b2a231d3784a148c04fb8b19bf23c",
+  "code/24_cipher_family_benchmark.py": "896d4f73d1764505e1fca0cf5cab7eff43d218fe384d414f0aaae2a4fe9cd02e",
+  "code/cipher_families.py": "28befa71c0daa9e27c97716b0daced0c8c4f3bf596e2f1209621b2dd25287040",
+  "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "data/latin_alfonsi.txt": "5d178cb5a7d46f2bbdd5c9a209473faeffc07a438f0ab82b99ac21b7c7f155ae",
+  "data/italian_dante.txt": "8df50e1cc51dce149f2b0278c40f3d7ca569d3c44192cdef6c4ca88c2b74f633",
+  "data/mhg_fh.txt": "24e212a5f8b29bb2adf501be28c7b28013614e4d1fc7317b4f13b5f5383f232f"
+ }
+}

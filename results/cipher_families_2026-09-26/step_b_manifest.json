@@ -1,0 +1,15 @@
+{
+ "min_freq": 10,
+ "train_seeds": [
+  1,
+  2
+ ],
+ "test_seeds": [
+  3
+ ],
+ "sha256": {
+  "code/25_homophone_recovery.py": "d24eec8a90316ae003ecd417590650200fec089b595e44478216399760191ada",
+  "code/cipher_families.py": "28befa71c0daa9e27c97716b0daced0c8c4f3bf596e2f1209621b2dd25287040",
+  "CIPHER_FAMILY_PROTOCOL.md": "ddd7c6910b62627f8bb208db7cb422e6f29b2a231d3784a148c04fb8b19bf23c"
+ }
+}

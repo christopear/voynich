@@ -1,0 +1,3161 @@
+{
+ "note": "EVA image = argmax of EM emission table; purity = share of Viterbi alignments (accepted word pairs) using that image. Symbols with count_text < 20 are mapped but excluded from merged-set listing.",
+ "symbols": {
+  "o": {
+   "codepoint": "U+006F",
+   "count_all": 25055,
+   "count_text": 21595,
+   "eva": "o",
+   "em_prob": 0.9694,
+   "aligned": 20056,
+   "purity": 0.9697,
+   "alternatives": [
+    [
+     "",
+     136
+    ],
+    [
+     "a",
+     109
+    ],
+    [
+     "ody",
+     52
+    ]
+   ]
+  },
+  "9": {
+   "codepoint": "U+0039",
+   "count_all": 17439,
+   "count_text": 15410,
+   "eva": "y",
+   "em_prob": 0.9867,
+   "aligned": 14525,
+   "purity": 0.9869,
+   "alternatives": [
+    [
+     "",
+     104
+    ],
+    [
+     "o",
+     10
+    ],
+    [
+     "ckhy",
+     9
+    ]
+   ]
+  },
+  "a": {
+   "codepoint": "U+0061",
+   "count_all": 14497,
+   "count_text": 12384,
+   "eva": "a",
+   "em_prob": 0.9488,
+   "aligned": 11532,
+   "purity": 0.9491,
+   "alternatives": [
+    [
+     "o",
+     126
+    ],
+    [
+     "sa",
+     54
+    ],
+    [
+     "da",
+     50
+    ]
+   ]
+  },
+  "c": {
+   "codepoint": "U+0063",
+   "count_all": 13751,
+   "count_text": 12006,
+   "eva": "e",
+   "em_prob": 0.9737,
+   "aligned": 11427,
+   "purity": 0.9738,
+   "alternatives": [
+    [
+     "",
+     99
+    ],
+    [
+     "he",
+     38
+    ],
+    [
+     "che",
+     31
+    ]
+   ]
+  },
+  "1": {
+   "codepoint": "U+0031",
+   "count_all": 11053,
+   "count_text": 9985,
+   "eva": "ch",
+   "em_prob": 0.9654,
+   "aligned": 9450,
+   "purity": 0.9654,
+   "alternatives": [
+    [
+     "olch",
+     41
+    ],
+    [
+     "",
+     35
+    ],
+    [
+     "ee",
+     31
+    ]
+   ]
+  },
+  "e": {
+   "codepoint": "U+0065",
+   "count_all": 10656,
+   "count_text": 9384,
+   "eva": "l",
+   "em_prob": 0.9772,
+   "aligned": 8612,
+   "purity": 0.9767,
+   "alternatives": [
+    [
+     "",
+     65
+    ],
+    [
+     "ldy",
+     21
+    ],
+    [
+     "lal",
+     9
+    ]
+   ]
+  },
+  "8": {
+   "codepoint": "U+0038",
+   "count_all": 10346,
+   "count_text": 9259,
+   "eva": "d",
+   "em_prob": 0.9802,
+   "aligned": 8737,
+   "purity": 0.9801,
+   "alternatives": [
+    [
+     "",
+     46
+    ],
+    [
+     "aiin",
+     12
+    ],
+    [
+     "qod",
+     12
+    ]
+   ]
+  },
+  "h": {
+   "codepoint": "U+0068",
+   "count_all": 9926,
+   "count_text": 8890,
+   "eva": "k",
+   "em_prob": 0.9702,
+   "aligned": 8479,
+   "purity": 0.9703,
+   "alternatives": [
+    [
+     "qok",
+     34
+    ],
+    [
+     "t",
+     31
+    ],
+    [
+     "olk",
+     28
+    ]
+   ]
+  },
+  "y": {
+   "codepoint": "U+0079",
+   "count_all": 6718,
+   "count_text": 5713,
+   "eva": "r",
+   "em_prob": 0.9723,
+   "aligned": 5134,
+   "purity": 0.972,
+   "alternatives": [
+    [
+     "s",
+     45
+    ],
+    [
+     "",
+     24
+    ],
+    [
+     "ram",
+     10
+    ]
+   ]
+  },
+  "k": {
+   "codepoint": "U+006B",
+   "count_all": 6120,
+   "count_text": 5073,
+   "eva": "t",
+   "em_prob": 0.9633,
+   "aligned": 4796,
+   "purity": 0.9631,
+   "alternatives": [
+    [
+     "k",
+     110
+    ],
+    [
+     "",
+     23
+    ],
+    [
+     "qot",
+     5
+    ]
+   ]
+  },
+  "4": {
+   "codepoint": "U+0034",
+   "count_all": 5408,
+   "count_text": 5256,
+   "eva": "q",
+   "em_prob": 0.9976,
+   "aligned": 4929,
+   "purity": 0.9976,
+   "alternatives": [
+    [
+     "",
+     6
+    ],
+    [
+     "y",
+     2
+    ],
+    [
+     "che",
+     1
+    ]
+   ]
+  },
+  "m": {
+   "codepoint": "U+006D",
+   "count_all": 4112,
+   "count_text": 3746,
+   "eva": "iin",
+   "em_prob": 0.9805,
+   "aligned": 3627,
+   "purity": 0.9807,
+   "alternatives": [
+    [
+     "ain",
+     26
+    ],
+    [
+     "aiin",
+     21
+    ],
+    [
+     "in",
+     8
+    ]
+   ]
+  },
+  "2": {
+   "codepoint": "U+0032",
+   "count_all": 3358,
+   "count_text": 3112,
+   "eva": "sh",
+   "em_prob": 0.961,
+   "aligned": 2972,
+   "purity": 0.961,
+   "alternatives": [
+    [
+     "ch",
+     29
+    ],
+    [
+     "olsh",
+     15
+    ],
+    [
+     "",
+     14
+    ]
+   ]
+  },
+  "C": {
+   "codepoint": "U+0043",
+   "count_all": 2844,
+   "count_text": 2518,
+   "eva": "ee",
+   "em_prob": 0.9693,
+   "aligned": 2425,
+   "purity": 0.9695,
+   "alternatives": [
+    [
+     "ch",
+     17
+    ],
+    [
+     "e",
+     10
+    ],
+    [
+     "chee",
+     7
+    ]
+   ]
+  },
+  "7": {
+   "codepoint": "U+0037",
+   "count_all": 2715,
+   "count_text": 2299,
+   "eva": "d",
+   "em_prob": 0.9824,
+   "aligned": 2166,
+   "purity": 0.9829,
+   "alternatives": [
+    [
+     "dy",
+     7
+    ],
+    [
+     "",
+     6
+    ],
+    [
+     "hd",
+     3
+    ]
+   ]
+  },
+  "s": {
+   "codepoint": "U+0073",
+   "count_all": 2703,
+   "count_text": 2117,
+   "eva": "s",
+   "em_prob": 0.9471,
+   "aligned": 1820,
+   "purity": 0.9473,
+   "alternatives": [
+    [
+     "r",
+     58
+    ],
+    [
+     "",
+     21
+    ],
+    [
+     "hs",
+     3
+    ]
+   ]
+  },
+  "n": {
+   "codepoint": "U+006E",
+   "count_all": 1766,
+   "count_text": 1686,
+   "eva": "in",
+   "em_prob": 0.9566,
+   "aligned": 1611,
+   "purity": 0.9547,
+   "alternatives": [
+    [
+     "iin",
+     54
+    ],
+    [
+     "ir",
+     5
+    ],
+    [
+     "lain",
+     3
+    ]
+   ]
+  },
+  "p": {
+   "codepoint": "U+0070",
+   "count_all": 989,
+   "count_text": 843,
+   "eva": "m",
+   "em_prob": 0.9707,
+   "aligned": 769,
+   "purity": 0.9714,
+   "alternatives": [
+    [
+     "g",
+     6
+    ],
+    [
+     "",
+     5
+    ],
+    [
+     "mdy",
+     2
+    ]
+   ]
+  },
+  "K": {
+   "codepoint": "U+004B",
+   "count_all": 910,
+   "count_text": 871,
+   "eva": "cth",
+   "em_prob": 0.9635,
+   "aligned": 817,
+   "purity": 0.9633,
+   "alternatives": [
+    [
+     "ckh",
+     12
+    ],
+    [
+     "octh",
+     3
+    ],
+    [
+     "",
+     2
+    ]
+   ]
+  },
+  "g": {
+   "codepoint": "U+0067",
+   "count_all": 879,
+   "count_text": 809,
+   "eva": "p",
+   "em_prob": 0.9815,
+   "aligned": 756,
+   "purity": 0.9815,
+   "alternatives": [
+    [
+     "f",
+     5
+    ],
+    [
+     "",
+     3
+    ],
+    [
+     "pche",
+     2
+    ]
+   ]
+  },
+  "H": {
+   "codepoint": "U+0048",
+   "count_all": 866,
+   "count_text": 824,
+   "eva": "ckh",
+   "em_prob": 0.9597,
+   "aligned": 789,
+   "purity": 0.9594,
+   "alternatives": [
+    [
+     "qock",
+     9
+    ],
+    [
+     "cth",
+     4
+    ],
+    [
+     "ch",
+     2
+    ]
+   ]
+  },
+  "A": {
+   "codepoint": "U+0041",
+   "count_all": 769,
+   "count_text": 666,
+   "eva": "o",
+   "em_prob": 0.5903,
+   "aligned": 550,
+   "purity": 0.5909,
+   "alternatives": [
+    [
+     "a",
+     166
+    ],
+    [
+     "y",
+     34
+    ],
+    [
+     "",
+     7
+    ]
+   ]
+  },
+  "j": {
+   "codepoint": "U+006A",
+   "count_all": 564,
+   "count_text": 451,
+   "eva": "p",
+   "em_prob": 0.9717,
+   "aligned": 424,
+   "purity": 0.9717,
+   "alternatives": [
+    [
+     "f",
+     5
+    ],
+    [
+     "",
+     4
+    ],
+    [
+     "otar",
+     1
+    ]
+   ]
+  },
+  "3": {
+   "codepoint": "U+0033",
+   "count_all": 516,
+   "count_text": 487,
+   "eva": "sh",
+   "em_prob": 0.9594,
+   "aligned": 468,
+   "purity": 0.9594,
+   "alternatives": [
+    [
+     "olsh",
+     5
+    ],
+    [
+     "ch",
+     2
+    ],
+    [
+     "ssh",
+     2
+    ]
+   ]
+  },
+  "z": {
+   "codepoint": "U+007A",
+   "count_all": 511,
+   "count_text": 434,
+   "eva": "ir",
+   "em_prob": 0.9377,
+   "aligned": 401,
+   "purity": 0.9377,
+   "alternatives": [
+    [
+     "is",
+     5
+    ],
+    [
+     "ar",
+     3
+    ],
+    [
+     "iro",
+     2
+    ]
+   ]
+  },
+  "5": {
+   "codepoint": "U+0035",
+   "count_all": 409,
+   "count_text": 368,
+   "eva": "sh",
+   "em_prob": 0.9521,
+   "aligned": 334,
+   "purity": 0.9521,
+   "alternatives": [
+    [
+     "olsh",
+     3
+    ],
+    [
+     "rsh",
+     3
+    ],
+    [
+     "otys",
+     1
+    ]
+   ]
+  },
+  "(": {
+   "codepoint": "U+0028",
+   "count_all": 402,
+   "count_text": 360,
+   "eva": "y",
+   "em_prob": 0.9777,
+   "aligned": 331,
+   "purity": 0.9789,
+   "alternatives": [
+    [
+     "q",
+     4
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "qoy",
+     1
+    ]
+   ]
+  },
+  "d": {
+   "codepoint": "U+0064",
+   "count_all": 336,
+   "count_text": 287,
+   "eva": "eee",
+   "em_prob": 0.889,
+   "aligned": 271,
+   "purity": 0.8893,
+   "alternatives": [
+    [
+     "ee",
+     7
+    ],
+    [
+     "che",
+     6
+    ],
+    [
+     "olee",
+     3
+    ]
+   ]
+  },
+  "i": {
+   "codepoint": "U+0069",
+   "count_all": 264,
+   "count_text": 197,
+   "eva": "i",
+   "em_prob": 0.9386,
+   "aligned": 163,
+   "purity": 0.9387,
+   "alternatives": [
+    [
+     "",
+     3
+    ],
+    [
+     "e",
+     3
+    ],
+    [
+     "a",
+     3
+    ]
+   ]
+  },
+  "f": {
+   "codepoint": "U+0066",
+   "count_all": 233,
+   "count_text": 201,
+   "eva": "f",
+   "em_prob": 0.8858,
+   "aligned": 180,
+   "purity": 0.8833,
+   "alternatives": [
+    [
+     "p",
+     17
+    ],
+    [
+     "pof",
+     1
+    ],
+    [
+     "",
+     1
+    ]
+   ]
+  },
+  "u": {
+   "codepoint": "U+0075",
+   "count_all": 177,
+   "count_text": 139,
+   "eva": "f",
+   "em_prob": 0.9533,
+   "aligned": 129,
+   "purity": 0.9535,
+   "alternatives": [
+    [
+     "p",
+     4
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "dyf",
+     1
+    ]
+   ]
+  },
+  "M": {
+   "codepoint": "U+004D",
+   "count_all": 174,
+   "count_text": 160,
+   "eva": "iiin",
+   "em_prob": 0.9205,
+   "aligned": 151,
+   "purity": 0.9205,
+   "alternatives": [
+    [
+     "iin",
+     5
+    ],
+    [
+     "aiin",
+     4
+    ],
+    [
+     "ain",
+     1
+    ]
+   ]
+  },
+  "Z": {
+   "codepoint": "U+005A",
+   "count_all": 154,
+   "count_text": 116,
+   "eva": "iir",
+   "em_prob": 0.9134,
+   "aligned": 104,
+   "purity": 0.9135,
+   "alternatives": [
+    [
+     "iral",
+     2
+    ],
+    [
+     "iis",
+     1
+    ],
+    [
+     "iin",
+     1
+    ]
+   ]
+  },
+  "%": {
+   "codepoint": "U+0025",
+   "count_all": 140,
+   "count_text": 131,
+   "eva": "sh",
+   "em_prob": 0.9837,
+   "aligned": 123,
+   "purity": 0.9837,
+   "alternatives": [
+    [
+     "dals",
+     1
+    ],
+    [
+     "d",
+     1
+    ]
+   ]
+  },
+  "N": {
+   "codepoint": "U+004E",
+   "count_all": 132,
+   "count_text": 112,
+   "eva": "n",
+   "em_prob": 0.9528,
+   "aligned": 106,
+   "purity": 0.9528,
+   "alternatives": [
+    [
+     "",
+     2
+    ],
+    [
+     "r",
+     2
+    ],
+    [
+     "nam",
+     1
+    ]
+   ]
+  },
+  "J": {
+   "codepoint": "U+004A",
+   "count_all": 122,
+   "count_text": 109,
+   "eva": "cph",
+   "em_prob": 0.9694,
+   "aligned": 98,
+   "purity": 0.9694,
+   "alternatives": [
+    [
+     "cfh",
+     2
+    ],
+    [
+     "",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "codepoint": "U+0036",
+   "count_all": 115,
+   "count_text": 84,
+   "eva": "d",
+   "em_prob": 0.9463,
+   "aligned": 74,
+   "purity": 0.9459,
+   "alternatives": [
+    [
+     "ed",
+     3
+    ],
+    [
+     "ds",
+     1
+    ]
+   ]
+  },
+  "I": {
+   "codepoint": "U+0049",
+   "count_all": 98,
+   "count_text": 87,
+   "eva": "ii",
+   "em_prob": 0.905,
+   "aligned": 66,
+   "purity": 0.9091,
+   "alternatives": [
+    [
+     "ai",
+     2
+    ],
+    [
+     "a",
+     2
+    ],
+    [
+     "in",
+     1
+    ]
+   ]
+  },
+  "x": {
+   "codepoint": "U+0078",
+   "count_all": 98,
+   "count_text": 84,
+   "eva": "r",
+   "em_prob": 0.9589,
+   "aligned": 73,
+   "purity": 0.9589,
+   "alternatives": [
+    [
+     "n",
+     1
+    ],
+    [
+     "ram",
+     1
+    ],
+    [
+     "ral",
+     1
+    ]
+   ]
+  },
+  "+": {
+   "codepoint": "U+002B",
+   "count_all": 95,
+   "count_text": 87,
+   "eva": "sh",
+   "em_prob": 0.9517,
+   "aligned": 83,
+   "purity": 0.9518,
+   "alternatives": [
+    [
+     "",
+     2
+    ],
+    [
+     "osh",
+     1
+    ],
+    [
+     "dsh",
+     1
+    ]
+   ]
+  },
+  "W": {
+   "codepoint": "U+0057",
+   "count_all": 92,
+   "count_text": 71,
+   "eva": "k",
+   "em_prob": 0.9687,
+   "aligned": 64,
+   "purity": 0.9688,
+   "alternatives": [
+    [
+     "f",
+     1
+    ],
+    [
+     "yk",
+     1
+    ]
+   ]
+  },
+  "G": {
+   "codepoint": "U+0047",
+   "count_all": 89,
+   "count_text": 86,
+   "eva": "cph",
+   "em_prob": 0.9874,
+   "aligned": 78,
+   "purity": 0.9872,
+   "alternatives": [
+    [
+     "cphe",
+     1
+    ]
+   ]
+  },
+  "Y": {
+   "codepoint": "U+0059",
+   "count_all": 55,
+   "count_text": 44,
+   "eva": "r",
+   "em_prob": 0.8888,
+   "aligned": 36,
+   "purity": 0.8889,
+   "alternatives": [
+    [
+     "s",
+     2
+    ],
+    [
+     "",
+     2
+    ]
+   ]
+  },
+  "E": {
+   "codepoint": "U+0045",
+   "count_all": 54,
+   "count_text": 43,
+   "eva": "c",
+   "em_prob": 0.4,
+   "aligned": 5,
+   "purity": 0.4,
+   "alternatives": [
+    [
+     "",
+     1
+    ],
+    [
+     "e",
+     1
+    ],
+    [
+     "a",
+     1
+    ]
+   ]
+  },
+  "!": {
+   "codepoint": "U+0021",
+   "count_all": 50,
+   "count_text": 41,
+   "eva": "sh",
+   "em_prob": 1.0,
+   "aligned": 36,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "t": {
+   "codepoint": "U+0074",
+   "count_all": 40,
+   "count_text": 24,
+   "eva": "s",
+   "em_prob": 0.95,
+   "aligned": 20,
+   "purity": 0.95,
+   "alternatives": [
+    [
+     "r",
+     1
+    ]
+   ]
+  },
+  "P": {
+   "codepoint": "U+0050",
+   "count_all": 38,
+   "count_text": 34,
+   "eva": "im",
+   "em_prob": 0.9629,
+   "aligned": 27,
+   "purity": 0.963,
+   "alternatives": [
+    [
+     "m",
+     1
+    ]
+   ]
+  },
+  "S": {
+   "codepoint": "U+0053",
+   "count_all": 38,
+   "count_text": 30,
+   "eva": "es",
+   "em_prob": 0.9615,
+   "aligned": 26,
+   "purity": 0.9615,
+   "alternatives": [
+    [
+     "er",
+     1
+    ]
+   ]
+  },
+  "&": {
+   "codepoint": "U+0026",
+   "count_all": 36,
+   "count_text": 31,
+   "eva": "d",
+   "em_prob": 0.7825,
+   "aligned": 23,
+   "purity": 0.7826,
+   "alternatives": [
+    [
+     "m",
+     2
+    ],
+    [
+     "j",
+     2
+    ],
+    [
+     "",
+     1
+    ]
+   ]
+  },
+  "l": {
+   "codepoint": "U+006C",
+   "count_all": 36,
+   "count_text": 30,
+   "eva": "ckhe",
+   "em_prob": 0.7999,
+   "aligned": 5,
+   "purity": 0.8,
+   "alternatives": [
+    [
+     "ckh",
+     1
+    ]
+   ]
+  },
+  "F": {
+   "codepoint": "U+0046",
+   "count_all": 35,
+   "count_text": 32,
+   "eva": "cfh",
+   "em_prob": 0.9375,
+   "aligned": 32,
+   "purity": 0.9375,
+   "alternatives": [
+    [
+     "cph",
+     1
+    ],
+    [
+     "lpch",
+     1
+    ]
+   ]
+  },
+  "#": {
+   "codepoint": "U+0023",
+   "count_all": 34,
+   "count_text": 34,
+   "eva": "sh",
+   "em_prob": 0.9667,
+   "aligned": 30,
+   "purity": 0.9667,
+   "alternatives": [
+    [
+     "",
+     1
+    ]
+   ]
+  },
+  "L": {
+   "codepoint": "U+004C",
+   "count_all": 32,
+   "count_text": 31,
+   "eva": "cthe",
+   "em_prob": 0.8571,
+   "aligned": 7,
+   "purity": 0.8571,
+   "alternatives": [
+    [
+     "cth",
+     1
+    ]
+   ]
+  },
+  "U": {
+   "codepoint": "U+0055",
+   "count_all": 32,
+   "count_text": 27,
+   "eva": "cfh",
+   "em_prob": 0.84,
+   "aligned": 25,
+   "purity": 0.84,
+   "alternatives": [
+    [
+     "cph",
+     2
+    ],
+    [
+     "ckh",
+     1
+    ],
+    [
+     "cfhd",
+     1
+    ]
+   ]
+  },
+  "ä": {
+   "codepoint": "U+00E4",
+   "count_all": 30,
+   "count_text": 26,
+   "eva": "ckh",
+   "em_prob": 1.0,
+   "aligned": 2,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "b": {
+   "codepoint": "U+0062",
+   "count_all": 28,
+   "count_text": 25,
+   "eva": "r",
+   "em_prob": 1.0,
+   "aligned": 12,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "Q": {
+   "codepoint": "U+0051",
+   "count_all": 27,
+   "count_text": 23,
+   "eva": "m",
+   "em_prob": 0.8571,
+   "aligned": 14,
+   "purity": 0.8571,
+   "alternatives": [
+    [
+     "z",
+     1
+    ],
+    [
+     "ch",
+     1
+    ]
+   ]
+  },
+  "T": {
+   "codepoint": "U+0054",
+   "count_all": 27,
+   "count_text": 22,
+   "eva": "s",
+   "em_prob": 0.8123,
+   "aligned": 16,
+   "purity": 0.8125,
+   "alternatives": [
+    [
+     "",
+     1
+    ],
+    [
+     "sar",
+     1
+    ],
+    [
+     "sal",
+     1
+    ]
+   ]
+  },
+  "|": {
+   "codepoint": "U+007C",
+   "count_all": 25,
+   "count_text": 8,
+   "eva": "x",
+   "em_prob": 0.6667,
+   "aligned": 3,
+   "purity": 0.6667,
+   "alternatives": [
+    [
+     "xar",
+     1
+    ]
+   ]
+  },
+  "$": {
+   "codepoint": "U+0024",
+   "count_all": 24,
+   "count_text": 21,
+   "eva": "s",
+   "em_prob": 0.9374,
+   "aligned": 16,
+   "purity": 0.9375,
+   "alternatives": [
+    [
+     "",
+     1
+    ]
+   ]
+  },
+  "w": {
+   "codepoint": "U+0077",
+   "count_all": 24,
+   "count_text": 12,
+   "eva": "f",
+   "em_prob": 1.0,
+   "aligned": 12,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "V": {
+   "codepoint": "U+0056",
+   "count_all": 23,
+   "count_text": 23,
+   "eva": "cth",
+   "em_prob": 1.0,
+   "aligned": 2,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "\\": {
+   "codepoint": "U+005C",
+   "count_all": 17,
+   "count_text": 16,
+   "eva": "x",
+   "em_prob": 0.9091,
+   "aligned": 11,
+   "purity": 0.9091,
+   "alternatives": [
+    [
+     "l",
+     1
+    ]
+   ]
+  },
+  "X": {
+   "codepoint": "U+0058",
+   "count_all": 14,
+   "count_text": 14,
+   "eva": "r",
+   "em_prob": 1.0,
+   "aligned": 10,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "r": {
+   "codepoint": "U+0072",
+   "count_all": 12,
+   "count_text": 10,
+   "eva": "cfhe",
+   "em_prob": 1.0,
+   "aligned": 2,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "q": {
+   "codepoint": "U+0071",
+   "count_all": 11,
+   "count_text": 9,
+   "eva": "iim",
+   "em_prob": 0.4996,
+   "aligned": 8,
+   "purity": 0.5,
+   "alternatives": [
+    [
+     "iiil",
+     2
+    ],
+    [
+     "im",
+     1
+    ],
+    [
+     "aiim",
+     1
+    ]
+   ]
+  },
+  "R": {
+   "codepoint": "U+0052",
+   "count_all": 11,
+   "count_text": 10,
+   "eva": "cph",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "µ": {
+   "codepoint": "U+00B5",
+   "count_all": 11,
+   "count_text": 11,
+   "eva": "iii",
+   "em_prob": 0.9,
+   "aligned": 10,
+   "purity": 0.9,
+   "alternatives": [
+    [
+     "iils",
+     1
+    ]
+   ]
+  },
+  "ý": {
+   "codepoint": "U+00FD",
+   "count_all": 10,
+   "count_text": 10,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "v": {
+   "codepoint": "U+0076",
+   "count_all": 10,
+   "count_text": 9,
+   "eva": "ckh",
+   "em_prob": 0.6667,
+   "aligned": 3,
+   "purity": 0.6667,
+   "alternatives": [
+    [
+     "sckh",
+     1
+    ]
+   ]
+  },
+  "º": {
+   "codepoint": "U+00BA",
+   "count_all": 10,
+   "count_text": 10,
+   "eva": "qo",
+   "em_prob": 1.0,
+   "aligned": 2,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "D": {
+   "codepoint": "U+0044",
+   "count_all": 10,
+   "count_text": 10,
+   "eva": "eeb",
+   "em_prob": 0.7143,
+   "aligned": 7,
+   "purity": 0.7143,
+   "alternatives": [
+    [
+     "",
+     1
+    ],
+    [
+     "eeo",
+     1
+    ]
+   ]
+  },
+  "õ": {
+   "codepoint": "U+00F5",
+   "count_all": 10,
+   "count_text": 10,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "÷": {
+   "codepoint": "U+00F7",
+   "count_all": 10,
+   "count_text": 10,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Æ": {
+   "codepoint": "U+00C6",
+   "count_all": 9,
+   "count_text": 9,
+   "eva": "h",
+   "em_prob": 0.5025,
+   "aligned": 4,
+   "purity": 0.5,
+   "alternatives": [
+    [
+     "ch",
+     2
+    ]
+   ]
+  },
+  "¸": {
+   "codepoint": "U+00B8",
+   "count_all": 8,
+   "count_text": 8,
+   "eva": "q",
+   "em_prob": 1.0,
+   "aligned": 8,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "Î": {
+   "codepoint": "U+00CE",
+   "count_all": 8,
+   "count_text": 4,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ò": {
+   "codepoint": "U+00F2",
+   "count_all": 8,
+   "count_text": 7,
+   "eva": "t",
+   "em_prob": 1.0,
+   "aligned": 6,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "­": {
+   "codepoint": "U+00AD",
+   "count_all": 8,
+   "count_text": 5,
+   "eva": "g",
+   "em_prob": 0.6667,
+   "aligned": 3,
+   "purity": 0.6667,
+   "alternatives": [
+    [
+     "m",
+     1
+    ]
+   ]
+  },
+  "^": {
+   "codepoint": "U+005E",
+   "count_all": 8,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ù": {
+   "codepoint": "U+00D9",
+   "count_all": 7,
+   "count_text": 5,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¼": {
+   "codepoint": "U+00BC",
+   "count_all": 7,
+   "count_text": 6,
+   "eva": "o",
+   "em_prob": 0.6667,
+   "aligned": 3,
+   "purity": 0.6667,
+   "alternatives": [
+    [
+     "l",
+     1
+    ]
+   ]
+  },
+  "¦": {
+   "codepoint": "U+00A6",
+   "count_all": 7,
+   "count_text": 5,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ð": {
+   "codepoint": "U+00D0",
+   "count_all": 6,
+   "count_text": 6,
+   "eva": "she",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "B": {
+   "codepoint": "U+0042",
+   "count_all": 6,
+   "count_text": 6,
+   "eva": "eeeb",
+   "em_prob": 1.0,
+   "aligned": 6,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "Á": {
+   "codepoint": "U+00C1",
+   "count_all": 6,
+   "count_text": 5,
+   "eva": "u",
+   "em_prob": 1.0,
+   "aligned": 5,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "½": {
+   "codepoint": "U+00BD",
+   "count_all": 6,
+   "count_text": 2,
+   "eva": "eo",
+   "em_prob": 0.5,
+   "aligned": 2,
+   "purity": 0.5,
+   "alternatives": [
+    [
+     "ea",
+     1
+    ]
+   ]
+  },
+  "¨": {
+   "codepoint": "U+00A8",
+   "count_all": 6,
+   "count_text": 6,
+   "eva": "y",
+   "em_prob": 1.0,
+   "aligned": 3,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "ÿ": {
+   "codepoint": "U+00FF",
+   "count_all": 6,
+   "count_text": 6,
+   "eva": "ckh",
+   "em_prob": 0.75,
+   "aligned": 4,
+   "purity": 0.75,
+   "alternatives": [
+    [
+     "ke",
+     1
+    ]
+   ]
+  },
+  "Ê": {
+   "codepoint": "U+00CA",
+   "count_all": 6,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "è": {
+   "codepoint": "U+00E8",
+   "count_all": 5,
+   "count_text": 4,
+   "eva": "cth",
+   "em_prob": 0.5,
+   "aligned": 2,
+   "purity": 0.5,
+   "alternatives": [
+    [
+     "cthi",
+     1
+    ]
+   ]
+  },
+  "Ò": {
+   "codepoint": "U+00D2",
+   "count_all": 5,
+   "count_text": 4,
+   "eva": "eeee",
+   "em_prob": 0.7499,
+   "aligned": 4,
+   "purity": 0.75,
+   "alternatives": [
+    [
+     "eee",
+     1
+    ]
+   ]
+  },
+  "å": {
+   "codepoint": "U+00E5",
+   "count_all": 5,
+   "count_text": 5,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¡": {
+   "codepoint": "U+00A1",
+   "count_all": 5,
+   "count_text": 5,
+   "eva": "n",
+   "em_prob": 1.0,
+   "aligned": 3,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "à": {
+   "codepoint": "U+00E0",
+   "count_all": 5,
+   "count_text": 5,
+   "eva": "ch",
+   "em_prob": 0.8,
+   "aligned": 5,
+   "purity": 0.8,
+   "alternatives": [
+    [
+     "sh",
+     1
+    ]
+   ]
+  },
+  "É": {
+   "codepoint": "U+00C9",
+   "count_all": 5,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ì": {
+   "codepoint": "U+00EC",
+   "count_all": 5,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¤": {
+   "codepoint": "U+00A4",
+   "count_all": 4,
+   "count_text": 3,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ý": {
+   "codepoint": "U+00DD",
+   "count_all": 4,
+   "count_text": 1,
+   "eva": "sh",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "«": {
+   "codepoint": "U+00AB",
+   "count_all": 4,
+   "count_text": 4,
+   "eva": "y",
+   "em_prob": 0.5,
+   "aligned": 2,
+   "purity": 0.5,
+   "alternatives": [
+    [
+     "s",
+     1
+    ]
+   ]
+  },
+  "Ä": {
+   "codepoint": "U+00C4",
+   "count_all": 4,
+   "count_text": 4,
+   "eva": "sho",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "Õ": {
+   "codepoint": "U+00D5",
+   "count_all": 4,
+   "count_text": 4,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "´": {
+   "codepoint": "U+00B4",
+   "count_all": 4,
+   "count_text": 3,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ì": {
+   "codepoint": "U+00CC",
+   "count_all": 4,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ö": {
+   "codepoint": "U+00D6",
+   "count_all": 4,
+   "count_text": 4,
+   "eva": "sh",
+   "em_prob": 1.0,
+   "aligned": 4,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "é": {
+   "codepoint": "U+00E9",
+   "count_all": 3,
+   "count_text": 3,
+   "eva": "f",
+   "em_prob": 0.5,
+   "aligned": 2,
+   "purity": 0.5,
+   "alternatives": [
+    [
+     "p",
+     1
+    ]
+   ]
+  },
+  "ê": {
+   "codepoint": "U+00EA",
+   "count_all": 3,
+   "count_text": 3,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Þ": {
+   "codepoint": "U+00DE",
+   "count_all": 3,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ô": {
+   "codepoint": "U+00F4",
+   "count_all": 3,
+   "count_text": 3,
+   "eva": "t",
+   "em_prob": 0.6667,
+   "aligned": 3,
+   "purity": 0.6667,
+   "alternatives": [
+    [
+     "k",
+     1
+    ]
+   ]
+  },
+  "Û": {
+   "codepoint": "U+00DB",
+   "count_all": 3,
+   "count_text": 3,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ü": {
+   "codepoint": "U+00DC",
+   "count_all": 3,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Â": {
+   "codepoint": "U+00C2",
+   "count_all": 3,
+   "count_text": 2,
+   "eva": "",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+0099",
+   "count_all": 3,
+   "count_text": 3,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "î": {
+   "codepoint": "U+00EE",
+   "count_all": 3,
+   "count_text": 3,
+   "eva": "cph",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "×": {
+   "codepoint": "U+00D7",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "sh",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "ç": {
+   "codepoint": "U+00E7",
+   "count_all": 2,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¢": {
+   "codepoint": "U+00A2",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "v",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "û": {
+   "codepoint": "U+00FB",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "k",
+   "em_prob": 1.0,
+   "aligned": 2,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "Ï": {
+   "codepoint": "U+00CF",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "b",
+   "em_prob": 1.0,
+   "aligned": 2,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "±": {
+   "codepoint": "U+00B1",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "²": {
+   "codepoint": "U+00B2",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "â": {
+   "codepoint": "U+00E2",
+   "count_all": 2,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¾": {
+   "codepoint": "U+00BE",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "¯": {
+   "codepoint": "U+00AF",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ö": {
+   "codepoint": "U+00F6",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ç": {
+   "codepoint": "U+00C7",
+   "count_all": 2,
+   "count_text": 1,
+   "eva": "x",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "»": {
+   "codepoint": "U+00BB",
+   "count_all": 2,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Å": {
+   "codepoint": "U+00C5",
+   "count_all": 2,
+   "count_text": 2,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+009B",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+009A",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ú": {
+   "codepoint": "U+00FA",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¹": {
+   "codepoint": "U+00B9",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ã": {
+   "codepoint": "U+00E3",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "·": {
+   "codepoint": "U+00B7",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ª": {
+   "codepoint": "U+00AA",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ñ": {
+   "codepoint": "U+00D1",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "ï": {
+   "codepoint": "U+00EF",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ù": {
+   "codepoint": "U+00F9",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "°": {
+   "codepoint": "U+00B0",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ü": {
+   "codepoint": "U+00FC",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "z",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "Ú": {
+   "codepoint": "U+00DA",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¿": {
+   "codepoint": "U+00BF",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ó": {
+   "codepoint": "U+00F3",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "©": {
+   "codepoint": "U+00A9",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ß": {
+   "codepoint": "U+00DF",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "þ": {
+   "codepoint": "U+00FE",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ô": {
+   "codepoint": "U+00D4",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "®": {
+   "codepoint": "U+00AE",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "ð": {
+   "codepoint": "U+00F0",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ñ": {
+   "codepoint": "U+00F1",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+009C",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "£": {
+   "codepoint": "U+00A3",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "æ": {
+   "codepoint": "U+00E6",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "á": {
+   "codepoint": "U+00E1",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "ch",
+   "em_prob": 1.0,
+   "aligned": 1,
+   "purity": 1.0,
+   "alternatives": []
+  },
+  "À": {
+   "codepoint": "U+00C0",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ø": {
+   "codepoint": "U+00F8",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "í": {
+   "codepoint": "U+00ED",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "È": {
+   "codepoint": "U+00C8",
+   "count_all": 1,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "ë": {
+   "codepoint": "U+00EB",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "¥": {
+   "codepoint": "U+00A5",
+   "count_all": 1,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ë": {
+   "codepoint": "U+00CB",
+   "count_all": 1,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+0096",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "³": {
+   "codepoint": "U+00B3",
+   "count_all": 1,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+009E",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "Ó": {
+   "codepoint": "U+00D3",
+   "count_all": 1,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+0097",
+   "count_all": 1,
+   "count_text": 0,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "": {
+   "codepoint": "U+0095",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  },
+  "§": {
+   "codepoint": "U+00A7",
+   "count_all": 1,
+   "count_text": 1,
+   "eva": "?",
+   "em_prob": 0.0,
+   "aligned": 0,
+   "purity": null,
+   "alternatives": []
+  }
+ },
+ "merged_sets": {
+  "cfh": [
+   "F",
+   "U"
+  ],
+  "ckh": [
+   "H",
+   "ä"
+  ],
+  "cph": [
+   "J",
+   "G"
+  ],
+  "cth": [
+   "K",
+   "V"
+  ],
+  "d": [
+   "8",
+   "7",
+   "6",
+   "&"
+  ],
+  "f": [
+   "f",
+   "u"
+  ],
+  "k": [
+   "h",
+   "W"
+  ],
+  "m": [
+   "p",
+   "Q"
+  ],
+  "o": [
+   "o",
+   "A"
+  ],
+  "p": [
+   "g",
+   "j"
+  ],
+  "r": [
+   "y",
+   "x",
+   "Y",
+   "b"
+  ],
+  "s": [
+   "s",
+   "t",
+   "T",
+   "$"
+  ],
+  "sh": [
+   "2",
+   "3",
+   "5",
+   "%",
+   "+",
+   "!",
+   "#"
+  ],
+  "y": [
+   "9",
+   "("
+  ]
+ },
+ "single_symbol_classes": {
+  "a": "a",
+  "c": "E",
+  "ch": "1",
+  "ckhe": "l",
+  "cthe": "L",
+  "e": "c",
+  "ee": "C",
+  "eee": "d",
+  "es": "S",
+  "i": "i",
+  "ii": "I",
+  "iiin": "M",
+  "iin": "m",
+  "iir": "Z",
+  "im": "P",
+  "in": "n",
+  "ir": "z",
+  "l": "e",
+  "n": "N",
+  "q": "4",
+  "t": "k"
+ },
+ "collapse_table": {
+  "f": "f",
+  "u": "f",
+  "w": "f",
+  "é": "f",
+  "a": "a",
+  "1": "1",
+  "à": "1",
+  "á": "1",
+  "9": "9",
+  "(": "9",
+  "¨": "9",
+  "«": "9",
+  "s": "s",
+  "t": "s",
+  "T": "s",
+  "$": "s",
+  "h": "h",
+  "W": "h",
+  "û": "h",
+  "e": "e",
+  "y": "y",
+  "x": "y",
+  "Y": "y",
+  "b": "y",
+  "X": "y",
+  "o": "o",
+  "A": "o",
+  "¼": "o",
+  "k": "k",
+  "ò": "k",
+  "ô": "k",
+  "m": "m",
+  "2": "2",
+  "3": "2",
+  "5": "2",
+  "%": "2",
+  "+": "2",
+  "!": "2",
+  "#": "2",
+  "Ö": "2",
+  "×": "2",
+  "Ý": "2",
+  "8": "8",
+  "7": "8",
+  "6": "8",
+  "&": "8",
+  "H": "H",
+  "ä": "H",
+  "v": "H",
+  "ÿ": "H",
+  "c": "c",
+  "K": "K",
+  "V": "K",
+  "è": "K",
+  "N": "N",
+  "¡": "N",
+  "I": "I",
+  "z": "z",
+  "J": "J",
+  "G": "J",
+  "R": "J",
+  "î": "J",
+  "F": "F",
+  "U": "F",
+  "n": "n",
+  "L": "L",
+  "p": "p",
+  "Q": "p",
+  "g": "g",
+  "j": "g",
+  "Z": "Z",
+  "C": "C",
+  "Ð": "Ð",
+  "4": "4",
+  "¸": "4",
+  "d": "d",
+  "M": "M",
+  "i": "i",
+  "¢": "¢",
+  "D": "D",
+  "q": "q",
+  "B": "B",
+  "Æ": "Æ",
+  "Ò": "Ò",
+  "Ï": "Ï",
+  "¾": "¾",
+  "Â": "¾",
+  "®": "¾",
+  "Ñ": "¾",
+  "P": "P",
+  "Á": "Á",
+  "ü": "ü",
+  "½": "½",
+  "µ": "µ",
+  "r": "r",
+  "S": "S",
+  "\\": "\\",
+  "|": "\\",
+  "Ç": "\\",
+  "l": "l",
+  "E": "E",
+  "­": "­",
+  "º": "º",
+  "Ä": "Ä"
+ },
+ "emission_table": {
+  "f": {
+   "f": 0.8858,
+   "p": 0.09444,
+   "": 0.00556,
+   "qoto": 0.00556,
+   "pof": 0.00556,
+   "fch": 0.00309
+  },
+  "a": {
+   "a": 0.94877,
+   "o": 0.01095,
+   "sa": 0.0047,
+   "da": 0.00435,
+   "ra": 0.00364,
+   "ora": 0.00278
+  },
+  "1": {
+   "ch": 0.96538,
+   "olch": 0.00434,
+   "": 0.00376,
+   "ee": 0.00329,
+   "lch": 0.00282,
+   "ych": 0.00212
+  },
+  "9": {
+   "y": 0.98672,
+   "": 0.00715,
+   "o": 0.00071,
+   "ckhy": 0.00062,
+   "hy": 0.0005,
+   "cthy": 0.00028
+  },
+  "s": {
+   "s": 0.9471,
+   "r": 0.03186,
+   "": 0.0116,
+   "hs": 0.00164,
+   "d": 0.00162,
+   "e": 0.0011
+  },
+  "h": {
+   "k": 0.97023,
+   "qok": 0.00406,
+   "t": 0.00366,
+   "olk": 0.0033,
+   "": 0.00285,
+   "lk": 0.00241
+  },
+  "e": {
+   "l": 0.97724,
+   "": 0.00745,
+   "ldy": 0.00244,
+   "lor": 0.00093,
+   "lal": 0.00078,
+   "ol": 0.00073
+  },
+  "y": {
+   "r": 0.97228,
+   "s": 0.00873,
+   "": 0.00482,
+   "ram": 0.00195,
+   "rain": 0.00175,
+   "ral": 0.00156
+  },
+  "A": {
+   "o": 0.59027,
+   "a": 0.30201,
+   "y": 0.06188,
+   "": 0.01256,
+   "ol": 0.00789,
+   "or": 0.00546
+  },
+  "k": {
+   "t": 0.96326,
+   "k": 0.02295,
+   "": 0.00481,
+   "qot": 0.00105,
+   "ot": 0.00064,
+   "olt": 0.00063
+  },
+  "m": {
+   "iin": 0.98054,
+   "ain": 0.00708,
+   "aiin": 0.00596,
+   "in": 0.0023,
+   "inol": 0.00055,
+   "indy": 0.00055
+  },
+  "2": {
+   "sh": 0.96099,
+   "ch": 0.00975,
+   "olsh": 0.00513,
+   "": 0.00487,
+   "ysh": 0.00303,
+   "lsh": 0.00168
+  },
+  "o": {
+   "o": 0.96938,
+   "": 0.00688,
+   "a": 0.00543,
+   "ody": 0.00259,
+   "ol": 0.00204,
+   "or": 0.00175
+  },
+  "!": {
+   "sh": 1.0
+  },
+  "8": {
+   "d": 0.98015,
+   "": 0.0051,
+   "dy": 0.0014,
+   "aiin": 0.00137,
+   "qod": 0.00137,
+   "dain": 0.0008
+  },
+  "H": {
+   "ckh": 0.95969,
+   "qock": 0.01141,
+   "cth": 0.00507,
+   "ockh": 0.00254,
+   "ch": 0.00253,
+   "ok": 0.00127
+  },
+  "c": {
+   "e": 0.97368,
+   "": 0.00867,
+   "he": 0.00337,
+   "che": 0.0027,
+   "ch": 0.0013,
+   "o": 0.00127
+  },
+  "K": {
+   "cth": 0.96352,
+   "ckh": 0.01469,
+   "octh": 0.00368,
+   "cthy": 0.00246,
+   "": 0.00245,
+   "qoct": 0.00245
+  },
+  "N": {
+   "n": 0.95283,
+   "": 0.01887,
+   "r": 0.01886,
+   "nam": 0.00943
+  },
+  "I": {
+   "ii": 0.905,
+   "a": 0.03074,
+   "ai": 0.02913,
+   "i": 0.01638,
+   "in": 0.01518,
+   "iin": 0.00358
+  },
+  "+": {
+   "sh": 0.95171,
+   "": 0.02419,
+   "dsh": 0.01205,
+   "osh": 0.01205
+  },
+  "è": {
+   "cth": 0.5,
+   "cthi": 0.5
+  },
+  "z": {
+   "ir": 0.93765,
+   "is": 0.01247,
+   "ar": 0.00748,
+   "iro": 0.00499,
+   "iram": 0.00499,
+   "iry": 0.00499
+  },
+  "J": {
+   "cph": 0.96939,
+   "cfh": 0.02041,
+   "": 0.0102
+  },
+  "F": {
+   "cfh": 0.9375,
+   "lpch": 0.03125,
+   "cph": 0.03125
+  },
+  "G": {
+   "cph": 0.9874,
+   "cphe": 0.0126
+  },
+  "#": {
+   "sh": 0.96666,
+   "": 0.03334
+  },
+  "n": {
+   "in": 0.95663,
+   "iin": 0.03188,
+   "ir": 0.0031,
+   "lain": 0.00156,
+   "n": 0.00124,
+   "inol": 0.00124
+  },
+  "v": {
+   "ckh": 0.66667,
+   "sckh": 0.33333
+  },
+  "L": {
+   "cthe": 0.85711,
+   "cth": 0.14289
+  },
+  "7": {
+   "d": 0.98239,
+   "": 0.00334,
+   "dy": 0.00317,
+   "chd": 0.00155,
+   "aiin": 0.00139,
+   "hd": 0.00122
+  },
+  "3": {
+   "sh": 0.95935,
+   "olsh": 0.01068,
+   "ssh": 0.00427,
+   "ch": 0.00427,
+   "she": 0.00218,
+   "lsh": 0.00214
+  },
+  "p": {
+   "m": 0.97073,
+   "g": 0.0078,
+   "": 0.0065,
+   "mdy": 0.0026,
+   "lam": 0.0023,
+   "om": 0.0013
+  },
+  "g": {
+   "p": 0.98147,
+   "f": 0.00661,
+   "": 0.00397,
+   "pche": 0.00266,
+   "pchy": 0.00132,
+   "shar": 0.00132
+  },
+  "(": {
+   "y": 0.97773,
+   "q": 0.01209,
+   "": 0.00414,
+   "qoy": 0.00302,
+   "ckhy": 0.00154,
+   "khy": 0.00148
+  },
+  "Z": {
+   "iir": 0.91345,
+   "iral": 0.01923,
+   "ir": 0.01009,
+   "char": 0.00962,
+   "ies": 0.00962,
+   "iin": 0.00962
+  },
+  "C": {
+   "ee": 0.96933,
+   "ch": 0.00701,
+   "e": 0.0042,
+   "chee": 0.00289,
+   "lkee": 0.00207,
+   "eed": 0.00168
+  },
+  "5": {
+   "sh": 0.95207,
+   "rsh": 0.00898,
+   "olsh": 0.00898,
+   "she": 0.00302,
+   "ssh": 0.00299,
+   "oksh": 0.00299
+  },
+  "é": {
+   "f": 0.5,
+   "p": 0.5
+  },
+  "Ð": {
+   "she": 1.0
+  },
+  "x": {
+   "r": 0.9589,
+   "ram": 0.0137,
+   "ral": 0.0137,
+   "n": 0.0137
+  },
+  "&": {
+   "d": 0.78248,
+   "j": 0.08696,
+   "m": 0.08695,
+   "": 0.04361
+  },
+  "j": {
+   "p": 0.97169,
+   "f": 0.01184,
+   "": 0.00939,
+   "che": 0.00236,
+   "por": 0.00236,
+   "otar": 0.00236
+  },
+  "4": {
+   "q": 0.99756,
+   "": 0.00122,
+   "y": 0.0004,
+   "oq": 0.0002,
+   "teyq": 0.0002,
+   "che": 0.0002
+  },
+  "d": {
+   "eee": 0.88897,
+   "ee": 0.02588,
+   "che": 0.02214,
+   "keee": 0.01112,
+   "olee": 0.01107,
+   "eeey": 0.00741
+  },
+  "M": {
+   "iiin": 0.92048,
+   "iin": 0.03477,
+   "aiin": 0.02488,
+   "inol": 0.00662,
+   "ain": 0.00662,
+   "oiin": 0.00662
+  },
+  "i": {
+   "i": 0.93859,
+   "": 0.01911,
+   "e": 0.0184,
+   "a": 0.01777,
+   "h": 0.00613
+  },
+  "¢": {
+   "v": 1.0
+  },
+  "D": {
+   "eeb": 0.71429,
+   "": 0.14289,
+   "eeo": 0.14282
+  },
+  "U": {
+   "cfh": 0.84,
+   "cph": 0.08,
+   "cfhd": 0.04,
+   "ckh": 0.04
+  },
+  "q": {
+   "iim": 0.49959,
+   "iiil": 0.25,
+   "aiim": 0.12524,
+   "im": 0.12516
+  },
+  "%": {
+   "sh": 0.98374,
+   "dals": 0.00813,
+   "d": 0.00813
+  },
+  "¸": {
+   "q": 1.0
+  },
+  "B": {
+   "eeeb": 1.0
+  },
+  "û": {
+   "k": 1.0
+  },
+  "$": {
+   "s": 0.93743,
+   "": 0.06257
+  },
+  "Æ": {
+   "h": 0.50255,
+   "ch": 0.49745
+  },
+  "Q": {
+   "m": 0.85714,
+   "ch": 0.07143,
+   "z": 0.07143
+  },
+  "Ò": {
+   "eeee": 0.74992,
+   "eee": 0.25008
+  },
+  "Ï": {
+   "b": 1.0
+  },
+  "u": {
+   "f": 0.95333,
+   "p": 0.03101,
+   "": 0.00791,
+   "dyf": 0.00775
+  },
+  "Ñ": {
+   "": 1.0
+  },
+  "P": {
+   "im": 0.9629,
+   "m": 0.0371
+  },
+  "Á": {
+   "u": 1.0
+  },
+  "¡": {
+   "n": 1.0
+  },
+  "Ý": {
+   "sh": 1.0
+  },
+  "ü": {
+   "z": 1.0
+  },
+  "½": {
+   "eo": 0.5,
+   "ea": 0.5
+  },
+  "t": {
+   "s": 0.95,
+   "r": 0.05
+  },
+  "X": {
+   "r": 1.0
+  },
+  "¨": {
+   "y": 1.0
+  },
+  "¾": {
+   "": 1.0
+  },
+  "µ": {
+   "iii": 0.9,
+   "iils": 0.1
+  },
+  "ô": {
+   "t": 0.66667,
+   "k": 0.33333
+  },
+  "r": {
+   "cfhe": 1.0
+  },
+  "b": {
+   "r": 1.0
+  },
+  "6": {
+   "d": 0.94631,
+   "ed": 0.04017,
+   "ds": 0.01351
+  },
+  "à": {
+   "ch": 0.8,
+   "sh": 0.2
+  },
+  "T": {
+   "s": 0.81235,
+   "": 0.06265,
+   "sal": 0.0625,
+   "sar": 0.0625
+  },
+  "Â": {
+   "": 1.0
+  },
+  "W": {
+   "k": 0.96875,
+   "yk": 0.01563,
+   "f": 0.01562
+  },
+  "S": {
+   "es": 0.96154,
+   "er": 0.03846
+  },
+  "ò": {
+   "t": 1.0
+  },
+  "ä": {
+   "ckh": 1.0
+  },
+  "®": {
+   "": 1.0
+  },
+  "w": {
+   "f": 1.0
+  },
+  "Y": {
+   "r": 0.88884,
+   "s": 0.06289,
+   "": 0.04826
+  },
+  "\\": {
+   "x": 0.90909,
+   "l": 0.09091
+  },
+  "á": {
+   "ch": 1.0
+  },
+  "l": {
+   "ckhe": 0.79995,
+   "ckh": 0.20005
+  },
+  "E": {
+   "c": 0.4,
+   "e": 0.20179,
+   "": 0.19943,
+   "a": 0.19879
+  },
+  "­": {
+   "g": 0.66667,
+   "m": 0.33333
+  },
+  "ÿ": {
+   "ckh": 0.75,
+   "ke": 0.25,
+   "hckh": 0.0
+  },
+  "Ö": {
+   "sh": 1.0
+  },
+  "¼": {
+   "o": 0.66667,
+   "l": 0.33333
+  },
+  "î": {
+   "cph": 1.0
+  },
+  "«": {
+   "y": 0.5,
+   "s": 0.5
+  },
+  "V": {
+   "cth": 1.0
+  },
+  "º": {
+   "qo": 1.0
+  },
+  "Ä": {
+   "sho": 1.0
+  },
+  "|": {
+   "x": 0.66667,
+   "xar": 0.33333
+  },
+  "Ç": {
+   "x": 1.0
+  },
+  "×": {
+   "sh": 1.0
+  },
+  "R": {
+   "cph": 1.0
+  }
+ }
+}

@@ -23,8 +23,9 @@
 >   (`COUPLED_CIPHER_FINDINGS_2026-09-25.md`). r/l carry information about the
 >   next word; whether they encode different plaintext is open. The naive r/l
 >   statistic flags 69% of true coupled homophones as different in a labelled
->   test. A coupling-aware replacement lacked power
->   (`COUPLING_TEST_FINDINGS_2026-09-25.md`).
+>   test. Coupling-aware replacements (v1–v3) could not decide the question on
+>   Voynich; it is recorded as not decidable by context statistics
+>   (`COUPLING_TEST_V3_FINDINGS_2026-09-26.md`).
 
 **Purpose:** handoff document for continuing the analysis in Codex without losing the experimental state, negative results, or methodological corrections already established.
 
