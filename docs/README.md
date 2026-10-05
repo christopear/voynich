@@ -1,8 +1,14 @@
 # Documentation index
 
+**Architecture:** [accepted decisions and implementation sequence](ARCHITECTURE.md).
+See also [PostgreSQL setup](guides/POSTGRESQL.md).
+This is the design reference for the cipher laboratory and experiment infrastructure.
+
 Start with the [research constitution](RESEARCH_CONSTITUTION.md),
 [operation priorities](OPERATION_FAMILY_PRIORITIES.md) and
 [decipherment framework](DECIPHERMENT_FRAMEWORK.md).
+The [cipher API architecture](guides/CIPHER_API.md) documents the encryption,
+known-key decryption and solver-recovery interfaces for new fixtures and tests.
 
 | Directory | Contents |
 |---|---|

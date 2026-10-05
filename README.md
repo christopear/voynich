@@ -61,9 +61,12 @@ first. Batch runners in `scripts/` are not part of setup or the test suite.
 
 ## References
 
+- [Architecture decisions and implementation sequence](docs/ARCHITECTURE.md)
+- [PostgreSQL connection setup](docs/guides/POSTGRESQL.md)
 - [Research constitution](docs/RESEARCH_CONSTITUTION.md)
 - [Ranked operation families](docs/OPERATION_FAMILY_PRIORITIES.md)
 - [Decipherment framework](docs/DECIPHERMENT_FRAMEWORK.md)
+- [Object-oriented cipher API](docs/guides/CIPHER_API.md)
 - [Recovery pilot results](results/decipher_framework_2026-09-30/SUMMARY.md)
 - [Documentation index](docs/README.md)
 - [Development workflow](docs/guides/DEVELOPMENT.md)
