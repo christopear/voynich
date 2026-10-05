@@ -1,7 +1,7 @@
 # Cipher laboratory architecture
 
-**Status:** accepted design for subsequent implementation.  
-**Decided:** 5 October 2026.  
+**Status:** accepted design for subsequent implementation.
+**Decided:** 5 October 2026.
 **Scope:** synthetic cipher construction, known-key decoding, unknown-key search,
 and reproducible experiment execution.
 
