@@ -321,7 +321,7 @@ wheels = [
 [[package]]
 name = "voynich-codex-handoff"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "numpy" },
     { name = "requests" },
