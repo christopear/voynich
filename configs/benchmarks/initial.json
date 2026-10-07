@@ -1,0 +1,45 @@
+{
+  "batch_size": 4,
+  "beam": 8,
+  "controls": [
+    "positive",
+    "shuffled",
+    "message-free",
+    "mismatched"
+  ],
+  "criteria": {
+    "frozen_nonspace_accuracy": 0.9,
+    "full_coverage_required": true,
+    "positive_loss_below_all_matched_negatives": true,
+    "positive_nonspace_accuracy": 0.95
+  },
+  "interpretation": "Engineering benchmark; same-work splits; no Voynich family exclusion.",
+  "lengths": [
+    120,
+    240
+  ],
+  "methods": [
+    "glyph",
+    "homophonic",
+    "groups",
+    "mixed"
+  ],
+  "reservoir": 10,
+  "restarts": 4,
+  "schema": 1,
+  "seeds": [
+    7,
+    19
+  ],
+  "source_hashes": {
+    "italian": "8df50e1cc51dce149f2b0278c40f3d7ca569d3c44192cdef6c4ca88c2b74f633",
+    "latin": "5d178cb5a7d46f2bbdd5c9a209473faeffc07a438f0ab82b99ac21b7c7f155ae"
+  },
+  "sources": {
+    "italian": "data/italian_dante.txt",
+    "latin": "data/latin_alfonsi.txt"
+  },
+  "split": "raw-character spans: first 60% train; 5% gap; development; 5% gap; evaluation",
+  "steps": 500,
+  "top_k": 10
+}

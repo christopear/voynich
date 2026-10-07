@@ -74,3 +74,10 @@ first. Batch runners in `scripts/` are not part of setup or the test suite.
 
 This folder already has Git history. Use `git diff` to review and `git add -A`
 to stage intended file moves together with updates; do not reinitialize it.
+
+## Synthetic cipher laboratory
+
+See [the operating guide](docs/guides/LABORATORY.md) for fixture APIs, PostgreSQL
+registry setup, reproducible search, and the frozen first benchmark plan.
+Use `uv run --locked voynich-benchmark preflight configs/benchmarks/initial.json`
+to validate readiness without executing encryption or recovery.

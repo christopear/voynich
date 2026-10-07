@@ -1,8 +1,8 @@
 # PostgreSQL setup
 
 Architecture work: [CHR-378](https://linear.app/christopear/issue/CHR-378).
-This first increment adds dependencies and connection configuration. It does not
-yet implement experiment tables, repositories or schema migrations.
+The laboratory includes an explicit Alembic migration and PostgreSQL registry.
+See [the laboratory guide](LABORATORY.md) for migration, testing and run commands.
 
 ## Settings needed
 
@@ -63,6 +63,5 @@ The initial dependency constraints are `psycopg[binary]>=3.3.4` and
 required by unit tests. Integration tests will use a separately provisioned test
 database and explicit opt-in configuration; never reset the research database.
 
-Schema management will use versioned Alembic migrations in the implementation
-increment that introduces tables. There is deliberately no implicit
+Schema management uses versioned Alembic migrations. There is deliberately no implicit
 `metadata.create_all()` or database creation at application startup.

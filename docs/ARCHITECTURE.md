@@ -325,3 +325,25 @@ store. SQLAlchemy 2.x and psycopg 3 form the persistence boundary. No SQLite
 schema has been implemented, so no data migration is required. File artefact
 retention and the single-coordinator write model remain as specified. Track the
 integration in [CHR-378](https://linear.app/christopear/issue/CHR-378).
+
+### Implementation amendment — 7 October 2026: first executable increment
+
+The [laboratory guide](guides/LABORATORY.md) documents the implemented contracts
+and first benchmark gate. PostgreSQL is authoritative for checkpoints: strategy,
+RNG, counters and optional compact attempts commit together. Atomic file copies
+are mirrors, so a crash between database commit and file publication does not
+require guessing which attempt rows to discard.
+
+To keep the first research execution reviewable, this increment disables
+evaluation caching and rejects stochastic scoring. It counts every scored
+proposal, including duplicate proposals. Resume supports identical specifications;
+budget extensions require a new run until continuation amendments are implemented.
+These narrower capabilities avoid untested replay/cache semantics.
+
+Storage budgeting is initially a soft serialized-checkpoint threshold, not a
+physical database/disk or process-memory quota. Essential resumable state is
+preserved even if it exceeds that threshold; optional payloads are dropped and
+the run stops. Hard quotas, timed checkpoints within long batches, and
+benchmark-wide automatic resume remain future implementation work. The original
+requirements remain the target; these limitations must be visible in run guides
+and must not be presented as completed guarantees.
