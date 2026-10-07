@@ -1,1 +1,2 @@
-requests>=2.31
+# Optional pip installation. uv.lock remains the reproducible environment.
+-e .

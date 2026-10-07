@@ -1,0 +1,103 @@
+{
+  "description": "Parser-dependent claims rerun with fix_alternatives=True (first reading kept for every [a:b] alternative).",
+  "tokens_original": 35130,
+  "tokens_fixed": 35124,
+  "types_original": 7117,
+  "types_fixed": 7114,
+  "claims": {
+    "internal_m_sibling": {
+      "original_parser": 85.4014598540146,
+      "fixed_parser": 85.34798534798534
+    },
+    "rl_families": {
+      "original_parser": {
+        "families": 48,
+        "significant": 16
+      },
+      "fixed_parser": {
+        "families": 48,
+        "significant": 17
+      }
+    },
+    "rare_decomposition": {
+      "original_parser": {
+        "rare_long_forms": 3250,
+        "decomposable": 1661,
+        "decomposable_pct": 51.10769230769231,
+        "null_pct": 4.607692307692308
+      },
+      "fixed_parser": {
+        "rare_long_forms": 3241,
+        "decomposable": 1654,
+        "decomposable_pct": 51.03363159518667,
+        "null_pct": 4.788645479790189
+      }
+    },
+    "cut_positions": {
+      "original_parser": {
+        "after_nlrm_pct": 51.80232558139535,
+        "after_other_pct": 7.8236537033864435,
+        "rate_ratio": 6.621244695297912,
+        "odds_ratio": 12.66289611087142
+      },
+      "fixed_parser": {
+        "after_nlrm_pct": 51.57342657342657,
+        "after_other_pct": 7.829875042989796,
+        "rate_ratio": 6.58674963396779,
+        "odds_ratio": 12.536537150287277
+      }
+    },
+    "spaced_alternations": {
+      "original_parser": {
+        "decomposable": 1661,
+        "with_spaced": 359,
+        "forward_only": 234,
+        "reverse_only": 97,
+        "occurrence_ratio": 1.6637362637362638
+      },
+      "fixed_parser": {
+        "decomposable": 1654,
+        "with_spaced": 359,
+        "forward_only": 232,
+        "reverse_only": 95,
+        "occurrence_ratio": 1.669603524229075
+      }
+    },
+    "m_line_final": {
+      "original_parser": {
+        "m": 0.6924101198402131,
+        "siblings": 0.07608551321205684,
+        "enrichment": 9.100419917132013
+      },
+      "fixed_parser": {
+        "m": 0.6915887850467289,
+        "siblings": 0.07612594659226783,
+        "enrichment": 9.084797181582424
+      }
+    },
+    "currier": {
+      "original_parser": {
+        "A_excess": 0.02846690602722013,
+        "B_excess": 0.07803447070334138,
+        "A_p": 0.0033222591362126247,
+        "B_p": 0.0033222591362126247,
+        "A_hand1": 112,
+        "B_hand2": 46,
+        "B_hand3": 28,
+        "B_hand5": 7,
+        "A_hand3": 2
+      },
+      "fixed_parser": {
+        "A_excess": 0.028687977012543137,
+        "B_excess": 0.0775649496772457,
+        "A_p": 0.0033222591362126247,
+        "B_p": 0.0033222591362126247,
+        "A_hand1": 112,
+        "B_hand2": 46,
+        "B_hand3": 28,
+        "B_hand5": 7,
+        "A_hand3": 2
+      }
+    }
+  }
+}

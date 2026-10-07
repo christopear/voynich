@@ -1,0 +1,113 @@
+{
+  "status": "post hoc, exploratory",
+  "median_pair_features": {
+    "naibbe": {
+      "cos_lr": 0.9102877792697841,
+      "cos_left_nocatch": 0.262445329583912,
+      "cos_right_nocatch": 0.25800394907025953,
+      "js_next_initial": 0.1671855546302326
+    },
+    "voynich_zl": {
+      "cos_lr": 0.8246106527860386,
+      "cos_left_nocatch": 0.23028309323591914,
+      "cos_right_nocatch": 0.26932400876547424,
+      "js_next_initial": 0.27770680894591016
+    },
+    "control_assembly": {
+      "cos_lr": 0.9030099909805978,
+      "cos_left_nocatch": 0.573795573773643,
+      "cos_right_nocatch": 0.5294678913826055,
+      "js_next_initial": 0.18708714770167686
+    },
+    "control_copy_edit": {
+      "cos_lr": 0.7427444914364374,
+      "cos_left_nocatch": 0.22810637940488038,
+      "cos_right_nocatch": 0.228945522812857,
+      "js_next_initial": 0.45599746781559997
+    },
+    "control_voynich_shuffled": {
+      "cos_lr": 0.9023603891650399,
+      "cos_left_nocatch": 0.5518254055364692,
+      "cos_right_nocatch": 0.5806246060556755,
+      "js_next_initial": 0.13831057834949378
+    }
+  },
+  "significant_rl_family_pairs": [
+    {
+      "l": "al",
+      "r": "ar",
+      "p": 0.09547269781187949
+    },
+    {
+      "l": "shol",
+      "r": "shor",
+      "p": 0.7198392224243624
+    },
+    {
+      "l": "ol",
+      "r": "or",
+      "p": 0.06703608980496599
+    },
+    {
+      "l": "chol",
+      "r": "chor",
+      "p": 0.6812413180355765
+    },
+    {
+      "l": "dal",
+      "r": "dar",
+      "p": 0.4706977034501219
+    },
+    {
+      "l": "dol",
+      "r": "dor",
+      "p": 0.7546246041026559
+    },
+    {
+      "l": "okal",
+      "r": "okar",
+      "p": 0.13433166936748792
+    },
+    {
+      "l": "lol",
+      "r": "lor",
+      "p": 0.6924178935920794
+    },
+    {
+      "l": "cheol",
+      "r": "cheor",
+      "p": 0.06768030296997354
+    },
+    {
+      "l": "sol",
+      "r": "sor",
+      "p": 0.9768812947944666
+    },
+    {
+      "l": "sal",
+      "r": "sar",
+      "p": 0.9824235375423105
+    },
+    {
+      "l": "qokal",
+      "r": "qokar",
+      "p": 0.4679079620328121
+    },
+    {
+      "l": "otal",
+      "r": "otar",
+      "p": 0.14351660355592497
+    },
+    {
+      "l": "qol",
+      "r": "qor",
+      "p": 0.014496728219178339
+    },
+    {
+      "l": "qotal",
+      "r": "qotar",
+      "p": 0.1828718796889226
+    }
+  ],
+  "significant_rl_pairs_merged_p_ge_0.5": 6
+}

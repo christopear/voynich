@@ -1,0 +1,19 @@
+Files that differ from the committed versions (empty = byte-identical):
+ M results/coupled_cipher_2026-09-25/manifest.json
+ M results/coupled_cipher_2026-09-25/transfer.json
+ M results/coupling_test_2026-09-25/calibration.json
+ M results/coupling_test_2026-09-25/manifest.json
+ M results/equivalence_2026-09-25/application.json
+ M results/equivalence_2026-09-25/manifest.json
+ M results/equivalence_2026-09-25/naibbe_cv.json
+ M results/equivalence_2026-09-25/transfer.json
+
+ results/coupled_cipher_2026-09-25/manifest.json   |   2 +-
+ results/coupled_cipher_2026-09-25/transfer.json   | 190 +++++++++++-----------
+ results/coupling_test_2026-09-25/calibration.json |  62 +++----
+ results/coupling_test_2026-09-25/manifest.json    |   2 +-
+ results/equivalence_2026-09-25/application.json   |  56 +++----
+ results/equivalence_2026-09-25/manifest.json      |  44 ++---
+ results/equivalence_2026-09-25/naibbe_cv.json     |  42 ++---
+ results/equivalence_2026-09-25/transfer.json      |  72 ++++----
+ 8 files changed, 235 insertions(+), 235 deletions(-)
