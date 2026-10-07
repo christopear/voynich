@@ -1,3 +1,8 @@
+# Current laboratory implementation
+
+See [the laboratory operating guide](LABORATORY.md) for the new method, search,
+fixture and PostgreSQL runner interfaces. The facades below remain compatible.
+
 # Synthetic-cipher API: architecture and contracts
 
 For the accepted target architecture, see [ARCHITECTURE.md](../ARCHITECTURE.md).

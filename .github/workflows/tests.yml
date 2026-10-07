@@ -5,7 +5,20 @@ permissions:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: voynich
+          POSTGRES_PASSWORD: test-only
+          POSTGRES_DB: voynich_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U voynich -d voynich_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
     env:
+      POSTGRES_TEST_URL: postgresql://voynich:test-only@localhost:5432/voynich_test
       OPENBLAS_NUM_THREADS: "1"
       OMP_NUM_THREADS: "1"
     steps:

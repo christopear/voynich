@@ -1,7 +1,9 @@
 """OO adapter to existing bounded search, not a new search implementation."""
 from dataclasses import asdict
 
-from voynich.decipher_search.core import Config, LanguageModel, decode, search_restart
+from voynich.decipher_search.core import Config, LanguageModel, decode
+
+from voynich.search.legacy import legacy_recovery_runs
 
 from .api import Decryption
 from .models import (CipherKey, Ciphertext, DecryptionResult, RecoveryCandidate,
@@ -40,8 +42,7 @@ class AnnealingDecryption(Decryption):
 
     def recover(self, ciphertext: Ciphertext) -> RecoveryResult:
         self._validate(ciphertext)
-        runs = [search_restart(ciphertext.text, self.training.text, self.config, r)
-                for r in range(self.config.restarts)]
+        runs = legacy_recovery_runs(ciphertext.text, self.training.text, self.config)
         candidates = {}
         for run in runs:
             for item in run["candidates"]:
