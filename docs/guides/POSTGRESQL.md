@@ -10,7 +10,11 @@ Create a dedicated database and login role. Suggested names are both `voynich`.
 The role should own that database so later reviewed migrations can create tables;
 it does not need superuser, role-management or cluster-wide privileges.
 
-Supply these settings in the ignored local `.env`:
+Prefer `POSTGRES_URL="postgresql:///voynich"` in the ignored local `.env` for
+a local Unix socket using the OS login. A supplied URL takes precedence over
+PG settings. URL passwords must be percent-encoded. SQLAlchemy uses psycopg 3.
+
+Alternatively omit POSTGRES_URL and supply these settings:
 
 | Variable | Suggested local value |
 |---|---|

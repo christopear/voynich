@@ -8,23 +8,26 @@ from typing import Mapping
 
 from sqlalchemy import URL, Engine, create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.engine import make_url
 
 
 @dataclass(frozen=True)
 class DatabaseSettings:
-    host: str
-    port: int
+    host: str | None
+    port: int | None
     database: str
-    user: str
+    user: str | None
     password: str | None = field(default=None, repr=False)
     sslmode: str = "prefer"
     connect_timeout: int = 5
     sslrootcert: str | None = None
 
+    connection_url: URL | None = field(default=None, repr=False)
+
     def __post_init__(self):
-        if any(not x.strip() for x in (self.host, self.database, self.user)):
+        if not self.database.strip() or any(x is not None and not x.strip() for x in (self.host, self.user)):
             raise ValueError("PGHOST, PGDATABASE and PGUSER must be nonempty")
-        if not 1 <= self.port <= 65535 or not 1 <= self.connect_timeout <= 300:
+        if (self.port is not None and not 1 <= self.port <= 65535) or not 1 <= self.connect_timeout <= 300:
             raise ValueError("PGPORT must be 1..65535 and PGCONNECT_TIMEOUT must be 1..300")
         if self.sslmode not in {"disable", "allow", "prefer", "require", "verify-ca", "verify-full"}:
             raise ValueError("unsupported PGSSLMODE")
@@ -32,6 +35,18 @@ class DatabaseSettings:
     @classmethod
     def from_env(cls, environ: Mapping[str, str] | None = None) -> "DatabaseSettings":
         env = os.environ if environ is None else environ
+        if "POSTGRES_URL" in env:
+            try:
+                url = make_url(env["POSTGRES_URL"])
+                if url.drivername not in {"postgres", "postgresql", "postgresql+psycopg"}:
+                    raise ValueError("unsupported database driver")
+                url = url.set(drivername="postgresql+psycopg")
+                timeout = int(url.query.get("connect_timeout", "5"))
+                return cls(url.host, url.port, url.database or "", url.username,
+                           url.password, url.query.get("sslmode", "prefer"), timeout,
+                           url.query.get("sslrootcert"), url)
+            except (ValueError, TypeError, SQLAlchemyError):
+                raise ValueError("Invalid POSTGRES_URL") from None
         try:
             port = int(env.get("PGPORT", "5432"))
             timeout = int(env.get("PGCONNECT_TIMEOUT", "5"))
@@ -43,6 +58,8 @@ class DatabaseSettings:
                    timeout, env.get("PGSSLROOTCERT") or None)
 
     def url(self) -> URL:
+        if self.connection_url is not None:
+            return self.connection_url.update_query_dict({"connect_timeout": str(self.connect_timeout)})
         query = {"sslmode": self.sslmode, "connect_timeout": str(self.connect_timeout)}
         if self.sslrootcert:
             query["sslrootcert"] = self.sslrootcert

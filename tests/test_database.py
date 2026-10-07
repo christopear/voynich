@@ -18,6 +18,24 @@ class DatabaseTests(unittest.TestCase):
         self.assertNotIn("secret", repr(settings))
         self.assertNotIn("secret", str(settings.url()))
 
+    def test_local_url_preserves_socket_defaults(self):
+        settings = DatabaseSettings.from_env({"POSTGRES_URL": "postgresql:///voynich",
+                                             "PGPORT": "invalid", "PGHOST": "wrong"})
+        self.assertIsNone(settings.url().host)
+        self.assertIsNone(settings.url().username)
+        self.assertIsNone(settings.url().port)
+        self.assertEqual(settings.database, "voynich")
+
+    def test_url_validation_and_password(self):
+        for value in ("", "sqlite:///db", "postgresql:///", "postgresql:///db?connect_timeout=0"):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                DatabaseSettings.from_env({"POSTGRES_URL": value})
+        settings = DatabaseSettings.from_env({
+            "POSTGRES_URL": "postgres://u:secret%40word@localhost/db?sslmode=require"})
+        self.assertEqual(settings.url().password, "secret@word")
+        self.assertEqual(settings.url().query["sslmode"], "require")
+        self.assertNotIn("secret", repr(settings))
+
     def test_overrides_and_certificate(self):
         settings = DatabaseSettings.from_env({"PGPORT": "5433", "PGDATABASE": "research",
                                              "PGUSER": "researcher", "PGSSLMODE": "verify-full",
