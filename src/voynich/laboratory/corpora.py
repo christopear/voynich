@@ -17,6 +17,9 @@ GREEK = {"α":"a","β":"b","γ":"g","δ":"d","ε":"e","ζ":"z","η":"h","θ":"q"
 def greek_normalize(text):
     decomposed = unicodedata.normalize("NFD", text.lower()).replace("ς", "σ")
     plain = "".join(c for c in decomposed if not unicodedata.combining(c))
+    unknown={c for c in plain if c.isalpha() and "GREEK" in unicodedata.name(c,"") and c not in GREEK}
+    if unknown:
+        raise NotImplementedError("Greek letters outside the declared 24-letter normalization")
     return " ".join("".join(c if c in GREEK else " " for c in plain).split())
 
 

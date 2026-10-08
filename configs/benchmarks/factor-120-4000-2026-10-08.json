@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "corpora": [
+    "alfonsi",
+    "dante"
+  ],
+  "seeds": [
+    7
+  ],
+  "length": 120,
+  "steps": 4000,
+  "restarts": 4,
+  "order": 4,
+  "strategy": "generic-annealing-v1",
+  "scorer": "exact-glyph-cost-v1",
+  "criteria": {
+    "development": 0.95,
+    "frozen": 0.9,
+    "full_coverage": true,
+    "beat_all_controls": true
+  },
+  "scope": "Exploratory 2x2 length/budget ablation on aligned source starts, one key per work. Same scorer and generic proposals; no negative-control gate.",
+  "controls": [
+    "positive"
+  ]
+}

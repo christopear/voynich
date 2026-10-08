@@ -14,7 +14,7 @@ from voynich.laboratory.fixtures import PublicInput
 from voynich.laboratory.manifest import DatasetRef, ExperimentSpec, environment, fingerprint, file_hash
 from voynich.paths import ROOT
 from voynich.search.monoalphabetic import MonoalphabeticSearch
-from voynich.search.strategies import Candidate
+from voynich.search.strategies import Candidate, AnnealingSearch
 from voynich.storage.artifacts import write_json, read_json
 from voynich.storage.database import make_engine
 from voynich.storage.registry import Registry
@@ -29,6 +29,11 @@ def plan():
 
 
 def run(protocol,output):
+    if protocol.get("strategy") not in {"injective-annealing-v1", "generic-annealing-v1"}:
+        raise ValueError("unknown follow-up strategy")
+    controls=protocol.get("controls", list(CONTROLS))
+    if not controls or "positive" not in controls or len(set(controls))!=len(controls) or set(controls)-set(CONTROLS):
+        raise ValueError("invalid follow-up controls")
     output.mkdir(parents=True,exist_ok=False)
     write_json(output/"plan.json",protocol)
     env=environment(ROOT)
@@ -59,9 +64,11 @@ def run(protocol,output):
                 public=PublicInput(cipher,method.method_id,"preserve")
                 selected={}
                 cfg=Config(steps=protocol["steps"],restarts=protocol["restarts"],order=protocol["order"],seed=seed)
-                for control in CONTROLS:
+                controls=protocol.get("controls", list(CONTROLS))
+                for control in controls:
                     request=control_input(public,control,seed)
-                    search=MonoalphabeticSearch(request,training,cfg)
+                    strategy_class = MonoalphabeticSearch if protocol["strategy"] == "injective-annealing-v1" else AnnealingSearch
+                    search=strategy_class(request,training,cfg)
                     evaluator=GlyphEvaluator(request,training,cfg)
                     binding=fingerprint({"strategy":search.identity(),"evaluator":evaluator.identity(),"batch_size":4})
                     spec=ExperimentSpec.create(family="monoalphabetic-injective",
@@ -82,7 +89,7 @@ def run(protocol,output):
                 gate=bool(metrics["nonspace_edit_accuracy"]>=protocol["criteria"]["development"] and
                     frozen_metrics["nonspace_edit_accuracy"]>=protocol["criteria"]["frozen"] and
                     frozen.score.coverage==1 and all(losses[c] is not None and losses["positive"]<losses[c]
-                                                  for c in CONTROLS if c!="positive"))
+                                                  for c in CONTROLS if c!="positive")) if set(CONTROLS)<=set(selected) else None
                 item={"corpus":corpus.id,"language":corpus.language,"seed":seed,"length":len(plain),
                     "metrics":metrics,"frozen_metrics":frozen_metrics,"frozen_coverage":frozen.score.coverage,
                     "losses":losses,"gate_pass":gate,
