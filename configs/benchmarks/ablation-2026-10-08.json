@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "corpora": [
+    "alfonsi",
+    "dante"
+  ],
+  "seeds": [
+    7
+  ],
+  "length": 600,
+  "steps": 4000,
+  "restarts": 4,
+  "order": 4,
+  "strategy": "generic-annealing-v1",
+  "scorer": "exact-glyph-cost-v1",
+  "criteria": {
+    "development": 0.95,
+    "frozen": 0.9,
+    "full_coverage": true,
+    "beat_all_controls": true
+  },
+  "scope": "Paired exploratory ablation: same key, source spans, length, scorer and budget as focused study; only proposal constraint changes. No matched-negative gate assessed.",
+  "controls": [
+    "positive"
+  ]
+}

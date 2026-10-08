@@ -1,7 +1,23 @@
 # Cipher laboratory: operating guide
 
-The laboratory is ready for the first opt-in benchmark. Infrastructure tests
-are engineering checks, not new evidence about the Voynich manuscript.
+The first benchmark and follow-up studies are complete. Review the
+[8 October operating report](../../results/laboratory_2026-10-08/report.html)
+and its [machine-readable evidence](../../results/laboratory_2026-10-08/evidence.json).
+Infrastructure tests are engineering checks, not evidence about the Voynich manuscript.
+
+The execution comprises 1,200 exact known-key cases across four works in three
+languages, plus 216 persisted searches and 586,672 candidate evaluations.
+All 12 shift keys and all 40 page-choice paths were recovered; page tables were
+known. The original 32 blind positive cases passed no full gates. A longer
+substitution follow-up recovered development text exactly for all four works,
+with full frozen-transfer/control gates passing for Alfonsi and Dante only.
+Caesar and Homer had unseen reserved symbols; partial post-search diagnostics
+do not overturn their failed complete-decode gates. Generic proposals also
+succeeded at the higher budget, so success cannot be attributed to injectivity.
+
+These are within-work tests with few keys, not calibrated language-wide recovery
+rates. No Voynich ciphertext was searched. A structural audit corrected six
+mixed-code reachability labels; original labels and results remain in the export.
 
 The accepted design is [ARCHITECTURE.md](../ARCHITECTURE.md). The original
 [OO API](CIPHER_API.md) and September pilot commands remain compatible. New
@@ -110,7 +126,7 @@ development loss than every matched negative. A failure is an engineering
 result, not evidence excluding a Voynich cipher family. Group/mixed fixtures
 outside the bounded code/unit inventory are labelled challenge controls.
 
-## The next execution step — not yet run
+## Execute an independent benchmark run
 
 ```bash
 uv run --env-file .env --locked voynich-benchmark run configs/benchmarks/initial.json \
