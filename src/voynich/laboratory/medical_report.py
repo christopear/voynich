@@ -7,6 +7,7 @@ import html
 
 from voynich.laboratory.manifest import file_hash,fingerprint
 from voynich.ciphers.ambiguity import count_mapping_completions
+from voynich.evaluation.consistency import audit_greedy_unitization
 from voynich.storage.artifacts import read_json,write_json
 
 
@@ -29,7 +30,7 @@ def compile_evidence(directory,audit):
     for row in summary['cases']:
         row['posthoc_objective_prefers_inexact']=(row['metrics']['nonspace_edit_accuracy']<1 and
             row['selected_loss'] is not None and row['selected_loss']<=row['oracle_loss']+1e-9)
-    summary['posthoc_audit_note']='Objective preference checked for every inexact answer, including those above the predeclared 95% threshold. Original gates and diagnoses retained.'
+    summary['posthoc_audit_note']='Objective preference checked for every inexact answer, including those above the predeclared 95% threshold. Original gates and diagnoses retained. Further post-search checks count unseen mappings and test greedy unitization by the generator; neither alters selected candidates.'
     if summary['status']!='completed':raise ValueError('screen is not complete')
     runs=[];envs={}
     for path in sorted((directory/'runs').glob('*/summary.json')):
@@ -53,6 +54,11 @@ def compile_evidence(directory,audit):
                 'two_character_token_fraction':sum(len(c)==2 for c in tokens)/max(1,len(tokens))}
         winners=by_id[row['run_ids']['positive']]['best']
         if winners:
+            if row.get('assumptions') and 'tokens' in winners[0]['payload']:
+                mapping=winners[0]['candidate']['key']
+                emissions=[' ' if token==' ' else mapping[token] for token in winners[0]['payload']['tokens']]
+                row['posthoc_greedy_unitization']=audit_greedy_unitization(
+                    row['examples']['recovered'],emissions,tuple(row['assumptions']['units']))
             components=dict(winners[0]['score']['components'])
             truth_components=dict(row['oracle_score']['components'])
             if (row.get('frozen') or {}).get('valid_segmentation') and row.get('assumptions'):
@@ -76,12 +82,14 @@ def build_report(evidence,output):
     output.mkdir(parents=True,exist_ok=False)
     write_json(output/'evidence.json',evidence)
     study=evidence['study'];rows=study['cases'];prior=evidence['prior_oracle_audit']['cases']
+    labels={'glyph':'Simple substitution','homophonic':'Homophonic substitution',
+            'groups-fixed':'Fixed two-symbol groups','groups-variable':'Variable one/two-symbol groups'}
     aggregate=[]
     for family in study['plan']['families']:
         for algorithm in study['plan']['algorithms']:
             chosen=[r for r in rows if r['family']==family and r['algorithm']==algorithm]
             if not chosen:continue
-            aggregate.append([family,algorithm,len(chosen),pct(mean(r['metrics']['nonspace_edit_accuracy'] for r in chosen)),
+            aggregate.append([labels.get(family,family),algorithm,len(chosen),pct(mean(r['metrics']['nonspace_edit_accuracy'] for r in chosen)),
                 sum(r['metrics']['nonspace_edit_accuracy']>=.95 for r in chosen),
                 sum(r['screening_gate'] for r in chosen),
                 sum(r['diagnosis']=='search-gap-demonstrated' for r in chosen),
@@ -89,13 +97,17 @@ def build_report(evidence,output):
     diagnostics=Counter(r['diagnosis'] for r in rows)
     exact=sum(r['metrics']['nonspace_edit_accuracy']==1 for r in rows)
     gates=sum(r['screening_gate'] for r in rows)
+    threshold_count=sum(r['metrics']['nonspace_edit_accuracy']>=.95 for r in rows)
+    threshold_incomplete=sum(r['metrics']['nonspace_edit_accuracy']>=.95 and (r['frozen'] or {}).get('code_token_coverage',0)<1 for r in rows)
     narrative_better=sum(r['truth_nll_narrative_per_character']<r['truth_nll_medical_per_character'] for r in rows)
     prior_counts=Counter(r['diagnosis'] for r in prior)
     failures=sum(r.get('posthoc_objective_prefers_inexact',False) for r in rows)
+    failures_unique=len({r['case'] for r in rows if r.get('posthoc_objective_prefers_inexact',False)})
     if failures:
-        recommendation=f'Fix the objective before scaling the affected families: {failures} selected wrong answers score at least as well as their true keys, including any near-correct results above the 95% recovery threshold. More search alone cannot reliably deliver exact recovery in those cases.'
+        recommendation=f'The scoring rule prefers an inexact reading in {failures_unique} cipher instance(s), affecting {failures} selected algorithm outputs, including near-correct readings above the 95% threshold. More search alone cannot guarantee exact recovery in those cases; lexical and orthographic checks need independent calibration.'
     else:
         recommendation='The next decision is how to improve search on the unresolved families, then repeat on a larger independent-source panel. The absence of a found objective failure does not validate the objective globally.'
+    unitization_failures=sum(not r.get('posthoc_greedy_unitization',{'matches':True})['matches'] for r in rows)
     examples=[]
     for row in rows:
         ex=row['examples'];frozen=row['frozen'] or {}
@@ -112,6 +124,7 @@ def build_report(evidence,output):
         f=row['frozen'] or {}
         case_table.append([row['case'],row['algorithm'],pct(row['metrics']['nonspace_edit_accuracy']),
             pct((f.get('metrics') or {}).get('nonspace_edit_accuracy')),pct(f.get('code_token_coverage')),
+            'invalid boundaries' if not f.get('valid_segmentation',True) else str(len(f.get('unknown_codes',[])))+' unseen codes',
             'yes' if row['beats_shuffled'] else 'no','PASS' if row['screening_gate'] else 'FAIL',
             row['diagnosis'],row['invalid_candidates']['positive']])
     oracle_table=[]
@@ -136,14 +149,16 @@ def build_report(evidence,output):
 </style><main><div class="eyebrow">VOYNICH RESEARCH · MEDICAL CALIBRATION · 8 OCTOBER 2026</div>
 <h1>Can the solver recover medical text—and what stops it when it cannot?</h1>
 <p>This is a test of our tools for pursuing the hypothesis of a medicinal cipher around the fifteenth century. We encrypt known Latin medical passages, hide the key from the solver, and inspect failures after search. <strong>No Voynich text is decoded or used for fitting in this study.</strong></p>
-<div class="callout"><strong>Executive decision</strong><p>The key-search beam recovered more plaintext than annealing in {beam_wins} paired cases, tied in {ties}, and recovered less in {annealing_wins}, at the same candidate budget. These are descriptive comparisons on a small panel.</p><p>{escape(recommendation)}</p><p>Simple substitution is a calibration task here, not a claim that it explains Voynich. Grouped codes and alternative spellings are the more relevant next capabilities. Preserved word spaces, a known emission inventory and restricted code lengths still make these tasks easier than the manuscript.</p></div>
-<div class="stats"><div class="stat"><strong>{len(evidence['runs'])}</strong>persisted searches</div><div class="stat"><strong>{study['total_evaluations']:,}</strong>scored candidates</div><div class="stat"><strong>{exact}/{len(rows)}</strong>exact development recoveries</div><div class="stat"><strong>{gates}/{len(rows)}</strong>full screening passes</div></div>
+<div class="callout"><strong>Executive decision</strong><p>The key-search beam recovered more plaintext than annealing in {beam_wins} paired cases, tied in {ties}, and recovered less in {annealing_wins}, at the same candidate budget. These are descriptive comparisons on a small panel.</p><p>{escape(recommendation)}</p><p><strong>Next controlled test:</strong> retain both search methods, make the grouped-code scorer obey the declared encoding rule, then test explicit completion of unseen codes on a new reserved passage. {unitization_failures} selected paths use letter/pair choices that the test encoder would not make—for example, separate letter codes where it would require a pair code.</p><p>Simple substitution is a calibration task here, not a claim that it explains Voynich. Grouped codes and alternative spellings are the more relevant next capabilities. Preserved word spaces, a known emission inventory and restricted code lengths still make these tasks easier than the manuscript.</p></div>
+<div class="stats"><div class="stat"><strong>{len(evidence['runs'])}</strong>persisted searches</div><div class="stat"><strong>{study['total_evaluations']:,}</strong>scored candidates</div><div class="stat"><strong>{exact}/{len(rows)}</strong>exact development recoveries</div><div class="stat"><strong>{threshold_count}/{len(rows)}</strong>≥95% development recovery</div><div class="stat"><strong>{gates}/{len(rows)}</strong>full screening passes</div></div>
+<p><strong>Why the full-pass count is smaller:</strong> {threshold_incomplete} of the {threshold_count} results reaching 95% development recovery still have incomplete reserved-code coverage. These rows are paired algorithm results on four source passages, not independent estimates of a success probability. Near-recovery, exact recovery and an exact generating mechanism are different claims.</p>
 <h2>What changed since the previous report?</h2>
 <ol><li><strong>We diagnosed the old failures.</strong> {prior_counts['search-gap-demonstrated']} original glyph/homophonic cases had a true answer that scored better than the answer found. The search missed it. {prior_counts['representation-mismatch']} grouped/mixed cases had a representation mismatch, so they were unsuitable clean tests of recovery.</li>
 <li><strong>We removed that grouped-code restriction.</strong> A code such as AB can now stand for a letter or pair without forcing separate A and B mappings. Every new fixture's true active key is valid under its declared evaluator and decodes exactly.</li>
 <li><strong>We tested medical text across authors.</strong> Celsus is searched using a model trained on Pliny, and vice versa. Neither target author's text is in the model's training input.</li>
 <li><strong>We tested a key-search beam against annealing.</strong> They use the same initial candidates, mutation rules and candidate budget. This beam retains alternative complete mappings and boundary policies; it is separate from the older decoder's segmentation beam.</li></ol>
 <h2>Results by cipher family</h2>
+<p>Simple substitution uses one cipher symbol per letter. Homophones allow multiple symbols for the same letter. Grouped methods use cipher codes representing letters or common letter pairs; fixed codes contain two cipher symbols, while variable codes contain one or two.</p>
 <p>Four passage/key instances per algorithm and family. Averages describe this small panel; they are not probabilities of cracking a historical cipher. A development recovery needs at least 95% non-space accuracy. A full pass additionally needs at least 90% reserved accuracy, complete reserved-code coverage and a better score than the shuffled control.</p>
 {table(['Family','Search','Cases','Mean development','≥95% development','Full passes','Search gaps','Objective prefers inexact'],aggregate)}
 <h2>What the struggles mean</h2>
@@ -157,9 +172,10 @@ def build_report(evidence,output):
 {table(['Same passage/key','Annealing accuracy','Beam accuracy','Beam minus annealing'],paired)}
 <h2>Reserved text and operational detail</h2>
 <p>Reserved text never updates the key or segmentation policy. Coverage is the fraction of code occurrences with a learned mapping; the complete output can still be wrong. Seed 7 and seed 19 use different passages, so key difficulty and passage difficulty are confounded.</p>
-{table(['Case','Search','Development','Reserved accuracy','Reserved code coverage','Beats shuffled','Full gate','Diagnosis','Invalid positive proposals'],case_table)}
+{table(['Case','Search','Development','Reserved accuracy','Reserved code coverage','Reserved issue','Beats shuffled','Full gate','Diagnosis','Invalid positive proposals'],case_table)}
 <h2>Inspect actual readings</h2><p>These examples reveal the distinction between readable recovery, partial mappings and convincing-looking mistakes. Synthetic truth is displayed only for evaluation.</p>
 {''.join(examples)}
+<h2>Does each proposed reading obey the synthetic encoder?</h2><p>An additional post-search audit found {unitization_failures} case/algorithm readings whose unit boundaries do not follow the generator's longest-match rule. The scorer accepts optional letter/pair spellings, whereas these fixtures always choose the longest available unit. This is a model mismatch worth testing explicitly next: enforce the declared encoder, or give optional spelling a specified probability law. Readability alone does not establish recovery of the generating procedure. The existing gates are preserved, and JSON records this separate unitization audit. This check does not validate homophone allocation or historical use.</p>
 <h2>Does the scoring rule prefer the true answer?</h2>
 <p><strong>Additional post-search audit:</strong> the original diagnosis labels classify results at or above 95% as recovered. Here we also check whether any remaining errors in those near-correct results are preferred by the objective. This changes neither gates nor selected keys.</p>
 <p>Lower loss is better. A positive gap means the known true key beats the selected key. Oracle keys never initialize or guide search. They use only codes active in development so unused entries do not inflate their costs.</p>

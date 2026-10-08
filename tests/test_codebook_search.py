@@ -148,3 +148,17 @@ class CodebookTests(unittest.TestCase):
             elif change=='gate':bad['criteria']['complete_frozen_codes']=False
             else:bad['seeds']=[7,7]
             with self.subTest(change=change),self.assertRaises(ValueError):validate_plan(bad,corpora)
+
+    def test_greedy_encoder_consistency_checks_units_not_only_readable_text(self):
+        import string
+        from voynich.evaluation.consistency import audit_greedy_unitization
+        inventory=tuple(string.ascii_lowercase)+('er','herba')
+        self.assertTrue(audit_greedy_unitization('herba erat',['herba',' ','er','a','t'],inventory)['matches'])
+        self.assertFalse(audit_greedy_unitization('herba erat',list('herba erat'),inventory)['matches'])
+        for lengths in ('fixed','variable'):
+            method=UnitCipher('mixed',2,lengths,extra_units=('er','herba'))
+            key=method.generate_key(seed=7);plain='herba erat in terra'
+            cipher,alignment=method.encrypt_text(plain,key,seed=8)
+            emissions=[plain[a:b] for a,b,_,_ in alignment]
+            self.assertTrue(audit_greedy_unitization(plain,emissions,method.units)['matches'])
+        with self.assertRaises(ValueError):audit_greedy_unitization('abc',['a'],inventory)

@@ -1,7 +1,10 @@
 # Documentation index
 
-**Start here:** [completed operating report](../results/laboratory_2026-10-08/report.html)
+**Start here:** [medical recovery decision report](../results/medical_recovery_2026-10-08/report.html)
 and [laboratory operating guide](guides/LABORATORY.md).
+
+The [earlier operating report](../results/laboratory_2026-10-08/report.html)
+records the initial reversibility and recovery studies.
 
 **Architecture:** [accepted decisions and implementation sequence](ARCHITECTURE.md).
 See also [PostgreSQL setup](guides/POSTGRESQL.md).

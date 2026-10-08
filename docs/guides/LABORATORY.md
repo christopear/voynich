@@ -210,7 +210,9 @@ drawing research conclusions.
 
 ## Medical cross-author recovery and explicit codebooks
 
-The next frozen screen is documented in
+The completed [medical report](../../results/medical_recovery_2026-10-08/report.html)
+and [executive findings](../../results/medical_recovery_2026-10-08/README.md)
+record 64 searches and 512,000 candidate evaluations. The frozen screen is documented in
 [the medical protocol](../protocols/MEDICAL_RECOVERY_2026-10-08.md). It compares a
 key-search beam with annealing under equal candidate budgets, trains on the other
 medical author, and separates oracle scoring, recovery, boundary and reserved-code
