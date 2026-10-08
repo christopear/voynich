@@ -86,6 +86,11 @@ class SyntheticFixture:
         missing_codes = sorted({c for c, _ in active} - available)
         long_count = sum(len(c) > 1 for c, _ in active)
         reasons = []
+        # The legacy strategy retains observed one-character codes; only
+        # multi-character extras can be deleted. Check actual reachability.
+        forced_missing = sorted(set(self.public.ciphertext) - {" "} - set(self.truth.key.as_mapping()))
+        if forced_missing:
+            reasons.append("solver cannot remove forced one-character codes absent from the true codebook")
         if missing_units:
             reasons.append("truth units outside training-derived inventory")
         if missing_codes:
@@ -97,7 +102,9 @@ class SyntheticFixture:
         return {"in_search_space": not reasons, "role": "power-test" if not reasons else "challenge-control",
                 "reasons": reasons, "missing_units": missing_units, "missing_codes": missing_codes,
                 "scope": "codes actually used in development; unseen held-out codes are assessed separately",
-                "inactive_key_codes": len(self.truth.key.entries) - len(active)}
+                "inactive_key_codes": len(self.truth.key.entries) - len(active),
+                "forced_codes_absent_from_truth": forced_missing,
+                "classification_version": "inventory-and-forced-codes-v2"}
 
 
 class FixtureBuilder:

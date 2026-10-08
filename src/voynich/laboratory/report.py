@@ -12,12 +12,60 @@ def percent(value):
 
 def compile_evidence(roundtrips, baseline, focused, pages, shifts, ablations=()):
     matrix=read_json(roundtrips/"results.json")
+    if (roundtrips/"registry.json").exists():
+        matrix["registry"]=read_json(roundtrips/"registry.json")
     initial=read_json(baseline/"summary.json")
     follow=read_json(focused/"summary.json")
+    from voynich.ciphers.units import UnitCipher
+    from voynich.evaluation.scorers import recovery_metrics
+    # A separately labelled post-search partial decoding diagnostic. Never
+    # update keys or replace the original complete-decode gate/metrics.
+    for case in follow["cases"]:
+        ex=case["examples"]
+        method=UnitCipher()
+        true_key=method.generate_key(seed=case["seed"])
+        original,_=method.encrypt_text(ex["storage_truth"],true_key,seed=case["seed"]+1)
+        if original!=ex["ciphertext"]:
+            raise ValueError("fixture recipe no longer reproduces original ciphertext")
+        frozen_cipher,_=method.encrypt_text(ex["frozen_truth"],true_key,seed=case["seed"]+2)
+        winner=read_json(focused/"runs"/case["run_ids"]["positive"]/"summary.json")["top"][0]
+        mapping=winner["candidate"]["key"]
+        partial="".join(" " if c==" " else mapping.get(c,"?") for c in frozen_cipher)
+        unknown=set(frozen_cipher)-set(mapping)-{" "}
+        fraction=1-partial.count("?")/max(1,len(frozen_cipher.replace(" ","")))
+        case["partial_frozen_diagnostic"]={
+            "ciphertext":frozen_cipher,"decoded":partial,"unmapped_symbols":sorted(unknown),
+            "symbol_coverage":fraction,"metrics":recovery_metrics(partial,ex["frozen_truth"]),
+            "interpretation":"Post-search only. Question marks count as incorrect; no mappings added; original gate unchanged."}
     page_results=read_json(pages/"results.json")
     shift_results=read_json(shifts/"results.json")
     if any(d["status"]!="completed" for d in (matrix,initial,follow,page_results,shift_results)):
         raise ValueError("final report requires completed studies")
+    from voynich.laboratory.fixtures import SyntheticFixture
+    # Preserve original reachability labels; audit a forced-base-code restriction.
+    # This changes labels, never search outcomes.
+    audit_reclassified=0
+    for case in initial["cases"]:
+        fixture=SyntheticFixture.load_private(baseline/"private-fixtures"/case["case"]/"development")
+        previous=case["search_space"]
+        forced=sorted(set(fixture.public.ciphertext)-{" "}-set(fixture.truth.key.as_mapping()))
+        case["search_space_original"]=previous
+        corrected=dict(previous)
+        corrected["classification_version"]="inventory-and-forced-codes-v2"
+        corrected["forced_codes_absent_from_truth"]=forced
+        if forced:
+            if corrected["in_search_space"]:
+                audit_reclassified+=1
+            corrected["in_search_space"]=False
+            corrected["role"]="challenge-control"
+            corrected["reasons"]=[*corrected["reasons"],
+                "solver cannot remove forced one-character codes absent from the true codebook"]
+        case["search_space"]=corrected
+    initial["reachability_audit"]={"reclassified_cases":audit_reclassified,
+        "scope":"Post-search structural audit only; original labels and all outcomes retained."}
+    for method,summary in initial["per_method"].items():
+        summary["original_power_test_cases"]=summary["power_test_cases"]
+        summary["power_test_cases"]=sum(c["search_space"]["in_search_space"] for c in initial["cases"] if c["method"]==method)
     # Post-search diagnostics only: these values never enter proposal or selection.
     for case in initial["cases"]:
         folder=baseline/"private-fixtures"/case["case"]
@@ -65,6 +113,8 @@ def compile_evidence(roundtrips, baseline, focused, pages, shifts, ablations=())
         "ablations":ablation_results,
         "total_search_evaluations":sum(r["evaluations"] for r in runs),
         "execution_errors":sum(r["failures"] for r in runs),
+        "input_artifact_hashes":{"roundtrips":file_hash(roundtrips/"results.json"),
+            "baseline":file_hash(baseline/"summary.json"),"focused":file_hash(focused/"summary.json")},
         "interpretation":"Synthetic engineering evidence; no Voynich ciphertext tested."}
 
 def table(headers, rows, id=None):
@@ -109,9 +159,10 @@ def build_report(evidence, output):
             percent(frozen.get("coverage")),row.get("posthoc_diagnostics",{}).get("unseen_frozen_true_codes","—"),"within active inventory" if row["search_space"]["in_search_space"] else "challenge",
             "PASS" if row["engineering_gate_pass"] else "FAIL"])
     baseline_table=table(["Case","Development","Frozen","Coverage","Unseen true codes","Search space","Gate"],initial_rows,"initial")
-    focus_table=table(["Source","Language","Development","Frozen","Frozen coverage","Gate"],[
+    focus_table=table(["Source","Language","Development","Frozen formal","Complete coverage","Diagnostic mapped fraction","Gate"],[
         [r["corpus"],r["language"],percent(r["metrics"]["nonspace_edit_accuracy"]),
          percent(r["frozen_metrics"]["nonspace_edit_accuracy"]),percent(r["frozen_coverage"]),
+         percent(r.get("partial_frozen_diagnostic",{}).get("symbol_coverage")),
          "PASS" if r["gate_pass"] else "FAIL"] for r in focused])
     examples="".join(comparison(
         f'{r["corpus"]} / {r["method"]["family"]} / {r["method"]["homophones"]} homophone(s)',
@@ -123,6 +174,12 @@ def build_report(evidence, output):
         recovered+=comparison(row["corpus"]+" — blind recovery",ex["storage_truth"],ex["recovered_storage"],
             ex["ciphertext"],losses+" exploratory bits/input symbol; lower is better within this case.")
         recovered+=comparison(row["corpus"]+" — frozen-key transfer",ex["frozen_truth"],ex["frozen_storage"])
+        if row.get("partial_frozen_diagnostic") and row["frozen_coverage"]<1:
+            diagnostic=row["partial_frozen_diagnostic"]
+            recovered+=comparison(row["corpus"]+" — partial diagnostic (gate remains failed)",
+                ex["frozen_truth"],diagnostic["decoded"],diagnostic["ciphertext"],
+                diagnostic["interpretation"]+" Non-space accuracy with unknowns counted wrong: "+
+                percent(diagnostic["metrics"]["nonspace_edit_accuracy"]))
     means=defaultdict(list)
     for row in initial:
         if row["metrics"]:
@@ -170,7 +227,7 @@ No Voynich ciphertext was searched.</p><div class="cards">
 The follow-up changes length, budget and search constraints together; it is not an isolated ablation.</p>
 <h2>1. Exact encryption and decryption</h2>
 <p>Four works, three languages, 20 configurations per work, five seeds, and 120/300/600 prepared-character passages.
-Independent reference and explorer decoders agree. Two-page six-table checks also passed:
+Independent reference and explorer decoders agree. The full matrix was repeated identically from a clean committed revision; these are correlated engineering checks, not independent statistical draws. Two-page six-table checks also passed:
 {matrix['summary']['page_exact']}/{matrix['summary']['page_cases']}.</p>{sources}
 <p>Supported variations: glyph, grouped and mixed whole-word coding; one/two homophones; fixed or prefix-free variable codes; preserved or encoded spaces.
 Greek accents are stripped and final sigma is folded before a reversible 24-letter ASCII storage map.
@@ -186,6 +243,8 @@ Each search has 2,004 scored candidates including initialization. Gates require 
 ≥90% frozen accuracy with full coverage, and lower development loss than every matched negative.</p>{means_table}
 <p>Means across languages, keys and lengths are descriptive. A challenge label means active true codes/units are outside the bounded candidate inventory or code budget.
 Invalid frozen decodes are scored as empty output (0%), not omitted.
+A structural audit found that the solver cannot delete forced one-character codes, even when the real cipher uses grouped codes.
+Six mixed-code cases originally labelled inside the active inventory were therefore reclassified as challenges. Original labels are retained in the JSON.
 The unseen-code count is an oracle-based diagnostic computed only after search: it measures true codes appearing in the reserved passage but absent
 from development. A frozen partial key cannot translate such codes without an additional assumption or fitting step; we do not silently add one.</p>
 <label for="filter">Filter cases</label><input id="filter" placeholder="e.g. latin-glyph">{baseline_table}
@@ -221,7 +280,9 @@ Greek/ASCII storage is modern preprocessing. No particular historical key has ye
 <h2>7. Operational audit</h2>
 <p>{len(evidence['runs'])} persisted searches, {evidence['total_search_evaluations']:,} scored candidates and {evidence['execution_errors']} captured evaluator errors.
 Individual searches may be stopped at the evaluation limit while their planned benchmark is complete.
-PostgreSQL stores IDs/checkpoints; local files preserve bounded candidate payloads.</p>
+PostgreSQL stores IDs/checkpoints; local files preserve bounded candidate payloads.
+Captured errors count evaluator exceptions; the current runner does not separately aggregate every invalid candidate.
+Frequent checkpoint writes are an operational cost to reduce before much larger searches.</p>
 <p><a href="evidence.json">Operating evidence JSON</a> contains metrics, plans, source hashes, environments, run IDs and one selected winner per search.
 It is not an every-proposal archive. All splits are within-work, not cross-author validation. The initial run used the clean framework revision;
 follow-up development recorded dirty state and source hashes before commit. Match hashes when replaying.</p>

@@ -96,3 +96,14 @@ class OperatingTests(unittest.TestCase):
                 '<text><body><div><head>title</head><p>ar<hi>ma</hi> virum'
                 '<note>editorial</note> que</p><p>cano</p></div></body></text></TEI>')
             self.assertEqual(tei_body(path),"arma virum que cano")
+
+
+    def test_inventory_coverage_does_not_hide_forced_code_mismatch(self):
+        from voynich.laboratory.fixtures import FixtureBuilder
+        from voynich.ciphers.models import TextSource
+        method=UnitCipher("mixed",lengths="variable",extra_units=("in",))
+        fixture=FixtureBuilder(method).build(TextSource("bbbb bbbb",("latin",),"toy"),seed=7)
+        result=fixture.search_space(TRAIN,Config(family="mixed"))
+        self.assertFalse(result["in_search_space"])
+        self.assertTrue(result["forced_codes_absent_from_truth"])
+        self.assertIn("cannot remove",result["reasons"][0])

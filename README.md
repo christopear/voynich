@@ -77,6 +77,12 @@ to stage intended file moves together with updates; do not reinitialize it.
 
 ## Synthetic cipher laboratory
 
+The [8 October operating report](results/laboratory_2026-10-08/report.html)
+contains completed Latin, Italian and Ancient Greek experiments, inspectable
+plaintext/ciphertext examples, controls and limitations. Its
+[evidence export](results/laboratory_2026-10-08/evidence.json) preserves run IDs,
+metrics, source hashes and selected candidates.
+
 See [the operating guide](docs/guides/LABORATORY.md) for fixture APIs, PostgreSQL
 registry setup, reproducible search, and the frozen first benchmark plan.
 Use `uv run --locked voynich-benchmark preflight configs/benchmarks/initial.json`

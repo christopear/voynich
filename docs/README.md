@@ -1,6 +1,7 @@
 # Documentation index
 
-**Start here:** [laboratory operating guide and next execution command](guides/LABORATORY.md).
+**Start here:** [completed operating report](../results/laboratory_2026-10-08/report.html)
+and [laboratory operating guide](guides/LABORATORY.md).
 
 **Architecture:** [accepted decisions and implementation sequence](ARCHITECTURE.md).
 See also [PostgreSQL setup](guides/POSTGRESQL.md).
