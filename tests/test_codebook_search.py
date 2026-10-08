@@ -87,3 +87,64 @@ class CodebookTests(unittest.TestCase):
         self.assertEqual(extract_books(xml,('1',)),'herba aqua calida')
         with self.assertRaises(ValueError):extract_books(xml,('2',))
         with self.assertRaises(NotImplementedError):extract_books(xml.replace('<hi>ba</hi>','<choice>ba</choice>'),('1',))
+
+    def test_matched_control_preserves_code_counts_and_space_positions(self):
+        from collections import Counter
+        from voynich.laboratory.medical_recovery import shuffled_codes
+        method=UnitCipher('groups',lengths='variable',extra_units=('in','er'))
+        key=method.generate_key(seed=7)
+        text,alignment=method.encrypt_text('in principio erat verbum '*5,key,seed=8)
+        shuffled=shuffled_codes(text,alignment,19)
+        before=[text[a:b] for _,_,a,b in alignment]
+        after=[shuffled[a:b] for _,_,a,b in alignment]
+        self.assertEqual(Counter(before),Counter(after))
+        self.assertEqual([i for i,c in enumerate(text) if c==' '],[i for i,c in enumerate(shuffled) if c==' '])
+        self.assertNotEqual(text,shuffled)
+        self.assertEqual(shuffled,shuffled_codes(text,alignment,19))
+
+    def test_beam_best_cost_does_not_regress_and_obeys_budget(self):
+        public,_=self.fixture(UnitCipher())
+        problem=CodebookProblem(public,TRAIN)
+        strategy=CodebookSearch(problem,algorithm='beam',budget=71,width=4)
+        evaluator=CodebookEvaluator(problem);previous=float('inf');count=0
+        while candidates:=strategy.propose(3):
+            strategy.observe([evaluator(c) for c in candidates]);count+=len(candidates)
+            costs=[row['loss'] for row in strategy.pool if row['loss'] is not None]
+            if costs:
+                self.assertLessEqual(min(costs),previous)
+                previous=min(costs)
+        self.assertEqual(count,71)
+        self.assertEqual(strategy.evaluated,71)
+
+    def test_unknown_mapping_counts_match_exhaustive_assignments(self):
+        import itertools
+        from collections import Counter
+        from voynich.ciphers.ambiguity import count_mapping_completions
+        units=('a','b','in');known={'X':'a'}
+        for capacity in (1,2):
+            for missing in range(5):
+                expected=0
+                for assignment in itertools.product(units,repeat=missing):
+                    counts=Counter(assignment)+Counter(known.values())
+                    expected+=all(n<=capacity for n in counts.values())
+                self.assertEqual(count_mapping_completions(known,units,capacity,missing),expected)
+        self.assertEqual(count_mapping_completions({},tuple('abcd'),1,2),12)
+        with self.assertRaises(NotImplementedError):count_mapping_completions({},('herba',),1,1)
+
+    def test_medical_plan_rejects_silent_gate_changes_and_source_leakage(self):
+        from copy import deepcopy
+        from pathlib import Path
+        from voynich.paths import ROOT
+        from voynich.laboratory.medical_recovery import validate_plan
+        from voynich.storage.artifacts import read_json
+        plan=read_json(ROOT/'configs/benchmarks/medical-recovery-2026-10-08.json')
+        corpora={n:{'text':'a'*700000} for n in ('celsus','pliny')}
+        self.assertEqual(validate_plan(plan,corpora)['maximum_evaluations'],512000)
+        for change in ('controls','budget','source','gate','seeds'):
+            bad=deepcopy(plan)
+            if change=='controls':bad['controls']=['positive']
+            elif change=='budget':bad['budget']=0
+            elif change=='source':bad['frozen_fraction']=bad['development_fraction']
+            elif change=='gate':bad['criteria']['complete_frozen_codes']=False
+            else:bad['seeds']=[7,7]
+            with self.subTest(change=change),self.assertRaises(ValueError):validate_plan(bad,corpora)

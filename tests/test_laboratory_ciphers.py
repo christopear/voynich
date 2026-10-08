@@ -107,3 +107,35 @@ class LaboratoryCipherTests(unittest.TestCase):
         self.assertEqual(pruned.outcome.status, "unresolved")
         self.assertTrue(pruned.outcome.pruned)
         self.assertIn("not calibrated", pruned.mass_interpretation)
+
+    def test_restricted_alphabets_roundtrip_and_serialize(self):
+        from collections import Counter
+        cases=0
+        for size,lengths,homophones,spacing in itertools.product((12,20),('fixed','variable'),(1,2),('preserve','encoded')):
+            method=UnitCipher('groups',homophones,lengths,spacing,('er','in'),alphabet='ABCDEFGHIJKLMNOPQRST'[:size])
+            fixture=FixtureBuilder(method).build(TextSource(LATIN,('latin',),'test'),seed=7)
+            reference=method.decrypt_text(fixture.public.ciphertext,fixture.truth.key)
+            self.assertEqual(reference.plaintexts,(fixture.truth.plaintext,))
+            explorer=decode(fixture.public.ciphertext,fixture.truth.key.as_mapping(),LanguageModel(LATIN*10),8)
+            self.assertEqual(explorer['plaintext'],fixture.truth.plaintext)
+            self.assertLessEqual(len(set(fixture.public.ciphertext)-{' '}),size)
+            self.assertEqual(method.method_id,'prefix-unit-alphabet-v1')
+            with tempfile.TemporaryDirectory() as directory:
+                fixture.save(Path(directory)/'fixture')
+                self.assertEqual(SyntheticFixture.load_private(Path(directory)/'fixture'),fixture)
+            cases+=1
+        self.assertEqual(cases,16)
+
+    def test_default_key_generation_preserves_historical_replay(self):
+        from voynich.laboratory.manifest import fingerprint
+        methods=(UnitCipher(),UnitCipher('groups',2,'variable','encoded',('er','in')),
+                 UnitCipher('mixed',1,'fixed','preserve',('er','herba')))
+        hashes=('06dc0a7b7a01b9c47e03dda3471d2084193106a60f15f9c425b07700f132dd9d',
+                '439258df528cc4ffe7e4aa1cd6abb433669643d83f4044caf11dc883d6143674',
+                '6687e4dd4e3ab5477182d042a66faf1cb1741a2adc644b7ac58a416316b9a5f3')
+        for method,expected in zip(methods,hashes):
+            self.assertEqual(method.method_id,'prefix-unit-v1')
+            self.assertEqual(fingerprint(method.generate_key(seed=7).as_mapping()),expected)
+        with self.assertRaises(ValueError):UnitCipher(alphabet='aa')
+        with self.assertRaises(ValueError):UnitCipher(alphabet='ab!')
+        with self.assertRaises(ValueError):UnitCipher(alphabet='ABCDEFGHIJKLMNOPQRST').generate_key(seed=7)

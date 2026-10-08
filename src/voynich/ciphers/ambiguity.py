@@ -44,3 +44,31 @@ def enumerate_paths(ciphertext: str, entries: tuple[tuple[str, str, float], ...]
         furthest / len(ciphertext), path_count, not pruned, pruned,
         "lower-bound" if pruned else "exact"), tuple(sorted(masses.items())),
         "retained path weight; not calibrated probability" if pruned else "exact sum under declared path weights")
+
+
+def count_mapping_completions(known_mapping: dict[str,str], units: tuple[str,...],
+                              capacity: int, unknown_codes: int) -> int:
+    """Exact count of assignments to distinct unseen codes under capacity bounds.
+
+    Conditions on the supplied key and a fixed segmentation policy. It does not
+    choose a completion, use reserved language evidence, or assign probabilities.
+    Only letters/pairs are supported: word-position constraints need extra state.
+    """
+    from collections import Counter
+    if capacity<1 or unknown_codes<0 or len(set(units))!=len(units) or not units:
+        raise ValueError('invalid completion problem')
+    if any(not u or len(u)>2 or ' ' in u for u in units):
+        raise NotImplementedError('completion counting supports letters/pairs only')
+    counts=Counter(known_mapping.values())
+    if set(counts)-set(units) or any(n>capacity for n in counts.values()):
+        raise ValueError('known key violates declared inventory/capacity')
+    if unknown_codes>sum(capacity-counts[u] for u in units):return 0
+    ways=[1]+[0]*unknown_codes
+    for unit in units:
+        remaining=capacity-counts[unit]
+        updated=[0]*(unknown_codes+1)
+        for assigned,number in enumerate(ways):
+            for new in range(min(remaining,unknown_codes-assigned)+1):
+                updated[assigned+new]+=number*math.comb(assigned+new,new)
+        ways=updated
+    return ways[unknown_codes]

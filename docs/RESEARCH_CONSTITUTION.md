@@ -18,6 +18,10 @@ For this programme we assume:
 - The text is ciphertext. This is a working premise, not an established result.
 - The source is Latin or Italian. Conclusions about plaintext depend on this
   restriction; failure of both does not exclude encryption in another language.
+- For the current recovery programme, medicinal/herbal knowledge around the
+  fifteenth century is the working content hypothesis. Prioritize relevant
+  source material and hand-executable operations; distinguish ancient medical
+  calibration texts from medieval recipe/manuscript evidence.
 - The process is executable by hand with plausible tables, memory and labour.
 - Currier B is the initial target. Currier A is a later transfer test, not
   silently pooled with B.
@@ -221,3 +225,11 @@ Keep this constitution stable across experiments. Record substantive changes
 with their date, reason and whether they were motivated by observed results.
 Experiment protocols may refine operational details, but must not silently
 relax this document's evidence standards.
+
+8 October 2026: the user reaffirmed the medicinal-cipher working hypothesis.
+Solver improvements should be evaluated for their contribution to testing it.
+Simple substitution remains an engineering control; successful literary or
+medical synthetic recovery alone does not promote it to a leading manuscript
+hypothesis. Cross-author medical calibration, grouped units, homophones and
+uncertain boundaries are the immediate priorities. Preserve the distinction
+between a scoring failure, a search failure and an unrepresentable hypothesis.

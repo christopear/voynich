@@ -52,8 +52,51 @@ def method_for(family,training):
     raise ValueError('unknown family')
 
 
+def validate_plan(plan,corpora):
+    """Fail before registration if settings silently change the declared screen."""
+    if plan.get('schema')!=1:
+        raise ValueError('unsupported medical plan schema')
+    allowed={'targets':{'celsus','pliny'},'families':{'glyph','homophonic','groups-fixed','groups-variable'},
+             'algorithms':{'annealing','beam'},'controls':{'positive','token-shuffled'}}
+    for name,values in allowed.items():
+        requested=plan.get(name,[])
+        if not requested or len(set(requested))!=len(requested) or set(requested)-values:
+            raise ValueError('invalid '+name)
+    if set(plan['controls'])!=allowed['controls'] or set(plan['algorithms'])!=allowed['algorithms']:
+        raise ValueError('paired algorithms and both controls are required')
+    seeds=plan.get('seeds',[])
+    if not seeds or len(set(seeds))!=len(seeds) or any(type(n) is not int for n in seeds):
+        raise ValueError('distinct integer seeds required')
+    for name in ('budget','population','length','training_length','passage_stride'):
+        if type(plan.get(name)) is not int or plan[name]<1:
+            raise ValueError('invalid '+name)
+    if plan['budget']<plan['population'] or plan['training_length']<100:
+        raise ValueError('insufficient initialization/training budget')
+    criteria=plan['criteria']
+    if criteria.get('complete_frozen_codes') is not True or criteria.get('beats_token_shuffled') is not True:
+        raise ValueError('changing coverage/control gates requires a new protocol version')
+    if any(not 0<criteria[name]<=1 for name in ('development_nonspace','frozen_nonspace')):
+        raise ValueError('invalid accuracy gate')
+    for name in ('training_start_fraction','development_fraction','frozen_fraction'):
+        if not 0<=plan[name]<1:raise ValueError('invalid source fraction')
+    for source in corpora.values():
+        n=len(source['text'])
+        training=(int(plan['training_start_fraction']*n),int(plan['training_start_fraction']*n)+plan['training_length'])
+        spans=[('training',*training)]
+        for i in range(len(seeds)):
+            for role,name in (('development','development_fraction'),('evaluation','frozen_fraction')):
+                start=int(plan[name]*n)+i*plan['passage_stride']
+                spans.append((role,start,start+plan['length']))
+        if any(b>n for _,a,b in spans):raise ValueError('requested source span is unavailable')
+        for i,(role,a,b) in enumerate(spans):
+            for other,c,d in spans[i+1:]:
+                if role!=other and max(a,c)<min(b,d):raise ValueError('overlapping source roles')
+    return {'searches':len(plan['targets'])*len(seeds)*len(plan['families'])*4,
+            'maximum_evaluations':len(plan['targets'])*len(seeds)*len(plan['families'])*4*plan['budget']}
+
+
 def run(plan,output):
-    corpora=sources();env=environment(ROOT)
+    corpora=sources();validate_plan(plan,corpora);env=environment(ROOT)
     for name,source in corpora.items():
         if file_hash(source['path'])!=plan['source_hashes'][name]:raise ValueError('plan source changed')
     output.mkdir(parents=True,exist_ok=False);write_json(output/'plan.json',plan)
