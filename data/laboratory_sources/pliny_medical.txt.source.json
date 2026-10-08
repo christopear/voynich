@@ -1,0 +1,23 @@
+{
+  "id": "pliny",
+  "work": "Pliny, Naturalis Historia 20–27; Mayhoff edition, 1906",
+  "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/phi0978/phi001/phi0978.phi001.perseus-lat2.xml",
+  "commit": "128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+  "books": [
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27"
+  ],
+  "upstream_sha256": "113b3df1fa7efe9fbb337fac01aec07cee474ca533386c1b6f3332fd34251c37",
+  "text_sha256": "91844f7a4ede43232e690f062c76ae24e85fb59af8d69966c748d290cb1a8259",
+  "extraction": "medical-tei-books-v1: remove notes/headings; replace gaps and foreign-language spans with spaces; keep inline tails; collapse whitespace within books",
+  "language": "latin",
+  "genre": "medical/herbal calibration; ancient, not medieval recipe transcription",
+  "license": "CC BY-SA 4.0, repository license retained alongside sources",
+  "attribution": "Perseus Digital Library / Trustees of Tufts University; edition editors named in work"
+}
