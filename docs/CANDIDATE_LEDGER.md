@@ -36,6 +36,7 @@ Last updated 9 October 2026.
 | 11 | v101 glyph variants are distinct letters | **Statistically rejected** (for d, y, k, r, sh, p) | No word-level information in variant choice, with calibrated power, including at the real minority rates ([V101](reports/V101_FINDINGS_2026-09-26.md), [follow-up](reports/V101_FOLLOWUP_FINDINGS_2026-09-26.md)) | f and cph not calibrated; v101 `A` is an o/a ambiguity | None |
 | 18 | Whole-word disjoint codes with 1–3 IID alternatives; fixed global probabilities; preserved word units | **Search found no fit in forward-profile grid** (descriptive, not calibrated rejection) | [Stage 28](../results/word_homophones_2026-10-09/README.md): 504 panels, seven settings, recipes/Celsus/Pliny; no development draw jointly fits four frozen measures | Source/normalization dependent; abstract code IDs, no glyph morphology or historical key-size bound. No blind key search | Context-persistent choices at matched codebook size, or separately specified content-word lexicons |
 | 19 | Two disjoint whole-word codes from independent first/middle/final glyph slots, with IID/page/word-page/25%-refresh choice | **Search found no fit in forward-profile grid** | [Stage 30](../results/structured_word_codes_2026-10-09/README.md): 96 cipher panels and 72 R2 controls; no joint development fit, selected models fail reserved B/IT/spacing/A profiles. Glyph entropy too high; fitted grammar covers 54.9% of reserved B tokens | One Italian culinary source; 1,484 types/2,968 codewords; random fixed dictionaries; bounded edge/interior lists, no exceptions. No key search or general slot-family exclusion | Model dependencies between codeword parts and test unseen-type coverage; do not increase persistence budget in this grammar |
+| 20 | Two disjoint whole-word codes drawn from a dependent glyph-chain word-shape model (order-2 Witten–Bell, trained on 20,029 Currier B tokens), random assignment, IID/page/word-page/refresh choice | **Search found no fit in forward-profile grid** (descriptive) | [Stage 31](../results/word_shapes_2026-10-09/README.md): the shape model alone passes the frozen word-shape gate (glyph entropy, last-glyph dependence, length, 83% top-2,968 reserved coverage). The codebook fails all targets: codewords too long (6.1 vs 4.3–4.5 glyphs), glyph entropy 2.26 vs 1.98–2.07, coupling 0 vs 0.12–0.25. R2 (same training) also fails | One culinary source; random assignment only; 512 tokens per target; no key search. Not a rejection of word codes with frequency-ranked or context-conditioned assignment | Frequency-ranked assignment (short/probable codewords for common words) and context-conditioned variant choice for coupling, each under its own protocol |
 | 17 | Prefix-determined one/two-glyph codes, <=3 long-code prefixes or fixed width two; <=2 homophones; expansion 1.35–2; codes end at lines/drawings/unclean gaps | **No admissible original-page parser within this grid**; blind synthetic recovery still below gate | [Original pilot](../results/grouped_boundary_2026-10-09/README.md); [all-survivor repair](../results/parser_retention_2026-10-09/README.md) now selects the true parser 8/8, with 28.5–75.0% recovery and 0/8 at 90% | All 177 structural survivors searched; fixed 4,096 evaluations each. Key search incomplete. Original f26r infeasibility unchanged; no new manuscript key search | Do not prune on unigram concentration; prioritise larger units and justify boundary assumptions before another search |
 
 ## Open questions (not cipher families)
@@ -109,3 +110,16 @@ The 16/16 synthetic profile-calibration gate passed; all 168 panels replay and
 49,152 synthetic words round-trip with known keys. Shuffle recurrence effects
 do not establish a cipher-only property. Row 10's original verdict is unchanged;
 this head-to-head adds a new narrow negative comparison, not a general rejection.
+
+9 October stage-31 update: [scribe control, word shapes and codebooks](../results/word_shapes_2026-10-09/README.md).
+Within Davis hands, 16-folio B keeps 0.096 of 0.135 bits section excess (71%),
+below the 77–103% that twelve plaintext references keep on the same layout; part
+of B's page association is between scribes. A (one hand) keeps all 0.078 bits.
+A two-glyph-context chain reproduces word-internal predictability and the
+nearly fixed final glyph that row 19's independent slots lacked (last-glyph
+dependence 1.44 vs Voynich 1.54; slots 0.14), so row 19's "model dependencies"
+test is done. The binding constraint moves to assignment (row 20). Voynich's common
+words are short (type frequency/length Spearman −0.31, post hoc), and no
+random-assignment codebook reproduces neighbour coupling. Rows 13/14 stay open;
+no reading, family rejection or comparative support is added. Stolfi/Zattera
+grammar baselines remain deferred (sources unreachable).

@@ -11,6 +11,7 @@ import unittest
 from voynich.paths import ROOT
 
 PRODUCERS = {
+    "word_shapes_2026-10-09": ["voynich.experiments.e31_word_shapes", "voynich.laboratory.word_shapes_verify"],
     "structured_word_codes_2026-10-09": ["voynich.experiments.e30_structured_word_codes", "voynich.laboratory.structured_verify", "voynich.laboratory.structured_report"],
     "frequency_currier_a_2026-10-09": ["voynich.experiments.e29_frequency_currier_a", "voynich.laboratory.frequency_report", "voynich.laboratory.frequency_verify"],
     "word_homophones_2026-10-09": ["voynich.experiments.e28_word_homophones", "voynich.laboratory.word_homophone_verify"],

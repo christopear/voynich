@@ -263,3 +263,20 @@ Italian recipe source, and six existing R2 settings. Both learn from the same
 512 development tokens. The fixed edge/interior grammar, state/serialization
 budgets, reserved-page profiles and role-preserving order controls are explicit.
 No blind solver or semantic labels; no additional dependencies or database required.
+
+## 31: scribe control, dependent word shapes and codebooks
+
+[Protocol](../protocols/WORD_SHAPES_2026-10-09.md),
+[findings](../../results/word_shapes_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e31_word_shapes --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.word_shapes_verify --directory results/<new-dir>
+```
+
+Part A stratifies stage-29 page association by Davis hand (ZL `$H`, see
+[provenance](../../data/HAND_ATTRIBUTION.md)). Part B fits stage-30 slots and
+Witten–Bell glyph n-grams on a broad and a matched training arm, with a frozen
+shape gate. Part C replaces stage 30's grammar with the selected model and
+adds neighbour coupling to the score vector. About one minute; no database or
+new dependencies.
