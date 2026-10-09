@@ -39,6 +39,7 @@ PRODUCERS = {
     "line_rotation_2026-10-09": ["voynich.laboratory.rotation_pilot", "voynich.laboratory.rotation_report"],
     "phase_initialization_2026-10-09": ["voynich.laboratory.phase_initialization", "voynich.laboratory.phase_report",
                                         "voynich.laboratory.clock_audit"],
+    "capacity_sensitivity_2026-10-09": ["voynich.evaluation.capacity"],
     "capacity_screen_2026-10-09": ["voynich.evaluation.capacity"],
 }
 NOT_RESULT_SETS = {"overnight", "runs", "scratch"}   # logs, ignored run archives, scratch output

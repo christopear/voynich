@@ -1,3 +1,9 @@
+> **Superseding correction, 9 October 2026:** the historical results below are
+> preserved, but their universal exclusion language and one-bit changing-table
+> allowance are withdrawn. Treat them as reference-profile priority evidence.
+> See `docs/RESEARCH_CONSTITUTION.md` §8 and the new sensitivity output. Expansion
+> is heuristic. Layout independence must be stated, not inferred from observability.
+
 # Capacity screen — 9 October 2026
 
 **Length-preserving decoders cannot turn Currier B into Latin, Italian or

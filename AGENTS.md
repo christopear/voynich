@@ -17,27 +17,24 @@ tested, and with what verdict, lives in
 * **Tested cipher families.** Seven cipher families available around 1420
   (as simulated) and two message-free generators failed the Voynich
   fingerprints. The strongest constraint is page-specific vocabulary: Voynich
-  "words" follow the page's topic, which letter-level codes cannot do.
-* **Length-preserving decoding is excluded.** Decoding one Voynich glyph (or a
-  merged pair) into one Latin, Italian or German letter, with spaces kept,
-  cannot produce plaintext-like text. This holds with one table or with
-  alternating tables, for any key. See
-  [results/capacity_screen_2026-10-09](results/capacity_screen_2026-10-09/README.md).
-  A viable decoder needs roughly **1.5 or more glyph units per plaintext
-  letter**, or units larger than letters.
+  "words" are associated with pages; topic, layout and state can all contribute.
+* **Length-preserving decoding is strongly disfavoured relative to the tested
+  reference profiles**, not universally excluded. A fixed decoder cannot add
+  information. For changing state the same unconditional comparison requires
+  plaintext-window independence from state; observable layout alone does not
+  establish it. Expansion estimates are heuristics, not minimum code lengths.
 * **Not settled:** which larger-unit family (glyph groups, syllables, word
   codes, mixed coding), what the spaces are, and whether a changing table
   explains page-specific vocabulary.
 
 ## Mistakes we have already made — do not repeat them
 
-1. **Searching a family that cannot contain the answer.** Three manuscript
-   searches (page pilot, line rotation, phase initialization) optimised
-   one-glyph-to-one-letter decoders. Their scores improved, but no reading
-   emerged, and the capacity screen shows none could. **Run
-   `uv run --locked python -m voynich.evaluation.capacity` (or its functions on
-   your family's units) before any manuscript search.** If the family fails,
-   don't search it. Change the family.
+1. **Repeating a weakly supported family.** The three manuscript searches
+   improved fitted scores but established no readings. Use
+   `uv run --locked python -m voynich.evaluation.capacity --sensitivity`
+   to assess reference-profile gaps before another search. This sets priorities;
+   it is not a mandatory rejection rule. State the sampling, language and state
+   assumptions. Prefer a different representational hypothesis now.
 2. **Treating a better score as progress.** Any flexible decoder makes text
    more "Latin-like" under the model it is optimised against. A medical word
    such as `febris` turning up proves nothing.
@@ -56,7 +53,7 @@ tested, and with what verdict, lives in
 4. **Calibrating on the wrong kind of synthetic text.** Recovering ciphers
    built from Latin with a Latin-sized alphabet says little about Voynich.
    Synthetic fixtures for a manuscript claim should match the Voynich
-   conditions that matter: the ciphertext's own entropy, about 1.5+ glyphs
+   conditions that matter: the ciphertext's own entropy, explicit glyph expansion
    per letter, page-specific vocabulary, uncertain spaces, and unclean tokens.
    Synthetic accuracy is reported separately from manuscript evidence.
 5. **Trusting paired per-row comparisons between model representations.**
@@ -76,8 +73,8 @@ tested, and with what verdict, lives in
 ## Approved workflow for a new stage
 
 1. **Choose a candidate** from the ledger or
-   [operation priorities](docs/OPERATION_FAMILY_PRIORITIES.md) that is not
-   excluded. Write down the result that would move it to "compatible" and the
+   [operation priorities](docs/OPERATION_FAMILY_PRIORITIES.md) with a clearly stated
+   domain. Write down the result that would move it to "compatible" and the
    result that would reject it.
 2. **Screen it cheaply.**
    * Capacity: can the family's units carry plaintext-level information?
@@ -85,7 +82,8 @@ tested, and with what verdict, lives in
      vocabulary size, top-word share, repetition, line effects. Can some
      setting of the family come close?
 
-   If not, stop and record the exclusion in the ledger.
+   Record mismatches and their scope; do not convert reference gaps or failed
+   optimisation into a universal exclusion.
 3. **Calibrate.** Build synthetic ciphertext of that family under
    Voynich-like conditions, and show the solver recovers it blind, with known
    keys held back. A method that cannot recover its own family cannot test it.
@@ -103,13 +101,13 @@ tested, and with what verdict, lives in
    syllables, words, mixed) can carry Voynich's page-specific vocabulary,
    using the data-processing bound and matched layouts.
 2. **Grouped-glyph and verbose decoding with the existing solver.** Use the
-   `groups`/`mixed` families and inferred spaces, constrained to about 1.5–3
-   glyph units per letter. Calibrate first on Naibbe-type and grouped
+   `groups`/`mixed` families and inferred spaces, with a declared expansion range
+   appropriate to the particular encoding. Calibrate first on Naibbe-type and grouped
    fixtures with a Voynich-sized alphabet.
 3. **Word and mixed codes** (letters plus a bounded word-code list), which can
    keep page-specific vocabulary.
-4. **Drifting or section-specific tables** for verbose codes: the one way a
-   letter-level code could fake page-specific vocabulary.
+4. **Drifting or section-specific tables** for verbose codes: one possible source of
+   page-specific vocabulary.
 
 Stop working on: further budget, tables or initialisers for
 one-glyph-to-one-letter decoding with spaces kept.

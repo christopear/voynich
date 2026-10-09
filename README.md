@@ -9,8 +9,8 @@ not to repeat, and the approved workflow. The
 [candidate ledger](docs/CANDIDATE_LEDGER.md) lists every tested family and its
 verdict. Before any manuscript search, run the capacity screen
 (`uv run --locked python -m voynich.evaluation.capacity`).
-One-glyph-to-one-letter decoders with spaces kept cannot reach Latin or
-Italian for any key ([screen](results/capacity_screen_2026-10-09/README.md)).
+The screen identifies reference-profile gaps under explicit assumptions; it
+sets research priorities and does not universally exclude a language or family.
 
 ## Setup
 
@@ -90,8 +90,8 @@ to stage intended file moves together with updates; do not reinitialize it.
 
 > The three searches below decode one glyph into one letter, with spaces
 > kept. The [capacity screen](results/capacity_screen_2026-10-09/README.md)
-> shows this family cannot produce Latin-like text for any key, so treat them
-> as engineering baselines, not leads. See [AGENTS.md](AGENTS.md).
+> disfavors this family relative to tested reference profiles. These remain
+> engineering baselines without validated readings. See [AGENTS.md](AGENTS.md).
 
 The [equal-budget initialization trial](results/phase_initialization_2026-10-09/report.html)
 returns directly to f26r/f31r/f39v after calibration. Its

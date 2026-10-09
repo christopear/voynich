@@ -1,38 +1,16 @@
-"""Information-capacity screen: can a cipher family possibly decode Voynich into the target language?
+"""Reference-profile priority screen, not a universal cipher-family exclusion.
 
-Run this before spending search budget on a family (see AGENTS.md).
+For a fixed deterministic decoder P=f(C,S), H(P|S)<=H(C|S).
+Consequently H(P)<=H(C)+I(P;S). If plaintext windows are independent
+of state, H(P)<=H(C), whether state is visible layout or hidden random choice.
+Layout being observable does NOT establish that independence. Paragraph,
+word-length and topic conventions can violate it. Without independence the
+screen needs a justified plaintext-state information allowance, not log2 of
+the number of tables. Full context-dependent decoding is outside this model.
 
-The bound
----------
-Suppose a decoder maps each cipher unit C_i to one plaintext symbol
-P_i = f(C_i, S_i), keeping the number of symbols (and the spaces), where S_i is
-a state that the decoder knows from layout (for example an alternating line
-table). Then any window of n plaintext symbols is a function of the matching n
-cipher units and their states, so
-
-    H(P_1..P_n) <= H(C_1..C_n) + H(S_1..S_n).
-
-This holds for every key of the family. One-to-one substitution,
-"capacity two" homophone merging, and line- or page-alternating tables are all
-of this length-preserving kind. If real plaintext needs more bits per window
-than the ciphertext has, plus the state bits, no key of the family can produce
-text with plaintext-like statistics, and no search budget will change that.
-
-For families where several cipher units become one plaintext symbol (verbose
-coding, glyph groups, word codes), the same comparison gives the least
-expansion that could close the gap: the smallest cipher window k whose block
-entropy reaches that of an m-symbol plaintext window.
-
-Estimation
-----------
-Block entropies are plug-in estimates on equal-sized contiguous blocks, so the
-cipher and plaintext estimates carry comparable finite-sample bias. Each text
-is cut into several blocks, and a comparison uses the cipher's *highest* block
-estimate against the plaintext's *lowest*, which is conservative towards
-calling a family feasible. Plug-in entropy is biased downward as n grows, so
-keep n small (<= 4) relative to the block size. The bound concerns the
-population; the estimates are finite-sample, and the verdict is labelled as
-estimated, not as an exact structural exclusion.
+Reference profiles, plug-in entropy, and Miller–Madow corrections are empirical
+sensitivity checks. Neither supplies a universal lower bound for a language.
+Expansion ratios from overlapping windows are heuristic, not parsing bounds.
 """
 from __future__ import annotations
 
@@ -59,25 +37,28 @@ def stream(words, segment=list):
     return out
 
 
-def block_entropy(units, n):
+def block_entropy(units, n, correction="plugin"):
     """Plug-in entropy, in bits, of overlapping n-unit windows."""
+    if n < 1 or len(units) < n or correction not in {"plugin", "miller-madow"}:
+        raise ValueError("invalid window or estimator")
     counts = Counter(tuple(units[i:i + n]) for i in range(len(units) - n + 1))
     total = sum(counts.values())
-    return -sum(c / total * math.log2(c / total) for c in counts.values())
+    value = -sum(c / total * math.log2(c / total) for c in counts.values())
+    return value + ((len(counts)-1)/(2*total*math.log(2)) if correction == "miller-madow" else 0)
 
 
 def blocks(units, size=BLOCK):
     return [units[i:i + size] for i in range(0, len(units) - size + 1, size)]
 
 
-def entropy_profile(units, max_order=MAX_ORDER, size=BLOCK):
+def entropy_profile(units, max_order=MAX_ORDER, size=BLOCK, correction="plugin"):
     """Per order n: min, max and mean block entropy over contiguous blocks of `size` units."""
     bs = blocks(units, size)
     if not bs:
         raise ValueError(f"need at least {size} units, got {len(units)}")
     prof = {}
     for n in range(1, max_order + 1):
-        vals = [block_entropy(b, n) for b in bs]
+        vals = [block_entropy(b, n, correction) for b in bs]
         prof[n] = {"min": min(vals), "max": max(vals), "mean": sum(vals) / len(vals)}
     return {"blocks": len(bs), "block_size": size, "orders": prof}
 
@@ -86,7 +67,8 @@ def length_preserving_check(cipher_profile, plain_profile, state_bits=0.0):
     """Necessary condition for a length-preserving decoder, per window size n.
 
     gap_n = min over plaintext blocks of H_n(plain) - (max over cipher blocks of H_n(cipher) + state_bits).
-    A positive gap means no key of the family can reach plaintext-like n-gram diversity.
+    Positive means disfavoured relative to these estimated reference profiles.
+    state_bits is an assumed I(P;S) allowance, NOT log2(number of tables).
     """
     rows = {}
     for n, p in plain_profile["orders"].items():
@@ -121,7 +103,7 @@ REFERENCES = {
     "italian_dante": ("data/italian_dante.txt", "italian"),
     "german_mhg": ("data/mhg_fh.txt", "german"),
 }
-STATE_BITS = {"single table": 0.0, "two tables, line/page alternation": 1.0}
+STATE_BITS = {"fixed table": 0.0, "changing state; plaintext independent of state": 0.0}
 
 
 def voynich_units(currier="B"):
@@ -152,17 +134,54 @@ def screen(max_order=MAX_ORDER, size=BLOCK):
             "skipped_references": sorted(set(plains) - set(pprof))}
 
 
+def sensitivity_screen():
+    ciphers = voynich_units()
+    plains = {name: reference_units(path) for name, (path, _) in REFERENCES.items()}
+    rows = []
+    for size in (5000, 20000, 40000, 80000):
+        for estimator in ("plugin", "miller-madow"):
+            pp = {p: entropy_profile(u, size=size, correction=estimator)
+                  for p, u in plains.items() if len(u) >= size}
+            for cipher, units in ciphers.items():
+                cp = entropy_profile(units, size=size, correction=estimator)
+                for name, prof in pp.items():
+                    check = length_preserving_check(cp, prof)
+                    for n, v in check["by_order"].items():
+                        means = [p["orders"][n]["mean"] for p in pp.values()]
+                        spread = max(means)-min(means)
+                        rows.append(dict(cipher=cipher, reference=name, size=size,
+                            estimator=estimator, order=n, cipher_blocks=cp["blocks"],
+                            reference_blocks=prof["blocks"], **v,
+                            reference_mean_range_bits=spread,
+                            gap_over_reference_range=v["gap_bits"]/spread if spread else None))
+    return {"schema":2, "rows":rows,
+        "state_assumption":"Fixed table, or plaintext-window independence from the full state window.",
+        "interpretation":"Priority screen relative to references; no calibrated rejection or universal language bound.",
+        "bias_limit":"Miller–Madow is a sensitivity estimator, especially limited for sparse overlapping windows.",
+        "reference_spread_limit":"Range of available reference means at each block size; panels change when short sources drop out.",
+        "expansion_status":"Overlapping-window heuristic only; variable parsing needs an explicit model."}
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--output", type=Path, help="write the full screen as JSON")
+    ap.add_argument("--sensitivity", action="store_true", help="estimator and block-size robustness checks")
     args = ap.parse_args(argv)
-    res = screen()
+    res = sensitivity_screen() if args.sensitivity else screen()
+    if args.sensitivity:
+        if args.output:
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            with args.output.open("x") as f:
+                json.dump(res, f, indent=1)
+        else:
+            print(json.dumps(res, indent=1))
+        return
     print(f"Block entropies (bits), {res['block_size']}-unit blocks; cipher max vs plaintext min per order n.")
     for c, by_p in res["length_preserving"].items():
         for p, by_state in by_p.items():
             for state, chk in by_state.items():
                 gaps = " ".join(f"n={n}:{r['gap_bits']:+.2f}" for n, r in chk["by_order"].items())
-                verdict = "feasible" if chk["feasible"] else "EXCLUDED"
+                verdict = "not screened out" if chk["feasible"] else "REFERENCE-PROFILE GAP"
                 print(f"{c:13s} -> {p:21s} {state:34s} gap {gaps}  {verdict}")
     for c, by_p in res["required_expansion"].items():
         for p, by_m in by_p.items():
@@ -171,7 +190,8 @@ def main(argv=None):
             print(f"{c:13s} -> {p:21s} cipher units per plaintext symbol needed (rough): {ratios}")
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(json.dumps(res, indent=1, default=str))
+        with args.output.open("x") as f:
+            json.dump(res, f, indent=1, default=str)
 
 
 if __name__ == "__main__":

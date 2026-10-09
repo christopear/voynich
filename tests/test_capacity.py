@@ -28,11 +28,28 @@ class CapacityTests(unittest.TestCase):
         units = [u if u == cap.SPACE else u + str(rng.randrange(2)) for u in self.latin]
         self.assertTrue(self.check(units)["feasible"])
 
-    def test_voynich_single_table_is_excluded(self):
+    def test_voynich_single_table_has_reference_gap(self):
         units = cap.voynich_units()["compound EVA"][:60000]
         result = self.check(units)
         self.assertFalse(result["feasible"])
         self.assertGreater(result["by_order"][3]["gap_bits"], 1.0)
+
+    def test_miller_madow_and_invalid_windows(self):
+        import math
+        self.assertAlmostEqual(cap.block_entropy("aabb", 1, "miller-madow"),
+                               1 + 1/(8*math.log(2)))
+        with self.assertRaises(ValueError): cap.block_entropy("a", 2)
+
+    def test_layout_dependence_can_invalidate_unconditional_bound(self):
+        # Each table is bijective, but P=state and both chosen symbols map to x.
+        plain = "ab" * 100
+        cipher = "x" * len(plain)
+        self.assertGreater(cap.block_entropy(plain, 1), cap.block_entropy(cipher, 1))
+        for state in (0, 1):
+            self.assertEqual(cap.block_entropy(plain[state::2], 1), 0)
+
+    def test_two_tables_do_not_bound_state_windows_to_one_bit(self):
+        self.assertGreater(cap.block_entropy(list("00111" * 100), 3), 2)
 
     def test_verbose_code_fails_length_preserving_but_shows_expansion(self):
         # Each letter becomes a fixed two-symbol code over a 6-symbol alphabet.
