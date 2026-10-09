@@ -212,3 +212,21 @@ separate from the frozen primary analysis. The all-survivor grouped calibration
 is `voynich.laboratory.parser_retention`, with PostgreSQL verification in
 `voynich.laboratory.parser_retention_verify`. The label inventory is
 `voynich.laboratory.crib_inventory`; it performs no semantic assignment.
+
+
+## 28: whole-word codes with fixed independent alternatives
+
+[Protocol](../protocols/WORD_HOMOPHONES_2026-10-09.md),
+[findings](../../results/word_homophones_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e28_word_homophones --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.word_homophone_verify --directory results/<new-dir>
+uv run --locked python -m voynich.experiments.posthoc_e24_pooling_audit --output results/<new-audit-dir>
+uv run --locked python -m voynich.laboratory.label_alignment_packet --output results/<new-label-dir>
+```
+
+The forward screen needs no database or new packages. It tests token equality
+patterns, not glyph spellings or blind decryption. Source chapters and additional
+manuscript folios are kept disjoint. The audit is a sufficient check of original
+ZL conjunction verdicts, not a full rerun of every historical fingerprint.

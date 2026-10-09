@@ -54,12 +54,38 @@ family exclusion follows.
 **Pooling trap:** first-occurrence tie-breaking at a top-200 vocabulary cutoff
 can introduce page association among rare types. The post hoc diagnostic gives
 0.205 spurious bits even with all-unique tokens. Use all-type measurements or
-calibrated position-independent pooling; historical pooled grid evidence needs
-an audit before reuse as a binding rejection reason. Do not overwrite old results.
+calibrated position-independent pooling. The historical ZL grid verdicts now
+have a [sufficient audit](results/historical_pooling_audit_2026-10-09/README.md):
+434/456 cells fail unaffected shape measures, and the remaining 22 fail audited
+page MI under both identity ties and no cap (132 reproduced simulations).
+This clears the old ZL verdict concern, not every historical capped statistic
+or the IT/v101 full grids. Do not overwrite old results.
 
 Next: [recurring-label/crib scope](docs/protocols/CRIB_SCOPE_2026-10-09.md), with
 image/label alignment and independent referents before semantic fitting. The
 299-label inventory is not 299 plaintext words or verified crib pairs.
+
+## Word-code alternatives follow-up (stage 28)
+
+[Report](results/word_homophones_2026-10-09/README.md): 504 forward panels test
+one/two/three disjoint codewords per whole word with fixed IID choice, three
+sources and chapter-disjoint validation. Recipe alternatives improve vocabulary
+shape, but no development configuration/draw jointly matches shape and page
+association within the frozen descriptive scales. This is not a rejection of
+word codes, and no plaintext words were recovered. Disjoint page-independent
+homophones preserve population word/page MI; finite-sample excess MI changes.
+
+IT2a replicates page association on the original pages (0.123 vs ZL 0.115).
+Sixteen additional herbal/starred-text folios give 0.097/0.104 (IT/ZL). The new
+section mix is explicit; sources and genre cannot be identified from these fits.
+Next compare a bounded context-persistent choice model with IID choices at the
+same codebook size/marginal frequencies, or a separately specified content lexicon.
+
+The [label alignment packet](results/label_alignment_2026-10-09/README.md)
+contains coordinate candidates for 53 occurrences of 22 recurring label types.
+Only four types cross the original folio split; its five-type semantic-test gate
+fails. Do not lower the threshold or change the split after seeing this count.
+Exact coordinate spelling matches are not confirmed image/label alignments.
 
 ## Mistakes we have already made — do not repeat them
 

@@ -11,6 +11,9 @@ import unittest
 from voynich.paths import ROOT
 
 PRODUCERS = {
+    "word_homophones_2026-10-09": ["voynich.experiments.e28_word_homophones", "voynich.laboratory.word_homophone_verify"],
+    "historical_pooling_audit_2026-10-09": ["voynich.experiments.posthoc_e24_pooling_audit"],
+    "label_alignment_2026-10-09": ["voynich.laboratory.label_alignment_packet"],
     "parser_retention_2026-10-09": ["voynich.laboratory.parser_retention", "voynich.laboratory.parser_retention_verify"],
     "unit_association_2026-10-09": ["voynich.experiments.e27_unit_association"],
     "unit_association_pooling_audit_2026-10-09": ["voynich.experiments.posthoc_e27_pooling"],
