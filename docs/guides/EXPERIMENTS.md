@@ -293,3 +293,16 @@ uv run --locked python -m voynich.laboratory.ranked_verify --directory results/<
 
 Stage 31 Part C with each key's strings reassigned by rank. Uses the shared
 `forward_screen`/`forward_verify` modules. About 30 seconds.
+
+## 33: context-conditioned variant choice
+
+[Protocol](../protocols/CONTEXT_CHOICE_2026-10-09.md),
+[findings](../../results/context_choice_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e33_context_choice --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.context_verify --directory results/<new-dir>
+```
+
+Stage 32's codebooks with four choice rules; pages are encoded last to first so
+each choice can see the next codeword. About 30 seconds.

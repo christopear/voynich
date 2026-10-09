@@ -137,6 +137,14 @@ negative frequency/length relation; page association is unchanged by
 construction. Coupling (0 vs 0.12–0.25) is now B's only binding failure. A
 marginal, unreplicated 4/12 neighbourhood result on Currier A is not a fit.
 
+## Stage 33: context-conditioned variant choice
+
+[Stage 33](results/context_choice_2026-10-09/README.md): choosing the alternative
+whose ending suits the next word raises coupling to 0.09–0.10 bits (B:
+0.12–0.25). This is the closest development fit yet (max residual 1.16), but no
+joint hits. Page-persistent choice restores page association and destroys
+coupling; do not try to tune the two against each other in this grammar.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

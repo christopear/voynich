@@ -11,6 +11,7 @@ import unittest
 from voynich.paths import ROOT
 
 PRODUCERS = {
+    "context_choice_2026-10-09": ["voynich.experiments.e33_context_choice", "voynich.laboratory.context_verify", "voynich.laboratory.context_choice"],
     "ranked_assignment_2026-10-09": ["voynich.experiments.e32_ranked_assignment", "voynich.laboratory.ranked_verify", "voynich.laboratory.forward_screen", "voynich.laboratory.forward_verify"],
     "word_shapes_2026-10-09": ["voynich.experiments.e31_word_shapes", "voynich.laboratory.word_shapes_verify"],
     "structured_word_codes_2026-10-09": ["voynich.experiments.e30_structured_word_codes", "voynich.laboratory.structured_verify", "voynich.laboratory.structured_report"],
