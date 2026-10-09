@@ -126,7 +126,8 @@ adaptation using published Naibbe tables, not the published card-deck algorithm.
 ## v101 transcription and cipher-family stages (19–25)
 
 These stages were dropped by the October layout migration and restored on
-9 October 2026. The restored code reproduces the committed outputs. Protocols
+9 October 2026. Reproduction check: stage 19 regenerates its committed outputs
+identically; stages 20–25 are being checked. Protocols
 and findings are `docs/protocols/V101_PROTOCOL.md`,
 `docs/protocols/V101_FOLLOWUP_PROTOCOL.md`,
 `docs/protocols/CIPHER_FAMILY_PROTOCOL.md` and the matching
