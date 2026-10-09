@@ -129,6 +129,14 @@ assignment ignores that), and neighbour coupling is zero, as predicted. R2 also
 fails. Next: frequency-ranked assignment and context-conditioned variant choice,
 each preregistered separately. Stolfi/Zattera baselines remain deferred.
 
+## Stage 32: frequency-ranked assignment
+
+[Stage 32](results/ranked_assignment_2026-10-09/README.md): giving common plaintext
+words the most probable codewords fixes length (4.41 vs 4.34–4.52) and the
+negative frequency/length relation; page association is unchanged by
+construction. Coupling (0 vs 0.12–0.25) is now B's only binding failure. A
+marginal, unreplicated 4/12 neighbourhood result on Currier A is not a fit.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
