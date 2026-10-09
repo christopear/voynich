@@ -35,8 +35,31 @@ f26r parser under hard line/drawing/omission boundaries. This does not exclude
 other grouped models. Its unigram shortlist dropped the true policy in all eight
 synthetic cases: do not use that heuristic to justify pruning a cipher family.
 No original-page decryption or unchanged-key transfer occurred. Before another
-blind grouped search, calibrate parser retention and justify boundary assumptions.
-The unit-size/page-association study remains the next scientific priority.
+blind grouped search, demonstrate adequate key recovery and justify boundary assumptions.
+The [all-survivor repair](results/parser_retention_2026-10-09/README.md) now
+selects the true parser in all eight fixtures, but blind recovery is 28.5–75.0%
+(0/8 at 90%). This is a key-optimisation limitation under the fixed budget.
+
+## Latest unit/page-association study
+
+[Stage 27 report](results/unit_association_2026-10-09/README.md): 16 distinct
+Currier B folios, 64 tokens each, five source texts including Italian recipes.
+All-type within-section excess MI is 0.115–0.124 bits across spacing arms;
+role-conditioned values are 0.092–0.105. Word shuffles approach zero.
+Whole-word profiles sometimes overlap; source choice and joint shape/layout
+mismatches matter. Small mixed dictionaries selected by frequency fall short;
+content-selected dictionaries remain untested. No decipherment or universal
+family exclusion follows.
+
+**Pooling trap:** first-occurrence tie-breaking at a top-200 vocabulary cutoff
+can introduce page association among rare types. The post hoc diagnostic gives
+0.205 spurious bits even with all-unique tokens. Use all-type measurements or
+calibrated position-independent pooling; historical pooled grid evidence needs
+an audit before reuse as a binding rejection reason. Do not overwrite old results.
+
+Next: [recurring-label/crib scope](docs/protocols/CRIB_SCOPE_2026-10-09.md), with
+image/label alignment and independent referents before semantic fitting. The
+299-label inventory is not 299 plaintext words or verified crib pairs.
 
 ## Mistakes we have already made — do not repeat them
 
@@ -108,9 +131,11 @@ The unit-size/page-association study remains the next scientific priority.
 
 ## Recommended next studies (in order)
 
-1. **The constitution's first study** (§7): which unit size (letters, pairs,
-   syllables, words, mixed) can carry Voynich's page-specific vocabulary,
-   using the data-processing bound and matched layouts.
+1. **Word/content units and independent label predictions.** Stage 27 completed
+   the first bounded unit comparison. Align recurring zodiac labels to images,
+   test observable referents with reserved folios, and define content-selected
+   dictionaries. Preserve source/genre dependence and the pooling correction.
+   A free codebook cannot predict unseen entries from a handful of cribs.
 2. **Grouped-glyph and verbose decoding with the existing solver.** Use the
    `groups`/`mixed` families and inferred spaces, with a declared expansion range
    appropriate to the particular encoding. Calibrate first on Naibbe-type and grouped

@@ -12,6 +12,15 @@ verdict. Before any manuscript search, run the capacity screen
 The screen identifies reference-profile gaps under explicit assumptions; it
 sets research priorities and does not universally exclude a language or family.
 
+## Latest research round
+
+[Executive report: unit size, page association and parser repair](results/unit_association_2026-10-09/README.md)
+([browser report](results/unit_association_2026-10-09/report.html)). Correct synthetic
+parsers now selected 8/8; blind recovery remains below gate. Actual manuscript
+page association survives layout and spacing checks, while a pooled-vocabulary
+artifact was isolated. No plaintext reading is claimed. The next bounded step is
+[recurring-label/crib validation](docs/protocols/CRIB_SCOPE_2026-10-09.md).
+
 ## Setup
 
 Use Python 3.14 and [uv](https://docs.astral.sh/uv/). From this checkout:
