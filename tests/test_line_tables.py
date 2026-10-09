@@ -8,6 +8,7 @@ from voynich.laboratory.voynich_pilot import clean_page
 from voynich.search.line_tables import LineTableSearch, LineTableEvaluator, phase_text, transfer
 from voynich.search.strategies import Candidate
 from voynich.decipher_search.core import LanguageModel
+from voynich.laboratory.rotation_report import comparisons
 
 TRAINING='medicina sanat corpus herba sanat corpus et aqua frigida sanat hominem '*20
 
@@ -68,6 +69,28 @@ class LineTablesTests(unittest.TestCase):
         self.assertEqual(hits['matched_tokens'],2)
         self.assertEqual(hits['eligible_tokens'],3)
         self.assertEqual(hits['distinct_hits'],['sanat'])
+
+    def test_invalid_clock_and_inventory_are_explicit(self):
+        for lines,period in [('not a line collection',2),(('abc',),True),(('abc',),3)]:
+            with self.assertRaises(ValueError):phase_text(lines,period)
+        with self.assertRaisesRegex(ValueError,'more than 26'):
+            LineTableEvaluator(('abcdefghijklmnopqrstuvwxyzA',),TRAINING,1)
+
+    def test_report_pairs_same_seed_and_control(self):
+        rows=[]
+        for seed in (7,19):
+            for period in (1,2):
+                for control in ('original','line-shuffled-1'):
+                    rows.append({'case':'voynich','period':period,'seed':seed,'control':control,
+                        'selected_loss':10-period,'word_hits':{'pliny':{'fraction':.1,
+                        'distinct_hits':['sanat'] if seed==7 else ['sanat','herba']}},'transfer':{}})
+        evidence={'runs':rows,'plan':{'periods':[1,2],'seeds':[7,19],
+                  'controls':['original','line-shuffled-1'],'transfer':[]}}
+        result=comparisons(evidence)
+        self.assertTrue(all(r['two_table_advantage']==1 for r in result['paired']))
+        self.assertTrue(all(r['shared_hits_across_seeds']==['sanat'] for r in result['repeated_words']))
+        evidence['runs'].append(rows[0])
+        with self.assertRaises(ValueError):comparisons(evidence)
 
 
 if __name__=='__main__':unittest.main()

@@ -16,9 +16,9 @@ from voynich.search.strategies import Candidate
 
 
 def phase_text(lines, period):
-    if period not in (1, 2):
+    if type(period) is not int or period not in (1, 2):
         raise ValueError('only one or two line tables are implemented')
-    if not lines or not any(line.strip() for line in lines):
+    if isinstance(lines,str) or not lines or not any(line.strip() for line in lines):
         raise ValueError('nonempty line collection required')
     result = []
     for index, line in enumerate(lines):
@@ -45,6 +45,8 @@ class LineTableEvaluator:
         self.text = phase_text(lines, period)
         self.codes = set(self.text)-{' '}
         self.denominator = len(self.text.replace(' ', ''))
+        if any(sum(ord(c)//65536 == phase for c in self.codes)>26 for phase in range(period)):
+            raise ValueError('more than 26 observed symbols in a table')
         self.key_cost = sum(sum(math.log2(26-i) for i in range(sum(ord(c)//65536 == phase for c in self.codes)))
                             for phase in range(period))
 

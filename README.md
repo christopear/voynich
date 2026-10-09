@@ -77,6 +77,11 @@ to stage intended file moves together with updates; do not reinitialize it.
 
 ## Actual Voynich search
 
+The [line-rotation follow-up](results/line_rotation_2026-10-09/report.html) tests
+whether two alternating tables improve f26r and transfer to f31r/f39v. Its
+[executive findings](results/line_rotation_2026-10-09/README.md) explain the mixed
+results, word-hit controls and limits exposed by blind synthetic recovery.
+
 The [9 October page-search report](results/voynich_pilot_2026-10-09/report.html)
 compares beam and annealing on f26r, frozen transfer to f31r, and shuffled controls.
 [Executive findings](results/voynich_pilot_2026-10-09/README.md) explain why improved
