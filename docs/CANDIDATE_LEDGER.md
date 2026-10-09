@@ -35,6 +35,7 @@ Last updated 9 October 2026.
 | 10 | Message-free assembly or copy-and-modify (R1, R2) | **Rejected within grid** | Assembly: no page-specific vocabulary; copy: vocabulary shape, line effects | Tested settings | Not a cipher hypothesis; kept as a control |
 | 11 | v101 glyph variants are distinct letters | **Statistically rejected** (for d, y, k, r, sh, p) | No word-level information in variant choice, with calibrated power, including at the real minority rates ([V101](reports/V101_FINDINGS_2026-09-26.md), [follow-up](reports/V101_FOLLOWUP_FINDINGS_2026-09-26.md)) | f and cph not calibrated; v101 `A` is an o/a ambiguity | None |
 | 18 | Whole-word disjoint codes with 1–3 IID alternatives; fixed global probabilities; preserved word units | **Search found no fit in forward-profile grid** (descriptive, not calibrated rejection) | [Stage 28](../results/word_homophones_2026-10-09/README.md): 504 panels, seven settings, recipes/Celsus/Pliny; no development draw jointly fits four frozen measures | Source/normalization dependent; abstract code IDs, no glyph morphology or historical key-size bound. No blind key search | Context-persistent choices at matched codebook size, or separately specified content-word lexicons |
+| 19 | Two disjoint whole-word codes from independent first/middle/final glyph slots, with IID/page/word-page/25%-refresh choice | **Search found no fit in forward-profile grid** | [Stage 30](../results/structured_word_codes_2026-10-09/README.md): 96 cipher panels and 72 R2 controls; no joint development fit, selected models fail reserved B/IT/spacing/A profiles. Glyph entropy too high; fitted grammar covers 54.9% of reserved B tokens | One Italian culinary source; 1,484 types/2,968 codewords; random fixed dictionaries; bounded edge/interior lists, no exceptions. No key search or general slot-family exclusion | Model dependencies between codeword parts and test unseen-type coverage; do not increase persistence budget in this grammar |
 | 17 | Prefix-determined one/two-glyph codes, <=3 long-code prefixes or fixed width two; <=2 homophones; expansion 1.35–2; codes end at lines/drawings/unclean gaps | **No admissible original-page parser within this grid**; blind synthetic recovery still below gate | [Original pilot](../results/grouped_boundary_2026-10-09/README.md); [all-survivor repair](../results/parser_retention_2026-10-09/README.md) now selects the true parser 8/8, with 28.5–75.0% recovery and 0/8 at 90% | All 177 structural survivors searched; fixed 4,096 evaluations each. Key search incomplete. Original f26r infeasibility unchanged; no new manuscript key search | Do not prune on unigram concentration; prioritise larger units and justify boundary assumptions before another search |
 
 ## Open questions (not cipher families)
@@ -97,3 +98,14 @@ fit, statistical family rejection or reading was added. The
 slot capacity, state accounting, frozen-page comparison with R2 and independent
 label alignment. Historical attestation of a large codebook around 1420 remains
 unverified; do not assert it as a premise.
+
+9 October stage-30 update: the fixed grammar supplies 14,336 distinct strings,
+but capacity alone does not provide manuscript coverage or low glyph entropy.
+Refresh selection transfers without retuning: reserved B role excess 0.088
+versus 0.089 observed, while page excess is 0.193 versus 0.114 and glyph entropy
+2.781 versus 2.072. R2 also fails the joint screen (glyph entropy 2.639).
+Numbers are medians over declared draws, not a best key or a decipherment.
+The 16/16 synthetic profile-calibration gate passed; all 168 panels replay and
+49,152 synthetic words round-trip with known keys. Shuffle recurrence effects
+do not establish a cipher-only property. Row 10's original verdict is unchanged;
+this head-to-head adds a new narrow negative comparison, not a general rejection.
