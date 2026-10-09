@@ -259,5 +259,8 @@ Larger units do not pass by construction. Keep the candidate ledger current and
 prioritise grouped/variable-length units, uncertain spaces, and word/mixed codes.
 
 The October migration dropped earlier v101 and cipher-family producing code.
-Claude's branch restores experiments 19–25; reproduction status is recorded in
-`docs/guides/EXPERIMENTS.md`. Historical results must not be overwritten.
+Claude’s branch restores experiments 19–25. Its commit `10bce4c` reports
+completed reproduction of all restored numerical outputs, with one moved-doc
+citation-string exception; details are in `docs/guides/EXPERIMENTS.md`. This
+continuation verified the tests, rather than duplicating those full historical
+runs. Historical results must not be overwritten.
