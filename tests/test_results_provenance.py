@@ -39,6 +39,7 @@ PRODUCERS = {
     "line_rotation_2026-10-09": ["voynich.laboratory.rotation_pilot", "voynich.laboratory.rotation_report"],
     "phase_initialization_2026-10-09": ["voynich.laboratory.phase_initialization", "voynich.laboratory.phase_report",
                                         "voynich.laboratory.clock_audit"],
+    "grouped_boundary_2026-10-09": ["voynich.laboratory.grouped_boundary", "voynich.laboratory.grouped_report", "voynich.laboratory.grouped_verify"],
     "capacity_sensitivity_2026-10-09": ["voynich.evaluation.capacity"],
     "capacity_screen_2026-10-09": ["voynich.evaluation.capacity"],
 }

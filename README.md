@@ -88,6 +88,12 @@ to stage intended file moves together with updates; do not reinitialize it.
 
 ## Actual Voynich search
 
+The latest [grouped-code operating report](results/grouped_boundary_2026-10-09/report.html)
+and [research decision](results/grouped_boundary_2026-10-09/README.md) document
+a bounded structural negative result and a failed parser shortlist, with no new
+partial decryption. The [corrected entropy sensitivity report](results/capacity_sensitivity_2026-10-09/README.md)
+sets conditional priorities rather than universal exclusions.
+
 > The three searches below decode one glyph into one letter, with spaces
 > kept. The [capacity screen](results/capacity_screen_2026-10-09/README.md)
 > disfavors this family relative to tested reference profiles. These remain

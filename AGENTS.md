@@ -27,6 +27,17 @@ tested, and with what verdict, lives in
   codes, mixed coding), what the spaces are, and whether a changing table
   explains page-specific vocabulary.
 
+## Latest grouped-unit pilot
+
+See [the grouped/boundary report](results/grouped_boundary_2026-10-09/README.md).
+The <=3-prefix, 1/2-glyph model at expansion 1.35–2 has no admissible original
+f26r parser under hard line/drawing/omission boundaries. This does not exclude
+other grouped models. Its unigram shortlist dropped the true policy in all eight
+synthetic cases: do not use that heuristic to justify pruning a cipher family.
+No original-page decryption or unchanged-key transfer occurred. Before another
+blind grouped search, calibrate parser retention and justify boundary assumptions.
+The unit-size/page-association study remains the next scientific priority.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

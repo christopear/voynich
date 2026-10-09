@@ -35,6 +35,8 @@ Last updated 9 October 2026.
 | 10 | Message-free assembly or copy-and-modify (R1, R2) | **Rejected within grid** | Assembly: no page-specific vocabulary; copy: vocabulary shape, line effects | Tested settings | Not a cipher hypothesis; kept as a control |
 | 11 | v101 glyph variants are distinct letters | **Statistically rejected** (for d, y, k, r, sh, p) | No word-level information in variant choice, with calibrated power, including at the real minority rates ([V101](reports/V101_FINDINGS_2026-09-26.md), [follow-up](reports/V101_FOLLOWUP_FINDINGS_2026-09-26.md)) | f and cph not calibrated; v101 `A` is an o/a ambiguity | None |
 
+| 17 | Prefix-determined one/two-glyph codes, <=3 long-code prefixes or fixed width two; <=2 homophones; expansion 1.35–2; codes end at lines/drawings/unclean gaps | **No admissible original-page parser within this grid**; synthetic shortlist failed 8/8 | [Grouped boundary pilot](../results/grouped_boundary_2026-10-09/README.md): 1,351 policies per spacing arm; no original f26r key search or transfer possible | This is not all grouped codes. Encoded-space maximum parsable expansion 1.323; changing boundary assumptions/range may change feasibility | Fix parser-retention calibration before further blind search; prioritise unit/page-association evidence |
+
 ## Open questions (not cipher families)
 
 | Question | Status | Evidence |
@@ -47,14 +49,13 @@ Last updated 9 October 2026.
 
 | # | Candidate | Why it is open | Next test |
 |---|---|---|---|
-| 12 | Grouped-glyph or verbose codes with about 1.5–3 glyph units per letter, spaces inferred or treated as unit boundaries (operations U1/U2 + R2/R3 + S2/S3) | Not excluded by the original screen; larger units do not guarantee feasibility | Calibrate the `groups`/`mixed` solver on Voynich-like fixtures, then a bounded manuscript trial with controls |
+| 12 | Grouped-glyph or verbose codes with about 1.5–3 glyph units per letter, spaces inferred or treated as unit boundaries (operations U1/U2 + R2/R3 + S2/S3) | Not excluded by the original screen; larger units do not guarantee feasibility. Narrow prefix pilot: row 17 | First address demonstrated parser-pruning failure and justify boundary rules; unit/page-association tests remain prior to more key search |
 | 13 | Word or mixed codes: letters plus a bounded word-code list, or whole-word codes (U3/U4) | Can keep page-specific vocabulary; consistent with the vocabulary shape | Constitution §7 first study (unit size × page-specific vocabulary) |
 | 14 | Verbose codes with section- or page-drifting tables or preferences (K2/Q7) | One route to page association; contextual coding and layout also remain possible | Extend the cipher-family benchmark with drift; check the page-specificity fingerprint |
 | 15 | Syllable codes without a shared visible core | Larger unit; F6's failure was tied to its shared-core design | After rows 12–13 |
-
 | 16 | State dependent on plaintext, or decoding using additional linguistic context | Open: the unconditional entropy comparison requires an independence assumption that these mechanisms need not satisfy | Specify state/context, sampling and a recoverable encoder before testing |
 
-9 October correction: the historical screen README retains its original wording
+9 October correction and grouped-pilot update: the historical screen README retains its original wording
 with a superseding correction notice. The expansion estimates are heuristics.
 Hidden random state independent of plaintext is not automatically exempt from the
 conditional bound; dependence and decoding context are the relevant distinctions.
