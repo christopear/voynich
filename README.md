@@ -75,6 +75,13 @@ first. Batch runners in `scripts/` are not part of setup or the test suite.
 This folder already has Git history. Use `git diff` to review and `git add -A`
 to stage intended file moves together with updates; do not reinitialize it.
 
+## Actual Voynich search
+
+The [9 October page-search report](results/voynich_pilot_2026-10-09/report.html)
+compares beam and annealing on f26r, frozen transfer to f31r, and shuffled controls.
+[Executive findings](results/voynich_pilot_2026-10-09/README.md) explain why improved
+Latin-like scores do not yet constitute a partial decipherment.
+
 ## Synthetic cipher laboratory
 
 The latest [medical recovery report](results/medical_recovery_2026-10-08/report.html)
