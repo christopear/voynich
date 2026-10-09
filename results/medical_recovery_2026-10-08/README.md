@@ -69,7 +69,8 @@ than tuning it to repair the observed `b`/`f` example.
 Predeclare a bounded key-completion stage for newly encountered codes, then assess
 it on a further reserved passage. Do not retroactively turn current frozen-key
 failures into passes. For example, several strong partial readings have only
-5–7 remaining assignments for their missing codes, whereas some variable-code
+5–7 assignments for their missing codes under capacity bounds, before other
+encoding rules are checked, whereas some variable-code
 cases have much greater uncertainty under their selected segmentation policy.
 
 Then move the calibration toward manuscript conditions: restricted symbol

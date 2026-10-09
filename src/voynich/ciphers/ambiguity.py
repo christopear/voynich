@@ -53,6 +53,8 @@ def count_mapping_completions(known_mapping: dict[str,str], units: tuple[str,...
     Conditions on the supplied key and a fixed segmentation policy. It does not
     choose a completion, use reserved language evidence, or assign probabilities.
     Only letters/pairs are supported: word-position constraints need extra state.
+    Other encoder rules, including greedy unitization, are not applied: this
+    count is an upper bound when those additional constraints are required.
     """
     from collections import Counter
     if capacity<1 or unknown_codes<0 or len(set(units))!=len(units) or not units:

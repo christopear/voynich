@@ -117,7 +117,7 @@ def build_report(evidence,output):
                 ('Known synthetic source (shown only after search)',ex['truth']),('Ciphertext',ex['ciphertext']),
                 ('Recovered without the key',ex['recovered']),('Reserved source',ex['frozen_truth']),
                 ('Frozen-key decoding — ? means an unknown code',frozen.get('plaintext',''))])+
-            '<p>Remaining assignments for unseen reserved codes, conditional on this key and segmentation: '+escape(row.get('posthoc_unseen_mapping_completions','not assessed'))+'. No completion was selected or scored.</p>'+
+            '<p>Assignments to unseen reserved codes under capacity bounds and fixed segmentation, before checking other encoder rules: '+escape(row.get('posthoc_unseen_mapping_completions','not assessed'))+'. No completion was selected or scored.</p>'+
             '<p>Positive run: <code>'+escape(row['run_ids']['positive'])+'</code></p></details>')
     case_table=[]
     for row in rows:
