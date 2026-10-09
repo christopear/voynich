@@ -126,8 +126,14 @@ adaptation using published Naibbe tables, not the published card-deck algorithm.
 ## v101 transcription and cipher-family stages (19–25)
 
 These stages were dropped by the October layout migration and restored on
-9 October 2026. Reproduction check: stage 19 regenerates its committed outputs
-identically; stages 20–25 are being checked. Protocols
+9 October 2026. Reproduction check, 9 October, rerun in a clean copy of the
+checkout and compared with `scripts/compare_results.py` (provenance fields
+ignored). Every regenerated output is identical to the committed file:
+v101 mapping, variant calibration, variant test and post hoc rates (19–20);
+the three ports (21; one citation string differs only because the docs moved);
+gain decomposition, spacing and locality post hoc analyses, and low-rate power
+(22–23); and all cipher-family step A and step B outputs (24–25). Still being
+checked: `variant_ending_sets.json` (23, part 2a). Protocols
 and findings are `docs/protocols/V101_PROTOCOL.md`,
 `docs/protocols/V101_FOLLOWUP_PROTOCOL.md`,
 `docs/protocols/CIPHER_FAMILY_PROTOCOL.md` and the matching
