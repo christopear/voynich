@@ -80,7 +80,7 @@ def build(evidence,previous,output,clock=None):
     display=lambda s: ''.join({'\ue000':'cth','\ue001':'ckh','\ue002':'cph','\ue003':'cfh','\ue004':'ch','\ue005':'sh'}.get(c,c) for c in s)
     body+=table(['Method','Input','Shared proposed mappings'],[[r['variant'],r['control'],
         '; '.join(f'phase {p}: {display(c)} → {w}' for p,c,w in r['shared_links']) or 'None'] for r in stable])
-    body+='<h2>Known-text calibration — these are synthetic ciphertexts</h2><p>Four 600-character Latin passages/key cases: two previously used cases and two new passages at different offsets. No truth or oracle mapping is used for initialization. True-key audits occur only after both methods select their outputs. These tests measure solver capability, not manuscript decryption.</p>'
+    body+='<h2>Known-text calibration — these are synthetic ciphertexts</h2><p>Four cases from three 600-character Latin passages: two previously used keys on one passage and two new passages at different offsets. No truth or oracle mapping is used for initialization. True-key audits occur only after both methods select their outputs. These tests measure solver capability, not manuscript decryption.</p>'
     body+=table(['Seed','Passage status','Cold recovery','Initialized recovery','Cold loss','Initialized loss','True-key loss'],
         [[a['seed'],'previous' if a['seed'] in (7,19) else 'new',pct(a['calibration']['recovery']['nonspace_edit_accuracy']),
           pct(b['calibration']['recovery']['nonspace_edit_accuracy']),fmt(a['selected_loss']),fmt(b['selected_loss']),

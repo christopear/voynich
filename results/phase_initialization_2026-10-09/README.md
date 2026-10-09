@@ -142,3 +142,6 @@ uv run --locked python -m voynich.laboratory.phase_report \
 Validation includes PostgreSQL integration, initialization accounting, deterministic
 resume, line-context resets, phase-aware word agreement and common-coverage clock
 comparisons. No new dependencies were needed.
+
+**172 tests passed**, including PostgreSQL integration. Package build and browser
+report inspection passed.
