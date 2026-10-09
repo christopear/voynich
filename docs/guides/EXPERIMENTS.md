@@ -123,6 +123,48 @@ folds. It follows `docs/protocols/COUPLING_TEST_V3_PROTOCOL.md` and is launched 
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible
 adaptation using published Naibbe tables, not the published card-deck algorithm.
+## v101 transcription and cipher-family stages (19–25)
+
+These stages were dropped by the October layout migration and restored on
+9 October 2026. The restored code reproduces the committed outputs. Protocols
+and findings are `docs/protocols/V101_PROTOCOL.md`,
+`docs/protocols/V101_FOLLOWUP_PROTOCOL.md`,
+`docs/protocols/CIPHER_FAMILY_PROTOCOL.md` and the matching
+`docs/reports/*_FINDINGS_2026-09-26.md`.
+
+`v101.py` parses Glen Claston's latin-1 v101 file and infers the v101 → EVA
+mapping by EM alignment against ZL3b. `v101_data.py` builds the full, collapsed
+and sham representations used by the paired tests. `cipher_families.py` holds
+the cipher-family generators, layout modifier and alphabet-independent
+fingerprints.
+
+```bash
+uv run --locked python -m voynich.experiments.e19_v101_mapping                            # ~3 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e20_v101_variant_test --workers 4   # ~10 min
+uv run --locked python -m voynich.experiments.posthoc_e20_v101_variant_rates              # post hoc tables
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e21_v101_ports       # ~30 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e22_v101_gain_decomposition --workers 4
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.posthoc_e22_v101_spacing
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e23_v101_variant_followups 2b 2a --workers 4
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.posthoc_e23_v101_locality
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e24_cipher_family_benchmark --workers 4   # ~15 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e25_homophone_recovery                    # ~20 min
+```
+
+These commands write to the historical result directories. To rerun without
+touching committed results, copy `data/`, `pyproject.toml` and the needed
+`results/` inputs to a scratch directory, and set `VOYNICH_ROOT` to it.
+
+## Capacity screen (run before any manuscript search)
+
+```bash
+uv run --locked python -m voynich.evaluation.capacity --output results/<new-dir>/screen.json
+```
+
+This checks whether a decoding family's units can carry plaintext-level
+information. See `results/capacity_screen_2026-10-09/README.md` and
+`AGENTS.md`.
+
 ## Direct decipherment framework
 
 `26_decipherment_search.py` adds bounded key/segmentation search and synthetic

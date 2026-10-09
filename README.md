@@ -4,6 +4,14 @@ Reproducible structural analysis and experimental cipher recovery for the
 Voynich Manuscript. Ciphertext and Latin/Italian source language are working
 hypotheses for the current programme, not established decipherment claims.
 
+**Start with [AGENTS.md](AGENTS.md)**: the current state of evidence, mistakes
+not to repeat, and the approved workflow. The
+[candidate ledger](docs/CANDIDATE_LEDGER.md) lists every tested family and its
+verdict. Before any manuscript search, run the capacity screen
+(`uv run --locked python -m voynich.evaluation.capacity`).
+One-glyph-to-one-letter decoders with spaces kept cannot reach Latin or
+Italian for any key ([screen](results/capacity_screen_2026-10-09/README.md)).
+
 ## Setup
 
 Use Python 3.14 and [uv](https://docs.astral.sh/uv/). From this checkout:
@@ -61,6 +69,9 @@ first. Batch runners in `scripts/` are not part of setup or the test suite.
 
 ## References
 
+- [Working rules for agents and contributors](AGENTS.md)
+- [Candidate ledger](docs/CANDIDATE_LEDGER.md)
+- [Capacity screen](results/capacity_screen_2026-10-09/README.md)
 - [Architecture decisions and implementation sequence](docs/ARCHITECTURE.md)
 - [PostgreSQL connection setup](docs/guides/POSTGRESQL.md)
 - [Research constitution](docs/RESEARCH_CONSTITUTION.md)
@@ -76,6 +87,11 @@ This folder already has Git history. Use `git diff` to review and `git add -A`
 to stage intended file moves together with updates; do not reinitialize it.
 
 ## Actual Voynich search
+
+> The three searches below decode one glyph into one letter, with spaces
+> kept. The [capacity screen](results/capacity_screen_2026-10-09/README.md)
+> shows this family cannot produce Latin-like text for any key, so treat them
+> as engineering baselines, not leads. See [AGENTS.md](AGENTS.md).
 
 The [equal-budget initialization trial](results/phase_initialization_2026-10-09/report.html)
 returns directly to f26r/f31r/f39v after calibration. Its

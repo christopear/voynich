@@ -244,3 +244,26 @@ medical synthetic recovery alone does not promote it to a leading manuscript
 hypothesis. Cross-author medical calibration, grouped units, homophones and
 uncertain boundaries are the immediate priorities. Preserve the distinction
 between a scoring failure, a search failure and an unrepresentable hypothesis.
+
+9 October 2026 (motivated by observed results): a review found that the three
+manuscript searches of 9 October (page pilot, line rotation, phase
+initialization) all optimised length-preserving one-glyph-to-one-letter
+decoders. The new capacity screen (`voynich.evaluation.capacity`;
+`results/capacity_screen_2026-10-09/`) shows that for any key, with one table
+or with line- or page-alternating tables, such decoders cannot reach Latin,
+Italian or German n-gram diversity. A viable decoder needs roughly 1.5 or more
+glyph units per plaintext letter, or larger units. From now on:
+
+- Before any manuscript search, show that the family passes the capacity
+  screen and can approach the cipher-family fingerprints. If it cannot, record
+  the exclusion and do not search it.
+- Keep the candidate ledger current (`docs/CANDIDATE_LEDGER.md`). Each new
+  stage names the ledger entry it is meant to move.
+- Larger-unit families (grouped glyphs, verbose codes, syllables, word and
+  mixed codes, drifting tables) take priority. Further budget or tables for
+  one-glyph-to-one-letter decoding with spaces kept is not a new hypothesis.
+
+The same review found that the layout migration had dropped the code behind
+the v101 and cipher-family findings cited in §3. It has been restored as
+experiments 19–25 (with post hoc companions), and the restored code reproduces
+the committed outputs. Working practice is summarised in `AGENTS.md`.
