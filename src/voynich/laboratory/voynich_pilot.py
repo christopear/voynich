@@ -39,13 +39,21 @@ def clean_page(path, page):
         body = match[3].replace('<->', '.')
         for marker in ('<%>', '<$>', '<~>'):
             body = body.replace(marker, '')
-        # Leave other annotations in place: their entire token is rejected.
+        # Protect annotation-internal spaces/dots from creating spurious words.
+        annotations = {}
+        def protect(match):
+            label = f'@annotation{len(annotations)}@'
+            annotations[label] = match[0]
+            return label
+        body = re.sub(r'<![^>]*>|\[[^\]]*\]|\{[^}]*\}', protect, body)
         for word in re.split(r'[.\s]+', body):
             if not word:
                 continue
             if re.fullmatch('[a-z]+', word):
                 kept.append(word)
             else:
+                for label, original in annotations.items():
+                    word = word.replace(label, original)
                 omitted.append({'locus': match[1], 'token': word})
     if not kept or metadata is None:
         raise ValueError('missing page/header or no certain words')
