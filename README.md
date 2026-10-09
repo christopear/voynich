@@ -12,6 +12,15 @@ verdict. Before any manuscript search, run the capacity screen
 The screen identifies reference-profile gaps under explicit assumptions; it
 sets research priorities and does not universally exclude a language or family.
 
+## Latest research round
+
+[Word-code alternatives, manuscript replication and historical audit](results/word_homophones_2026-10-09/README.md)
+([browser report](results/word_homophones_2026-10-09/report.html)). Independent
+alternative codewords improve recipe vocabulary shape but fail the joint screen.
+Page association replicates in IT2a and on additional folios; original ZL grid
+verdicts survive the pooling audit. No decipherment is claimed.
+[Previous parser/unit study](results/unit_association_2026-10-09/README.md).
+
 ## Setup
 
 Use Python 3.14 and [uv](https://docs.astral.sh/uv/). From this checkout:

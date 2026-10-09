@@ -1,0 +1,23 @@
+{
+  "id": "celsus",
+  "work": "Celsus, De Medicina; W. G. Spencer edition, 1935\u20131938",
+  "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/128a05afa9cc7179ab18f8d05f78a9f1dd50e415/data/phi0836/phi002/phi0836.phi002.perseus-lat4.xml",
+  "commit": "128a05afa9cc7179ab18f8d05f78a9f1dd50e415",
+  "books": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "upstream_sha256": "6d5fd742967d0d532c45cfd0edf8031c0b0becb38a375106b7fbd9ae9b1748ca",
+  "text_sha256": "89707c34cacdfd5899d44ee918f86117ece2c9e57b54d9ab44694fec8c7f4f22",
+  "extraction": "medical-tei-books-v1: remove notes/headings; replace gaps and foreign-language spans with spaces; keep inline tails; collapse whitespace within books",
+  "language": "latin",
+  "genre": "medical/herbal calibration; ancient, not medieval recipe transcription",
+  "license": "CC BY-SA 4.0, repository license retained alongside sources",
+  "attribution": "Perseus Digital Library / Trustees of Tufts University; edition editors named in work"
+}

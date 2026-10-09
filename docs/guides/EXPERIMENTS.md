@@ -192,3 +192,41 @@ recovery controls. See [the framework guide](../DECIPHERMENT_FRAMEWORK.md)
 for commands, model definitions, score limitations and pilot results. It requires
 no additional dependencies. It does not run automatically as part of older
 experiments.
+
+
+## 27: encoding units and page association
+
+Protocol: [UNIT_ASSOCIATION_2026-10-09.md](../protocols/UNIT_ASSOCIATION_2026-10-09.md).
+[Operating report](../../results/unit_association_2026-10-09/README.md).
+Use a new output directory; the module refuses to overwrite existing results:
+
+```bash
+uv run --locked python -m voynich.experiments.e27_unit_association --output results/<new-dir>
+uv run --locked python -m voynich.experiments.posthoc_e27_pooling --source results/<new-dir> --output results/<new-audit-dir>
+```
+
+Stage 27 compares six latent unit definitions across five documented sources
+against 16 Currier B folios. It fits no keys. The post hoc companion audits
+page-order leakage in top-200 vocabulary pooling; its results must remain
+separate from the frozen primary analysis. The all-survivor grouped calibration
+is `voynich.laboratory.parser_retention`, with PostgreSQL verification in
+`voynich.laboratory.parser_retention_verify`. The label inventory is
+`voynich.laboratory.crib_inventory`; it performs no semantic assignment.
+
+
+## 28: whole-word codes with fixed independent alternatives
+
+[Protocol](../protocols/WORD_HOMOPHONES_2026-10-09.md),
+[findings](../../results/word_homophones_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e28_word_homophones --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.word_homophone_verify --directory results/<new-dir>
+uv run --locked python -m voynich.experiments.posthoc_e24_pooling_audit --output results/<new-audit-dir>
+uv run --locked python -m voynich.laboratory.label_alignment_packet --output results/<new-label-dir>
+```
+
+The forward screen needs no database or new packages. It tests token equality
+patterns, not glyph spellings or blind decryption. Source chapters and additional
+manuscript folios are kept disjoint. The audit is a sufficient check of original
+ZL conjunction verdicts, not a full rerun of every historical fingerprint.

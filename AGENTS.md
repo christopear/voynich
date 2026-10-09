@@ -35,8 +35,57 @@ f26r parser under hard line/drawing/omission boundaries. This does not exclude
 other grouped models. Its unigram shortlist dropped the true policy in all eight
 synthetic cases: do not use that heuristic to justify pruning a cipher family.
 No original-page decryption or unchanged-key transfer occurred. Before another
-blind grouped search, calibrate parser retention and justify boundary assumptions.
-The unit-size/page-association study remains the next scientific priority.
+blind grouped search, demonstrate adequate key recovery and justify boundary assumptions.
+The [all-survivor repair](results/parser_retention_2026-10-09/README.md) now
+selects the true parser in all eight fixtures, but blind recovery is 28.5–75.0%
+(0/8 at 90%). This is a key-optimisation limitation under the fixed budget.
+
+## Latest unit/page-association study
+
+[Stage 27 report](results/unit_association_2026-10-09/README.md): 16 distinct
+Currier B folios, 64 tokens each, five source texts including Italian recipes.
+All-type within-section excess MI is 0.115–0.124 bits across spacing arms;
+role-conditioned values are 0.092–0.105. Word shuffles approach zero.
+Whole-word profiles sometimes overlap; source choice and joint shape/layout
+mismatches matter. Small mixed dictionaries selected by frequency fall short;
+content-selected dictionaries remain untested. No decipherment or universal
+family exclusion follows.
+
+**Pooling trap:** first-occurrence tie-breaking at a top-200 vocabulary cutoff
+can introduce page association among rare types. The post hoc diagnostic gives
+0.205 spurious bits even with all-unique tokens. Use all-type measurements or
+calibrated position-independent pooling. The historical ZL grid verdicts now
+have a [sufficient audit](results/historical_pooling_audit_2026-10-09/README.md):
+434/456 cells fail unaffected shape measures, and the remaining 22 fail audited
+page MI under both identity ties and no cap (132 reproduced simulations).
+This clears the old ZL verdict concern, not every historical capped statistic
+or the IT/v101 full grids. Do not overwrite old results.
+
+Next: [recurring-label/crib scope](docs/protocols/CRIB_SCOPE_2026-10-09.md), with
+image/label alignment and independent referents before semantic fitting. The
+299-label inventory is not 299 plaintext words or verified crib pairs.
+
+## Word-code alternatives follow-up (stage 28)
+
+[Report](results/word_homophones_2026-10-09/README.md): 504 forward panels test
+one/two/three disjoint codewords per whole word with fixed IID choice, three
+sources and chapter-disjoint validation. Recipe alternatives improve vocabulary
+shape, but no development configuration/draw jointly matches shape and page
+association within the frozen descriptive scales. This is not a rejection of
+word codes, and no plaintext words were recovered. Disjoint page-independent
+homophones preserve population word/page MI; finite-sample excess MI changes.
+
+IT2a replicates page association on the original pages (0.123 vs ZL 0.115).
+Sixteen additional herbal/starred-text folios give 0.097/0.104 (IT/ZL). The new
+section mix is explicit; sources and genre cannot be identified from these fits.
+Next compare a bounded context-persistent choice model with IID choices at the
+same codebook size/marginal frequencies, or a separately specified content lexicon.
+
+The [label alignment packet](results/label_alignment_2026-10-09/README.md)
+contains coordinate candidates for 53 occurrences of 22 recurring label types.
+Only four types cross the original folio split; its five-type semantic-test gate
+fails. Do not lower the threshold or change the split after seeing this count.
+Exact coordinate spelling matches are not confirmed image/label alignments.
 
 ## Mistakes we have already made — do not repeat them
 
@@ -108,9 +157,11 @@ The unit-size/page-association study remains the next scientific priority.
 
 ## Recommended next studies (in order)
 
-1. **The constitution's first study** (§7): which unit size (letters, pairs,
-   syllables, words, mixed) can carry Voynich's page-specific vocabulary,
-   using the data-processing bound and matched layouts.
+1. **Word/content units and independent label predictions.** Stage 27 completed
+   the first bounded unit comparison. Align recurring zodiac labels to images,
+   test observable referents with reserved folios, and define content-selected
+   dictionaries. Preserve source/genre dependence and the pooling correction.
+   A free codebook cannot predict unseen entries from a handful of cribs.
 2. **Grouped-glyph and verbose decoding with the existing solver.** Use the
    `groups`/`mixed` families and inferred spaces, with a declared expansion range
    appropriate to the particular encoding. Calibrate first on Naibbe-type and grouped

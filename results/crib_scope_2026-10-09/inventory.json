@@ -1,0 +1,6655 @@
+{
+  "status": "scope inventory, no semantic assignments or decipherment",
+  "source": "data/ZL3b-n.txt",
+  "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "page_counts": {
+    "f70v2": 30,
+    "f70v1": 15,
+    "f71r": 15,
+    "f71v": 15,
+    "f72r1": 15,
+    "f72r2": 29,
+    "f72r3": 30,
+    "f72v3": 30,
+    "f72v2": 30,
+    "f72v1": 30,
+    "f73r": 30,
+    "f73v": 30
+  },
+  "labels": 299,
+  "clean_labels": 271,
+  "rows": [
+    {
+      "locus": "f70v2.2",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!09:00>otalalg",
+      "clean": true,
+      "tokens": [
+        "otalalg"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.3",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!10:00>ykary",
+      "clean": true,
+      "tokens": [
+        "ykary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.4",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!10:30>otar?",
+      "clean": false,
+      "tokens": [
+        "otar?"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.5",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!11:00>oty",
+      "clean": true,
+      "tokens": [
+        "oty"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.6",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!11:30>oky.ody",
+      "clean": true,
+      "tokens": [
+        "oky",
+        "ody"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.7",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!00:00>oty.ar",
+      "clean": true,
+      "tokens": [
+        "oty",
+        "ar"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.8",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!00:30>okala",
+      "clean": true,
+      "tokens": [
+        "okala"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.9",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!01:00>otody",
+      "clean": true,
+      "tokens": [
+        "otody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.10",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!01:30>otald",
+      "clean": true,
+      "tokens": [
+        "otald"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.11",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!02:00>otaldar",
+      "clean": true,
+      "tokens": [
+        "otaldar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.12",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!02:45>okody",
+      "clean": true,
+      "tokens": [
+        "okody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.13",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!03:15>opysam",
+      "clean": true,
+      "tokens": [
+        "opysam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.14",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!04:00>ch{ckhh}y",
+      "clean": false,
+      "tokens": [
+        "chckhhy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.15",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!04:30>otaly",
+      "clean": true,
+      "tokens": [
+        "otaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.16",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!05:30>otal.arar",
+      "clean": true,
+      "tokens": [
+        "otal",
+        "arar"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.17",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!06:30>otaldy",
+      "clean": true,
+      "tokens": [
+        "otaldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.18",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!07:00>okeoly",
+      "clean": true,
+      "tokens": [
+        "okeoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.19",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!08:00>okydy",
+      "clean": true,
+      "tokens": [
+        "okydy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.20",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!08:30>okee[s:r]",
+      "clean": false,
+      "tokens": [
+        "okees"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.22",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!10:00>otar.am",
+      "clean": true,
+      "tokens": [
+        "otar",
+        "am"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.23",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!11:00>otar,al",
+      "clean": true,
+      "tokens": [
+        "otar",
+        "al"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.24",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!00:00>otalar",
+      "clean": true,
+      "tokens": [
+        "otalar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.25",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!01:30>otalam",
+      "clean": true,
+      "tokens": [
+        "otalam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.26",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!03:00>dolaram",
+      "clean": true,
+      "tokens": [
+        "dolaram"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.27",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!04:00>okaram",
+      "clean": true,
+      "tokens": [
+        "okaram"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.28",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!05:00>oteosal",
+      "clean": true,
+      "tokens": [
+        "oteosal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.29",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!06:30>salols",
+      "clean": true,
+      "tokens": [
+        "salols"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.30",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!08:00>okaldal",
+      "clean": true,
+      "tokens": [
+        "okaldal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.31",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "<!09:00>ykolaiin",
+      "clean": true,
+      "tokens": [
+        "ykolaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v2.33",
+      "page": "f70v2",
+      "folio": "f70",
+      "raw": "otolal",
+      "clean": true,
+      "tokens": [
+        "otolal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "G",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.2",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!10:30>otalchy.tar.am.dy",
+      "clean": true,
+      "tokens": [
+        "otalchy",
+        "tar",
+        "am",
+        "dy"
+      ],
+      "gaps": [
+        "ordinary",
+        "ordinary",
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.3",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!00:00>opchey.sal",
+      "clean": true,
+      "tokens": [
+        "opchey",
+        "sal"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.4",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!01:00>otakaizan",
+      "clean": true,
+      "tokens": [
+        "otakaizan"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.5",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!02:30>okalal",
+      "clean": true,
+      "tokens": [
+        "okalal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.6",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!03:30>otaly",
+      "clean": true,
+      "tokens": [
+        "otaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.7",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!04:30>oalcheg",
+      "clean": true,
+      "tokens": [
+        "oalcheg"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.8",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!06:00>otchodals",
+      "clean": true,
+      "tokens": [
+        "otchodals"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.9",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!07:00>okolshy",
+      "clean": true,
+      "tokens": [
+        "okolshy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.10",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!08:00>otshshdy",
+      "clean": true,
+      "tokens": [
+        "otshshdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.11",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!09:00>otal.ypsharal",
+      "clean": true,
+      "tokens": [
+        "otal",
+        "ypsharal"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.13",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!10:30>okoly",
+      "clean": true,
+      "tokens": [
+        "okoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.14",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!00:00>otalaiin",
+      "clean": true,
+      "tokens": [
+        "otalaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.15",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!02:00>oteo.alals.araly",
+      "clean": true,
+      "tokens": [
+        "oteo",
+        "alals",
+        "araly"
+      ],
+      "gaps": [
+        "ordinary",
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.16",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!05:00>oteoeey.otal.okealar",
+      "clean": true,
+      "tokens": [
+        "oteoeey",
+        "otal",
+        "okealar"
+      ],
+      "gaps": [
+        "ordinary",
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f70v1.17",
+      "page": "f70v1",
+      "folio": "f70",
+      "raw": "<!08:00>otear.araydy",
+      "clean": true,
+      "tokens": [
+        "otear",
+        "araydy"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "J",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.2",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!10:00>oteos.arar",
+      "clean": true,
+      "tokens": [
+        "oteos",
+        "arar"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.3",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!11:00>okldam",
+      "clean": true,
+      "tokens": [
+        "okldam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.4",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!00:00>oteoaldy",
+      "clean": true,
+      "tokens": [
+        "oteoaldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.5",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!01:00>oteolar",
+      "clean": true,
+      "tokens": [
+        "oteolar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.6",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!02:00>okeoaly",
+      "clean": true,
+      "tokens": [
+        "okeoaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.7",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!03:00>otaleky",
+      "clean": true,
+      "tokens": [
+        "otaleky"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.8",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!04:30>otalsar",
+      "clean": true,
+      "tokens": [
+        "otalsar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.9",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!05:30>cheary",
+      "clean": true,
+      "tokens": [
+        "cheary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.10",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!07:00>oteotey.rary",
+      "clean": true,
+      "tokens": [
+        "oteotey",
+        "rary"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.11",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!08:30>otalaly",
+      "clean": true,
+      "tokens": [
+        "otalaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.13",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!11:00>otolchdy",
+      "clean": true,
+      "tokens": [
+        "otolchdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.14",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!00:30>otoloaram",
+      "clean": true,
+      "tokens": [
+        "otoloaram"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.15",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!03:30>oteeol",
+      "clean": true,
+      "tokens": [
+        "oteeol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.16",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!05:30>otolchd",
+      "clean": true,
+      "tokens": [
+        "otolchd"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71r.17",
+      "page": "f71r",
+      "folio": "f71",
+      "raw": "<!08:00>otaldar",
+      "clean": true,
+      "tokens": [
+        "otaldar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.2",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!10:00>char.arom",
+      "clean": true,
+      "tokens": [
+        "char",
+        "arom"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.3",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!11:00>chfaly",
+      "clean": true,
+      "tokens": [
+        "chfaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.4",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!00:00>okolar",
+      "clean": true,
+      "tokens": [
+        "okolar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.5",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!01:00>otchody",
+      "clean": true,
+      "tokens": [
+        "otchody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.6",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!02:00>alcphy",
+      "clean": true,
+      "tokens": [
+        "alcphy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.7",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!03:00>otaiin",
+      "clean": true,
+      "tokens": [
+        "otaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.8",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!04:30>okaraiin",
+      "clean": true,
+      "tokens": [
+        "okaraiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.9",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!05:30>otar.ar,aly",
+      "clean": true,
+      "tokens": [
+        "otar",
+        "ar",
+        "aly"
+      ],
+      "gaps": [
+        "ordinary",
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.10",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!07:00>opalar.am.dan",
+      "clean": true,
+      "tokens": [
+        "opalar",
+        "am",
+        "dan"
+      ],
+      "gaps": [
+        "ordinary",
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.11",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!09:00>opalor.ar",
+      "clean": true,
+      "tokens": [
+        "opalor",
+        "ar"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.13",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!10:00>ofa{if}om",
+      "clean": false,
+      "tokens": [
+        "ofaifom"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.14",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!00:00>otalody",
+      "clean": true,
+      "tokens": [
+        "otalody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.15",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!03:00>otalaiin",
+      "clean": true,
+      "tokens": [
+        "otalaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.16",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!05:30>otar.sh[a:o]r",
+      "clean": false,
+      "tokens": [
+        "otar",
+        "shar"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f71v.17",
+      "page": "f71v",
+      "folio": "f71",
+      "raw": "<!08:30>sholshdy",
+      "clean": true,
+      "tokens": [
+        "sholshdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.2",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!09:30>oshod[a:o]dy",
+      "clean": false,
+      "tokens": [
+        "oshodady"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.3",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!10:30>chdaiirdainy",
+      "clean": true,
+      "tokens": [
+        "chdaiirdainy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.4",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!00:00>oaiin,ar,ary",
+      "clean": true,
+      "tokens": [
+        "oaiin",
+        "ar",
+        "ary"
+      ],
+      "gaps": [
+        "uncertain",
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.5",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!01:00>okalam",
+      "clean": true,
+      "tokens": [
+        "okalam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.6",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!02:00>ytalshdy",
+      "clean": true,
+      "tokens": [
+        "ytalshdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.7",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!03:00>char.alif",
+      "clean": true,
+      "tokens": [
+        "char",
+        "alif"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.8",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!03:30>otaraldy",
+      "clean": true,
+      "tokens": [
+        "otaraldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.9",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!05:00>otaiin.otain",
+      "clean": true,
+      "tokens": [
+        "otaiin",
+        "otain"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.10",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!07:00>otalef,ys.ainam",
+      "clean": true,
+      "tokens": [
+        "otalef",
+        "ys",
+        "ainam"
+      ],
+      "gaps": [
+        "uncertain",
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.11",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!08:30>ochol,sharam",
+      "clean": true,
+      "tokens": [
+        "ochol",
+        "sharam"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.13",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!09:00>ofaralar",
+      "clean": true,
+      "tokens": [
+        "ofaralar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.14",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!00:00>otchoshy",
+      "clean": true,
+      "tokens": [
+        "otchoshy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.15",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!02:00>otchdal",
+      "clean": true,
+      "tokens": [
+        "otchdal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.16",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!04:00>okeey.ary",
+      "clean": true,
+      "tokens": [
+        "okeey",
+        "ary"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r1.17",
+      "page": "f72r1",
+      "folio": "f72",
+      "raw": "<!07:00>otainy",
+      "clean": true,
+      "tokens": [
+        "otainy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "D",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.1",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!10:30>ofchdamy",
+      "clean": true,
+      "tokens": [
+        "ofchdamy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.2",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!11:00>oklairdy",
+      "clean": true,
+      "tokens": [
+        "oklairdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.3",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!00:00>okaram",
+      "clean": true,
+      "tokens": [
+        "okaram"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.4",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!00:30>okairy",
+      "clean": true,
+      "tokens": [
+        "okairy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.5",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!01:00>okealar",
+      "clean": true,
+      "tokens": [
+        "okealar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.7",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!10:00>otaraldy",
+      "clean": true,
+      "tokens": [
+        "otaraldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.8",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!11:00>okalar",
+      "clean": true,
+      "tokens": [
+        "okalar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.9",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!11:45>okal",
+      "clean": true,
+      "tokens": [
+        "okal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.10",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!00:15>okaly",
+      "clean": true,
+      "tokens": [
+        "okaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.11",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!01:00>okal",
+      "clean": true,
+      "tokens": [
+        "okal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.12",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!02:00>okeey.ary",
+      "clean": true,
+      "tokens": [
+        "okeey",
+        "ary"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.13",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!03:00>oteeary",
+      "clean": true,
+      "tokens": [
+        "oteeary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.14",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!04:00>otair,dy",
+      "clean": true,
+      "tokens": [
+        "otair",
+        "dy"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.15",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!05:00>okaircham",
+      "clean": true,
+      "tokens": [
+        "okaircham"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.16",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!06:00>okeal",
+      "clean": true,
+      "tokens": [
+        "okeal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.17",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!06:30>otar{cr}",
+      "clean": false,
+      "tokens": [
+        "otarcr"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.18",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!07:30>okaly",
+      "clean": true,
+      "tokens": [
+        "okaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.19",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!08:00>orary",
+      "clean": true,
+      "tokens": [
+        "orary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.20",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!09:00>okyd",
+      "clean": true,
+      "tokens": [
+        "okyd"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.21",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!09:30>otolam",
+      "clean": true,
+      "tokens": [
+        "otolam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.23",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!10:30>otal",
+      "clean": true,
+      "tokens": [
+        "otal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.24",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!11:30>ralal",
+      "clean": true,
+      "tokens": [
+        "ralal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.25",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!00:30>okam",
+      "clean": true,
+      "tokens": [
+        "okam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.26",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!02:00>otalshy",
+      "clean": true,
+      "tokens": [
+        "otalshy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.27",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!03:30>okaldy",
+      "clean": true,
+      "tokens": [
+        "okaldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.28",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!05:00>chosar",
+      "clean": true,
+      "tokens": [
+        "chosar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.29",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!06:30>otam",
+      "clean": true,
+      "tokens": [
+        "otam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.30",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!08:00>ainaly",
+      "clean": true,
+      "tokens": [
+        "ainaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r2.31",
+      "page": "f72r2",
+      "folio": "f72",
+      "raw": "<!09:00>okarcham",
+      "clean": true,
+      "tokens": [
+        "okarcham"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "E",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.2",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!10:30>olkalaiin",
+      "clean": true,
+      "tokens": [
+        "olkalaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.3",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!11:00>olalsy",
+      "clean": true,
+      "tokens": [
+        "olalsy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.4",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!00:00>oraiinam",
+      "clean": true,
+      "tokens": [
+        "oraiinam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.5",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!01:00>osarsheeeo",
+      "clean": true,
+      "tokens": [
+        "osarsheeeo"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.6",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!02:00>oto@192;aiin",
+      "clean": false,
+      "tokens": [
+        "oto@192;aiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.7",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!02:30>opoiiin[o:?]in.al,[ch:a]es",
+      "clean": false,
+      "tokens": [
+        "opoiiinoin",
+        "al",
+        "ches"
+      ],
+      "gaps": [
+        "ordinary",
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.8",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!04:00>ypaiin.alaly",
+      "clean": true,
+      "tokens": [
+        "ypaiin",
+        "alaly"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.9",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!05:00>oteey,daiin",
+      "clean": true,
+      "tokens": [
+        "oteey",
+        "daiin"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.10",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!06:30>oeeodaiin",
+      "clean": true,
+      "tokens": [
+        "oeeodaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.11",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!07:00>ofsholdy",
+      "clean": true,
+      "tokens": [
+        "ofsholdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.12",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!07:00>opoeey.okaiin",
+      "clean": true,
+      "tokens": [
+        "opoeey",
+        "okaiin"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.13",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!10:00>ykolairol",
+      "clean": true,
+      "tokens": [
+        "ykolairol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.15",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!11:00>oralkam",
+      "clean": true,
+      "tokens": [
+        "oralkam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.16",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!00:00>ytairal",
+      "clean": true,
+      "tokens": [
+        "ytairal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.17",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!01:00>oeee[s:r]aiin",
+      "clean": false,
+      "tokens": [
+        "oeeesaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.18",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!01:30>ory",
+      "clean": true,
+      "tokens": [
+        "ory"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.19",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!02:30>ochey,fydy",
+      "clean": true,
+      "tokens": [
+        "ochey",
+        "fydy"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.20",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!03:30>of???.o.eeesaly",
+      "clean": false,
+      "tokens": [
+        "of???",
+        "o",
+        "eeesaly"
+      ],
+      "gaps": [
+        "ordinary",
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.21",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!05:00>ykaraiin.airal",
+      "clean": true,
+      "tokens": [
+        "ykaraiin",
+        "airal"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.22",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!06:30>okalar",
+      "clean": true,
+      "tokens": [
+        "okalar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.23",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!08:00>orara",
+      "clean": true,
+      "tokens": [
+        "orara"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.24",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!09:00>olaiin.ola{ikh}y",
+      "clean": false,
+      "tokens": [
+        "olaiin",
+        "olaikhy"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.25",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!10:00>olfsheoral",
+      "clean": true,
+      "tokens": [
+        "olfsheoral"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.27",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!10:30>opalal",
+      "clean": true,
+      "tokens": [
+        "opalal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.28",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!00:00>yfary",
+      "clean": true,
+      "tokens": [
+        "yfary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.29",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!01:30>oraiiral",
+      "clean": true,
+      "tokens": [
+        "oraiiral"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.30",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!03:00>ytoar.shar",
+      "clean": true,
+      "tokens": [
+        "ytoar",
+        "shar"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.31",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!06:00>octho",
+      "clean": true,
+      "tokens": [
+        "octho"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.32",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!07:30>aral",
+      "clean": true,
+      "tokens": [
+        "aral"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72r3.33",
+      "page": "f72r3",
+      "folio": "f72",
+      "raw": "<!09:00>oletal",
+      "clean": true,
+      "tokens": [
+        "oletal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "F",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.2",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!10:00>ocham",
+      "clean": true,
+      "tokens": [
+        "ocham"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.3",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!11:00>orchey",
+      "clean": true,
+      "tokens": [
+        "orchey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.4",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!11:30>okam",
+      "clean": true,
+      "tokens": [
+        "okam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.5",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!00:00>okey",
+      "clean": true,
+      "tokens": [
+        "okey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.6",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!00:30>otcheody",
+      "clean": true,
+      "tokens": [
+        "otcheody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.7",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!01:00>okyeeshy",
+      "clean": true,
+      "tokens": [
+        "okyeeshy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.8",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!01:30>[{c'y}:??]ofaiin",
+      "clean": false,
+      "tokens": [
+        "cyofaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.9",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!02:00>okaly",
+      "clean": true,
+      "tokens": [
+        "okaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.10",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!02:45>ot[o:a]ly",
+      "clean": false,
+      "tokens": [
+        "otoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.11",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!03:30>ofalals",
+      "clean": true,
+      "tokens": [
+        "ofalals"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.12",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!04:00>sheeos.o{cfhh}y",
+      "clean": false,
+      "tokens": [
+        "sheeos",
+        "ocfhhy"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.13",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!05:00>daiin,chepy",
+      "clean": true,
+      "tokens": [
+        "daiin",
+        "chepy"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.14",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!06:00>oteey.deeal",
+      "clean": true,
+      "tokens": [
+        "oteey",
+        "deeal"
+      ],
+      "gaps": [
+        "ordinary"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.15",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!07:00>chealpy",
+      "clean": true,
+      "tokens": [
+        "chealpy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.16",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!07:30>okeeol",
+      "clean": true,
+      "tokens": [
+        "okeeol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.17",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!08:30>okaly",
+      "clean": true,
+      "tokens": [
+        "okaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.18",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!09:00>okaldy",
+      "clean": true,
+      "tokens": [
+        "okaldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.19",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!09:30>okeolyd",
+      "clean": true,
+      "tokens": [
+        "okeolyd"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.21",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!10:30>choleey",
+      "clean": true,
+      "tokens": [
+        "choleey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.22",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!11:30>oky",
+      "clean": true,
+      "tokens": [
+        "oky"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.23",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!00:30>ch{cthh}y",
+      "clean": false,
+      "tokens": [
+        "chcthhy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.24",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!01:00>laly",
+      "clean": true,
+      "tokens": [
+        "laly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.25",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!02:00>oeedy",
+      "clean": true,
+      "tokens": [
+        "oeedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.26",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!03:00>odairan",
+      "clean": true,
+      "tokens": [
+        "odairan"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.27",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!04:00>okary",
+      "clean": true,
+      "tokens": [
+        "okary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.28",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!05:00>oeesaiin",
+      "clean": true,
+      "tokens": [
+        "oeesaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.29",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!06:30>oteesed",
+      "clean": true,
+      "tokens": [
+        "oteesed"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.30",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!07:30>opal",
+      "clean": true,
+      "tokens": [
+        "opal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.31",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!08:30>otaly",
+      "clean": true,
+      "tokens": [
+        "otaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v3.32",
+      "page": "f72v3",
+      "folio": "f72",
+      "raw": "<!09:30>otaly,yty",
+      "clean": true,
+      "tokens": [
+        "otaly",
+        "yty"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "H",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.2",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!10:00>oeedey",
+      "clean": true,
+      "tokens": [
+        "oeedey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.3",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!11:00>oeeodaiin",
+      "clean": true,
+      "tokens": [
+        "oeeodaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.4",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!11:45>okeoram",
+      "clean": true,
+      "tokens": [
+        "okeoram"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.5",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!00:30>air,aim",
+      "clean": true,
+      "tokens": [
+        "air",
+        "aim"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.6",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!01:00>oshesy",
+      "clean": true,
+      "tokens": [
+        "oshesy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.7",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!02:00>oke[a:o]ry",
+      "clean": false,
+      "tokens": [
+        "okeary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.8",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!02:30>cheoetey",
+      "clean": true,
+      "tokens": [
+        "cheoetey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.9",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!03:00>cheol[d:?]y",
+      "clean": false,
+      "tokens": [
+        "cheoldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.10",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!04:00>sheoeky",
+      "clean": true,
+      "tokens": [
+        "sheoeky"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.11",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!04:30>oteodar",
+      "clean": true,
+      "tokens": [
+        "oteodar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.12",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!05:30>ofchdysd",
+      "clean": true,
+      "tokens": [
+        "ofchdysd"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.13",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!06:00>oteoyd",
+      "clean": true,
+      "tokens": [
+        "oteoyd"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.14",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!06:30>yteody",
+      "clean": true,
+      "tokens": [
+        "yteody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.15",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!07:00>okeody",
+      "clean": true,
+      "tokens": [
+        "okeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.16",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!08:00>okeoldy",
+      "clean": true,
+      "tokens": [
+        "okeoldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.17",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!08:30>ykeeor",
+      "clean": true,
+      "tokens": [
+        "ykeeor"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.18",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!09:00>opaiina[m:r]",
+      "clean": false,
+      "tokens": [
+        "opaiinam"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.19",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!09:30>cheoldy",
+      "clean": true,
+      "tokens": [
+        "cheoldy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.21",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!10:30>okaiin[:y]",
+      "clean": false,
+      "tokens": [
+        "okaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.22",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!11:30>ockhol",
+      "clean": true,
+      "tokens": [
+        "ockhol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.23",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!00:30>oeedy",
+      "clean": true,
+      "tokens": [
+        "oeedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.24",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!01:00>opalg<!nymph has no star>",
+      "clean": true,
+      "tokens": [
+        "opalg"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.25",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!02:00>okeeom",
+      "clean": true,
+      "tokens": [
+        "okeeom"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.26",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!03:00>olkar",
+      "clean": true,
+      "tokens": [
+        "olkar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.27",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!04:00>oeedaly<!nymph stands on barrel>",
+      "clean": true,
+      "tokens": [
+        "oeedaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.28",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!05:00>cheosy",
+      "clean": true,
+      "tokens": [
+        "cheosy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.29",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!06:30>ofcheay",
+      "clean": true,
+      "tokens": [
+        "ofcheay"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.30",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!07:30>yteedy",
+      "clean": true,
+      "tokens": [
+        "yteedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.31",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!08:30>o[n:r]aiin",
+      "clean": false,
+      "tokens": [
+        "onaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v2.32",
+      "page": "f72v2",
+      "folio": "f72",
+      "raw": "<!09:30>okeorar",
+      "clean": true,
+      "tokens": [
+        "okeorar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "I",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.2",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!08:45>oeeoty",
+      "clean": true,
+      "tokens": [
+        "oeeoty"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.3",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!09:30>octhy",
+      "clean": true,
+      "tokens": [
+        "octhy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.4",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!10:00>oteoly",
+      "clean": true,
+      "tokens": [
+        "oteoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.5",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!10:30>okeoly",
+      "clean": true,
+      "tokens": [
+        "okeoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.6",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!11:00>oeees",
+      "clean": true,
+      "tokens": [
+        "oeees"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.7",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!11:30>o{cfh'h}y",
+      "clean": false,
+      "tokens": [
+        "ocfhhy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.8",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!01:45>oees",
+      "clean": true,
+      "tokens": [
+        "oees"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.9",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!01:00>okeeoly",
+      "clean": true,
+      "tokens": [
+        "okeeoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.10",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!01:30>odal",
+      "clean": true,
+      "tokens": [
+        "odal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.11",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!02:00>aiinod",
+      "clean": true,
+      "tokens": [
+        "aiinod"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.12",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!02:45>od[?:ch]dy",
+      "clean": false,
+      "tokens": [
+        "od?dy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.13",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!03:15>oteod",
+      "clean": true,
+      "tokens": [
+        "oteod"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.14",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!03:45>yteod",
+      "clean": true,
+      "tokens": [
+        "yteod"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.15",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!04:30>ok[?:ch]ody",
+      "clean": false,
+      "tokens": [
+        "ok?ody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.16",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!05:00>okal",
+      "clean": true,
+      "tokens": [
+        "okal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.17",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!05:30>ytaly",
+      "clean": true,
+      "tokens": [
+        "ytaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.18",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!06:00>oeeeos",
+      "clean": true,
+      "tokens": [
+        "oeeeos"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.19",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!06:30>oteofy",
+      "clean": true,
+      "tokens": [
+        "oteofy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.20",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!07:30>cheoepy",
+      "clean": true,
+      "tokens": [
+        "cheoepy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.21",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!08:00>ykeedy",
+      "clean": true,
+      "tokens": [
+        "ykeedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.23",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!08:45>oeeoly",
+      "clean": true,
+      "tokens": [
+        "oeeoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.24",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!10:00>okydy",
+      "clean": true,
+      "tokens": [
+        "okydy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.25",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!11:30>okeey",
+      "clean": true,
+      "tokens": [
+        "okeey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.26",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!00:00>oiiny",
+      "clean": true,
+      "tokens": [
+        "oiiny"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.27",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!01:00>oeey",
+      "clean": true,
+      "tokens": [
+        "oeey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.28",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!03:00>okedy",
+      "clean": true,
+      "tokens": [
+        "okedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.29",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!04:30>ypaim",
+      "clean": true,
+      "tokens": [
+        "ypaim"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.30",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!05:30>okalair",
+      "clean": true,
+      "tokens": [
+        "okalair"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.31",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!06:30>oeeody",
+      "clean": true,
+      "tokens": [
+        "oeeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f72v1.32",
+      "page": "f72v1",
+      "folio": "f72",
+      "raw": "<!07:30>okeol",
+      "clean": true,
+      "tokens": [
+        "okeol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "K",
+        "P": "J",
+        "F": "z",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.1",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!11:15>otaly",
+      "clean": true,
+      "tokens": [
+        "otaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.2",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!11:45>chockhy",
+      "clean": true,
+      "tokens": [
+        "chockhy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.3",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!00:30>otedy",
+      "clean": true,
+      "tokens": [
+        "otedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.4",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!01:00>yteeody",
+      "clean": true,
+      "tokens": [
+        "yteeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.6",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!11:00>otaly",
+      "clean": true,
+      "tokens": [
+        "otaly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.7",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!11:30>okeody",
+      "clean": true,
+      "tokens": [
+        "okeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.8",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!00:00>oteedyl",
+      "clean": true,
+      "tokens": [
+        "oteedyl"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.9",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!00:30>[y:o]keedy",
+      "clean": false,
+      "tokens": [
+        "ykeedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.10",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!01:00>okeey",
+      "clean": true,
+      "tokens": [
+        "okeey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.11",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!02:00>okeedy",
+      "clean": true,
+      "tokens": [
+        "okeedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.12",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!02:30>ykeeory",
+      "clean": true,
+      "tokens": [
+        "ykeeory"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.13",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!03:30>oteeosy",
+      "clean": true,
+      "tokens": [
+        "oteeosy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.14",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!04:30>shekal",
+      "clean": true,
+      "tokens": [
+        "shekal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.15",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!05:30>oteedyy",
+      "clean": true,
+      "tokens": [
+        "oteedyy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.16",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!06:30>oked[a:o]l",
+      "clean": false,
+      "tokens": [
+        "okedal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.17",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!07:00>chdy",
+      "clean": true,
+      "tokens": [
+        "chdy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.18",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!08:00>dalshey",
+      "clean": true,
+      "tokens": [
+        "dalshey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.19",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!08:45>opaiin",
+      "clean": true,
+      "tokens": [
+        "opaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.20",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!09:30>okeos",
+      "clean": true,
+      "tokens": [
+        "okeos"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.21",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!10:00>otey",
+      "clean": true,
+      "tokens": [
+        "otey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.23",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!11:30>okary",
+      "clean": true,
+      "tokens": [
+        "okary"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.24",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!01:00>okeeody",
+      "clean": true,
+      "tokens": [
+        "okeeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.25",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!02:00>oyteedy",
+      "clean": true,
+      "tokens": [
+        "oyteedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.26",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!03:00>oky",
+      "clean": true,
+      "tokens": [
+        "oky"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.27",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!04:30>chefy",
+      "clean": true,
+      "tokens": [
+        "chefy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.28",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!06:00>otal",
+      "clean": true,
+      "tokens": [
+        "otal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.29",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!07:00>chek",
+      "clean": true,
+      "tokens": [
+        "chek"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.30",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!08:30>ar",
+      "clean": true,
+      "tokens": [
+        "ar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.31",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!09:30>kar",
+      "clean": true,
+      "tokens": [
+        "kar"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73r.32",
+      "page": "f73r",
+      "folio": "f73",
+      "raw": "<!10:30>okeeos",
+      "clean": true,
+      "tokens": [
+        "okeeos"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "A",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.1",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!11:00>okol",
+      "clean": true,
+      "tokens": [
+        "okol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.2",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!11:45>oteody",
+      "clean": true,
+      "tokens": [
+        "oteody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.3",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!00:30>oteedy",
+      "clean": true,
+      "tokens": [
+        "oteedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.4",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!01:00>eeeody",
+      "clean": true,
+      "tokens": [
+        "eeeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.6",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!10:00>okeody",
+      "clean": true,
+      "tokens": [
+        "okeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.7",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!10:30>sheol",
+      "clean": true,
+      "tokens": [
+        "sheol"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.8",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!11:30>odees",
+      "clean": true,
+      "tokens": [
+        "odees"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.9",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!00:00>ee[r:n]y",
+      "clean": false,
+      "tokens": [
+        "eery"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.10",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!01:00>okeor",
+      "clean": true,
+      "tokens": [
+        "okeor"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.11",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!01:30>ofals",
+      "clean": true,
+      "tokens": [
+        "ofals"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.12",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!02:00>ykeody",
+      "clean": true,
+      "tokens": [
+        "ykeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.13",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!03:00>oteody",
+      "clean": true,
+      "tokens": [
+        "oteody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.14",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!03:30>ypaiin",
+      "clean": true,
+      "tokens": [
+        "ypaiin"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.15",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!04:00>yfaiin,y",
+      "clean": true,
+      "tokens": [
+        "yfaiin",
+        "y"
+      ],
+      "gaps": [
+        "uncertain"
+      ],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.16",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!05:00>ofcheesy",
+      "clean": true,
+      "tokens": [
+        "ofcheesy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.17",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!06:00>oraiiny",
+      "clean": true,
+      "tokens": [
+        "oraiiny"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.18",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!07:00>ykeeody",
+      "clean": true,
+      "tokens": [
+        "ykeeody"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.19",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!07:30>okeos",
+      "clean": true,
+      "tokens": [
+        "okeos"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.20",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!08:30>ykeear",
+      "clean": true,
+      "tokens": [
+        "ykeear"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.21",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!09:00>qokeoly",
+      "clean": true,
+      "tokens": [
+        "qokeoly"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.23",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!09:30>otedy",
+      "clean": true,
+      "tokens": [
+        "otedy"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.24",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!11:00>eeed",
+      "clean": true,
+      "tokens": [
+        "eeed"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.25",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!01:00>oky",
+      "clean": true,
+      "tokens": [
+        "oky"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.26",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!02:00>oia?",
+      "clean": false,
+      "tokens": [
+        "oia?"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.27",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!02:30>okal",
+      "clean": true,
+      "tokens": [
+        "okal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.28",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!03:30>ykey",
+      "clean": true,
+      "tokens": [
+        "ykey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.29",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!05:00>ykeee",
+      "clean": true,
+      "tokens": [
+        "ykeee"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.30",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!06:00>okeod",
+      "clean": true,
+      "tokens": [
+        "okeod"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.31",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!07:30>ykey",
+      "clean": true,
+      "tokens": [
+        "ykey"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    },
+    {
+      "locus": "f73v.32",
+      "page": "f73v",
+      "folio": "f73",
+      "raw": "<!08:30>ypal",
+      "clean": true,
+      "tokens": [
+        "ypal"
+      ],
+      "gaps": [],
+      "metadata": {
+        "Q": "L",
+        "P": "B",
+        "F": "a",
+        "B": "1",
+        "I": "Z",
+        "H": "4",
+        "X": "M"
+      },
+      "facsimile_alignment": "not yet independently verified"
+    }
+  ],
+  "cross_page_exact_repeats": [
+    {
+      "tokens": [
+        "otaldar"
+      ],
+      "loci": [
+        "f70v2.11",
+        "f71r.17"
+      ]
+    },
+    {
+      "tokens": [
+        "otaly"
+      ],
+      "loci": [
+        "f70v2.15",
+        "f70v1.6",
+        "f72v3.31",
+        "f73r.1",
+        "f73r.6"
+      ]
+    },
+    {
+      "tokens": [
+        "okeoly"
+      ],
+      "loci": [
+        "f70v2.18",
+        "f72v1.5"
+      ]
+    },
+    {
+      "tokens": [
+        "okydy"
+      ],
+      "loci": [
+        "f70v2.19",
+        "f72v1.24"
+      ]
+    },
+    {
+      "tokens": [
+        "okaram"
+      ],
+      "loci": [
+        "f70v2.27",
+        "f72r2.3"
+      ]
+    },
+    {
+      "tokens": [
+        "otalaiin"
+      ],
+      "loci": [
+        "f70v1.14",
+        "f71v.15"
+      ]
+    },
+    {
+      "tokens": [
+        "otaraldy"
+      ],
+      "loci": [
+        "f72r1.8",
+        "f72r2.7"
+      ]
+    },
+    {
+      "tokens": [
+        "okeey",
+        "ary"
+      ],
+      "loci": [
+        "f72r1.16",
+        "f72r2.12"
+      ]
+    },
+    {
+      "tokens": [
+        "okalar"
+      ],
+      "loci": [
+        "f72r2.8",
+        "f72r3.22"
+      ]
+    },
+    {
+      "tokens": [
+        "okal"
+      ],
+      "loci": [
+        "f72r2.9",
+        "f72r2.11",
+        "f72v1.16",
+        "f73v.27"
+      ]
+    },
+    {
+      "tokens": [
+        "okaly"
+      ],
+      "loci": [
+        "f72r2.10",
+        "f72r2.18",
+        "f72v3.9",
+        "f72v3.17"
+      ]
+    },
+    {
+      "tokens": [
+        "otal"
+      ],
+      "loci": [
+        "f72r2.23",
+        "f73r.28"
+      ]
+    },
+    {
+      "tokens": [
+        "okam"
+      ],
+      "loci": [
+        "f72r2.25",
+        "f72v3.4"
+      ]
+    },
+    {
+      "tokens": [
+        "okaldy"
+      ],
+      "loci": [
+        "f72r2.27",
+        "f72v3.18"
+      ]
+    },
+    {
+      "tokens": [
+        "oeeodaiin"
+      ],
+      "loci": [
+        "f72r3.10",
+        "f72v2.3"
+      ]
+    },
+    {
+      "tokens": [
+        "oky"
+      ],
+      "loci": [
+        "f72v3.22",
+        "f73r.26",
+        "f73v.25"
+      ]
+    },
+    {
+      "tokens": [
+        "oeedy"
+      ],
+      "loci": [
+        "f72v3.25",
+        "f72v2.23"
+      ]
+    },
+    {
+      "tokens": [
+        "okary"
+      ],
+      "loci": [
+        "f72v3.27",
+        "f73r.23"
+      ]
+    },
+    {
+      "tokens": [
+        "okeody"
+      ],
+      "loci": [
+        "f72v2.15",
+        "f73r.7",
+        "f73v.6"
+      ]
+    },
+    {
+      "tokens": [
+        "okeey"
+      ],
+      "loci": [
+        "f72v1.25",
+        "f73r.10"
+      ]
+    },
+    {
+      "tokens": [
+        "otedy"
+      ],
+      "loci": [
+        "f73r.3",
+        "f73v.23"
+      ]
+    },
+    {
+      "tokens": [
+        "okeos"
+      ],
+      "loci": [
+        "f73r.20",
+        "f73v.19"
+      ]
+    }
+  ]
+}
