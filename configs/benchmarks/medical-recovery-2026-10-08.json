@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "targets": [
+    "celsus",
+    "pliny"
+  ],
+  "seeds": [
+    7,
+    19
+  ],
+  "families": [
+    "glyph",
+    "homophonic",
+    "groups-fixed",
+    "groups-variable"
+  ],
+  "algorithms": [
+    "annealing",
+    "beam"
+  ],
+  "controls": [
+    "positive",
+    "token-shuffled"
+  ],
+  "budget": 8000,
+  "population": 8,
+  "length": 600,
+  "training_length": 60000,
+  "training_start_fraction": 0.3,
+  "development_fraction": 0.65,
+  "frozen_fraction": 0.85,
+  "passage_stride": 1500,
+  "source_hashes": {
+    "celsus": "89707c34cacdfd5899d44ee918f86117ece2c9e57b54d9ab44694fec8c7f4f22",
+    "pliny": "91844f7a4ede43232e690f062c76ae24e85fb59af8d69966c748d290cb1a8259"
+  },
+  "purpose": "Diagnose cross-author medical recovery before any Voynich fitting. Exploratory paired screen, not confirmatory calibration.",
+  "criteria": {
+    "development_nonspace": 0.95,
+    "frozen_nonspace": 0.9,
+    "complete_frozen_codes": true,
+    "beats_token_shuffled": true
+  },
+  "limits": [
+    "one shuffled negative per search",
+    "two authors; key seeds paired with distinct passages",
+    "known training-derived emission inventory",
+    "spaces preserved",
+    "variable family uses prefix-determined lengths and permits up to two codes per unit despite one-code generation"
+  ]
+}

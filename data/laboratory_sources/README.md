@@ -21,3 +21,14 @@ preprocessing, not historical transliteration or restoration of orthography.
 Round-trip and focused study spans refer to the prepared stream. The original
 frozen benchmark retains its raw-character span convention. Source and
 prepared hashes accompany the evidence.
+
+## Latin medical calibration (8 October follow-up)
+
+`celsus_medical.txt` contains *De Medicina* books 1–8 from the Spencer edition;
+`pliny_medical.txt` contains *Naturalis Historia* books 20–27 from the Mayhoff
+edition. Each sidecar records the immutable upstream URL/commit, raw XML hash,
+derived-text hash, book selection, extraction and attribution. The shared
+`canonical-latinLit-LICENSE.md` applies (CC BY-SA 4.0); these derived texts retain
+that license and attribute Perseus/Tufts and the named editors. Regenerate into
+a new directory with `python -m voynich.acquisition.medical_corpora --output DIR`.
+These are ancient medical/herbal proxies, not medieval recipe transcriptions.

@@ -15,8 +15,13 @@ class UnitCipher:
     lengths: str = "fixed"
     spacing: str = "preserve"
     extra_units: tuple[str, ...] = ()
+    alphabet: str = ALPHABET
 
     def __post_init__(self):
+        if (not isinstance(self.alphabet, str) or len(self.alphabet) < 2
+                or len(set(self.alphabet)) != len(self.alphabet)
+                or any(c not in ALPHABET for c in self.alphabet)):
+            raise ValueError("alphabet must contain distinct ASCII alphanumeric symbols")
         if self.family not in {"glyph", "groups", "mixed"}:
             raise NotImplementedError("unsupported cipher family")
         if self.homophones not in {1, 2} or type(self.homophones) is not int:
@@ -35,7 +40,7 @@ class UnitCipher:
 
     @property
     def method_id(self):
-        return "prefix-unit-v1"
+        return "prefix-unit-v1" if self.alphabet == ALPHABET else "prefix-unit-alphabet-v1"
 
     @property
     def units(self):
@@ -49,12 +54,14 @@ class UnitCipher:
 
     def generate_key(self, *, seed: int) -> CipherKey:
         if self.family == "glyph":
-            codes = list(ALPHABET)
+            codes = list(self.alphabet)
         elif self.lengths == "fixed":
-            codes = [a + b for a in ALPHABET for b in ALPHABET]
+            codes = [a + b for a in self.alphabet for b in self.alphabet]
         else:
             # The single-character leaves never prefix the two-character leaves.
-            codes = list(ALPHABET[:31]) + [a + b for a in ALPHABET[31:] for b in ALPHABET]
+            split = len(self.alphabet) // 2
+            codes = list(self.alphabet[:split]) + [
+                a + b for a in self.alphabet[split:] for b in self.alphabet]
         needed = len(self.units) * self.homophones
         if needed > len(codes):
             raise ValueError("code alphabet capacity exceeded")
@@ -80,8 +87,8 @@ class UnitCipher:
         if any(list(mapping.values()).count(unit) != self.homophones for unit in self.units):
             raise ValueError("incorrect homophone count")
         codes = sorted(mapping)
-        if any(any(c not in ALPHABET for c in code) for code in codes):
-            raise ValueError("codes must be ASCII alphanumeric")
+        if any(any(c not in self.alphabet for c in code) for code in codes):
+            raise ValueError("codes must use the configured alphabet")
         if any(b.startswith(a) for a, b in zip(codes, codes[1:])):
             raise ValueError("reference cipher requires prefix-free codes")
         if self.family == "glyph" and any(len(c) != 1 for c in codes):

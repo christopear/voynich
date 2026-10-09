@@ -207,3 +207,55 @@ and drops only its own random schema. CI supplies an isolated PostgreSQL service
 and runs all tests. No production research benchmark runs in CI. Tiny generated
 nonsense fixtures exercise the full coordinator in the fast suite without
 drawing research conclusions.
+
+## Medical cross-author recovery and explicit codebooks
+
+The completed [medical report](../../results/medical_recovery_2026-10-08/report.html)
+and [executive findings](../../results/medical_recovery_2026-10-08/README.md)
+record 64 searches and 512,000 candidate evaluations. The frozen screen is documented in
+[the medical protocol](../protocols/MEDICAL_RECOVERY_2026-10-08.md). It compares a
+key-search beam with annealing under equal candidate budgets, trains on the other
+medical author, and separates oracle scoring, recovery, boundary and reserved-code
+diagnostics. It uses the existing registry and requires the migrated database.
+
+```bash
+uv run --env-file .env --locked python -m voynich.laboratory.medical_recovery \
+  --plan configs/benchmarks/medical-recovery-2026-10-08.json \
+  --output results/runs/medical-new
+```
+
+`CodebookProblem` specifies public ciphertext, training text, allowed emissions,
+code width (one/two, or a searched prefix policy), and maximum codes per unit.
+`CodebookSearch` proposes complete codebook/prefix candidates with either
+`algorithm="annealing"` or `algorithm="beam"`; `CodebookEvaluator` scores them.
+Unlike the legacy search, a two-character code needs no forced single-character
+fallback entries. Search constructors reject reserved evaluation inputs.
+`partial_transfer()` freezes the selected mapping and reports `?` for unseen
+codes, without fitting on reserved text.
+
+For a separate next-stage fixture, the encoder can restrict its basic symbols:
+
+```python
+from voynich.ciphers.units import UnitCipher
+
+method = UnitCipher("groups", homophones=2, lengths="variable",
+                    extra_units=("er", "in"), alphabet="ABCDEFGHIJKLMNOPQRST")
+key = method.generate_key(seed=7)
+ciphertext, alignment = method.encrypt_text("in herba erat", key, seed=8)
+assert method.decrypt_text(ciphertext, key).plaintexts == ("in herba erat",)
+```
+
+Default-alphabet keys retain their previous generation and method ID; custom
+alphabets use `prefix-unit-alphabet-v1`. Capacity shortages fail explicitly.
+The variable-code construction reserves half the alphabet for single-character
+leaves and half for two-character prefixes; it is a restricted code family,
+not every prefix-free table. Tests cover 12/20-symbol alphabets, both decoders,
+spacing modes, homophones and serialization. These are engineering tests only;
+the medical recovery screen uses the original alphabet. A synthetic alphabet
+size is not a claim about the correct Voynich transcription or a historical key.
+
+`count_mapping_completions()` counts possible assignments to distinct unseen
+codes under the selected key's emission capacities and fixed segmentation. It
+uses no reserved language scores, chooses no mapping, and supplies no calibrated
+probability. It supports letter/pair emissions; word-position constraints require
+additional state and currently raise `NotImplementedError`.

@@ -77,6 +77,11 @@ to stage intended file moves together with updates; do not reinitialize it.
 
 ## Synthetic cipher laboratory
 
+The latest [medical recovery report](results/medical_recovery_2026-10-08/report.html)
+compares key-search beam and annealing across independent Latin medical authors.
+Its [executive findings and next experiment](results/medical_recovery_2026-10-08/README.md)
+explain the gains, remaining search/scoring problems and relevance to Voynich.
+
 The [8 October operating report](results/laboratory_2026-10-08/report.html)
 contains completed Latin, Italian and Ancient Greek experiments, inspectable
 plaintext/ciphertext examples, controls and limitations. Its
