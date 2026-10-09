@@ -26,7 +26,7 @@ def lexical_links(row):
     return links
 
 
-def build(evidence,previous,output):
+def build(evidence,previous,output,clock=None):
     pairs=pair_rows(evidence)
     if len(evidence['stages'])!=56 or evidence['registered_evaluations']!=229376:
         raise ValueError('study does not match the complete planned budget')
@@ -65,6 +65,13 @@ def build(evidence,previous,output):
           fmt(a['transfer'][page]['metrics']['pliny']['bits_per_character']),fmt(b['transfer'][page]['metrics']['pliny']['bits_per_character']),
           pct(b['transfer'][page]['code_token_coverage']),b['transfer'][page]['metrics']['pliny']['scored_characters']]
          for page in ('f31r','f39v') for a,b in originals])
+    if clock:
+        body+='<h2>Manuscript-layout follow-up: when does the table sequence reset?</h2><p>This diagnostic was added after the planned experiment. Paragraphs on f26r and f39v start at zero-based lines 0 and 6, so resetting at each paragraph gives exactly the same states as resetting only at the page start. Those pages cannot distinguish the two rules. f31r starts paragraphs at lines 0, 5 and 9 and can distinguish them.</p><p>Apply the same four keys without optimization. Below, both rules are scored only on word slots known under both schedules; these costs therefore differ slightly from the earlier transfer table. This is a post-hoc conditional language-model comparison, not confirmation of a cipher clock.</p>'
+        body+=table(['Seed','Method','f31r page reset','f31r paragraph reset','Common known words'],
+            [[r['seed'],r['variant'],fmt(r['page_clock_metrics']['bits_per_character']),
+              fmt(r['paragraph_clock_metrics']['bits_per_character']),r['common_known_words']]
+             for r in clock['rows'] if r['page']=='f31r'])
+        body+='<p><a href="clock_audit.json">Full frozen-key clock audit</a>. Future null controls should preserve paragraph starts/ends to separate layout effects from a cipher-state explanation.</p>'
     body+='<h2>Matched controls receive exactly the same procedure</h2><p>Whole-line shuffles preserve internal line structure and words while disturbing the proposed alternating clock. Symbol shuffle preserves symbol counts and space/line slots. Positive advantage means initialization improves the fitted objective relative to cold search. These controls and two seeds are not independent significance trials.</p>'
     body+=table(['Seed','Input','Cold loss','Initialized loss','Initialization advantage','Cold word hits','Initialized word hits'],
         [[a['seed'],a['control'],fmt(a['selected_loss']),fmt(b['selected_loss']),fmt(a['selected_loss']-b['selected_loss']),
@@ -101,4 +108,6 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input',type=Path,required=True);parser.add_argument('--previous',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
-    args=parser.parse_args();build(read_json(args.input),read_json(args.previous),args.output)
+    parser.add_argument('--clock-audit',type=Path)
+    args=parser.parse_args();build(read_json(args.input),read_json(args.previous),args.output,
+                                  read_json(args.clock_audit) if args.clock_audit else None)
