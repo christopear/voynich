@@ -153,8 +153,20 @@ OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e25_homopho
 ```
 
 These commands write to the historical result directories. To rerun without
-touching committed results, copy `data/`, `pyproject.toml` and the needed
-`results/` inputs to a scratch directory, and set `VOYNICH_ROOT` to it.
+touching committed results, run them in a full copy of the checkout, and
+compare with `scripts/compare_results.py`:
+
+```bash
+git archive HEAD | tar -x -C /path/to/copy && cd /path/to/copy && uv sync --locked
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e24_cipher_family_benchmark --workers 4
+uv run --locked python /path/to/checkout/scripts/compare_results.py \
+  results/cipher_families_2026-09-26 /path/to/checkout/results/cipher_families_2026-09-26
+```
+
+Pointing `VOYNICH_ROOT` at a copy of `data/` and `results/` alone is not
+enough. The manifests hash the protocol and the script's own source by their
+path under the workspace root, so the code and docs must live in the same
+tree.
 
 ## Capacity screen (run before any manuscript search)
 

@@ -124,9 +124,11 @@ one-glyph-to-one-letter decoding with spaces kept.
   `src/voynich/experiments/posthoc_eNN_*.py`, run with
   `python -m voynich.experiments.<name>`. Modules must be import-safe: do the
   work in `main()`.
-* **Never overwrite historical results.** Use a new dated directory, or point
-  `VOYNICH_ROOT` at a scratch copy of `data/` and `results/` to rerun an old
-  stage. Large run archives stay in the ignored `results/runs/`.
+* **Never overwrite historical results.** Use a new dated directory. To rerun
+  an old stage, run it in a full copy of the checkout
+  (`git archive HEAD | tar -x -C <dir>`), then compare with
+  `scripts/compare_results.py NEW OLD`. Large run archives stay in the ignored
+  `results/runs/`.
 * **Docs:** protocols in `docs/protocols/`, findings in `docs/reports/`,
   current guides in `docs/guides/`. Historical documents keep their original
   wording and paths; add corrections as dated notes.
