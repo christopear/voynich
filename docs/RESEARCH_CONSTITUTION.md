@@ -265,6 +265,7 @@ glyph units per plaintext letter, or larger units. From now on:
 
 The same review found that the layout migration had dropped the code behind
 the v101 and cipher-family findings cited in §3. It has been restored as
-experiments 19–25 (with post hoc companions). The reproduction check against
-the committed outputs is recorded in `docs/guides/EXPERIMENTS.md`. Working
+experiments 19–25 (with post hoc companions). Rerun in a clean copy, every
+restored stage regenerated its committed outputs identically (details in
+`docs/guides/EXPERIMENTS.md`). Working
 practice is summarised in `AGENTS.md`.
