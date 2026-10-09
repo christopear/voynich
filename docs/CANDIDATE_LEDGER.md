@@ -34,7 +34,6 @@ Last updated 9 October 2026.
 | 9 | Verbose syllable codes with a shared core (F6) | **Rejected within grid** | Page-specific vocabulary, repetition; its homophones would be trivially visible (AUC 0.9997) | h ≤ 8 variants | Low priority |
 | 10 | Message-free assembly or copy-and-modify (R1, R2) | **Rejected within grid** | Assembly: no page-specific vocabulary; copy: vocabulary shape, line effects | Tested settings | Not a cipher hypothesis; kept as a control |
 | 11 | v101 glyph variants are distinct letters | **Statistically rejected** (for d, y, k, r, sh, p) | No word-level information in variant choice, with calibrated power, including at the real minority rates ([V101](reports/V101_FINDINGS_2026-09-26.md), [follow-up](reports/V101_FOLLOWUP_FINDINGS_2026-09-26.md)) | f and cph not calibrated; v101 `A` is an o/a ambiguity | None |
-
 | 17 | Prefix-determined one/two-glyph codes, <=3 long-code prefixes or fixed width two; <=2 homophones; expansion 1.35–2; codes end at lines/drawings/unclean gaps | **No admissible original-page parser within this grid**; synthetic shortlist failed 8/8 | [Grouped boundary pilot](../results/grouped_boundary_2026-10-09/README.md): 1,351 policies per spacing arm; no original f26r key search or transfer possible | This is not all grouped codes. Encoded-space maximum parsable expansion 1.323; changing boundary assumptions/range may change feasibility | Fix parser-retention calibration before further blind search; prioritise unit/page-association evidence |
 
 ## Open questions (not cipher families)
