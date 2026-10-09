@@ -20,14 +20,14 @@ from voynich.storage.registry import Registry
 from voynich.voynich_core import eva_glyphs
 
 
-def clean_page(path, page):
+def clean_page(path, page, *, include_alignment=False):
     """Keep certain, plain EVA words; record every omitted annotated token.
 
     Comma denotes an uncertain separator: omit the whole comma-containing
     span rather than adjudicate it. Never turn a partial word into a full word.
     Returned offsets refer to lines of the raw file (zero based, half open).
     """
-    kept, omitted, loci, offsets = [], [], [], []
+    kept, omitted, loci, offsets, word_loci = [], [], [], [], []
     metadata = None
     for index, raw in enumerate(path.read_text().splitlines()):
         if re.match(r'^<' + re.escape(page) + r'>\s', raw):
@@ -51,15 +51,19 @@ def clean_page(path, page):
                 continue
             if re.fullmatch('[a-z]+', word):
                 kept.append(word)
+                word_loci.append(match[1])
             else:
                 for label, original in annotations.items():
                     word = word.replace(label, original)
                 omitted.append({'locus': match[1], 'token': word})
     if not kept or metadata is None:
         raise ValueError('missing page/header or no certain words')
-    return {'page': page, 'metadata': metadata, 'words': kept, 'omitted': omitted,
+    result = {'page': page, 'metadata': metadata, 'words': kept, 'omitted': omitted,
             'loci': loci, 'raw_line_span': [min(offsets), max(offsets)+1],
             'caveat': 'Omitted words close gaps; retained adjacency and word spaces are assumptions.'}
+    if include_alignment:
+        result['word_loci'] = word_loci
+    return result
 
 
 def represent(words, representation):
