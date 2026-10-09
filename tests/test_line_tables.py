@@ -5,7 +5,8 @@ import unittest
 
 from voynich.laboratory.rotation_pilot import controlled, page_lines, synthetic, word_hits
 from voynich.laboratory.voynich_pilot import clean_page
-from voynich.search.line_tables import LineTableSearch, LineTableEvaluator, phase_text, transfer
+from voynich.search.line_tables import (LineTableSearch, LineTableEvaluator, phase_text, transfer,
+    SeparateLineEvaluator,InitializedLineTableSearch,combine_phase_winners)
 from voynich.search.strategies import Candidate
 from voynich.decipher_search.core import LanguageModel
 from voynich.laboratory.rotation_report import comparisons
@@ -91,6 +92,32 @@ class LineTablesTests(unittest.TestCase):
         self.assertTrue(all(r['shared_hits_across_seeds']==['sanat'] for r in result['repeated_words']))
         evidence['runs'].append(rows[0])
         with self.assertRaises(ValueError):comparisons(evidence)
+
+    def test_separate_initialization_resets_context_per_line(self):
+        from voynich.evaluation.scorers import model
+        lines=('ab','ba');key=Candidate.create('line-table-v1',key={'a':'e','b':'t'})
+        value=SeparateLineEvaluator(lines,TRAINING)(key)
+        expected=model(TRAINING,4).nll('et')+model(TRAINING,4).nll('te')
+        self.assertAlmostEqual(dict(value.score.components)['language_bits'],expected)
+        self.assertEqual(value.payload['plaintext'],'et te')
+
+    def test_phase_combination_uses_total_cost_and_correct_symbols(self):
+        def row(letter,loss,denominator):
+            return {'candidate':Candidate.create('line-table-v1',key={'a':letter}).data,
+                    'loss':loss,'score':{'denominator':denominator}}
+        starts=combine_phase_winners([[row('e',1,100),row('i',2,10)],[row('t',1,10)]])
+        self.assertEqual(len(starts),8)
+        self.assertEqual(starts[0].data['key'],{'a':'i',chr(ord('a')+65536):'t'})
+        search=InitializedLineTableSearch(('a','a'),TRAINING,2,starts,budget=16)
+        evaluator=LineTableEvaluator(('a','a'),TRAINING,2)
+        batch=search.propose(8);search.observe([evaluator(c) for c in batch])
+        restored=InitializedLineTableSearch(('a','a'),TRAINING,2,starts,budget=16)
+        restored.restore(search.snapshot())
+        self.assertEqual([c.id for c in search.propose(8)],[c.id for c in restored.propose(8)])
+
+    def test_initialized_search_rejects_wrong_inventory(self):
+        starts=[Candidate.create('line-table-v1',key={'a':'e'})]*8
+        with self.assertRaises(ValueError):InitializedLineTableSearch(('a','a'),TRAINING,2,starts)
 
 
 if __name__=='__main__':unittest.main()
