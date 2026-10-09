@@ -14,12 +14,12 @@ sets research priorities and does not universally exclude a language or family.
 
 ## Latest research round
 
-[Executive report: unit size, page association and parser repair](results/unit_association_2026-10-09/README.md)
-([browser report](results/unit_association_2026-10-09/report.html)). Correct synthetic
-parsers now selected 8/8; blind recovery remains below gate. Actual manuscript
-page association survives layout and spacing checks, while a pooled-vocabulary
-artifact was isolated. No plaintext reading is claimed. The next bounded step is
-[recurring-label/crib validation](docs/protocols/CRIB_SCOPE_2026-10-09.md).
+[Word-code alternatives, manuscript replication and historical audit](results/word_homophones_2026-10-09/README.md)
+([browser report](results/word_homophones_2026-10-09/report.html)). Independent
+alternative codewords improve recipe vocabulary shape but fail the joint screen.
+Page association replicates in IT2a and on additional folios; original ZL grid
+verdicts survive the pooling audit. No decipherment is claimed.
+[Previous parser/unit study](results/unit_association_2026-10-09/README.md).
 
 ## Setup
 

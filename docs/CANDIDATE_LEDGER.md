@@ -34,6 +34,7 @@ Last updated 9 October 2026.
 | 9 | Verbose syllable codes with a shared core (F6) | **Rejected within grid** | Page-specific vocabulary, repetition; its homophones would be trivially visible (AUC 0.9997) | h ≤ 8 variants | Low priority |
 | 10 | Message-free assembly or copy-and-modify (R1, R2) | **Rejected within grid** | Assembly: no page-specific vocabulary; copy: vocabulary shape, line effects | Tested settings | Not a cipher hypothesis; kept as a control |
 | 11 | v101 glyph variants are distinct letters | **Statistically rejected** (for d, y, k, r, sh, p) | No word-level information in variant choice, with calibrated power, including at the real minority rates ([V101](reports/V101_FINDINGS_2026-09-26.md), [follow-up](reports/V101_FOLLOWUP_FINDINGS_2026-09-26.md)) | f and cph not calibrated; v101 `A` is an o/a ambiguity | None |
+| 18 | Whole-word disjoint codes with 1–3 IID alternatives; fixed global probabilities; preserved word units | **Search found no fit in forward-profile grid** (descriptive, not calibrated rejection) | [Stage 28](../results/word_homophones_2026-10-09/README.md): 504 panels, seven settings, recipes/Celsus/Pliny; no development draw jointly fits four frozen measures | Source/normalization dependent; abstract code IDs, no glyph morphology or historical key-size bound. No blind key search | Context-persistent choices at matched codebook size, or separately specified content-word lexicons |
 | 17 | Prefix-determined one/two-glyph codes, <=3 long-code prefixes or fixed width two; <=2 homophones; expansion 1.35–2; codes end at lines/drawings/unclean gaps | **No admissible original-page parser within this grid**; blind synthetic recovery still below gate | [Original pilot](../results/grouped_boundary_2026-10-09/README.md); [all-survivor repair](../results/parser_retention_2026-10-09/README.md) now selects the true parser 8/8, with 28.5–75.0% recovery and 0/8 at 90% | All 177 structural survivors searched; fixed 4,096 evaluations each. Key search incomplete. Original f26r infeasibility unchanged; no new manuscript key search | Do not prune on unigram concentration; prioritise larger units and justify boundary assumptions before another search |
 
 ## Open questions (not cipher families)
@@ -66,6 +67,20 @@ These finite-sample fingerprints are not population information ceilings.
 The [post hoc pooling audit](../results/unit_association_pooling_audit_2026-10-09/README.md)
 demonstrates that first-occurrence ties at a top-200 cutoff can manufacture page
 association (0.205 bits even for all-unique tokens). Rows 4–10 retain their
-historical grid verdicts, but their pooled page-MI evidence requires an audit
-before it is reused as a binding rejection reason; this round did not rerun
-those grids or overturn their other fingerprints. The unpooled new signal survives.
+historical grid verdicts. The subsequent sufficient audit below closes the
+specific ZL verdict concern. The unpooled new signal survives.
+
+9 October stage-28 update: [historical pooling audit](../results/historical_pooling_audit_2026-10-09/README.md)
+verifies all 456 original ZL configuration/window cells remain negative: 434
+fail unchanged P1–P4; the remaining 22 fail recomputed P6 with new target
+bootstrap SDs under both identity ties and no cap. All 132 required original
+simulations replay their old P6 exactly. P5/P7–P9 shifts and IT/v101 full-grid
+verdicts were not audited by this sufficient proof. Rows 4–10's ZL grid verdicts
+therefore stand; no universal family exclusion is added.
+
+Row 13 remains open beyond the narrow IID-alternative model in row 18. Original
+page association replicates in IT2a, and a disjoint herbal/starred-text panel
+retains the signal. Recipe genre cannot be identified from aggregate fits.
+The [recurring-label preparation](../results/label_alignment_2026-10-09/README.md)
+finds only four types crossing the declared split (minimum five); semantic
+validation did not proceed, and exact coordinate candidates remain unverified.
