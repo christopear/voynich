@@ -145,6 +145,16 @@ whose ending suits the next word raises coupling to 0.09–0.10 bits (B:
 joint hits. Page-persistent choice restores page association and destroys
 coupling; do not try to tune the two against each other in this grammar.
 
+## Stage 34: plaintext source sensitivity
+
+[Stage 34](results/source_sensitivity_2026-10-09/README.md): with stage 33's
+mechanism frozen, Latin medical sources (Celsus, Pliny) fit worse than recipes.
+Whole-word codes inherit plaintext vocabulary richness, and inflected Latin gives
+TTR 0.76–0.82 against Voynich's 0.61–0.64. This closes ledger rows 20–23 on
+these measures. Next: a stem-plus-ending (morphological) code that can absorb
+inflection, or semantic constraints via independently aligned labels. Do not
+add alternatives, lifts or sources to the whole-word line.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

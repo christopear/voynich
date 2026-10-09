@@ -306,3 +306,16 @@ uv run --locked python -m voynich.laboratory.context_verify --directory results/
 
 Stage 32's codebooks with four choice rules; pages are encoded last to first so
 each choice can see the next codeword. About 30 seconds.
+
+## 34: plaintext source sensitivity
+
+[Protocol](../protocols/SOURCE_SENSITIVITY_2026-10-09.md),
+[findings](../../results/source_sensitivity_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e34_source_sensitivity --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.source_verify --directory results/<new-dir>
+```
+
+Stage 33's frozen mechanism for celsus, pliny and cucina. Building the
+29k–32k-string Latin codebooks dominates the runtime (several minutes).
