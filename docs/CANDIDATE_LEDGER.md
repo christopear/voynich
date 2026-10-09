@@ -84,3 +84,16 @@ retains the signal. Recipe genre cannot be identified from aggregate fits.
 The [recurring-label preparation](../results/label_alignment_2026-10-09/README.md)
 finds only four types crossing the declared split (minimum five); semantic
 validation did not proceed, and exact coordinate candidates remain unverified.
+
+9 October stage-29 update: [frequency/Currier A diagnostic](../results/frequency_currier_a_2026-10-09/README.md)
+finds positive page association in both halves of matched herbal A/B panels,
+across ZL/IT and spacing arms. Full ZL split A: 0.0783 bits section excess,
+0.0485 role excess; B: 0.1349 and 0.0977. In B, types with ≥5 occurrences
+contribute 0.1185 of 0.1349 section excess (87.9%). Frequency is not a semantic
+classification; singleton zero is an estimator limitation, not absence of topic.
+Rows 13/14 remain open and row 18's narrow IID result is unchanged. No generator
+fit, statistical family rejection or reading was added. The
+[next-model guardrails](guides/CONTEXT_CODEBOOK_GUARDRAILS.md) require explicit
+slot capacity, state accounting, frozen-page comparison with R2 and independent
+label alignment. Historical attestation of a large codebook around 1420 remains
+unverified; do not assert it as a premise.

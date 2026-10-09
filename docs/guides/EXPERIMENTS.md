@@ -230,3 +230,19 @@ The forward screen needs no database or new packages. It tests token equality
 patterns, not glyph spellings or blind decryption. Source chapters and additional
 manuscript folios are kept disjoint. The audit is a sufficient check of original
 ZL conjunction verdicts, not a full rerun of every historical fingerprint.
+
+## 29: frequency decomposition and Currier A
+
+[Protocol](../protocols/FREQUENCY_CURRIER_A_2026-10-09.md),
+[findings](../../results/frequency_currier_a_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e29_frequency_currier_a --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.frequency_verify --directory results/<new-dir>
+uv run --locked python -m voynich.laboratory.frequency_report --directory results/<new-dir>
+```
+
+Additive all-type page association by permutation-invariant count bins, with
+matched 16-folio herbal A/B panels, eight-folio halves and transcription/spacing
+sensitivity. No cipher fitting. The design decisions for the subsequent
+slot/state/R2 comparison are in [the guardrails](CONTEXT_CODEBOOK_GUARDRAILS.md).
