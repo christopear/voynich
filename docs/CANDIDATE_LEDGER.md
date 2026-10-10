@@ -227,3 +227,13 @@ trials. Rows 14 and 16 stay open, with a first-glyph line indicator acting on
 a fifth or more of endings now bounded out. No key position predicts endings two
 or more words away, so line-level table switching is unsupported for endings.
 R2 is also null; this does not bear on cipher versus message-free text.
+
+10 October stage-36 update: [label unit-size diagnostic](../results/label_units_2026-10-10/README.md).
+778 single clean labels (622 types). Labels are not longer than same-frequency
+words by the preset threshold (+0.12 glyphs, driven by labels absent from
+running text) and split into common words at 63.7% against 60.0% for matched
+words (p = 0.029, above the 0.0125 threshold). They do not recur in their own
+page's text beyond a within-kind shuffle (10.9% vs 11.0%), nor as two adjacent
+pieces (0.6% vs 0.6%; planted 2% effects detected 20/20). Rows 12, 13 and 15
+stay open: labels do not discriminate word-sized from chunk-sized units. Exact
+label matching is a poor route to cribs.

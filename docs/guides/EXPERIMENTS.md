@@ -346,3 +346,15 @@ uv run --locked python -m voynich.laboratory.line_indicator_verify --directory r
 
 About six minutes, mostly the 100 planted-indicator calibration runs. The
 verifier reruns the whole stage.
+
+## 36: labels and unit size
+
+[Protocol](../protocols/LABEL_UNITS_2026-10-10.md),
+[findings](../../results/label_units_2026-10-10/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e36_label_units --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.label_units_verify --directory results/<new-dir>
+```
+
+About one minute. The verifier reruns the whole stage.
