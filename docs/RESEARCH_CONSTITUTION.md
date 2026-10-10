@@ -30,6 +30,17 @@ We seek advances beyond reproducing earlier project results. Negative results
 are useful when they eliminate a clearly specified hypothesis or expose a
 method's limits.
 
+### Manuscript-first research loop (9 October 2026)
+
+Synthetic work is a calibration step toward deciphering Voynich, not the project
+objective. After each credible solver or representation improvement, promptly
+trial the same frozen method on a bounded Voynich sample with matched controls
+and unchanged-key transfer. Report synthetic accuracy separately from manuscript
+evidence. Charge initialization, tuning and refinement budgets explicitly when
+comparing search methods. Repeated synthetic gains without manuscript evidence
+should prompt reconsideration of glyphs, spaces, language, content and historical
+mechanisms, rather than automatic increases in search budgets.
+
 ## 2. Construct the search space from operations
 
 We cannot enumerate all possible ciphers. An unrestricted codebook or a rule

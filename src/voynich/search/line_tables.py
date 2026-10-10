@@ -65,9 +65,27 @@ class LineTableEvaluator:
         if not valid:
             return Evaluation(ScoreReport('line-table-v1', (), self.denominator, 0, False), {}, 'invalid')
         plain = ''.join(' ' if c == ' ' else key[c] for c in self.text)
-        score = ScoreReport('line-table-v1', (('language_bits', model(self.training,4).nll(plain)),
+        score = ScoreReport('line-table-v1', (('language_bits', self.language_bits(key,plain)),
                             ('table_bits', self.key_cost), ('period_bits', 1.)), self.denominator)
         return Evaluation(score, {'plaintext': plain})
+
+    def language_bits(self,key,plain):
+        return model(self.training,4).nll(plain)
+
+
+class SeparateLineEvaluator(LineTableEvaluator):
+    """Initialization surrogate: reset n-gram history at each assigned line."""
+    def __init__(self,lines,training):
+        super().__init__(lines,training,1)
+
+    def identity(self):
+        return {**super().identity(),'evaluator':'separate-line-initialization-v1',
+                'language_context':'reset at every nonempty line; initialization only'}
+
+    def language_bits(self,key,plain):
+        lm=model(self.training,4)
+        return sum(lm.nll(''.join(' ' if c==' ' else key[c] for c in ' '.join(line.split())))
+                   for line in self.lines if line.strip())
 
 
 class LineTableSearch(CodebookSearch):
@@ -104,3 +122,47 @@ class LineTableSearch(CodebookSearch):
             used = {key[x] for x in codes if x != c}
             key[c] = self.rng.choice([u for u in self.problem.units if u not in used])
         return Candidate.create('line-table-v1', key=key)
+
+
+class InitializedLineTableSearch(LineTableSearch):
+    """Joint refinement of explicit initial candidates; all rescores count."""
+    def __init__(self,lines,training,period,candidates,*,seed=7,budget=4096,width=8):
+        if len(candidates)!=width:
+            raise ValueError('one explicit candidate per initial beam slot required')
+        self.initial_recipes=tuple(c.recipe for c in candidates)
+        super().__init__(lines,training,period,seed=seed,budget=budget,width=width)
+        codes=set(self.problem.public.ciphertext)-{' '}
+        for candidate in candidates:
+            key=candidate.data['key']
+            if set(key)!=codes or any(len(v)!=1 or v not in string.ascii_lowercase for v in key.values()):
+                raise ValueError('initial mapping does not match public cipher inventory')
+            for phase in range(period):
+                values=[v for c,v in key.items() if ord(c)//65536==phase]
+                if len(values)!=len(set(values)):
+                    raise ValueError('initial table must be injective')
+        self.pool=[{'candidate':c.data,'loss':None} for c in candidates]
+
+    def identity(self):
+        return {**super().identity(),'strategy':'initialized-line-table-beam-v1',
+                'initial_recipes_hash':fingerprint(self.initial_recipes)}
+
+
+def combine_phase_winners(results,width=8):
+    """Rank the Cartesian product by additive initialization costs, not truth.
+
+    Results are top-retention records from the two single-table phase runs.
+    Full-text joint evaluation takes place inside the subsequent counted run.
+    """
+    from itertools import product
+    if len(results)!=2 or any(not rows for rows in results):
+        raise ValueError('two nonempty phase result lists required')
+    combinations=[]
+    for pair in product(*results):
+        key={chr(ord(c)+phase*65536):u for phase,row in enumerate(pair)
+             for c,u in row['candidate']['key'].items()}
+        candidate=Candidate.create('line-table-v1',key=key)
+        cost=sum(row['loss']*row['score']['denominator'] for row in pair)
+        combinations.append((cost,candidate.id,candidate))
+    combinations.sort(key=lambda x:(x[0],x[1]))
+    candidates=[x[2] for x in combinations]
+    return [candidates[i%len(candidates)] for i in range(width)]

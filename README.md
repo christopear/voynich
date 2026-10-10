@@ -77,6 +77,11 @@ to stage intended file moves together with updates; do not reinitialize it.
 
 ## Actual Voynich search
 
+The [equal-budget initialization trial](results/phase_initialization_2026-10-09/report.html)
+returns directly to f26r/f31r/f39v after calibration. Its
+[executive findings](results/phase_initialization_2026-10-09/README.md) separate
+real manuscript score gains, competitive controls and a page/paragraph-reset ambiguity.
+
 The [line-rotation follow-up](results/line_rotation_2026-10-09/report.html) tests
 whether two alternating tables improve f26r and transfer to f31r/f39v. Its
 [executive findings](results/line_rotation_2026-10-09/README.md) explain the mixed
