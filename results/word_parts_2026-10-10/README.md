@@ -1,5 +1,7 @@
 # Voynich: are words prefix-plus-suffix codes?
 
+> **Correction, 10 October 2026 (claims).** The conclusion that Naibbe's construction is disfavoured "independent of any key or plaintext" is withdrawn. The product model assumes outright independence; Naibbe's is conditional on the letters and on how tables are drawn. A Naibbe-family simulation in which one draw fixes both halves of a word gives T_new of −0.30 to −1.45, the same range as Voynich's −0.92. Supported: the product model predicts unseen Voynich types worse than the chain, and better on Naibbe-family text only when the halves are drawn separately. The 116 × 26 inventory is a model summary, not a recovered table. See [the claims correction](../claims_correction_2026-10-10/README.md). This directory and its producing code are unchanged so they still replay.
+
 Stage 38, 10 October 2026. [Frozen protocol](../../docs/protocols/WORD_PARTS_2026-10-10.md),
 committed at c77156c before any manuscript text was read. Evidence label:
 **chain-like by a calibrated structural test; Naibbe's independent

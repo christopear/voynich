@@ -1,5 +1,7 @@
 # Voynich: are n/l/r endings added markers?
 
+> **Correction, 10 October 2026 (claims).** Two problems. (1) The code counted all clean tokens as reference words, not only tokens of two or more glyphs as the protocol said; "deviations: none" is withdrawn. Under the protocol's rule the n/l/r common-stem share is 7.7% (not 19.4%) and the gap is −17.7 points (not −9.6). (2) M2 pooled across pages and can be fooled by page differences. Conditioned on page it holds in ZL (p = 0.001) but not clearly in IT2a (p = 0.033), so within-page dependence on the next word is not established across transcriptions. See [the claims correction](../claims_correction_2026-10-10/README.md). This directory and its producing code are unchanged so they still replay.
+
 Stage 37, 10 October 2026. [Frozen protocol](../../docs/protocols/ENDING_MARKERS_2026-10-10.md),
 committed at b085c3c before execution. Evidence label: **not marker-like in
 Currier B, by a calibrated two-part rule**. The idea and the dictionary check

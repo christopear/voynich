@@ -168,44 +168,47 @@ never infer adjacency from consecutive indices.** Encode context-dependent
 ciphers separately on each target layout. Reserved panels used in stages
 27–34 have informed successive hypotheses. Positive evidence now needs fresh folios.
 
-## Stage 35: line-start indicator
+## Stages 35–38, as corrected on 10 October
 
-[Stage 35](results/line_indicator_2026-10-10/README.md): the first glyph of a
-Currier B line does not predict later word endings in that line (calibrated;
-a planted indicator altering 20% of endings is detected 16/20). No word
-predicts endings two or more positions away once the page is known. Do not
-propose line-initial table indicators for word endings without a new reason;
-paragraph- or page-level indicators remain untested.
+Read the [claims correction](results/claims_correction_2026-10-10/README.md)
+before citing any of these. Each original report drew a stronger conclusion than
+its analysis supported.
 
-## Stage 36: labels and unit size
+* **[Stage 35](results/line_indicator_2026-10-10/README.md), line-start
+  indicator.** No indicator signal was detected by a statistic on final-glyph
+  distributions. Sensitivity is shown only for the planted remapping (16/20 at
+  20% of endings). An indicator that permutes endings within its line is
+  invisible to it (0/20 at 24%). Line indicators are not excluded.
+* **[Stage 36](results/label_units_2026-10-10/README.md), labels.** Labels are
+  not reliably longer or more decomposable than same-frequency words. No excess
+  whole-label recurrence on the label's own page was detected (10.9% vs 11.0%);
+  the test detects a planted excess from 5% of labels. This does not show the
+  text never refers to labelled objects.
+* **[Stage 37](results/ending_markers_2026-10-10/README.md), endings as
+  markers.** In Currier B, removing a final n, l or r leaves a common word less
+  often than removing other endings: −9.6 points as implemented, −17.7 under
+  the protocol's own token rule (an undisclosed deviation, now corrected).
+  Final `n` is not separable; `l` is the most detachable. Dependence of form on
+  the next word, within pages, holds in ZL but not clearly in IT2a.
+* **[Stage 38](results/word_parts_2026-10-10/README.md), prefix-plus-suffix
+  shape.** A product model predicts unseen Voynich word types worse than a
+  glyph chain (about −0.9 bits). On Naibbe-family text it wins when prefix and
+  suffix are drawn separately and loses, at the same level as Voynich, when one
+  draw fixes both halves. **No Naibbe-family exclusion follows.**
 
-[Stage 36](results/label_units_2026-10-10/README.md): labels look like ordinary
-rare words. They are not reliably longer or more decomposable than
-same-frequency words, and they do not recur in their own page's text, whole or
-as two adjacent pieces, beyond a within-kind shuffle. Unit size stays open. Do
-not argue unit size from single-word labels, and do not expect exact label
-matches in running text to supply cribs.
+Lessons, in addition to the list below:
 
-## Stage 37: endings as markers
-
-[Stage 37](results/ending_markers_2026-10-10/README.md): in Currier B, n/l/r
-endings are not signals added to complete words. Stripping them leaves a common
-word less often than stripping other endings (19% vs 29%), and 59% leave a
-non-word. Final `n` belongs to units like *ain*/*aiin* and should not be
-treated alone; `l` is the most detachable ending. Currier A and the R2 copy
-generator pass the marker rule, so a marker-like result is not evidence of a
-cipher. The A/B difference in how endings attach is an untested lead.
-
-## Stage 38: prefix-plus-suffix shape
-
-[Stage 38](results/word_parts_2026-10-10/README.md): Voynich words are not two
-independently chosen parts. A prefix-times-suffix model beats a glyph chain on
-unseen words in real Naibbe ciphertext (+1.3 to +1.7 bits) and loses on Currier
-B in every fold (about −0.9). New words are made of familiar parts (95%), but
-the halves depend on each other, and the inventory is lopsided (about 116
-beginnings, 26 endings). Do not build a solver that treats each word as an
-independent (prefix, suffix) pair. Single-choice or multi-part systems remain
-untested. Method: `voynich.laboratory.word_parts`.
+* A model assuming outright independence does not test a mechanism that is
+  independent only given hidden variables. Calibrate across the mechanism's
+  configurations, not one corpus.
+* Power shown for one planted perturbation is power for that perturbation.
+* Not detecting an effect is not its absence. Calibrate power for the very
+  statistic the claim rests on.
+* Check the implementation against the protocol's stated token set, and never
+  write "deviations: none" without doing so.
+* Condition on page before reading an association as local context dependence.
+* Novelty is unverified throughout. Pages reused across stages are development
+  evidence. Fit, likelihood and coupling scores do not establish a cipher.
 
 ## Mistakes we have already made — do not repeat them
 
