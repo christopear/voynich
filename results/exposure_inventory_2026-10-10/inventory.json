@@ -1,0 +1,4908 @@
+{
+ "tiers": {
+  "1": "whole-manuscript descriptive statistics only",
+  "2": "pooled statistics or model training within a language/section pool",
+  "3": "targeted development, fitting or annotation panel",
+  "4": "targeted evaluation, reserved or solver-target panel"
+ },
+ "rules": [
+  {
+   "rule": "whole_manuscript_statistics",
+   "tier": 1,
+   "basis": "code",
+   "stages": "6-8 boundary frontier, 12 reconstruction counts, 19-23 v101 mapping and variant tests",
+   "note": "All paragraph text was read for structural statistics and transcription comparison.",
+   "pages": [
+    "f100r",
+    "f100v",
+    "f101r",
+    "f101v",
+    "f102r1",
+    "f102r2",
+    "f102v1",
+    "f102v2",
+    "f103r",
+    "f103v",
+    "f104r",
+    "f104v",
+    "f105r",
+    "f105v",
+    "f106r",
+    "f106v",
+    "f107r",
+    "f107v",
+    "f108r",
+    "f108v",
+    "f10r",
+    "f10v",
+    "f111r",
+    "f111v",
+    "f112r",
+    "f112v",
+    "f113r",
+    "f113v",
+    "f114r",
+    "f114v",
+    "f115r",
+    "f115v",
+    "f116r",
+    "f11r",
+    "f11v",
+    "f13r",
+    "f13v",
+    "f14r",
+    "f14v",
+    "f15r",
+    "f15v",
+    "f16r",
+    "f16v",
+    "f17r",
+    "f17v",
+    "f18r",
+    "f18v",
+    "f19r",
+    "f19v",
+    "f1r",
+    "f1v",
+    "f20r",
+    "f20v",
+    "f21r",
+    "f21v",
+    "f22r",
+    "f22v",
+    "f23r",
+    "f23v",
+    "f24r",
+    "f24v",
+    "f25r",
+    "f25v",
+    "f26r",
+    "f26v",
+    "f27r",
+    "f27v",
+    "f28r",
+    "f28v",
+    "f29r",
+    "f29v",
+    "f2r",
+    "f2v",
+    "f30r",
+    "f30v",
+    "f31r",
+    "f31v",
+    "f32r",
+    "f32v",
+    "f33r",
+    "f33v",
+    "f34r",
+    "f34v",
+    "f35r",
+    "f35v",
+    "f36r",
+    "f36v",
+    "f37r",
+    "f37v",
+    "f38r",
+    "f38v",
+    "f39r",
+    "f39v",
+    "f3r",
+    "f3v",
+    "f40r",
+    "f40v",
+    "f41r",
+    "f41v",
+    "f42r",
+    "f42v",
+    "f43r",
+    "f43v",
+    "f44r",
+    "f44v",
+    "f45r",
+    "f45v",
+    "f46r",
+    "f46v",
+    "f47r",
+    "f47v",
+    "f48r",
+    "f48v",
+    "f49r",
+    "f49v",
+    "f4r",
+    "f4v",
+    "f50r",
+    "f50v",
+    "f51r",
+    "f51v",
+    "f52r",
+    "f52v",
+    "f53r",
+    "f53v",
+    "f54r",
+    "f54v",
+    "f55r",
+    "f55v",
+    "f56r",
+    "f56v",
+    "f57r",
+    "f58r",
+    "f58v",
+    "f5r",
+    "f5v",
+    "f65v",
+    "f66r",
+    "f66v",
+    "f67r1",
+    "f67r2",
+    "f68r1",
+    "f68r2",
+    "f68v2",
+    "f68v3",
+    "f69r",
+    "f6r",
+    "f6v",
+    "f75r",
+    "f75v",
+    "f76r",
+    "f76v",
+    "f77r",
+    "f77v",
+    "f78r",
+    "f78v",
+    "f79r",
+    "f79v",
+    "f7r",
+    "f7v",
+    "f80r",
+    "f80v",
+    "f81r",
+    "f81v",
+    "f82r",
+    "f82v",
+    "f83r",
+    "f83v",
+    "f84r",
+    "f84v",
+    "f85r1",
+    "f86v3",
+    "f86v4",
+    "f86v5",
+    "f86v6",
+    "f87r",
+    "f87v",
+    "f88r",
+    "f88v",
+    "f89r1",
+    "f89r2",
+    "f89v1",
+    "f89v2",
+    "f8r",
+    "f8v",
+    "f90r1",
+    "f90r2",
+    "f90v1",
+    "f90v2",
+    "f93r",
+    "f93v",
+    "f94r",
+    "f94v",
+    "f95r1",
+    "f95r2",
+    "f95v1",
+    "f95v2",
+    "f96r",
+    "f96v",
+    "f99r",
+    "f99v",
+    "f9r",
+    "f9v"
+   ]
+  },
+  {
+   "rule": "herbal_A_hand1_pool",
+   "tier": 2,
+   "basis": "code",
+   "stages": "1-3 terminal sandhi, segmenter, lattices; 12 reconstruction",
+   "note": "select_pages(section=H, currier=A, hand=1).",
+   "pages": [
+    "f10r",
+    "f10v",
+    "f11r",
+    "f11v",
+    "f13r",
+    "f13v",
+    "f14r",
+    "f14v",
+    "f15r",
+    "f15v",
+    "f16r",
+    "f16v",
+    "f17r",
+    "f17v",
+    "f18r",
+    "f18v",
+    "f19r",
+    "f19v",
+    "f1v",
+    "f20r",
+    "f20v",
+    "f21r",
+    "f21v",
+    "f22r",
+    "f22v",
+    "f23r",
+    "f23v",
+    "f24r",
+    "f24v",
+    "f25r",
+    "f25v",
+    "f27r",
+    "f27v",
+    "f28r",
+    "f28v",
+    "f29r",
+    "f29v",
+    "f2r",
+    "f2v",
+    "f30r",
+    "f30v",
+    "f32r",
+    "f32v",
+    "f35r",
+    "f35v",
+    "f36r",
+    "f36v",
+    "f37r",
+    "f37v",
+    "f38r",
+    "f38v",
+    "f3r",
+    "f3v",
+    "f42r",
+    "f42v",
+    "f44r",
+    "f44v",
+    "f45r",
+    "f45v",
+    "f47r",
+    "f47v",
+    "f49r",
+    "f49v",
+    "f4r",
+    "f4v",
+    "f51r",
+    "f51v",
+    "f52r",
+    "f52v",
+    "f53r",
+    "f53v",
+    "f54r",
+    "f54v",
+    "f56r",
+    "f56v",
+    "f5r",
+    "f5v",
+    "f6r",
+    "f6v",
+    "f7r",
+    "f7v",
+    "f87r",
+    "f87v",
+    "f8r",
+    "f8v",
+    "f90r1",
+    "f90r2",
+    "f90v1",
+    "f90v2",
+    "f93r",
+    "f93v",
+    "f96r",
+    "f96v",
+    "f9r",
+    "f9v"
+   ]
+  },
+  {
+   "rule": "currier_B_pool",
+   "tier": 2,
+   "basis": "documentation",
+   "stages": "9-11 mechanism benchmark, 13-18 equivalence and coupling tests, 24-25 cipher families, capacity screen",
+   "note": "Stage reports describe Currier B pools/folds; individual page roles within folds are not separated here.",
+   "pages": [
+    "f103r",
+    "f103v",
+    "f104r",
+    "f104v",
+    "f105r",
+    "f105v",
+    "f106r",
+    "f106v",
+    "f107r",
+    "f107v",
+    "f108r",
+    "f108v",
+    "f111r",
+    "f111v",
+    "f112r",
+    "f112v",
+    "f113r",
+    "f113v",
+    "f114r",
+    "f114v",
+    "f115r",
+    "f115v",
+    "f116r",
+    "f26r",
+    "f26v",
+    "f31r",
+    "f31v",
+    "f33r",
+    "f33v",
+    "f34r",
+    "f34v",
+    "f39r",
+    "f39v",
+    "f40r",
+    "f40v",
+    "f41r",
+    "f41v",
+    "f43r",
+    "f43v",
+    "f46r",
+    "f46v",
+    "f48r",
+    "f48v",
+    "f50r",
+    "f50v",
+    "f55r",
+    "f55v",
+    "f57r",
+    "f66r",
+    "f66v",
+    "f75r",
+    "f75v",
+    "f76r",
+    "f76v",
+    "f77r",
+    "f77v",
+    "f78r",
+    "f78v",
+    "f79r",
+    "f79v",
+    "f80r",
+    "f80v",
+    "f81r",
+    "f81v",
+    "f82r",
+    "f82v",
+    "f83r",
+    "f83v",
+    "f84r",
+    "f84v",
+    "f85r1",
+    "f85r2",
+    "f86v3",
+    "f86v4",
+    "f86v5",
+    "f86v6",
+    "f94r",
+    "f94v",
+    "f95r1",
+    "f95r2",
+    "f95v1",
+    "f95v2",
+    "fRos"
+   ]
+  },
+  {
+   "rule": "stage31_broad_training",
+   "tier": 2,
+   "basis": "code",
+   "stages": "31-34 word-shape model, R2 training, edge-lift table",
+   "note": "All clean Currier B tokens off the reserved folios trained the shape model and lift table.",
+   "pages": [
+    "f103r",
+    "f103v",
+    "f104r",
+    "f104v",
+    "f105r",
+    "f105v",
+    "f106r",
+    "f106v",
+    "f107r",
+    "f107v",
+    "f108r",
+    "f108v",
+    "f111r",
+    "f111v",
+    "f112r",
+    "f112v",
+    "f113r",
+    "f113v",
+    "f114r",
+    "f114v",
+    "f115r",
+    "f115v",
+    "f116r",
+    "f26r",
+    "f26v",
+    "f31r",
+    "f31v",
+    "f33r",
+    "f33v",
+    "f34r",
+    "f34v",
+    "f39r",
+    "f39v",
+    "f40r",
+    "f40v",
+    "f41r",
+    "f41v",
+    "f43r",
+    "f43v",
+    "f75r",
+    "f75v",
+    "f76r",
+    "f76v",
+    "f77r",
+    "f77v",
+    "f78r",
+    "f78v",
+    "f79r",
+    "f79v",
+    "f80r",
+    "f80v",
+    "f81r",
+    "f81v",
+    "f82r",
+    "f82v",
+    "f83r",
+    "f83v",
+    "f84r",
+    "f84v",
+    "f85r1",
+    "f85r2",
+    "f86v3",
+    "f86v4",
+    "f86v5",
+    "f86v6",
+    "fRos"
+   ]
+  },
+  {
+   "rule": "page_search_fit",
+   "tier": 4,
+   "basis": "documentation",
+   "stages": "26 page pilot, line rotation, phase initialisation, grouped boundary",
+   "note": "Key-search target page.",
+   "pages": [
+    "f26r"
+   ]
+  },
+  {
+   "rule": "page_search_transfer",
+   "tier": 4,
+   "basis": "documentation",
+   "stages": "26 page pilot and follow-ups",
+   "note": "Frozen-key transfer pages.",
+   "pages": [
+    "f31r",
+    "f39v"
+   ]
+  },
+  {
+   "rule": "stage27_panel",
+   "tier": 3,
+   "basis": "code",
+   "stages": "27 unit association",
+   "note": "16 Currier B folios.",
+   "pages": [
+    "f26r",
+    "f31r",
+    "f33r",
+    "f34r",
+    "f39r",
+    "f40r",
+    "f41r",
+    "f43r",
+    "f75r",
+    "f76v",
+    "f77r",
+    "f78r",
+    "f79r",
+    "f80r",
+    "f81r",
+    "f82r"
+   ]
+  },
+  {
+   "rule": "stage28_development",
+   "tier": 3,
+   "basis": "code",
+   "stages": "28 word homophones",
+   "note": "Original panel.",
+   "pages": [
+    "f26r",
+    "f31r",
+    "f33r",
+    "f34r",
+    "f39r",
+    "f40r",
+    "f41r",
+    "f43r",
+    "f75r",
+    "f76v",
+    "f77r",
+    "f78r",
+    "f79r",
+    "f80r",
+    "f81r",
+    "f82r"
+   ]
+  },
+  {
+   "rule": "stage28_additional",
+   "tier": 4,
+   "basis": "code",
+   "stages": "28 word homophones",
+   "note": "Additional evaluation folios.",
+   "pages": [
+    "f103r",
+    "f104r",
+    "f105r",
+    "f106r",
+    "f107r",
+    "f108r",
+    "f111r",
+    "f112r",
+    "f46r",
+    "f48r",
+    "f50r",
+    "f55r",
+    "f57r",
+    "f66v",
+    "f94r",
+    "f95r1"
+   ]
+  },
+  {
+   "rule": "stage29_A_panel",
+   "tier": 3,
+   "basis": "code",
+   "stages": "29 frequency and Currier A; 31 scribe control",
+   "note": "16 herbal A folios.",
+   "pages": [
+    "f10r",
+    "f13r",
+    "f14r",
+    "f15r",
+    "f16r",
+    "f17r",
+    "f18r",
+    "f19r",
+    "f1v",
+    "f2r",
+    "f3r",
+    "f4v",
+    "f6r",
+    "f7v",
+    "f8r",
+    "f9r"
+   ]
+  },
+  {
+   "rule": "stage29_B_panel",
+   "tier": 3,
+   "basis": "code",
+   "stages": "29 frequency and Currier A; 31 scribe control",
+   "note": "16 herbal B folios.",
+   "pages": [
+    "f26r",
+    "f31r",
+    "f33r",
+    "f34r",
+    "f39r",
+    "f40r",
+    "f41r",
+    "f43r",
+    "f46r",
+    "f48r",
+    "f50r",
+    "f55r",
+    "f57r",
+    "f66v",
+    "f94r",
+    "f95r1"
+   ]
+  },
+  {
+   "rule": "stage30_34_development",
+   "tier": 3,
+   "basis": "code",
+   "stages": "30-34 forward screens and correction",
+   "note": "Selection target.",
+   "pages": [
+    "f26r",
+    "f31r",
+    "f33r",
+    "f34r",
+    "f39r",
+    "f40r",
+    "f41r",
+    "f43r"
+   ]
+  },
+  {
+   "rule": "stage30_34_reserved_B",
+   "tier": 4,
+   "basis": "code",
+   "stages": "30-34 forward screens and correction",
+   "note": "Reserved target; informed four successive hypotheses.",
+   "pages": [
+    "f46r",
+    "f48r",
+    "f50r",
+    "f55r",
+    "f57r",
+    "f66v",
+    "f94r",
+    "f95r1"
+   ]
+  },
+  {
+   "rule": "stage30_34_A_transfer",
+   "tier": 4,
+   "basis": "code",
+   "stages": "30-34 forward screens and correction",
+   "note": "Currier A sensitivity target.",
+   "pages": [
+    "f10r",
+    "f13r",
+    "f14r",
+    "f15r",
+    "f16r",
+    "f17r",
+    "f18r",
+    "f19r"
+   ]
+  },
+  {
+   "rule": "label_packet",
+   "tier": 3,
+   "basis": "code",
+   "stages": "label alignment and crib scope",
+   "note": "Label inventory and coordinate candidates; labels, not paragraph text.",
+   "pages": [
+    "f70v1",
+    "f70v2",
+    "f71r",
+    "f71v",
+    "f72r1",
+    "f72r2",
+    "f72r3",
+    "f72v1",
+    "f72v2",
+    "f72v3",
+    "f73r",
+    "f73v"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "page": "f1r",
+   "folio": "f1",
+   "section": "T",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 194,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f1v",
+   "folio": "f1",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 91,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f2r",
+   "folio": "f2",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 97,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f2v",
+   "folio": "f2",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 60,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f3r",
+   "folio": "f3",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 114,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f3v",
+   "folio": "f3",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 84,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f4r",
+   "folio": "f4",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 62,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f4v",
+   "folio": "f4",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 81,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f5r",
+   "folio": "f5",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 53,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f5v",
+   "folio": "f5",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 46,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f6r",
+   "folio": "f6",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 82,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f6v",
+   "folio": "f6",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 109,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f7r",
+   "folio": "f7",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 66,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f7v",
+   "folio": "f7",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 76,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f8r",
+   "folio": "f8",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 133,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f8v",
+   "folio": "f8",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "A",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 114,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f9r",
+   "folio": "f9",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 78,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f9v",
+   "folio": "f9",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 83,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f10r",
+   "folio": "f10",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 88,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f10v",
+   "folio": "f10",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 56,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f11r",
+   "folio": "f11",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 56,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f11v",
+   "folio": "f11",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 47,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f13r",
+   "folio": "f13",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 73,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f13v",
+   "folio": "f13",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 66,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f14r",
+   "folio": "f14",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 74,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f14v",
+   "folio": "f14",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 73,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f15r",
+   "folio": "f15",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 92,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f15v",
+   "folio": "f15",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 67,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f16r",
+   "folio": "f16",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 79,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f16v",
+   "folio": "f16",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "B",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 72,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f17r",
+   "folio": "f17",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 74,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f17v",
+   "folio": "f17",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 130,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f18r",
+   "folio": "f18",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 77,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f18v",
+   "folio": "f18",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 67,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f19r",
+   "folio": "f19",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 74,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "stage29_A_panel",
+    "stage30_34_A_transfer",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f19v",
+   "folio": "f19",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 70,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f20r",
+   "folio": "f20",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 86,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f20v",
+   "folio": "f20",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 81,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f21r",
+   "folio": "f21",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 103,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f21v",
+   "folio": "f21",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 58,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f22r",
+   "folio": "f22",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 105,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f22v",
+   "folio": "f22",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 72,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f23r",
+   "folio": "f23",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 104,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f23v",
+   "folio": "f23",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 92,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f24r",
+   "folio": "f24",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 104,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f24v",
+   "folio": "f24",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "C",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 77,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f25r",
+   "folio": "f25",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 42,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f25v",
+   "folio": "f25",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 57,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f26r",
+   "folio": "f26",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "D",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 88,
+   "roles": [
+    "currier_B_pool",
+    "page_search_fit",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f26v",
+   "folio": "f26",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "D",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 90,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f27r",
+   "folio": "f27",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 88,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f27v",
+   "folio": "f27",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 57,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f28r",
+   "folio": "f28",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 67,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f28v",
+   "folio": "f28",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 64,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f29r",
+   "folio": "f29",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 63,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f29v",
+   "folio": "f29",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 90,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f30r",
+   "folio": "f30",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 97,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f30v",
+   "folio": "f30",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 60,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f31r",
+   "folio": "f31",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "D",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 95,
+   "roles": [
+    "currier_B_pool",
+    "page_search_transfer",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f31v",
+   "folio": "f31",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "D",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 106,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f32r",
+   "folio": "f32",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 74,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f32v",
+   "folio": "f32",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "D",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 86,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f33r",
+   "folio": "f33",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 70,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f33v",
+   "folio": "f33",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 111,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f34r",
+   "folio": "f34",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 137,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f34v",
+   "folio": "f34",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 113,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f35r",
+   "folio": "f35",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 91,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f35v",
+   "folio": "f35",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 89,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f36r",
+   "folio": "f36",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 60,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f36v",
+   "folio": "f36",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 32,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f37r",
+   "folio": "f37",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 76,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f37v",
+   "folio": "f37",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 84,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f38r",
+   "folio": "f38",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 43,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f38v",
+   "folio": "f38",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "E",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 66,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f39r",
+   "folio": "f39",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 143,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f39v",
+   "folio": "f39",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 141,
+   "roles": [
+    "currier_B_pool",
+    "page_search_transfer",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f40r",
+   "folio": "f40",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 99,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f40v",
+   "folio": "f40",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "E",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 97,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f41r",
+   "folio": "f41",
+   "section": "H",
+   "currier": "B",
+   "hand": "5",
+   "quire": "F",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 85,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f41v",
+   "folio": "f41",
+   "section": "H",
+   "currier": "B",
+   "hand": "5",
+   "quire": "F",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 62,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f42r",
+   "folio": "f42",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 123,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f42v",
+   "folio": "f42",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 107,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f43r",
+   "folio": "f43",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "F",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 147,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage29_B_panel",
+    "stage30_34_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f43v",
+   "folio": "f43",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "F",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 143,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f44r",
+   "folio": "f44",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 70,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f44v",
+   "folio": "f44",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 99,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f45r",
+   "folio": "f45",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 85,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f45v",
+   "folio": "f45",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 79,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f46r",
+   "folio": "f46",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "F",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 152,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f46v",
+   "folio": "f46",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "F",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 79,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f47r",
+   "folio": "f47",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 71,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f47v",
+   "folio": "f47",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "F",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 81,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f48r",
+   "folio": "f48",
+   "section": "H",
+   "currier": "B",
+   "hand": "5",
+   "quire": "F",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 76,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f48v",
+   "folio": "f48",
+   "section": "H",
+   "currier": "B",
+   "hand": "5",
+   "quire": "F",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 127,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f49r",
+   "folio": "f49",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 104,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f49v",
+   "folio": "f49",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 137,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f50r",
+   "folio": "f50",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "G",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 88,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f50v",
+   "folio": "f50",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "G",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 94,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f51r",
+   "folio": "f51",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 79,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f51v",
+   "folio": "f51",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 75,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f52r",
+   "folio": "f52",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 64,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f52v",
+   "folio": "f52",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 71,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f53r",
+   "folio": "f53",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 55,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f53v",
+   "folio": "f53",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 70,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f54r",
+   "folio": "f54",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 101,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f54v",
+   "folio": "f54",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 90,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f55r",
+   "folio": "f55",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "G",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 115,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f55v",
+   "folio": "f55",
+   "section": "H",
+   "currier": "B",
+   "hand": "2",
+   "quire": "G",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 97,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f56r",
+   "folio": "f56",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 98,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f56v",
+   "folio": "f56",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "G",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 88,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f57r",
+   "folio": "f57",
+   "section": "H",
+   "currier": "B",
+   "hand": "5",
+   "quire": "H",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 78,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f57v",
+   "folio": "f57",
+   "section": "C",
+   "currier": null,
+   "hand": "1",
+   "quire": "H",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f58r",
+   "folio": "f58",
+   "section": "S",
+   "currier": "A",
+   "hand": "3",
+   "quire": "H",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 365,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f58v",
+   "folio": "f58",
+   "section": "S",
+   "currier": "A",
+   "hand": "3",
+   "quire": "H",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 357,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f65r",
+   "folio": "f65",
+   "section": "H",
+   "currier": null,
+   "hand": "3",
+   "quire": "H",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f65v",
+   "folio": "f65",
+   "section": "H",
+   "currier": null,
+   "hand": "3",
+   "quire": "H",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 39,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f66r",
+   "folio": "f66",
+   "section": "T",
+   "currier": "B",
+   "hand": "5",
+   "quire": "H",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 287,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f66v",
+   "folio": "f66",
+   "section": "H",
+   "currier": "B",
+   "hand": "5",
+   "quire": "H",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 106,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f67r1",
+   "folio": "f67",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 38,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f67r2",
+   "folio": "f67",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 36,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f67v2",
+   "folio": "f67",
+   "section": "C",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f67v1",
+   "folio": "f67",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f68r1",
+   "folio": "f68",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 28,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f68r2",
+   "folio": "f68",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 36,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f68r3",
+   "folio": "f68",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f68v3",
+   "folio": "f68",
+   "section": "C",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 43,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f68v2",
+   "folio": "f68",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 44,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f68v1",
+   "folio": "f68",
+   "section": "A",
+   "currier": null,
+   "hand": "4",
+   "quire": "I",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f69r",
+   "folio": "f69",
+   "section": "C",
+   "currier": null,
+   "hand": "4",
+   "quire": "J",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 35,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f69v",
+   "folio": "f69",
+   "section": "C",
+   "currier": null,
+   "hand": "4",
+   "quire": "J",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f70r1",
+   "folio": "f70",
+   "section": "C",
+   "currier": null,
+   "hand": "4",
+   "quire": "J",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f70r2",
+   "folio": "f70",
+   "section": "C",
+   "currier": null,
+   "hand": "4",
+   "quire": "J",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  },
+  {
+   "page": "f70v2",
+   "folio": "f70",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "J",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f70v1",
+   "folio": "f70",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "J",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f71r",
+   "folio": "f71",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f71v",
+   "folio": "f71",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f72r1",
+   "folio": "f72",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f72r2",
+   "folio": "f72",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f72r3",
+   "folio": "f72",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f72v3",
+   "folio": "f72",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f72v2",
+   "folio": "f72",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f72v1",
+   "folio": "f72",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "K",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f73r",
+   "folio": "f73",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "L",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f73v",
+   "folio": "f73",
+   "section": "Z",
+   "currier": null,
+   "hand": "4",
+   "quire": "L",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "label_packet"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f75r",
+   "folio": "f75",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 403,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f75v",
+   "folio": "f75",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 252,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f76r",
+   "folio": "f76",
+   "section": "T",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 549,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f76v",
+   "folio": "f76",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 394,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f77r",
+   "folio": "f77",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 314,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f77v",
+   "folio": "f77",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 313,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f78r",
+   "folio": "f78",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 279,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f78v",
+   "folio": "f78",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 291,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f79r",
+   "folio": "f79",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 370,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f79v",
+   "folio": "f79",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 352,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f80r",
+   "folio": "f80",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 427,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f80v",
+   "folio": "f80",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 369,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f81r",
+   "folio": "f81",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 209,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f81v",
+   "folio": "f81",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 244,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f82r",
+   "folio": "f82",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 267,
+   "roles": [
+    "currier_B_pool",
+    "stage27_panel",
+    "stage28_development",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 3
+  },
+  {
+   "page": "f82v",
+   "folio": "f82",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 303,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f83r",
+   "folio": "f83",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 213,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f83v",
+   "folio": "f83",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 253,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f84r",
+   "folio": "f84",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 283,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f84v",
+   "folio": "f84",
+   "section": "B",
+   "currier": "B",
+   "hand": "2",
+   "quire": "M",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 318,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f85r1",
+   "folio": "f85",
+   "section": "T",
+   "currier": "B",
+   "hand": "2",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 327,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f85r2",
+   "folio": "f85",
+   "section": "C",
+   "currier": "B",
+   "hand": "2",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "fRos",
+   "folio": "fRos",
+   "section": "C",
+   "currier": "B",
+   "hand": "4",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f86v4",
+   "folio": "f86",
+   "section": "C",
+   "currier": "B",
+   "hand": "2",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 43,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f86v6",
+   "folio": "f86",
+   "section": "T",
+   "currier": "B",
+   "hand": "2",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 480,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f86v5",
+   "folio": "f86",
+   "section": "T",
+   "currier": "B",
+   "hand": "2",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 384,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f86v3",
+   "folio": "f86",
+   "section": "C",
+   "currier": "B",
+   "hand": "2",
+   "quire": "N",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 58,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f87r",
+   "folio": "f87",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 97,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f87v",
+   "folio": "f87",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 88,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f88r",
+   "folio": "f88",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 130,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f88v",
+   "folio": "f88",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 125,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f89r1",
+   "folio": "f89",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 120,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f89r2",
+   "folio": "f89",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 208,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f89v2",
+   "folio": "f89",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 161,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f89v1",
+   "folio": "f89",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 142,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f90r1",
+   "folio": "f90",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 63,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f90r2",
+   "folio": "f90",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 46,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f90v2",
+   "folio": "f90",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 60,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f90v1",
+   "folio": "f90",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "O",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 89,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f93r",
+   "folio": "f93",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "Q",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 149,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f93v",
+   "folio": "f93",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "Q",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 84,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f94r",
+   "folio": "f94",
+   "section": "H",
+   "currier": "B",
+   "hand": "3",
+   "quire": "Q",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 74,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f94v",
+   "folio": "f94",
+   "section": "H",
+   "currier": "B",
+   "hand": "3",
+   "quire": "Q",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 96,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f95r1",
+   "folio": "f95",
+   "section": "H",
+   "currier": "B",
+   "hand": "3",
+   "quire": "Q",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 101,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage29_B_panel",
+    "stage30_34_reserved_B",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f95r2",
+   "folio": "f95",
+   "section": "H",
+   "currier": "B",
+   "hand": "3",
+   "quire": "Q",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 79,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f95v2",
+   "folio": "f95",
+   "section": "H",
+   "currier": "B",
+   "hand": "3",
+   "quire": "Q",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 59,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f95v1",
+   "folio": "f95",
+   "section": "H",
+   "currier": "B",
+   "hand": "3",
+   "quire": "Q",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 116,
+   "roles": [
+    "currier_B_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f96r",
+   "folio": "f96",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "Q",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 81,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f96v",
+   "folio": "f96",
+   "section": "H",
+   "currier": "A",
+   "hand": "1",
+   "quire": "Q",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 53,
+   "roles": [
+    "herbal_A_hand1_pool",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f99r",
+   "folio": "f99",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 155,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f99v",
+   "folio": "f99",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 143,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f100r",
+   "folio": "f100",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 84,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f100v",
+   "folio": "f100",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 77,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f101r",
+   "folio": "f101",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 216,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f101v",
+   "folio": "f101",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 168,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f102r1",
+   "folio": "f102",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 101,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f102r2",
+   "folio": "f102",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 132,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f102v2",
+   "folio": "f102",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 159,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f102v1",
+   "folio": "f102",
+   "section": "P",
+   "currier": "A",
+   "hand": "1",
+   "quire": "S",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 110,
+   "roles": [
+    "whole_manuscript_statistics"
+   ],
+   "tier": 1
+  },
+  {
+   "page": "f103r",
+   "folio": "f103",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 512,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f103v",
+   "folio": "f103",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 440,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f104r",
+   "folio": "f104",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 442,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f104v",
+   "folio": "f104",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 462,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f105r",
+   "folio": "f105",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 362,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f105v",
+   "folio": "f105",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 390,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f106r",
+   "folio": "f106",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 424,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f106v",
+   "folio": "f106",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 437,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f107r",
+   "folio": "f107",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 476,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f107v",
+   "folio": "f107",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 457,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f108r",
+   "folio": "f108",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "6",
+   "clean_paragraph_tokens": 484,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f108v",
+   "folio": "f108",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "6",
+   "clean_paragraph_tokens": 564,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f111r",
+   "folio": "f111",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "6",
+   "clean_paragraph_tokens": 610,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f111v",
+   "folio": "f111",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "6",
+   "clean_paragraph_tokens": 554,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f112r",
+   "folio": "f112",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 388,
+   "roles": [
+    "currier_B_pool",
+    "stage28_additional",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 4
+  },
+  {
+   "page": "f112v",
+   "folio": "f112",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "5",
+   "clean_paragraph_tokens": 407,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f113r",
+   "folio": "f113",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 518,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f113v",
+   "folio": "f113",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "4",
+   "clean_paragraph_tokens": 489,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f114r",
+   "folio": "f114",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 436,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f114v",
+   "folio": "f114",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "3",
+   "clean_paragraph_tokens": 367,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f115r",
+   "folio": "f115",
+   "section": "S",
+   "currier": "B",
+   "hand": "@",
+   "quire": "T",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 453,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f115v",
+   "folio": "f115",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "2",
+   "clean_paragraph_tokens": 400,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f116r",
+   "folio": "f116",
+   "section": "S",
+   "currier": "B",
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 535,
+   "roles": [
+    "currier_B_pool",
+    "stage31_broad_training",
+    "whole_manuscript_statistics"
+   ],
+   "tier": 2
+  },
+  {
+   "page": "f116v",
+   "folio": "f116",
+   "section": "T",
+   "currier": null,
+   "hand": "3",
+   "quire": "T",
+   "bifolio": "1",
+   "clean_paragraph_tokens": 0,
+   "roles": [],
+   "tier": 0
+  }
+ ],
+ "herbal_summary": [
+  {
+   "currier": "A",
+   "hand": "1",
+   "tier": 2,
+   "pages": 79
+  },
+  {
+   "currier": "A",
+   "hand": "1",
+   "tier": 3,
+   "pages": 8
+  },
+  {
+   "currier": "A",
+   "hand": "1",
+   "tier": 4,
+   "pages": 8
+  },
+  {
+   "currier": "B",
+   "hand": "2",
+   "tier": 2,
+   "pages": 9
+  },
+  {
+   "currier": "B",
+   "hand": "2",
+   "tier": 3,
+   "pages": 5
+  },
+  {
+   "currier": "B",
+   "hand": "2",
+   "tier": 4,
+   "pages": 6
+  },
+  {
+   "currier": "B",
+   "hand": "3",
+   "tier": 2,
+   "pages": 4
+  },
+  {
+   "currier": "B",
+   "hand": "3",
+   "tier": 4,
+   "pages": 2
+  },
+  {
+   "currier": "B",
+   "hand": "5",
+   "tier": 2,
+   "pages": 2
+  },
+  {
+   "currier": "B",
+   "hand": "5",
+   "tier": 3,
+   "pages": 1
+  },
+  {
+   "currier": "B",
+   "hand": "5",
+   "tier": 4,
+   "pages": 3
+  },
+  {
+   "currier": null,
+   "hand": "3",
+   "tier": 0,
+   "pages": 1
+  },
+  {
+   "currier": null,
+   "hand": "3",
+   "tier": 1,
+   "pages": 1
+  }
+ ],
+ "herbal_bifolios": [
+  {
+   "quire": "A",
+   "bifolio": "1",
+   "pages": [
+    "f1v",
+    "f8r",
+    "f8v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 3,
+   "tokens": 338
+  },
+  {
+   "quire": "A",
+   "bifolio": "2",
+   "pages": [
+    "f2r",
+    "f2v",
+    "f7r",
+    "f7v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 3,
+   "tokens": 299
+  },
+  {
+   "quire": "A",
+   "bifolio": "3",
+   "pages": [
+    "f3r",
+    "f3v",
+    "f6r",
+    "f6v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 3,
+   "tokens": 389
+  },
+  {
+   "quire": "A",
+   "bifolio": "4",
+   "pages": [
+    "f4r",
+    "f4v",
+    "f5r",
+    "f5v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 3,
+   "tokens": 242
+  },
+  {
+   "quire": "B",
+   "bifolio": "1",
+   "pages": [
+    "f9r",
+    "f9v",
+    "f16r",
+    "f16v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 312
+  },
+  {
+   "quire": "B",
+   "bifolio": "2",
+   "pages": [
+    "f10r",
+    "f10v",
+    "f15r",
+    "f15v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 303
+  },
+  {
+   "quire": "B",
+   "bifolio": "3",
+   "pages": [
+    "f11r",
+    "f11v",
+    "f14r",
+    "f14v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 250
+  },
+  {
+   "quire": "B",
+   "bifolio": "4",
+   "pages": [
+    "f13r",
+    "f13v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 139
+  },
+  {
+   "quire": "C",
+   "bifolio": "1",
+   "pages": [
+    "f17r",
+    "f17v",
+    "f24r",
+    "f24v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 385
+  },
+  {
+   "quire": "C",
+   "bifolio": "2",
+   "pages": [
+    "f18r",
+    "f18v",
+    "f23r",
+    "f23v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 340
+  },
+  {
+   "quire": "C",
+   "bifolio": "3",
+   "pages": [
+    "f19r",
+    "f19v",
+    "f22r",
+    "f22v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 4,
+   "tokens": 321
+  },
+  {
+   "quire": "C",
+   "bifolio": "4",
+   "pages": [
+    "f20r",
+    "f20v",
+    "f21r",
+    "f21v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 328
+  },
+  {
+   "quire": "D",
+   "bifolio": "1",
+   "pages": [
+    "f25r",
+    "f25v",
+    "f32r",
+    "f32v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 259
+  },
+  {
+   "quire": "D",
+   "bifolio": "2",
+   "pages": [
+    "f26r",
+    "f26v",
+    "f31r",
+    "f31v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "2"
+   ],
+   "max_tier": 4,
+   "tokens": 379
+  },
+  {
+   "quire": "D",
+   "bifolio": "3",
+   "pages": [
+    "f27r",
+    "f27v",
+    "f30r",
+    "f30v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 302
+  },
+  {
+   "quire": "D",
+   "bifolio": "4",
+   "pages": [
+    "f28r",
+    "f28v",
+    "f29r",
+    "f29v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 284
+  },
+  {
+   "quire": "E",
+   "bifolio": "1",
+   "pages": [
+    "f33r",
+    "f33v",
+    "f40r",
+    "f40v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "2"
+   ],
+   "max_tier": 3,
+   "tokens": 377
+  },
+  {
+   "quire": "E",
+   "bifolio": "2",
+   "pages": [
+    "f34r",
+    "f34v",
+    "f39r",
+    "f39v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "2"
+   ],
+   "max_tier": 4,
+   "tokens": 534
+  },
+  {
+   "quire": "E",
+   "bifolio": "3",
+   "pages": [
+    "f35r",
+    "f35v",
+    "f38r",
+    "f38v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 289
+  },
+  {
+   "quire": "E",
+   "bifolio": "4",
+   "pages": [
+    "f36r",
+    "f36v",
+    "f37r",
+    "f37v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 252
+  },
+  {
+   "quire": "F",
+   "bifolio": "1",
+   "pages": [
+    "f41r",
+    "f41v",
+    "f48r",
+    "f48v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "5"
+   ],
+   "max_tier": 4,
+   "tokens": 350
+  },
+  {
+   "quire": "F",
+   "bifolio": "2",
+   "pages": [
+    "f42r",
+    "f42v",
+    "f47r",
+    "f47v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 382
+  },
+  {
+   "quire": "F",
+   "bifolio": "3",
+   "pages": [
+    "f43r",
+    "f43v",
+    "f46r",
+    "f46v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "2"
+   ],
+   "max_tier": 4,
+   "tokens": 521
+  },
+  {
+   "quire": "F",
+   "bifolio": "4",
+   "pages": [
+    "f44r",
+    "f44v",
+    "f45r",
+    "f45v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 333
+  },
+  {
+   "quire": "G",
+   "bifolio": "1",
+   "pages": [
+    "f49r",
+    "f49v",
+    "f56r",
+    "f56v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 427
+  },
+  {
+   "quire": "G",
+   "bifolio": "2",
+   "pages": [
+    "f50r",
+    "f50v",
+    "f55r",
+    "f55v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "2"
+   ],
+   "max_tier": 4,
+   "tokens": 394
+  },
+  {
+   "quire": "G",
+   "bifolio": "3",
+   "pages": [
+    "f51r",
+    "f51v",
+    "f54r",
+    "f54v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 345
+  },
+  {
+   "quire": "G",
+   "bifolio": "4",
+   "pages": [
+    "f52r",
+    "f52v",
+    "f53r",
+    "f53v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 260
+  },
+  {
+   "quire": "H",
+   "bifolio": "1",
+   "pages": [
+    "f57r",
+    "f66v"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "5"
+   ],
+   "max_tier": 4,
+   "tokens": 184
+  },
+  {
+   "quire": "H",
+   "bifolio": "2",
+   "pages": [
+    "f65r",
+    "f65v"
+   ],
+   "curriers": [
+    null
+   ],
+   "hands": [
+    "3"
+   ],
+   "max_tier": 1,
+   "tokens": 39
+  },
+  {
+   "quire": "O",
+   "bifolio": "1",
+   "pages": [
+    "f87r",
+    "f87v",
+    "f90r1",
+    "f90r2",
+    "f90v2",
+    "f90v1"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 443
+  },
+  {
+   "quire": "Q",
+   "bifolio": "1",
+   "pages": [
+    "f93r",
+    "f93v",
+    "f96r",
+    "f96v"
+   ],
+   "curriers": [
+    "A"
+   ],
+   "hands": [
+    "1"
+   ],
+   "max_tier": 2,
+   "tokens": 367
+  },
+  {
+   "quire": "Q",
+   "bifolio": "2",
+   "pages": [
+    "f94r",
+    "f94v",
+    "f95r1",
+    "f95r2",
+    "f95v2",
+    "f95v1"
+   ],
+   "curriers": [
+    "B"
+   ],
+   "hands": [
+    "3"
+   ],
+   "max_tier": 4,
+   "tokens": 525
+  }
+ ],
+ "counts": {
+  "pages": 227,
+  "herbal_pages": 129,
+  "herbal_bifolios": 33,
+  "herbal_bifolios_by_max_tier": {
+   "1": 1,
+   "2": 13,
+   "3": 5,
+   "4": 14
+  }
+ },
+ "hashes": {
+  "src/voynich/laboratory/exposure_inventory.py": "67cc4354031fc2c6e85ffba3ae802e10f9fe54e832f57a76909140fc8444f783",
+  "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+ }
+}

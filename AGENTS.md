@@ -7,7 +7,7 @@ follows. The scientific rules live in
 tested, and with what verdict, lives in
 [docs/CANDIDATE_LEDGER.md](docs/CANDIDATE_LEDGER.md).
 
-## Where things stand (9 October 2026)
+## Where things stand (10 October 2026)
 
 * **Robust structural findings.** In Currier B, a word's n/l/r ending is
   coupled to the next word's first glyph. That coupling also appears at hidden
@@ -152,9 +152,9 @@ coupling; do not try to tune the two against each other in this grammar.
 mechanism frozen, Latin medical sources (Celsus, Pliny) fit worse than recipes.
 Whole-word codes inherit plaintext vocabulary richness, and inflected Latin gives
 TTR 0.76–0.82 against Voynich's 0.61–0.64. This closes ledger rows 20–23 on
-these measures. Next: a stem-plus-ending (morphological) code that can absorb
-inflection, or semantic constraints via independently aligned labels. Do not
-add alternatives, lifts or sources to the whole-word line.
+these measures, for the tested Latin sources and two-alternative whole-word
+codes only. Do not add alternatives, lifts or sources to the whole-word line;
+see the agreed next studies below.
 
 ## Correction to stages 31–34 (10 October)
 
@@ -236,24 +236,41 @@ ciphers separately on each target layout. Reserved panels used in stages
 6. **Report** in `docs/reports/` (or a results README) with an evidence
    label, deviations and post hoc analyses marked, then **update the ledger**.
 
-## Recommended next studies (in order)
+## Recommended next studies (agreed 10 October 2026)
 
-1. **Word/content units and independent label predictions.** Stage 27 completed
-   the first bounded unit comparison. Align recurring zodiac labels to images,
-   test observable referents with reserved folios, and define content-selected
-   dictionaries. Preserve source/genre dependence and the pooling correction.
-   A free codebook cannot predict unseen entries from a handful of cribs.
-2. **Grouped-glyph and verbose decoding with the existing solver.** Use the
-   `groups`/`mixed` families and inferred spaces, with a declared expansion range
-   appropriate to the particular encoding. Calibrate first on Naibbe-type and grouped
-   fixtures with a Voynich-sized alphabet.
-3. **Word and mixed codes** (letters plus a bounded word-code list), which can
-   keep page-specific vocabulary.
-4. **Drifting or section-specific tables** for verbose codes: one possible source of
-   page-specific vocabulary.
+The whole-word modelling programme (ledger rows 18–23) is **closed**. Fitting
+more generators to aggregate statistics cannot separate a cipher from
+structured pseudo-text. Next evidence must link text to independently observed
+content. In order, with checkpoints:
 
-Stop working on: further budget, tables or initialisers for
-one-glyph-to-one-letter decoding with spaces kept.
+1. **Consolidate.** Merge the open PR stack in dependency order, keeping merge
+   commits so protocol-before-result history survives.
+2. **Respect the exposure inventory.**
+   [No page is untouched](results/exposure_inventory_2026-10-10/README.md).
+   Confirmation sets X and Y in the
+   [image-pilot split](results/image_annotation_pilot_2026-10-10/README.md) are
+   sealed: no exploratory text statistics on those pages.
+3. **Image-annotation feasibility pilot**
+   ([protocol](docs/protocols/IMAGE_ANNOTATION_PILOT_2026-10-10.md),
+   [codebook](docs/guides/IMAGE_FEATURE_CODEBOOK.md)). Two independent human
+   annotators code visible plant features on 41 development pages. An AI
+   annotation is never an independent blind rating. Checkpoint: at least three
+   reproducible features and adequate power, else stop this route.
+4. **One bounded text–image protocol**, only if the pilot passes. Compare
+   production habits, content association and image-associated pseudo-text
+   (ledger rows 24–26). A positive result supports a text–image relationship,
+   not a cipher or a translation.
+5. **Verified labels.** Keep "which inscription belongs to which object"
+   separate from "what it means". The earlier failed label gate stands; an
+   expanded study needs a new protocol.
+6. **Bounded support work.** Source audit (repetition and rebinding claims,
+   manuscript-faithful herbal comparisons) and publication preparation (v101
+   variants, the correction record) with a proper novelty check.
+
+Stop working on: one-glyph-to-one-letter decoding with spaces kept, and
+further mechanisms, alternatives, lifts or sources for whole-word codes. A
+stem-plus-ending code is the same kind of test; do not start it until a result
+is named that would count as evidence beyond a fit.
 
 ## Practicalities
 

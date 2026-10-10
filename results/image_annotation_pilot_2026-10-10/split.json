@@ -1,0 +1,240 @@
+{
+ "rule": {
+  "eligible": "section H, Currier A, hand 1, at least 40 clean paragraph tokens",
+  "group": "bifolio = (quire, bifolio) from ZL page variables $Q and $B",
+  "development": "groups containing any herbal page with exposure tier >= 3",
+  "confirmation": "remaining groups in manuscript order, alternating X then Y"
+ },
+ "sets": {
+  "development": {
+   "bifolios": [
+    [
+     "A",
+     "1"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "A",
+     "3"
+    ],
+    [
+     "A",
+     "4"
+    ],
+    [
+     "B",
+     "1"
+    ],
+    [
+     "B",
+     "2"
+    ],
+    [
+     "B",
+     "3"
+    ],
+    [
+     "B",
+     "4"
+    ],
+    [
+     "C",
+     "1"
+    ],
+    [
+     "C",
+     "2"
+    ],
+    [
+     "C",
+     "3"
+    ]
+   ],
+   "pages": [
+    "f1v",
+    "f2r",
+    "f2v",
+    "f3r",
+    "f3v",
+    "f4r",
+    "f4v",
+    "f5r",
+    "f5v",
+    "f6r",
+    "f6v",
+    "f7r",
+    "f7v",
+    "f8r",
+    "f8v",
+    "f9r",
+    "f9v",
+    "f10r",
+    "f10v",
+    "f11r",
+    "f11v",
+    "f13r",
+    "f13v",
+    "f14r",
+    "f14v",
+    "f15r",
+    "f15v",
+    "f16r",
+    "f16v",
+    "f17r",
+    "f17v",
+    "f18r",
+    "f18v",
+    "f19r",
+    "f19v",
+    "f22r",
+    "f22v",
+    "f23r",
+    "f23v",
+    "f24r",
+    "f24v"
+   ]
+  },
+  "confirmation_X": {
+   "bifolios": [
+    [
+     "C",
+     "4"
+    ],
+    [
+     "D",
+     "3"
+    ],
+    [
+     "E",
+     "3"
+    ],
+    [
+     "F",
+     "2"
+    ],
+    [
+     "G",
+     "1"
+    ],
+    [
+     "G",
+     "4"
+    ],
+    [
+     "Q",
+     "1"
+    ]
+   ],
+   "pages": [
+    "f20r",
+    "f20v",
+    "f21r",
+    "f21v",
+    "f27r",
+    "f27v",
+    "f30r",
+    "f30v",
+    "f35r",
+    "f35v",
+    "f38r",
+    "f38v",
+    "f42r",
+    "f42v",
+    "f47r",
+    "f47v",
+    "f49r",
+    "f49v",
+    "f52r",
+    "f52v",
+    "f53r",
+    "f53v",
+    "f56r",
+    "f56v",
+    "f93r",
+    "f93v",
+    "f96r",
+    "f96v"
+   ]
+  },
+  "confirmation_Y": {
+   "bifolios": [
+    [
+     "D",
+     "1"
+    ],
+    [
+     "D",
+     "4"
+    ],
+    [
+     "E",
+     "4"
+    ],
+    [
+     "F",
+     "4"
+    ],
+    [
+     "G",
+     "3"
+    ],
+    [
+     "O",
+     "1"
+    ]
+   ],
+   "pages": [
+    "f25r",
+    "f25v",
+    "f28r",
+    "f28v",
+    "f29r",
+    "f29v",
+    "f32r",
+    "f32v",
+    "f36r",
+    "f37r",
+    "f37v",
+    "f44r",
+    "f44v",
+    "f45r",
+    "f45v",
+    "f51r",
+    "f51v",
+    "f54r",
+    "f54v",
+    "f87r",
+    "f87v",
+    "f90r1",
+    "f90r2",
+    "f90v2",
+    "f90v1"
+   ]
+  }
+ },
+ "counts": {
+  "development": {
+   "bifolios": 11,
+   "pages": 41
+  },
+  "confirmation_X": {
+   "bifolios": 7,
+   "pages": 28
+  },
+  "confirmation_Y": {
+   "bifolios": 6,
+   "pages": 25
+  }
+ },
+ "excluded_low_text": [
+  "f36v"
+ ],
+ "hashes": {
+  "src/voynich/laboratory/image_annotation_packet.py": "6e02cf0956253b726b34b332f3e406b45b08ff2643f21b0ad09d07e90ee9ef31",
+  "src/voynich/laboratory/exposure_inventory.py": "67cc4354031fc2c6e85ffba3ae802e10f9fe54e832f57a76909140fc8444f783",
+  "data/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+ }
+}
