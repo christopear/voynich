@@ -230,6 +230,20 @@ justified representation/boundaries are required before another manuscript
 attack; f26r still has no parser in the old grid. Do not tune the scorer to these
 known answers or expand the completed stage's budget.
 
+## Stage 40: fresh recovery and unchanged-key transfer
+
+[Fresh calibration](results/fresh_recovery_2026-10-10/README.md) freezes the stage
+39 random continuation after complete parser search on four disjoint passages,
+new keys and both spacing arms. Recovery and transfer each pass in only 2/8
+cases; both six-of-eight gates fail. Seven cases select the correct parser; one
+has 67 survivors and is not searched under the fixed cap of 64. All five searched
+failures have better-scoring true keys in a labelled post hoc diagnostic. The
+two successful approximate keys score better than the exact true keys. This
+shows both optimization and objective limitations, not a family exclusion.
+630,784 optimization evaluations; no manuscript attack. Do not silently raise
+budgets or tune against these answers: this panel is now exposed, and another
+solver change needs a prospective comparison and independent calibration.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
