@@ -66,3 +66,27 @@ Conclude the bounded phase with a concrete decision: search remedy warranted,
 scorer remedy required, or neither established. Do not replace this decision
 with further aggregate-profile fitting. No cipher-family exclusion, novelty,
 semantic interpretation or manuscript recovery follows from this stage.
+
+## Phase B preregistration (after Phase A, before continuation)
+
+Phase A found improving elementary moves at all eight returned keys, and
+incorrect improving moves at all eight true keys. Both search and scorer
+limitations therefore exist. Freeze the scorer; do not tune it to these answers.
+
+Compare two single-incumbent continuations from each historical selected key:
+systematic best-improvement descent through the ordered, duplicate-free
+neighbourhood, and random greedy descent sampling uniformly with replacement
+from that same neighbourhood (seed 39001 plus the fixture seed). Each gets
+8,192 scorer calls including its starting score. Each accepts only improvements
+greater than 1e-9 total bits. Systematic descent completes a sweep before moving;
+if the budget ends mid-sweep, return the best scored candidate but mark the
+sweep incomplete. Stop early on a complete sweep with no improvement. Random
+descent uses its whole budget. This compares new elementary search procedures;
+it is not a claim of superiority to the original multi-candidate beam.
+
+Report actual calls, accepted steps, final component costs and post-selection
+accuracy, including losses of accuracy. Keep the historical 724,992 evaluations
+and Phase A diagnostic calls separate from the 131,072 continuation cap.
+Report the historical 90% recovery threshold descriptively. No tuning, new
+starts or additional budget follows the outcomes. A scorer improvement and
+fresh-passage calibration require a separate prospective study.
