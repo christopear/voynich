@@ -186,6 +186,16 @@ as two adjacent pieces, beyond a within-kind shuffle. Unit size stays open. Do
 not argue unit size from single-word labels, and do not expect exact label
 matches in running text to supply cribs.
 
+## Stage 37: endings as markers
+
+[Stage 37](results/ending_markers_2026-10-10/README.md): in Currier B, n/l/r
+endings are not signals added to complete words. Stripping them leaves a common
+word less often than stripping other endings (19% vs 29%), and 59% leave a
+non-word. Final `n` belongs to units like *ain*/*aiin* and should not be
+treated alone; `l` is the most detachable ending. Currier A and the R2 copy
+generator pass the marker rule, so a marker-like result is not evidence of a
+cipher. The A/B difference in how endings attach is an untested lead.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

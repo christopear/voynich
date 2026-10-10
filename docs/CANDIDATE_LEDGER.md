@@ -237,3 +237,13 @@ page's text beyond a within-kind shuffle (10.9% vs 11.0%), nor as two adjacent
 pieces (0.6% vs 0.6%; planted 2% effects detected 20/20). Rows 12, 13 and 15
 stay open: labels do not discriminate word-sized from chunk-sized units. Exact
 label matching is a poor route to cribs.
+
+10 October stage-37 update: [endings as markers](../results/ending_markers_2026-10-10/README.md).
+In Currier B, removing a final n, l or r leaves a common word in 19.4% of
+tokens against 29.0% for other endings (difference −9.6 points, interval −11.4
+to −7.7); 59% leave a stem never attested as a word. The endings are not, as a
+group, additions to complete words. `n` is not separable (0.03%); `l` is the
+most detachable major ending (70% attested). For 117 stems seen both bare and
+marked, form depends on the next word (0.064 bits, p = 0.001). The open
+question on r/l/n stays open, now with these constraints. Unreplicated
+sensitivity: Currier A passes both parts; so does the R2 copy generator.
