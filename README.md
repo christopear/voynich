@@ -14,13 +14,15 @@ sets research priorities and does not universally exclude a language or family.
 
 ## Latest research round
 
-[Scribe control, dependent word shapes and codebooks](results/word_shapes_2026-10-09/README.md)
-(stage 31). Part of Currier B's page association lies between scribes. A
-two-glyph-context chain reproduces Voynich word shapes; a random-assignment
-codebook on it still fails on word length and neighbour coupling. No
-decipherment is claimed. Previous rounds:
-[structured word codes](results/structured_word_codes_2026-10-09/README.md),
-[word-code alternatives](results/word_homophones_2026-10-09/README.md).
+Stages 31–34 ([scribe and word shapes](results/word_shapes_2026-10-09/README.md),
+[ranked assignment](results/ranked_assignment_2026-10-09/README.md),
+[context choice](results/context_choice_2026-10-09/README.md),
+[source sensitivity](results/source_sensitivity_2026-10-09/README.md)) take
+whole-word codes as far as these measures allow. Word shapes, length and
+frequency/length structure are reproduced, and neighbour coupling partly, but
+no source/mechanism combination fits jointly. Inflected Latin coded word by word
+has too many distinct words. No decipherment is claimed. Earlier:
+[structured word codes](results/structured_word_codes_2026-10-09/README.md).
 
 ## Setup
 
