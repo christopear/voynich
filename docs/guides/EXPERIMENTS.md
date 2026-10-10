@@ -371,3 +371,16 @@ uv run --locked python -m voynich.laboratory.ending_markers_verify --directory r
 
 About five minutes, mostly the 30 planted calibration runs. The verifier reruns
 the whole stage.
+
+## 38: prefix-plus-suffix shape
+
+[Protocol](../protocols/WORD_PARTS_2026-10-10.md),
+[findings](../../results/word_parts_2026-10-10/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e38_word_parts --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.word_parts_verify --directory results/<new-dir>
+```
+
+About one minute. Calibrates on Greshko's Naibbe ciphertext and on chain text
+before reading manuscript values. The verifier reruns the whole stage.

@@ -247,3 +247,15 @@ most detachable major ending (70% attested). For 117 stems seen both bare and
 marked, form depends on the next word (0.064 bits, p = 0.001). The open
 question on r/l/n stays open, now with these constraints. Unreplicated
 sensitivity: Currier A passes both parts; so does the R2 copy generator.
+
+10 October stage-38 update: [prefix-plus-suffix shape test](../results/word_parts_2026-10-10/README.md).
+A product model (one prefix times one suffix, independent) predicts unseen word
+types better than a glyph chain on real Naibbe ciphertext (+1.3 to +1.7 bits)
+and worse on Currier B in all five folds (−0.83 to −1.02; IT2a −0.99 mean).
+Calibration passed, including recovery of Naibbe's true tables. Row 8 gains a
+structural reason beyond page association: Naibbe's independent prefix and
+suffix draws do not describe Voynich word structure. Rows 12 and 15 stay open
+for systems where one choice fixes both halves, or with more than two parts.
+Voynich's fitted inventory is lopsided (about 116 prefixes × 26 suffixes;
+Naibbe 57 × 50). A decoding attempt that reduces each word to an independent
+(prefix, suffix) pair is not justified.
