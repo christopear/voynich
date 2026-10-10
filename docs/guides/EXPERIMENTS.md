@@ -358,3 +358,16 @@ uv run --locked python -m voynich.laboratory.label_units_verify --directory resu
 ```
 
 About one minute. The verifier reruns the whole stage.
+
+## 37: endings as markers
+
+[Protocol](../protocols/ENDING_MARKERS_2026-10-10.md),
+[findings](../../results/ending_markers_2026-10-10/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e37_ending_markers --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.ending_markers_verify --directory results/<new-dir>
+```
+
+About five minutes, mostly the 30 planted calibration runs. The verifier reruns
+the whole stage.
