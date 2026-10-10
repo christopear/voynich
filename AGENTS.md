@@ -244,6 +244,18 @@ shows both optimization and objective limitations, not a family exclusion.
 budgets or tune against these answers: this panel is now exposed, and another
 solver change needs a prospective comparison and independent calibration.
 
+## Stage 41: fixed-budget key escape
+
+[Annealing comparison](results/key_escape_2026-10-11/README.md) reuses the seven
+searched stage 40 cases as exposed development data. At 8,192 calls per arm,
+mean non-space recovery increases from 62.2% (greedy) to 89.0% (annealing), with
+4/7 versus 2/7 above 90%. Six cases improve but one regresses 11.51 points, so
+the preregistered maximum-ten-point-regression guardrail fails. Do not promote
+this as a passed calibration or relax the limit. No schedule tuning or extra
+budget was used. A next search comparison should protect alternative solutions
+under a fixed combined budget; combining both full-budget arms is not free.
+Fresh calibration and justified manuscript representation remain required.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
