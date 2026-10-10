@@ -256,6 +256,21 @@ budget was used. A next search comparison should protect alternative solutions
 under a fixed combined budget; combining both full-budget arms is not free.
 Fresh calibration and justified manuscript representation remain required.
 
+## Stage 42: independent multi-seed methods assessment
+
+[Reliability study](results/recovery_reliability_2026-10-11/README.md) compares
+greedy, annealing and a half-budget portfolio on eight new cases and three
+search seeds each. All 24 trials select the correct parser; no case exceeds the
+parser cap. Mean recovery is 79.2%/83.5%/84.5%, but recovery AND transfer exceed
+90% across all seeds in only 2/8, 1/8 and 2/8 cases respectively. All three
+methods fail the fixed reliability criteria. Large errors leave better-scoring
+true keys unreached; near-correct errors can outscore exact truth. Four agreement
+flags on three distinct cases are insufficient to certify unknown readings.
+Read the [consolidated assessment](docs/reports/RECOVERY_METHODS_ASSESSMENT_2026-10-11.md)
+before proposing more recovery work. No automatic seed, schedule or budget
+escalation; these remain experimental candidate generators, not qualified
+manuscript decoders. No new manuscript word or family exclusion follows.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
