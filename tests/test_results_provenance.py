@@ -11,6 +11,7 @@ import unittest
 from voynich.paths import ROOT
 
 PRODUCERS = {
+    "fresh_recovery_2026-10-10": ["voynich.experiments.e40_fresh_recovery"],
     "recovery_pipeline_2026-10-10": ["voynich.experiments.e39_recovery_pipeline"],
     "claims_correction_2026-10-10": ["voynich.experiments.posthoc_e35_claims_correction", "voynich.laboratory.claims_correction_verify"],
     "word_parts_2026-10-10": ["voynich.experiments.e38_word_parts", "voynich.laboratory.word_parts_verify", "voynich.laboratory.word_parts"],
