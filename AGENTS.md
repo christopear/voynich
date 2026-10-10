@@ -87,6 +87,20 @@ Only four types cross the original folio split; its five-type semantic-test gate
 fails. Do not lower the threshold or change the split after seeing this count.
 Exact coordinate spelling matches are not confirmed image/label alignments.
 
+## Stage 29: frequency decomposition and Currier A
+
+[Stage 29](results/frequency_currier_a_2026-10-09/README.md) finds positive page
+association in matched herbal A and B panels and both disjoint eight-folio
+halves, across ZL/IT and spacing arms. A is weaker in these samples. Most B
+association comes from types occurring at least five times, not the 2–4 group.
+Frequency groups are not semantic classes; singleton zero reflects the estimator.
+Before a page-persistent word-code test, follow the
+[slot/state/R2 guardrails](docs/guides/CONTEXT_CODEBOOK_GUARDRAILS.md): charge
+codebook and state, model glyph structure, compare R2 on frozen pages. R2 can
+also be order-sensitive; known-key round trips do not distinguish meaning.
+Large (1,500–4,500-entry) codebooks around 1420 remain historically unverified.
+No new cipher fit or decipherment was established by this diagnostic.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
