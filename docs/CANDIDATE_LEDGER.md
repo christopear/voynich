@@ -146,3 +146,13 @@ plaintext. Inflected Latin coded word by word has too many types; the recipes
 have too few, and lack page association. Row 13 remains open for other
 representations (morphological or mixed codes). The marginal Currier A result
 is reproduced only for the same recipe passage.
+
+10 October correction ([boundary correction](../results/boundary_correction_2026-10-10/README.md)):
+the coupling measure and context choice in rows 20–23 counted drawing-separated
+words as neighbours, and secondary targets reused ciphertext encoded on the
+reserved layout. Corrected reruns change no verdict. Row 22's closest
+development fit is 1.37 (was 1.16) and its reserved B best 2.62 (was 2.33). The
+stage-31 update's "71% within hands" is a reduction from conditioning on hand,
+not an allocation of information between scribes. Directly corrected word/hand
+association in B is 0.0995 bits, above twelve plaintext references (≤0.054).
+Future positive claims for these rows need folios not used in stages 27–34.

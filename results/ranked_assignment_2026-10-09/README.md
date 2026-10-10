@@ -1,5 +1,7 @@
 # Voynich: frequency-ranked codeword assignment
 
+> **Correction, 10 October 2026.** The coupling measure counted drawing-separated words as neighbours. Corrected: development max residual 2.30 → 2.27, reserved B best 3.76 → 3.70, Currier A still 4/12 (best 0.95). Verdict unchanged. See [the boundary correction](../boundary_correction_2026-10-10/README.md). This directory and its producing code are kept unchanged so they still replay.
+
 Stage 32, 9 October 2026. [Frozen protocol](../../docs/protocols/RANKED_ASSIGNMENT_2026-10-09.md),
 committed at 8b728ab before execution. Evidence label: **search found no fit in
 a bounded forward-model grid** for Currier B. No plaintext was recovered and no

@@ -1,5 +1,7 @@
 # Voynich: context-conditioned variant choice
 
+> **Correction, 10 October 2026.** Coupling and context choice counted drawing-separated words as neighbours, and secondary targets reused ciphertext encoded on the reserved layout (111–154 of 512 tokens differ when re-encoded). Corrected: edge_max development max residual 1.16 → 1.37, reserved B best 2.33 → 2.62; no joint hits. "With two alternatives, one choice cannot do both" should read "the tested rules did not achieve both". See [the boundary correction](../boundary_correction_2026-10-10/README.md). This directory and its producing code are kept unchanged so they still replay.
+
 Stage 33, 9 October 2026. [Frozen protocol](../../docs/protocols/CONTEXT_CHOICE_2026-10-09.md),
 committed at 2d2c8e1 before execution. Evidence label: **search found no fit in
 a bounded forward-model grid**. No plaintext was recovered and no key was

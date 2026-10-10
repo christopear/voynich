@@ -117,10 +117,11 @@ round trips and shuffle sensitivity still do not establish manuscript meaning.
 ## Stage 31: scribe control, dependent word shapes, codebooks
 
 [Stage 31](results/word_shapes_2026-10-09/README.md) (protocol committed first).
-**Scribe:** within Davis hands (ZL `$H`), 16-folio B keeps 71% of its page
-association (0.096 of 0.135 bits). That is below all twelve plaintext
-references (77–103%), so part of the target is scribal. Score models against
-both values; A (one hand) keeps 0.078. **Shapes:** an order-2 glyph chain with
+**Scribe:** conditioning on Davis hands (ZL `$H`) reduces 16-folio B's corrected
+page-association statistic by 29% (0.135 → 0.096 bits). Directly corrected
+word/hand association is 0.0995 bits, against −0.026 to 0.054 for plaintexts on
+the same page groups. Do not difference corrected estimates as an allocation to
+scribes (see the correction below). Report both values; A (one hand) keeps 0.078. **Shapes:** an order-2 glyph chain with
 start/end symbols matches glyph entropy, the nearly fixed last glyph and length.
 Its 2,968 most probable strings cover 83% of reserved B tokens. Do not build
 more independent-slot grammars. **Codebook:** with random assignment it still
@@ -154,6 +155,18 @@ TTR 0.76–0.82 against Voynich's 0.61–0.64. This closes ledger rows 20–23 o
 these measures. Next: a stem-plus-ending (morphological) code that can absorb
 inflection, or semantic constraints via independently aligned labels. Do not
 add alternatives, lifts or sources to the whole-word line.
+
+## Correction to stages 31–34 (10 October)
+
+[Boundary correction](results/boundary_correction_2026-10-10/README.md): coupling
+and context choice had counted drawing-separated words (`<->`) as neighbours, and
+secondary targets reused ciphertext encoded on another layout. All five grids
+were rerun under a correction protocol; no verdict changed (closest model now
+1.37 on development pages, 2.62 on reserved B). **Neighbours require an
+`ordinary` or `uncertain` gap, read from the transcription's gap metadata;
+never infer adjacency from consecutive indices.** Encode context-dependent
+ciphers separately on each target layout. Reserved panels used in stages
+27–34 have informed successive hypotheses. Positive evidence now needs fresh folios.
 
 ## Mistakes we have already made — do not repeat them
 

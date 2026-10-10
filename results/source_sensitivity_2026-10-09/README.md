@@ -1,5 +1,7 @@
 # Voynich: plaintext source sensitivity under the frozen context-choice mechanism
 
+> **Correction, 10 October 2026.** The same boundary and layout defects apply. Corrected, no source or rule hits any B target; Celsus reserved best 2.90 → 3.82 (random-trajectory shift, see the correction), Pliny 3.44 → 3.82. Conclusions about vocabulary richness are unaffected. See [the boundary correction](../boundary_correction_2026-10-10/README.md). This directory and its producing code are kept unchanged so they still replay.
+
 Stage 34, 9 October 2026. [Frozen protocol](../../docs/protocols/SOURCE_SENSITIVITY_2026-10-09.md),
 committed at 75e54f8 before execution. Evidence label: **search found no fit in
 a bounded forward-model grid**, for every source. No plaintext was recovered and
