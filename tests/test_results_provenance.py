@@ -11,6 +11,8 @@ import unittest
 from voynich.paths import ROOT
 
 PRODUCERS = {
+    "exposure_inventory_2026-10-10": ["voynich.laboratory.exposure_inventory"],
+    "image_annotation_pilot_2026-10-10": ["voynich.laboratory.image_annotation_packet"],
     "boundary_correction_2026-10-10": ["voynich.experiments.posthoc_e31_boundary_correction", "voynich.laboratory.boundary_correction_verify", "voynich.laboratory.boundary_correction"],
     "source_sensitivity_2026-10-09": ["voynich.experiments.e34_source_sensitivity", "voynich.laboratory.source_verify"],
     "context_choice_2026-10-09": ["voynich.experiments.e33_context_choice", "voynich.laboratory.context_verify", "voynich.laboratory.context_choice"],

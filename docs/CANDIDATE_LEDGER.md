@@ -17,7 +17,56 @@ Labels used:
   optimisation is not certified.
 * **Compatible** / **Untested** — as stated.
 
-Last updated 9 October 2026.
+Last updated 10 October 2026.
+
+## Status summary (10 October 2026)
+
+Read this first. Details and history are in the tables and dated notes below.
+
+**Established structural observations** (replicated here; mostly known in the
+literature, see the [review](reports/REVIEW_2026-09-24.md)):
+
+* In Currier B, a word's n/l/r ending is associated with the next word's first
+  glyph. The same rule transfers to hidden boundaries inside written words and
+  holds on three transcriptions. A message-free generator also produces it.
+* Vocabulary is associated with page, in Currier A and B. Conditioning on
+  attributed hand reduces the B statistic by about 29%; A (one hand) keeps it.
+* Voynich words are internally predictable, the final glyph strongly so, and
+  common words are short.
+* The tested v101 glyph variants (d, y, k, r, sh, p) behave as variants, not
+  separate letters (row 11, the only calibrated statistical rejection here).
+
+**Failures of specific tested constructions** (rows 1–10, 17–23). Each is a
+bounded construction on stated sources and pages. None excludes a cipher family
+or a language. In particular, row 23 constrains the tested Latin sources under
+whole-word codes with two alternatives, not Latin word codes in general.
+
+**Closed programme.** Whole-word forward modelling (rows 18–23) is closed.
+Matching word shape, length and frequency/length structure is weak evidence on
+its own: the models were trained on Voynich, and message-free generators can
+reproduce such profiles. Reopen only if new evidence supplies a constraint the
+programme did not have, such as a verified label reading or a text–image
+association.
+
+**Open hypotheses.** Rows 12–16 (grouped, word/mixed, drifting, syllabic,
+context-dependent codes) and rows 24–26 (message-free mechanisms). The cipher
+premise remains the working hypothesis; nothing here confirms or refutes it.
+
+**Claims requiring external verification before use:**
+
+* A 2026 report that the manuscript was rebound out of order in the fifteenth
+  century (single outlet).
+* A reported trigram-repetition contrast between Voynich and a medieval herbal
+  (1.2% vs 23%), from another project's audit.
+* Novelty of the v101 variant result, the hidden-boundary transfer and the
+  pooling trap against 2025–2026 preprints not read in full.
+* Whether 1,500–4,500-entry codebooks existed around 1420 (row 13 note).
+
+**Next evidence** must link text to independently observed content:
+the [image-annotation pilot](protocols/IMAGE_ANNOTATION_PILOT_2026-10-10.md)
+and verified label–object alignment. See the
+[exposure inventory](../results/exposure_inventory_2026-10-10/README.md)
+before choosing any pages.
 
 ## Families with a verdict
 
@@ -59,6 +108,9 @@ Last updated 9 October 2026.
 | 14 | Verbose codes with section- or page-drifting tables or preferences (K2/Q7) | One route to page association; contextual coding and layout also remain possible | Extend the cipher-family benchmark with drift; check the page-specificity fingerprint |
 | 15 | Syllable codes without a shared visible core | Heuristic syllable profiles reach 0.101 excess bits vs Voynich 0.115 in stage 27; a narrow reference gap, not exclusion of syllabic codes | Validate alternative segmentation and joint fingerprints; no additional letter-solver budget |
 | 16 | State dependent on plaintext, or decoding using additional linguistic context | Open: the unconditional entropy comparison requires an independence assumption that these mechanisms need not satisfy | Specify state/context, sampling and a recoverable encoder before testing |
+| 24 | Message-free: copy and modify (self-citation). Each word copies a recent word, usually from the lines above, with small glyph changes (Timm & Schinner; our R2) | Kept as a competitor, not only a control. R2 fails our joint screens as badly as the ciphers | Predicts similarity follows writing order and physical proximity; no dependence on illustration content beyond what position carries. Test: text–image association after position and layout controls |
+| 25 | Message-free: table or slot generator (Rugg-style grille; our R1 assembly) with settings changed between sessions | Fixed settings give no page association (row 10); changing settings by session is untested | Predicts vocabulary shifts at session or bifolio boundaries, not at subject boundaries. Test: similarity by physical gathering versus by annotated image features |
+| 26 | Message-free: human pseudo-writing with drifting habits (Gaskell & Bowern), possibly varying by illustration type | Not modelled here. A person imitating writing produces non-random structure | Hardest to separate: a writer could vary output with the kind of picture. The text–image protocol must include an image-associated pseudo-text comparison, not assume pseudo-text ignores pictures |
 
 9 October correction and grouped-pilot update: the historical screen README retains its original wording
 with a superseding correction notice. The expansion estimates are heuristics.
@@ -156,3 +208,13 @@ stage-31 update's "71% within hands" is a reduction from conditioning on hand,
 not an allocation of information between scribes. Directly corrected word/hand
 association in B is 0.0995 bits, above twelve plaintext references (≤0.054).
 Future positive claims for these rows need folios not used in stages 27–34.
+
+10 October consolidation: status summary added above; rows 24–26 name specific
+message-free mechanisms with the observation that would separate each from a
+content-bearing text. "Any pseudo-writing" is no more testable than "any
+cipher", so only stated mechanisms are listed. Wording corrections: stage 34
+constrains the tested Latin sources and whole-word encodings only, and matching
+word shape and length is weak evidence on its own, not zero. The
+[exposure inventory](../results/exposure_inventory_2026-10-10/README.md) and the
+frozen [image-pilot split](../results/image_annotation_pilot_2026-10-10/README.md)
+are preparation; no annotation or text–image statistic exists yet.
