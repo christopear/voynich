@@ -280,3 +280,16 @@ Witten–Bell glyph n-grams on a broad and a matched training arm, with a frozen
 shape gate. Part C replaces stage 30's grammar with the selected model and
 adds neighbour coupling to the score vector. About one minute; no database or
 new dependencies.
+
+## 32: frequency-ranked codeword assignment
+
+[Protocol](../protocols/RANKED_ASSIGNMENT_2026-10-09.md),
+[findings](../../results/ranked_assignment_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e32_ranked_assignment --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.ranked_verify --directory results/<new-dir>
+```
+
+Stage 31 Part C with each key's strings reassigned by rank. Uses the shared
+`forward_screen`/`forward_verify` modules. About 30 seconds.
