@@ -275,4 +275,7 @@ superseding the wording of the stage 35–38 updates above:
   token set. Within-page dependence on the next word holds in ZL (p = 0.001),
   not clearly in IT2a (p = 0.033).
 * Novelty of every item in stages 31–38 is unverified. Currier B paragraph text
-  is now development evidence for all of these questions.
+  remains usable for exploration; a new split of it is not independent
+  confirmation of hypotheses it informed. The stage-38 counterexample does not
+  favour a one-draw cipher, and stage 37 does not exclude markers whose bare
+  forms are rare or respelled.

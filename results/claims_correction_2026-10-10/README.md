@@ -8,10 +8,11 @@ deviation and one confound in stage 37. The stage 35–38 directories and their
 code are unchanged and still replay; each README carries a dated note.
 
 **In one paragraph.** Four reports claimed more than their analyses supported.
-The largest error was in stage 38. Its "chain-like" result is exactly what a
-Naibbe-family cipher produces when **one table draw fixes both halves of a
-word**. The claim that Naibbe's construction is disfavoured whatever the key or
-plaintext is withdrawn. Stage 35's sensitivity holds only for the perturbation
+The largest error was in stage 38. A Naibbe-family simulation in which **one
+table draw fixes both halves of a word** is a counterexample to its claimed
+exclusion: the statistic cannot tell Voynich from that simulation. The claim
+that Naibbe's construction is disfavoured whatever the key or plaintext is
+withdrawn. The counterexample does not favour that cipher either. Stage 35's sensitivity holds only for the perturbation
 it planted. Stage 36 did not show labels are unconnected to their page. Stage
 37 deviated from its own token rule and used a pooled test that page
 differences can fool. The corrected statements are below.
@@ -44,8 +45,13 @@ model against glyph chain.
 * **Corrected statement:** the fitted product model predicts unseen Voynich
   word types worse than the glyph chain. It does better on Naibbe-family text
   in the nine tested configurations only when prefix and suffix are drawn
-  separately. Voynich's value is within the range of the one-draw-per-word
-  configurations. No Naibbe-family exclusion follows.
+  separately. The one-draw-per-word configurations are counterexamples to the
+  claimed exclusion. No Naibbe-family exclusion follows.
+* **The matching −0.92 is not support for a one-draw cipher.** Equal averages
+  of one statistic do not mean equal distributions or equal mechanisms. Chain
+  text, the R2 generator and natural language also score negative. The result
+  shows only that this statistic does not separate Voynich from that
+  simulation.
 * The "116 × 26" inventory is a summary of this model's fit to Voynich. It is
   not a recovered table, and under a one-draw system the model is misspecified.
 * A decoding attempt is still not justified, but for lack of positive evidence
@@ -89,8 +95,8 @@ was an undisclosed deviation; "deviations: none" is withdrawn.
 | As implemented (all clean tokens as reference) | 19.4% | 29.0% | −9.6 points (−11.4 to −7.7) |
 | **As the protocol specified** | **7.7%** | **25.4%** | **−17.7 points (−19.3 to −16.1)** |
 
-The direction is the same and the gap is larger. The two versions answer
-slightly different questions. Under the protocol's rule, the stem of a
+The direction is the same under both. **The larger gap is not stronger
+evidence against markers.** The two versions answer different questions. Under the protocol's rule, the stem of a
 two-glyph word (*ol*, *ar*, *al*, *or*) is a single glyph and can never count
 as attested, so those very common words always count against. IT2a: −10.6 and
 −16.2 points.
@@ -121,7 +127,10 @@ first glyph when pooled. Within pages the association holds in ZL (p = 0.001)
 but does not reach the threshold in IT2a (p = 0.033). So the within-page
 dependence is not established across transcriptions, and "the next word
 determines the form" is not shown. The rule still does not fire for B, because
-M1 fails under either token set. Currier A passes all versions; it remains an
+M1 fails under either token set. What survives is that lower common-stem rate
+and the failure of this particular two-part rule. Markers whose bare forms are
+rare, never written alone, or altered in spelling when the marker is added are
+not excluded. "Endings are not markers" is too categorical. Currier A passes all versions; it remains an
 uncalibrated, unreplicated sensitivity.
 
 ## Programme-level points accepted
@@ -131,7 +140,11 @@ uncalibrated, unreplicated sensitivity.
   Nothing in stages 31–38 should be called a contribution until its specific
   difference from prior work is stated and checked.
 * **Reused pages are development evidence.** Currier B paragraph text has now
-  been used by every stage. New folds do not restore independence.
+  been used by every stage. It remains useful for exploration, error checking
+  and explicitly development-stage predictions. What is lost is the right to
+  call a new split of it independent confirmation of a hypothesis that corpus
+  informed. Newly measured variables, such as image features, are a different
+  evidential opportunity if the protocol and exposure controls are credible.
 * **Aggregate fit does not establish meaning.** Word-shape likelihoods and
   coupling scores, including stage 38's, are not evidence of a cipher, a
   language or a reading.

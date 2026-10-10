@@ -188,13 +188,15 @@ its analysis supported.
   markers.** In Currier B, removing a final n, l or r leaves a common word less
   often than removing other endings: −9.6 points as implemented, −17.7 under
   the protocol's own token rule (an undisclosed deviation, now corrected).
-  Final `n` is not separable; `l` is the most detachable. Dependence of form on
-  the next word, within pages, holds in ZL but not clearly in IT2a.
+  Final `n` is rarely separable; `l` is the most detachable. Dependence of form
+  on the next word, within pages, holds in ZL but not clearly in IT2a. Markers
+  whose bare forms are rare or respelled are not excluded.
 * **[Stage 38](results/word_parts_2026-10-10/README.md), prefix-plus-suffix
   shape.** A product model predicts unseen Voynich word types worse than a
   glyph chain (about −0.9 bits). On Naibbe-family text it wins when prefix and
-  suffix are drawn separately and loses, at the same level as Voynich, when one
-  draw fixes both halves. **No Naibbe-family exclusion follows.**
+  suffix are drawn separately and loses when one draw fixes both halves. That
+  case is a counterexample to the claimed exclusion; it is not evidence for a
+  one-draw cipher. **No Naibbe-family exclusion or support follows.**
 
 Lessons, in addition to the list below:
 
@@ -207,8 +209,12 @@ Lessons, in addition to the list below:
 * Check the implementation against the protocol's stated token set, and never
   write "deviations: none" without doing so.
 * Condition on page before reading an association as local context dependence.
-* Novelty is unverified throughout. Pages reused across stages are development
-  evidence. Fit, likelihood and coupling scores do not establish a cipher.
+* Novelty is unverified throughout. Fit, likelihood and coupling scores do not
+  establish a cipher.
+* Pages reused across stages remain fine for exploration and error checking.
+  They cannot supply independent confirmation of hypotheses they informed.
+* Refresh repository and PR state (`git fetch`, `gh pr list`) before describing
+  or acting on it.
 
 ## Mistakes we have already made — do not repeat them
 
