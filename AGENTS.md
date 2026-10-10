@@ -114,6 +114,21 @@ Next examine dependencies between codeword parts and unseen-type coverage;
 do not merely retune persistence or increase seeds in this grammar. Known-key
 round trips and shuffle sensitivity still do not establish manuscript meaning.
 
+## Stage 31: scribe control, dependent word shapes, codebooks
+
+[Stage 31](results/word_shapes_2026-10-09/README.md) (protocol committed first).
+**Scribe:** within Davis hands (ZL `$H`), 16-folio B keeps 71% of its page
+association (0.096 of 0.135 bits). That is below all twelve plaintext
+references (77–103%), so part of the target is scribal. Score models against
+both values; A (one hand) keeps 0.078. **Shapes:** an order-2 glyph chain with
+start/end symbols matches glyph entropy, the nearly fixed last glyph and length.
+Its 2,968 most probable strings cover 83% of reserved B tokens. Do not build
+more independent-slot grammars. **Codebook:** with random assignment it still
+fails. Codewords are too long (common Voynich words are short; random
+assignment ignores that), and neighbour coupling is zero, as predicted. R2 also
+fails. Next: frequency-ranked assignment and context-conditioned variant choice,
+each preregistered separately. Stolfi/Zattera baselines remain deferred.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

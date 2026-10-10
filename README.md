@@ -14,12 +14,13 @@ sets research priorities and does not universally exclude a language or family.
 
 ## Latest research round
 
-[Word-code alternatives, manuscript replication and historical audit](results/word_homophones_2026-10-09/README.md)
-([browser report](results/word_homophones_2026-10-09/report.html)). Independent
-alternative codewords improve recipe vocabulary shape but fail the joint screen.
-Page association replicates in IT2a and on additional folios; original ZL grid
-verdicts survive the pooling audit. No decipherment is claimed.
-[Previous parser/unit study](results/unit_association_2026-10-09/README.md).
+[Scribe control, dependent word shapes and codebooks](results/word_shapes_2026-10-09/README.md)
+(stage 31). Part of Currier B's page association lies between scribes. A
+two-glyph-context chain reproduces Voynich word shapes; a random-assignment
+codebook on it still fails on word length and neighbour coupling. No
+decipherment is claimed. Previous rounds:
+[structured word codes](results/structured_word_codes_2026-10-09/README.md),
+[word-code alternatives](results/word_homophones_2026-10-09/README.md).
 
 ## Setup
 
