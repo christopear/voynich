@@ -101,6 +101,19 @@ also be order-sensitive; known-key round trips do not distinguish meaning.
 Large (1,500–4,500-entry) codebooks around 1420 remain historically unverified.
 No new cipher fit or decipherment was established by this diagnostic.
 
+## Stage 30: structured word codes versus R2
+
+[Stage 30](results/structured_word_codes_2026-10-09/README.md) tested a bounded
+first-glyph/middle/final-glyph construction with four two-variant policies and
+same-training R2 controls. All 168 panels replay; 16/16 synthetic profile targets
+pass calibration. Neither selected family fits the joint reserved-page profile.
+Persistence can raise page association, but glyph entropy remains too high.
+The fitted grammar covers only 54.9% of reserved B tokens despite 14,336 unique
+outputs. This is a narrow representational failure, not exclusion of word codes.
+Next examine dependencies between codeword parts and unseen-type coverage;
+do not merely retune persistence or increase seeds in this grammar. Known-key
+round trips and shuffle sensitivity still do not establish manuscript meaning.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

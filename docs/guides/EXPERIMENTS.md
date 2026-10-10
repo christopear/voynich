@@ -246,3 +246,20 @@ Additive all-type page association by permutation-invariant count bins, with
 matched 16-folio herbal A/B panels, eight-folio halves and transcription/spacing
 sensitivity. No cipher fitting. The design decisions for the subsequent
 slot/state/R2 comparison are in [the guardrails](CONTEXT_CODEBOOK_GUARDRAILS.md).
+
+## 30: structured word codes, local persistence and R2
+
+[Protocol](../protocols/STRUCTURED_WORD_CODES_2026-10-09.md),
+[findings](../../results/structured_word_codes_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e30_structured_word_codes --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.structured_verify --directory results/<new-dir>
+uv run --locked python -m voynich.laboratory.structured_report --directory results/<new-dir>
+```
+
+168 forward panels: four binary variant policies, six fixed dictionaries, one
+Italian recipe source, and six existing R2 settings. Both learn from the same
+512 development tokens. The fixed edge/interior grammar, state/serialization
+budgets, reserved-page profiles and role-preserving order controls are explicit.
+No blind solver or semantic labels; no additional dependencies or database required.
