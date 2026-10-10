@@ -123,6 +123,68 @@ folds. It follows `docs/protocols/COUPLING_TEST_V3_PROTOCOL.md` and is launched 
 post-result sensitivities. `mechanism_models.py` implements all three generators
 and their diagnostics. The encoder is an independently weighted, invertible
 adaptation using published Naibbe tables, not the published card-deck algorithm.
+## v101 transcription and cipher-family stages (19–25)
+
+These stages were dropped by the October layout migration and restored on
+9 October 2026. Claude reports the completed reproduction check in commit
+`10bce4c` (9 October), rerun in a clean copy of the
+checkout and compared with `scripts/compare_results.py` (provenance fields
+ignored). Every regenerated output is identical to the committed file:
+v101 mapping, variant calibration, variant test and post hoc rates (19–20);
+the three ports (21; one citation string differs only because the docs moved);
+gain decomposition, spacing and locality post hoc analyses, and low-rate power
+(22–23), including per-set ending effects (23, part 2a); and all cipher-family
+step A and step B outputs (24–25). Protocols
+and findings are `docs/protocols/V101_PROTOCOL.md`,
+`docs/protocols/V101_FOLLOWUP_PROTOCOL.md`,
+`docs/protocols/CIPHER_FAMILY_PROTOCOL.md` and the matching
+`docs/reports/*_FINDINGS_2026-09-26.md`.
+
+`v101.py` parses Glen Claston's latin-1 v101 file and infers the v101 → EVA
+mapping by EM alignment against ZL3b. `v101_data.py` builds the full, collapsed
+and sham representations used by the paired tests. `cipher_families.py` holds
+the cipher-family generators, layout modifier and alphabet-independent
+fingerprints.
+
+```bash
+uv run --locked python -m voynich.experiments.e19_v101_mapping                            # ~3 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e20_v101_variant_test --workers 4   # ~10 min
+uv run --locked python -m voynich.experiments.posthoc_e20_v101_variant_rates              # post hoc tables
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e21_v101_ports       # ~30 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e22_v101_gain_decomposition --workers 4
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.posthoc_e22_v101_spacing
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e23_v101_variant_followups 2b 2a --workers 4
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.posthoc_e23_v101_locality
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e24_cipher_family_benchmark --workers 4   # ~15 min
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e25_homophone_recovery                    # ~20 min
+```
+
+These commands write to the historical result directories. To rerun without
+touching committed results, run them in a full copy of the checkout, and
+compare with `scripts/compare_results.py`:
+
+```bash
+git archive HEAD | tar -x -C /path/to/copy && cd /path/to/copy && uv sync --locked
+OPENBLAS_NUM_THREADS=1 uv run --locked python -m voynich.experiments.e24_cipher_family_benchmark --workers 4
+uv run --locked python /path/to/checkout/scripts/compare_results.py \
+  results/cipher_families_2026-09-26 /path/to/checkout/results/cipher_families_2026-09-26
+```
+
+Pointing `VOYNICH_ROOT` at a copy of `data/` and `results/` alone is not
+enough. The manifests hash the protocol and the script's own source by their
+path under the workspace root, so the code and docs must live in the same
+tree.
+
+## Capacity screen (run before any manuscript search)
+
+```bash
+uv run --locked python -m voynich.evaluation.capacity --output results/<new-dir>/screen.json
+```
+
+This checks whether a decoding family's units can carry plaintext-level
+information. See `results/capacity_screen_2026-10-09/README.md` and
+`AGENTS.md`.
+
 ## Direct decipherment framework
 
 `26_decipherment_search.py` adds bounded key/segmentation search and synthetic
@@ -130,3 +192,41 @@ recovery controls. See [the framework guide](../DECIPHERMENT_FRAMEWORK.md)
 for commands, model definitions, score limitations and pilot results. It requires
 no additional dependencies. It does not run automatically as part of older
 experiments.
+
+
+## 27: encoding units and page association
+
+Protocol: [UNIT_ASSOCIATION_2026-10-09.md](../protocols/UNIT_ASSOCIATION_2026-10-09.md).
+[Operating report](../../results/unit_association_2026-10-09/README.md).
+Use a new output directory; the module refuses to overwrite existing results:
+
+```bash
+uv run --locked python -m voynich.experiments.e27_unit_association --output results/<new-dir>
+uv run --locked python -m voynich.experiments.posthoc_e27_pooling --source results/<new-dir> --output results/<new-audit-dir>
+```
+
+Stage 27 compares six latent unit definitions across five documented sources
+against 16 Currier B folios. It fits no keys. The post hoc companion audits
+page-order leakage in top-200 vocabulary pooling; its results must remain
+separate from the frozen primary analysis. The all-survivor grouped calibration
+is `voynich.laboratory.parser_retention`, with PostgreSQL verification in
+`voynich.laboratory.parser_retention_verify`. The label inventory is
+`voynich.laboratory.crib_inventory`; it performs no semantic assignment.
+
+
+## 28: whole-word codes with fixed independent alternatives
+
+[Protocol](../protocols/WORD_HOMOPHONES_2026-10-09.md),
+[findings](../../results/word_homophones_2026-10-09/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e28_word_homophones --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.word_homophone_verify --directory results/<new-dir>
+uv run --locked python -m voynich.experiments.posthoc_e24_pooling_audit --output results/<new-audit-dir>
+uv run --locked python -m voynich.laboratory.label_alignment_packet --output results/<new-label-dir>
+```
+
+The forward screen needs no database or new packages. It tests token equality
+patterns, not glyph spellings or blind decryption. Source chapters and additional
+manuscript folios are kept disjoint. The audit is a sufficient check of original
+ZL conjunction verdicts, not a full rerun of every historical fingerprint.

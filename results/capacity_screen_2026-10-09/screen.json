@@ -1,0 +1,1083 @@
+{
+ "block_size": 20000,
+ "max_order": 4,
+ "cipher_profiles": {
+  "raw EVA": {
+   "blocks": 6,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 3.814369264305604,
+     "max": 3.878928405486163,
+     "mean": 3.8536457789235214
+    },
+    "2": {
+     "min": 5.589904796176176,
+     "max": 5.8941934723260845,
+     "mean": 5.784898615668273
+    },
+    "3": {
+     "min": 7.086855469316582,
+     "max": 7.631710467326666,
+     "mean": 7.42285760952441
+    },
+    "4": {
+     "min": 8.478062955124429,
+     "max": 9.230039010418395,
+     "mean": 8.934668583600358
+    }
+   }
+  },
+  "compound EVA": {
+   "blocks": 6,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 3.7853628057183877,
+     "max": 3.833835073560781,
+     "mean": 3.8133779708843893
+    },
+    "2": {
+     "min": 5.63727241306194,
+     "max": 5.950150457068297,
+     "mean": 5.839264660621534
+    },
+    "3": {
+     "min": 7.2444377723019295,
+     "max": 7.802196084957852,
+     "mean": 7.594799543970662
+    },
+    "4": {
+     "min": 8.731222922374029,
+     "max": 9.489099490816399,
+     "mean": 9.19734854650438
+    }
+   }
+  }
+ },
+ "plain_profiles": {
+  "latin_celsus_medical": {
+   "blocks": 33,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 3.9726484424873756,
+     "max": 4.033103072494917,
+     "mean": 4.00376872729751
+    },
+    "2": {
+     "min": 7.209785169129442,
+     "max": 7.352790721385129,
+     "mean": 7.286478866887907
+    },
+    "3": {
+     "min": 9.667282833495154,
+     "max": 9.976243307656855,
+     "mean": 9.795414461129687
+    },
+    "4": {
+     "min": 11.245098165981535,
+     "max": 11.736288264690337,
+     "mean": 11.478566605829679
+    }
+   }
+  },
+  "latin_pliny_medical": {
+   "blocks": 26,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 4.018947068423977,
+     "max": 4.0673164013705865,
+     "mean": 4.039403418683289
+    },
+    "2": {
+     "min": 7.299014954060752,
+     "max": 7.414490018638853,
+     "mean": 7.365717880494184
+    },
+    "3": {
+     "min": 9.869949642954536,
+     "max": 10.13412230115317,
+     "mean": 10.012991564431937
+    },
+    "4": {
+     "min": 11.575767441974046,
+     "max": 11.98383869652404,
+     "mean": 11.787009920170537
+    }
+   }
+  },
+  "latin_alfonsi": {
+   "blocks": 5,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 4.022092285180858,
+     "max": 4.033776098835506,
+     "mean": 4.025903445848051
+    },
+    "2": {
+     "min": 7.309038034619974,
+     "max": 7.351400177756345,
+     "mean": 7.335578165867965
+    },
+    "3": {
+     "min": 9.85096458974313,
+     "max": 9.961380724247189,
+     "mean": 9.929260333418206
+    },
+    "4": {
+     "min": 11.577830417040579,
+     "max": 11.764436786017413,
+     "mean": 11.709333903965545
+    }
+   }
+  },
+  "italian_dante": {
+   "blocks": 1,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 3.915691650674858,
+     "max": 3.915691650674858,
+     "mean": 3.915691650674858
+    },
+    "2": {
+     "min": 6.990844494971452,
+     "max": 6.990844494971452,
+     "mean": 6.990844494971452
+    },
+    "3": {
+     "min": 9.521829160296658,
+     "max": 9.521829160296658,
+     "mean": 9.521829160296658
+    },
+    "4": {
+     "min": 11.403390160277112,
+     "max": 11.403390160277112,
+     "mean": 11.403390160277112
+    }
+   }
+  },
+  "german_mhg": {
+   "blocks": 1,
+   "block_size": 20000,
+   "orders": {
+    "1": {
+     "min": 3.9615963535579697,
+     "max": 3.9615963535579697,
+     "mean": 3.9615963535579697
+    },
+    "2": {
+     "min": 6.952011465378635,
+     "max": 6.952011465378635,
+     "mean": 6.952011465378635
+    },
+    "3": {
+     "min": 9.161766462080879,
+     "max": 9.161766462080879,
+     "mean": 9.161766462080879
+    },
+    "4": {
+     "min": 10.853468939916832,
+     "max": 10.853468939916832,
+     "mean": 10.853468939916832
+    }
+   }
+  }
+ },
+ "length_preserving": {
+  "raw EVA": {
+   "latin_celsus_medical": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9726484424873756,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 0.0,
+       "gap_bits": 0.09372003700121256,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 7.209785169129442,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 0.0,
+       "gap_bits": 1.3155916968033576,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.667282833495154,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 0.0,
+       "gap_bits": 2.0355723661684877,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.245098165981535,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 0.0,
+       "gap_bits": 2.01505915556314,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9726484424873756,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 1.0,
+       "gap_bits": -0.9062799629987874,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 7.209785169129442,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 1.0,
+       "gap_bits": 0.31559169680335764,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.667282833495154,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 1.0,
+       "gap_bits": 1.0355723661684877,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.245098165981535,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 1.0,
+       "gap_bits": 1.01505915556314,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "latin_pliny_medical": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.018947068423977,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 0.0,
+       "gap_bits": 0.1400186629378144,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 7.299014954060752,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 0.0,
+       "gap_bits": 1.4048214817346674,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.869949642954536,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 0.0,
+       "gap_bits": 2.2382391756278697,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.575767441974046,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 0.0,
+       "gap_bits": 2.345728431555651,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.018947068423977,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 1.0,
+       "gap_bits": -0.8599813370621856,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 7.299014954060752,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 1.0,
+       "gap_bits": 0.40482148173466737,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.869949642954536,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 1.0,
+       "gap_bits": 1.2382391756278697,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.575767441974046,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 1.0,
+       "gap_bits": 1.345728431555651,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "latin_alfonsi": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.022092285180858,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 0.0,
+       "gap_bits": 0.14316387969469524,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 7.309038034619974,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 0.0,
+       "gap_bits": 1.4148445622938892,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.85096458974313,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 0.0,
+       "gap_bits": 2.219254122416464,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.577830417040579,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 0.0,
+       "gap_bits": 2.347791406622184,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.022092285180858,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 1.0,
+       "gap_bits": -0.8568361203053048,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 7.309038034619974,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 1.0,
+       "gap_bits": 0.4148445622938892,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.85096458974313,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 1.0,
+       "gap_bits": 1.219254122416464,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.577830417040579,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 1.0,
+       "gap_bits": 1.3477914066221839,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "italian_dante": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.915691650674858,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 0.0,
+       "gap_bits": 0.03676324518869478,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 6.990844494971452,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 0.0,
+       "gap_bits": 1.0966510226453678,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.521829160296658,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 0.0,
+       "gap_bits": 1.8901186929699918,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.403390160277112,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 0.0,
+       "gap_bits": 2.1733511498587177,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.915691650674858,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 1.0,
+       "gap_bits": -0.9632367548113052,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 6.990844494971452,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 1.0,
+       "gap_bits": 0.09665102264536785,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.521829160296658,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 1.0,
+       "gap_bits": 0.8901186929699918,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.403390160277112,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 1.0,
+       "gap_bits": 1.1733511498587177,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "german_mhg": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9615963535579697,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 0.0,
+       "gap_bits": 0.08266794807180666,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 6.952011465378635,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 0.0,
+       "gap_bits": 1.0578179930525504,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.161766462080879,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 0.0,
+       "gap_bits": 1.5300559947542123,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 10.853468939916832,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 0.0,
+       "gap_bits": 1.6234299294984371,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9615963535579697,
+       "cipher_max": 3.878928405486163,
+       "state_bits": 1.0,
+       "gap_bits": -0.9173320519281933,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 6.952011465378635,
+       "cipher_max": 5.8941934723260845,
+       "state_bits": 1.0,
+       "gap_bits": 0.05781799305255042,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.161766462080879,
+       "cipher_max": 7.631710467326666,
+       "state_bits": 1.0,
+       "gap_bits": 0.5300559947542123,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 10.853468939916832,
+       "cipher_max": 9.230039010418395,
+       "state_bits": 1.0,
+       "gap_bits": 0.6234299294984371,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   }
+  },
+  "compound EVA": {
+   "latin_celsus_medical": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9726484424873756,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 0.0,
+       "gap_bits": 0.13881336892659446,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 7.209785169129442,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 0.0,
+       "gap_bits": 1.2596347120611453,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.667282833495154,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 0.0,
+       "gap_bits": 1.8650867485373022,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.245098165981535,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 0.0,
+       "gap_bits": 1.7559986751651362,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9726484424873756,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 1.0,
+       "gap_bits": -0.8611866310734055,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 7.209785169129442,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 1.0,
+       "gap_bits": 0.2596347120611453,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.667282833495154,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 1.0,
+       "gap_bits": 0.8650867485373013,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.245098165981535,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 1.0,
+       "gap_bits": 0.7559986751651362,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "latin_pliny_medical": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.018947068423977,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 0.0,
+       "gap_bits": 0.1851119948631963,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 7.299014954060752,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 0.0,
+       "gap_bits": 1.348864496992455,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.869949642954536,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 0.0,
+       "gap_bits": 2.067753557996684,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.575767441974046,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 0.0,
+       "gap_bits": 2.086667951157647,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.018947068423977,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 1.0,
+       "gap_bits": -0.8148880051368037,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 7.299014954060752,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 1.0,
+       "gap_bits": 0.34886449699245503,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.869949642954536,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 1.0,
+       "gap_bits": 1.0677535579966833,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.575767441974046,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 1.0,
+       "gap_bits": 1.0866679511576471,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "latin_alfonsi": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.022092285180858,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 0.0,
+       "gap_bits": 0.18825721162007714,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 7.309038034619974,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 0.0,
+       "gap_bits": 1.3588875775516769,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.85096458974313,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 0.0,
+       "gap_bits": 2.0487685047852784,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.577830417040579,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 0.0,
+       "gap_bits": 2.08873092622418,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 4.022092285180858,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 1.0,
+       "gap_bits": -0.8117427883799229,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 7.309038034619974,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 1.0,
+       "gap_bits": 0.3588875775516769,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.85096458974313,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 1.0,
+       "gap_bits": 1.0487685047852775,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.577830417040579,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 1.0,
+       "gap_bits": 1.08873092622418,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "italian_dante": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.915691650674858,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 0.0,
+       "gap_bits": 0.08185657711407668,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 6.990844494971452,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 0.0,
+       "gap_bits": 1.0406940379031555,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.521829160296658,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 0.0,
+       "gap_bits": 1.7196330753388063,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.403390160277112,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 0.0,
+       "gap_bits": 1.9142906694607138,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.915691650674858,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 1.0,
+       "gap_bits": -0.9181434228859233,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 6.990844494971452,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 1.0,
+       "gap_bits": 0.04069403790315551,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.521829160296658,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 1.0,
+       "gap_bits": 0.7196330753388054,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 11.403390160277112,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 1.0,
+       "gap_bits": 0.9142906694607138,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   },
+   "german_mhg": {
+    "single table": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9615963535579697,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 0.0,
+       "gap_bits": 0.12776127999718856,
+       "feasible": false
+      },
+      "2": {
+       "plain_min": 6.952011465378635,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 0.0,
+       "gap_bits": 1.001861008310338,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.161766462080879,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 0.0,
+       "gap_bits": 1.3595703771230268,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 10.853468939916832,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 0.0,
+       "gap_bits": 1.3643694491004332,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    },
+    "two tables, line/page alternation": {
+     "by_order": {
+      "1": {
+       "plain_min": 3.9615963535579697,
+       "cipher_max": 3.833835073560781,
+       "state_bits": 1.0,
+       "gap_bits": -0.8722387200028114,
+       "feasible": true
+      },
+      "2": {
+       "plain_min": 6.952011465378635,
+       "cipher_max": 5.950150457068297,
+       "state_bits": 1.0,
+       "gap_bits": 0.0018610083103380859,
+       "feasible": false
+      },
+      "3": {
+       "plain_min": 9.161766462080879,
+       "cipher_max": 7.802196084957852,
+       "state_bits": 1.0,
+       "gap_bits": 0.35957037712302586,
+       "feasible": false
+      },
+      "4": {
+       "plain_min": 10.853468939916832,
+       "cipher_max": 9.489099490816399,
+       "state_bits": 1.0,
+       "gap_bits": 0.36436944910043323,
+       "feasible": false
+      }
+     },
+     "feasible": false
+    }
+   }
+  }
+ },
+ "required_expansion": {
+  "raw EVA": {
+   "latin_celsus_medical": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 7.209785169129442
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.667282833495154
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.245098165981535
+    }
+   },
+   "latin_pliny_medical": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 7.299014954060752
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.869949642954536
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.575767441974046
+    }
+   },
+   "latin_alfonsi": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 7.309038034619974
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.85096458974313
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.577830417040579
+    }
+   },
+   "italian_dante": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 6.990844494971452
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.521829160296658
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.403390160277112
+    }
+   },
+   "german_mhg": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 6.952011465378635
+    },
+    "3": {
+     "m": 3,
+     "k": 4,
+     "units_per_symbol": 1.3333333333333333,
+     "target_bits": 9.161766462080879
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 10.853468939916832
+    }
+   }
+  },
+  "compound EVA": {
+   "latin_celsus_medical": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 7.209785169129442
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.667282833495154
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.245098165981535
+    }
+   },
+   "latin_pliny_medical": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 7.299014954060752
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.869949642954536
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.575767441974046
+    }
+   },
+   "latin_alfonsi": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 7.309038034619974
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.85096458974313
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.577830417040579
+    }
+   },
+   "italian_dante": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 6.990844494971452
+    },
+    "3": {
+     "m": 3,
+     "k": 5,
+     "units_per_symbol": 1.6666666666666667,
+     "target_bits": 9.521829160296658
+    },
+    "4": {
+     "m": 4,
+     "k": 6,
+     "units_per_symbol": 1.5,
+     "target_bits": 11.403390160277112
+    }
+   },
+   "german_mhg": {
+    "2": {
+     "m": 2,
+     "k": 3,
+     "units_per_symbol": 1.5,
+     "target_bits": 6.952011465378635
+    },
+    "3": {
+     "m": 3,
+     "k": 4,
+     "units_per_symbol": 1.3333333333333333,
+     "target_bits": 9.161766462080879
+    },
+    "4": {
+     "m": 4,
+     "k": 5,
+     "units_per_symbol": 1.25,
+     "target_bits": 10.853468939916832
+    }
+   }
+  }
+ },
+ "skipped_references": []
+}

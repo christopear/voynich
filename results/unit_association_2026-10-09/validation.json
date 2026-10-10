@@ -1,0 +1,11 @@
+{
+  "test_command": "POSTGRES_TEST_URL=postgresql:///voynich_test uv run --locked python -m unittest discover -s tests -t . -v",
+  "tests_run": 208,
+  "result": "OK",
+  "postgres_integration": "passed in separate test database",
+  "package_build": "source distribution and wheel passed; uv build --no-build-isolation",
+  "cli": "stages 01\u201327 discovered",
+  "test_log_sha256": "6555c18f72da47efcd34b0e34548f08b4ef9e1423c0dbc6e80bf52c9820a9893",
+  "glyph_shuffle_check": "All 3072 shuffled tokens preserve their component-EVA unit lengths after serialization and reparsing",
+  "scientific_status": "No decipherment. Conditional reference-profile comparisons; pooling diagnostic post hoc."
+}

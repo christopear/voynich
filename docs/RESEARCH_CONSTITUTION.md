@@ -244,3 +244,23 @@ medical synthetic recovery alone does not promote it to a leading manuscript
 hypothesis. Cross-author medical calibration, grouped units, homophones and
 uncertain boundaries are the immediate priorities. Preserve the distinction
 between a scoring failure, a search failure and an unrepresentable hypothesis.
+
+9 October 2026 (joint review correction): the recent length-preserving searches
+improved optimisation but established no plaintext. The capacity screen is a
+priority screen relative to tested reference profiles, not a mandatory rejection
+rule or a universal bound on Latin/Italian/German. For P=f(C,S),
+H(P|S)<=H(C|S), hence H(P)<=H(C)+I(P;S). Zero allowance is justified for a
+fixed table or plaintext-window independence from state. Knowing layout does not
+establish independence. Hidden random independent state obeys the same argument;
+plaintext-dependent state or additional decoding context requires its own model.
+Finite-sample corrections and block-size sweeps are robustness checks. Expansion
+ratios from overlapping windows are heuristics, not proven minimum code lengths.
+Larger units do not pass by construction. Keep the candidate ledger current and
+prioritise grouped/variable-length units, uncertain spaces, and word/mixed codes.
+
+The October migration dropped earlier v101 and cipher-family producing code.
+Claude’s branch restores experiments 19–25. Its commit `10bce4c` reports
+completed reproduction of all restored numerical outputs, with one moved-doc
+citation-string exception; details are in `docs/guides/EXPERIMENTS.md`. This
+continuation verified the tests, rather than duplicating those full historical
+runs. Historical results must not be overwritten.

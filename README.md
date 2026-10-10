@@ -4,6 +4,23 @@ Reproducible structural analysis and experimental cipher recovery for the
 Voynich Manuscript. Ciphertext and Latin/Italian source language are working
 hypotheses for the current programme, not established decipherment claims.
 
+**Start with [AGENTS.md](AGENTS.md)**: the current state of evidence, mistakes
+not to repeat, and the approved workflow. The
+[candidate ledger](docs/CANDIDATE_LEDGER.md) lists every tested family and its
+verdict. Before any manuscript search, run the capacity screen
+(`uv run --locked python -m voynich.evaluation.capacity`).
+The screen identifies reference-profile gaps under explicit assumptions; it
+sets research priorities and does not universally exclude a language or family.
+
+## Latest research round
+
+[Word-code alternatives, manuscript replication and historical audit](results/word_homophones_2026-10-09/README.md)
+([browser report](results/word_homophones_2026-10-09/report.html)). Independent
+alternative codewords improve recipe vocabulary shape but fail the joint screen.
+Page association replicates in IT2a and on additional folios; original ZL grid
+verdicts survive the pooling audit. No decipherment is claimed.
+[Previous parser/unit study](results/unit_association_2026-10-09/README.md).
+
 ## Setup
 
 Use Python 3.14 and [uv](https://docs.astral.sh/uv/). From this checkout:
@@ -61,6 +78,9 @@ first. Batch runners in `scripts/` are not part of setup or the test suite.
 
 ## References
 
+- [Working rules for agents and contributors](AGENTS.md)
+- [Candidate ledger](docs/CANDIDATE_LEDGER.md)
+- [Capacity screen](results/capacity_screen_2026-10-09/README.md)
 - [Architecture decisions and implementation sequence](docs/ARCHITECTURE.md)
 - [PostgreSQL connection setup](docs/guides/POSTGRESQL.md)
 - [Research constitution](docs/RESEARCH_CONSTITUTION.md)
@@ -76,6 +96,17 @@ This folder already has Git history. Use `git diff` to review and `git add -A`
 to stage intended file moves together with updates; do not reinitialize it.
 
 ## Actual Voynich search
+
+The latest [grouped-code operating report](results/grouped_boundary_2026-10-09/report.html)
+and [research decision](results/grouped_boundary_2026-10-09/README.md) document
+a bounded structural negative result and a failed parser shortlist, with no new
+partial decryption. The [corrected entropy sensitivity report](results/capacity_sensitivity_2026-10-09/README.md)
+sets conditional priorities rather than universal exclusions.
+
+> The three searches below decode one glyph into one letter, with spaces
+> kept. The [capacity screen](results/capacity_screen_2026-10-09/README.md)
+> disfavors this family relative to tested reference profiles. These remain
+> engineering baselines without validated readings. See [AGENTS.md](AGENTS.md).
 
 The [equal-budget initialization trial](results/phase_initialization_2026-10-09/report.html)
 returns directly to f26r/f31r/f39v after calibration. Its

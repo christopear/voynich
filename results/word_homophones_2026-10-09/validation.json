@@ -1,0 +1,8 @@
+{
+  "tests": 211,
+  "status": "passed",
+  "postgres_tests": "separate voynich_test database",
+  "build": "source distribution and wheel passed",
+  "cli": "01\u201328 discovered",
+  "test_log_sha256": "eeb9d1bc5f4adb764f7e8c29902afe6a56ede0713c0587cac3127a3968946bb5"
+}
