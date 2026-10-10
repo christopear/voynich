@@ -216,6 +216,20 @@ Lessons, in addition to the list below:
 * Refresh repository and PR state (`git fetch`, `gh pr list`) before describing
   or acting on it.
 
+## Stage 39: recovery pipeline resumed by user request
+
+[Recovery continuation](results/recovery_pipeline_2026-10-10/README.md) diagnoses
+the eight old grouped-code fixtures. All returned keys miss improving elementary
+moves; all true keys also have incorrect, lower-cost neighbors. With the scorer
+unchanged and 8,192 additional calls per selected key, random greedy continuation
+raises mean non-space recovery from 56.3% to 78.7%, reaching 90% in 5/8 cases
+(systematic descent: 2/8). One case worsens. These are development continuations,
+not fresh blind recoveries or manuscript evidence. Historical parser searches
+cost 724,992 calls and must remain charged. Fresh full-pipeline calibration and
+justified representation/boundaries are required before another manuscript
+attack; f26r still has no parser in the old grid. Do not tune the scorer to these
+known answers or expand the completed stage's budget.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
