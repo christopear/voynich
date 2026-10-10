@@ -1,5 +1,7 @@
 # Voynich: scribe control, dependent word shapes, then codebooks
 
+> **Correction, 10 October 2026.** Part C's coupling measure counted drawing-separated words as neighbours, and secondary targets reused ciphertext encoded for the reserved layout. Corrected, the verdict is unchanged (no joint hits). Part A's sentence that about 29% of association "lies between hands" is withdrawn. Conditioning on hand reduces the corrected statistic by 29%; directly corrected word/hand association is 0.0995 bits (plaintext references −0.026 to 0.054). Neither allocates information to scribes. Part B is unaffected. See [the boundary correction](../boundary_correction_2026-10-10/README.md). This directory and its producing code are kept unchanged so they still replay.
+
 Stage 31, 9 October 2026. [Frozen protocol](../../docs/protocols/WORD_SHAPES_2026-10-09.md),
 committed at 5fb1ba7 before any fit. Evidence labels: Part A and Part B are
 descriptive structural diagnostics; Part C is **search found no fit in a bounded

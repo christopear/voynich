@@ -319,3 +319,17 @@ uv run --locked python -m voynich.laboratory.source_verify --directory results/<
 
 Stage 33's frozen mechanism for celsus, pliny and cucina. Building the
 29k–32k-string Latin codebooks dominates the runtime (several minutes).
+
+## Correction to 31–34: drawing gaps and per-layout encoding
+
+[Protocol](../protocols/BOUNDARY_CORRECTION_2026-10-10.md),
+[findings](../../results/boundary_correction_2026-10-10/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.posthoc_e31_boundary_correction --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.boundary_correction_verify --directory results/<new-dir>
+```
+
+Reruns the five stage 31–34 grids with gap-aware neighbours
+(`boundary_correction.neighbours`) and per-layout encoding. It also recomputes
+the scribe measures and the canonical top-k check. Several minutes.
