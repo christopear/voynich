@@ -11,6 +11,7 @@ import unittest
 from voynich.paths import ROOT
 
 PRODUCERS = {
+    "ending_markers_2026-10-10": ["voynich.experiments.e37_ending_markers", "voynich.laboratory.ending_markers_verify"],
     "label_units_2026-10-10": ["voynich.experiments.e36_label_units", "voynich.laboratory.label_units_verify"],
     "line_indicator_2026-10-10": ["voynich.experiments.e35_line_indicator", "voynich.laboratory.line_indicator_verify"],
     "exposure_inventory_2026-10-10": ["voynich.laboratory.exposure_inventory"],
