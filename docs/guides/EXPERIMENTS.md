@@ -333,3 +333,16 @@ uv run --locked python -m voynich.laboratory.boundary_correction_verify --direct
 Reruns the five stage 31–34 grids with gap-aware neighbours
 (`boundary_correction.neighbours`) and per-layout encoding. It also recomputes
 the scribe measures and the canonical top-k check. Several minutes.
+
+## 35: line-start indicator
+
+[Protocol](../protocols/LINE_INDICATOR_2026-10-10.md),
+[findings](../../results/line_indicator_2026-10-10/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.e35_line_indicator --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.line_indicator_verify --directory results/<new-dir>
+```
+
+About six minutes, mostly the 100 planted-indicator calibration runs. The
+verifier reruns the whole stage.

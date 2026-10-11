@@ -168,6 +168,15 @@ never infer adjacency from consecutive indices.** Encode context-dependent
 ciphers separately on each target layout. Reserved panels used in stages
 27–34 have informed successive hypotheses. Positive evidence now needs fresh folios.
 
+## Stage 35: line-start indicator
+
+[Stage 35](results/line_indicator_2026-10-10/README.md): the first glyph of a
+Currier B line does not predict later word endings in that line (calibrated;
+a planted indicator altering 20% of endings is detected 16/20). No word
+predicts endings two or more positions away once the page is known. Do not
+propose line-initial table indicators for word endings without a new reason;
+paragraph- or page-level indicators remain untested.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches

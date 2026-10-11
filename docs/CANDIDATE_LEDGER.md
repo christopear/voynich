@@ -218,3 +218,12 @@ word shape and length is weak evidence on its own, not zero. The
 [exposure inventory](../results/exposure_inventory_2026-10-10/README.md) and the
 frozen [image-pilot split](../results/image_annotation_pilot_2026-10-10/README.md)
 are preparation; no annotation or text–image statistic exists yet.
+
+10 October stage-35 update: [line-start indicator test](../results/line_indicator_2026-10-10/README.md).
+On 1,374 Currier B lines the first glyph of a line does not predict later word
+endings in that line (contrast −0.005 bits, interval −0.019 to 0.011). The
+calibrated test detects a planted indicator altering 20% of endings in 16/20
+trials. Rows 14 and 16 stay open, with a first-glyph line indicator acting on
+a fifth or more of endings now bounded out. No key position predicts endings two
+or more words away, so line-level table switching is unsupported for endings.
+R2 is also null; this does not bear on cipher versus message-free text.
