@@ -196,6 +196,17 @@ treated alone; `l` is the most detachable ending. Currier A and the R2 copy
 generator pass the marker rule, so a marker-like result is not evidence of a
 cipher. The A/B difference in how endings attach is an untested lead.
 
+## Stage 38: prefix-plus-suffix shape
+
+[Stage 38](results/word_parts_2026-10-10/README.md): Voynich words are not two
+independently chosen parts. A prefix-times-suffix model beats a glyph chain on
+unseen words in real Naibbe ciphertext (+1.3 to +1.7 bits) and loses on Currier
+B in every fold (about −0.9). New words are made of familiar parts (95%), but
+the halves depend on each other, and the inventory is lopsided (about 116
+beginnings, 26 endings). Do not build a solver that treats each word as an
+independent (prefix, suffix) pair. Single-choice or multi-part systems remain
+untested. Method: `voynich.laboratory.word_parts`.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
