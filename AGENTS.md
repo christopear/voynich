@@ -216,6 +216,61 @@ Lessons, in addition to the list below:
 * Refresh repository and PR state (`git fetch`, `gh pr list`) before describing
   or acting on it.
 
+## Stage 39: recovery pipeline resumed by user request
+
+[Recovery continuation](results/recovery_pipeline_2026-10-10/README.md) diagnoses
+the eight old grouped-code fixtures. All returned keys miss improving elementary
+moves; all true keys also have incorrect, lower-cost neighbors. With the scorer
+unchanged and 8,192 additional calls per selected key, random greedy continuation
+raises mean non-space recovery from 56.3% to 78.7%, reaching 90% in 5/8 cases
+(systematic descent: 2/8). One case worsens. These are development continuations,
+not fresh blind recoveries or manuscript evidence. Historical parser searches
+cost 724,992 calls and must remain charged. Fresh full-pipeline calibration and
+justified representation/boundaries are required before another manuscript
+attack; f26r still has no parser in the old grid. Do not tune the scorer to these
+known answers or expand the completed stage's budget.
+
+## Stage 40: fresh recovery and unchanged-key transfer
+
+[Fresh calibration](results/fresh_recovery_2026-10-10/README.md) freezes the stage
+39 random continuation after complete parser search on four disjoint passages,
+new keys and both spacing arms. Recovery and transfer each pass in only 2/8
+cases; both six-of-eight gates fail. Seven cases select the correct parser; one
+has 67 survivors and is not searched under the fixed cap of 64. All five searched
+failures have better-scoring true keys in a labelled post hoc diagnostic. The
+two successful approximate keys score better than the exact true keys. This
+shows both optimization and objective limitations, not a family exclusion.
+630,784 optimization evaluations; no manuscript attack. Do not silently raise
+budgets or tune against these answers: this panel is now exposed, and another
+solver change needs a prospective comparison and independent calibration.
+
+## Stage 41: fixed-budget key escape
+
+[Annealing comparison](results/key_escape_2026-10-11/README.md) reuses the seven
+searched stage 40 cases as exposed development data. At 8,192 calls per arm,
+mean non-space recovery increases from 62.2% (greedy) to 89.0% (annealing), with
+4/7 versus 2/7 above 90%. Six cases improve but one regresses 11.51 points, so
+the preregistered maximum-ten-point-regression guardrail fails. Do not promote
+this as a passed calibration or relax the limit. No schedule tuning or extra
+budget was used. A next search comparison should protect alternative solutions
+under a fixed combined budget; combining both full-budget arms is not free.
+Fresh calibration and justified manuscript representation remain required.
+
+## Stage 42: independent multi-seed methods assessment
+
+[Reliability study](results/recovery_reliability_2026-10-11/README.md) compares
+greedy, annealing and a half-budget portfolio on eight new cases and three
+search seeds each. All 24 trials select the correct parser; no case exceeds the
+parser cap. Mean recovery is 79.2%/83.5%/84.5%, but recovery AND transfer exceed
+90% across all seeds in only 2/8, 1/8 and 2/8 cases respectively. All three
+methods fail the fixed reliability criteria. Large errors leave better-scoring
+true keys unreached; near-correct errors can outscore exact truth. Four agreement
+flags on three distinct cases are insufficient to certify unknown readings.
+Read the [consolidated assessment](docs/reports/RECOVERY_METHODS_ASSESSMENT_2026-10-11.md)
+before proposing more recovery work. No automatic seed, schedule or budget
+escalation; these remain experimental candidate generators, not qualified
+manuscript decoders. No new manuscript word or family exclusion follows.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
