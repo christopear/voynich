@@ -177,6 +177,15 @@ predicts endings two or more positions away once the page is known. Do not
 propose line-initial table indicators for word endings without a new reason;
 paragraph- or page-level indicators remain untested.
 
+## Stage 36: labels and unit size
+
+[Stage 36](results/label_units_2026-10-10/README.md): labels look like ordinary
+rare words. They are not reliably longer or more decomposable than
+same-frequency words, and they do not recur in their own page's text, whole or
+as two adjacent pieces, beyond a within-kind shuffle. Unit size stays open. Do
+not argue unit size from single-word labels, and do not expect exact label
+matches in running text to supply cribs.
+
 ## Mistakes we have already made — do not repeat them
 
 1. **Repeating a weakly supported family.** The three manuscript searches
