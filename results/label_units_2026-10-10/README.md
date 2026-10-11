@@ -1,5 +1,7 @@
 # Voynich: what labels say about the size of a "word"
 
+> **Correction, 10 October 2026 (claims).** "Labels are not tied to their page's text" is withdrawn. Correct reading: no excess whole-label recurrence was detected under the within-kind permutation comparison. M2's power, measured afterwards, is 20/20 for a planted excess from 5% of labels and 9/20 at 2%. This does not show the text never refers to labelled objects by those forms. See [the claims correction](../claims_correction_2026-10-10/README.md). This directory and its producing code are unchanged so they still replay.
+
 Stage 36, 10 October 2026. [Frozen protocol](../../docs/protocols/LABEL_UNITS_2026-10-10.md),
 committed at 03f3557 before execution. Evidence label: **descriptive structural
 diagnostic; uninformative on the word-versus-chunk question by its own rules**,

@@ -1,5 +1,7 @@
 # Voynich: does the start of a line act as an indicator?
 
+> **Correction, 10 October 2026 (claims).** This report overstated what the test excludes. Correct reading: no indicator signal was detected by this statistic. Its sensitivity is shown only for the planted remapping of endings. An indicator that permutes endings within its line changes 24% of them and is never detected (0/20). "Would have been seen", "bounded" and the statement that line-level table switching is unsupported are withdrawn. See [the claims correction](../claims_correction_2026-10-10/README.md). This directory and its producing code are unchanged so they still replay.
+
 Stage 35, 10 October 2026. [Frozen protocol](../../docs/protocols/LINE_INDICATOR_2026-10-10.md),
 committed at 96d820e before execution. Evidence label: **statistically bounded
 negative for one stated mechanism** (calibrated test, stated domain). No

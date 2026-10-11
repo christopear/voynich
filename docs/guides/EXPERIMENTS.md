@@ -384,3 +384,17 @@ uv run --locked python -m voynich.laboratory.word_parts_verify --directory resul
 
 About one minute. Calibrates on Greshko's Naibbe ciphertext and on chain text
 before reading manuscript values. The verifier reruns the whole stage.
+
+## Correction to 35–38: claims, power and a page confound
+
+[Protocol](../protocols/CLAIMS_CORRECTION_2026-10-10.md),
+[findings](../../results/claims_correction_2026-10-10/README.md).
+
+```bash
+uv run --locked python -m voynich.experiments.posthoc_e35_claims_correction --output results/<new-dir>
+uv run --locked python -m voynich.laboratory.claims_correction_verify --directory results/<new-dir>
+```
+
+About twenty minutes each. Adds Naibbe-family configurations for stage 38, a
+distribution-preserving indicator for stage 35, M2 power for stage 36, and both
+token sets plus a page-conditioned test for stage 37.

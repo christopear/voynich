@@ -259,3 +259,23 @@ for systems where one choice fixes both halves, or with more than two parts.
 Voynich's fitted inventory is lopsided (about 116 prefixes × 26 suffixes;
 Naibbe 57 × 50). A decoding attempt that reduces each word to an independent
 (prefix, suffix) pair is not justified.
+
+10 October claims correction ([report](../results/claims_correction_2026-10-10/README.md)),
+superseding the wording of the stage 35–38 updates above:
+
+* Stage 38: no Naibbe-family exclusion. A simulation where one table draw fixes
+  both halves of a word gives the same sign and size as Voynich (−0.30 to −1.45
+  against −0.92). Row 8's structural note is withdrawn; rows 12 and 15 are
+  unaffected. "116 × 26" is a model summary.
+* Stage 35: no indicator signal detected by that statistic; sensitivity only for
+  the planted remapping. Rows 14 and 16 are not narrowed by it.
+* Stage 36: no excess whole-label recurrence detected (power: 5% of labels).
+  "Poor route to cribs" is an opinion, not a finding.
+* Stage 37: gap is −9.6 points as implemented and −17.7 under the protocol's
+  token set. Within-page dependence on the next word holds in ZL (p = 0.001),
+  not clearly in IT2a (p = 0.033).
+* Novelty of every item in stages 31–38 is unverified. Currier B paragraph text
+  remains usable for exploration; a new split of it is not independent
+  confirmation of hypotheses it informed. The stage-38 counterexample does not
+  favour a one-draw cipher, and stage 37 does not exclude markers whose bare
+  forms are rare or respelled.
