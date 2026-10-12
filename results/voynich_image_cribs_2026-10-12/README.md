@@ -3,14 +3,17 @@
 Separate exploratory exercise, requested by the user. It is not a stage of the
 numbered research programme.
 
-* `plant_cribs.json`: one entry per scanned page (front cover, inside cover,
-  folios 1r–36r; folio 12 is absent from the scans). 71 entries in all.
+* `plant_cribs.json`: one entry per scan image (front cover, inside cover,
+  folios 1r–79r). 143 entries in all. Folios 12, 59–64 and 74 are absent
+  from the scans. A fold-out scanned as one image is one entry (`69v+70r`,
+  `71v+72r`); a side scanned as two images is split (`70v_part1`,
+  `70v_part2`, `72v_part1`, `72v_part2`).
 * `build_cribs.py`: the per-page observations; it writes the JSON
   (`python3 build_cribs.py plant_cribs.json`).
 
 Each entry has these fields:
 
-* `page`: the scan order from 1r = 1, so 2v = 4.
+* `page`: the scan image order from 1r = 1, so 2v = 4.
 * `folio`: the folio number written on the scan.
 * `description`: what is drawn, in English.
 * `candidates_en`: possible plants, in English.
@@ -20,12 +23,18 @@ Each entry has these fields:
   Latin herbal and apothecary names), `it` (Italian vernacular) and `de`
   (Middle and Early New High German).
 
-**Source:** Beinecke MS 408 scans (Yale image IDs 1006074–1006144), supplied by
-the user as two PDFs. The PDFs are not committed.
+**Source:** Beinecke MS 408 scans (Yale image IDs 1006074–1006216), supplied by
+the user as four PDFs. The PDFs are not committed.
 
 **Method and limits:** an AI looked at each scan. No published Voynich
 identifications or decipherment literature were consulted. Most drawings are
-stylised, so the identifications are guesses: 1 high, 19 medium, 48 low,
-3 not applicable. Crib lists name several candidate plants on purpose.
+stylised, so the identifications are guesses: 9 high, 33 medium, 95 low,
+6 not applicable. The 8 high-confidence entries in 36v–79r are zodiac
+wheels whose sign is drawn and whose centre carries a Latin-script month
+name in a different hand (read here as `mars`, `abril`, `augst`, `octebre`,
+`novebre`; others too small or faint to read). Non-plant pages (zodiac,
+star and cosmological diagrams, bathing scenes, text-only pages) get
+cribs for what they appear to show: months, signs, stars, winds,
+elements, baths, water and pipes. Crib lists name several candidate plants on purpose.
 Period spellings vary a lot; the forms given are common ones, not the only
 ones. Nothing here is a decipherment or a verified label.
