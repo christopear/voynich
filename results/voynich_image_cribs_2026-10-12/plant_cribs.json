@@ -1,0 +1,4741 @@
+{
+  "source": "Yale Beinecke MS 408 (Cipher manuscript) page scans, image IDs 1006074-1006144, supplied as two PDFs by the user",
+  "method": "Visual identification from the scans only; no external Voynich identification literature consulted in this session. AI-generated, exploratory.",
+  "page_numbering": "'page' counts scanned folio sides from 1r = 1 (so 2v = 4); covers have page null. 'folio' is the foliation on the scan. Folio 12 is absent from the scans.",
+  "crib_languages": {
+    "la": "medieval Latin herbal/apothecary names",
+    "it": "Italian vernacular (Tuscan/northern forms)",
+    "de": "Middle/Early New High German"
+  },
+  "pages": [
+    {
+      "page": null,
+      "folio": "cover_front",
+      "description": "Limp vellum front cover, blank. No drawing.",
+      "candidates_en": [],
+      "confidence": "n/a",
+      "crib": [],
+      "crib_by_language": {
+        "la": [],
+        "it": [],
+        "de": []
+      }
+    },
+    {
+      "page": null,
+      "folio": "cover_inside",
+      "description": "Inside front cover with modern library pastedown, bookplate and shelf notes. No original drawing.",
+      "candidates_en": [],
+      "confidence": "n/a",
+      "crib": [],
+      "crib_by_language": {
+        "la": [],
+        "it": [],
+        "de": []
+      }
+    },
+    {
+      "page": "1",
+      "folio": "1r",
+      "description": "Text-only opening page: four paragraphs with red/rubricated initials in the left margin. Faint green leaf-shaped stains are show-through or offset, not a drawing. Likely an introduction, prologue or table of contents rather than a single plant.",
+      "candidates_en": [
+        "(no plant) prologue / incipit"
+      ],
+      "confidence": "n/a",
+      "crib": [
+        "incipit",
+        "liber",
+        "herbarium",
+        "de herbis",
+        "de virtutibus herbarum",
+        "prologus",
+        "tractatus",
+        "in nomine domini",
+        "capitulum",
+        "explicit",
+        "libro",
+        "erbario",
+        "delle erbe",
+        "proemio",
+        "capitolo",
+        "in nome di dio",
+        "buch",
+        "kreuterbuch",
+        "von den krütern",
+        "vorrede",
+        "in gottes namen",
+        "capitel"
+      ],
+      "crib_by_language": {
+        "la": [
+          "incipit",
+          "liber",
+          "herbarium",
+          "de herbis",
+          "de virtutibus herbarum",
+          "prologus",
+          "tractatus",
+          "in nomine domini",
+          "capitulum",
+          "explicit"
+        ],
+        "it": [
+          "libro",
+          "erbario",
+          "delle erbe",
+          "proemio",
+          "capitolo",
+          "in nome di dio"
+        ],
+        "de": [
+          "buch",
+          "kreuterbuch",
+          "von den krütern",
+          "vorrede",
+          "in gottes namen",
+          "capitel"
+        ]
+      }
+    },
+    {
+      "page": "2",
+      "folio": "1v",
+      "description": "Shrub with forked woody stems with knobby nodes; alternate elliptic pointed leaves coloured alternately green and tan/brown; a single white cup-shaped flower or calyx at the top holding a dark brown round berry; a large crosshatched lumpy root mass. A dark berry sitting in a pale calyx suggests deadly nightshade or another Solanaceae.",
+      "candidates_en": [
+        "deadly nightshade",
+        "belladonna",
+        "black nightshade",
+        "bittersweet",
+        "spurge laurel",
+        "winter cherry"
+      ],
+      "confidence": "low",
+      "crib": [
+        "solatrum",
+        "solatrum mortale",
+        "strignum",
+        "morella",
+        "uva lupina",
+        "solanum",
+        "halicacabum",
+        "alkekengi",
+        "laureola",
+        "dulcamara",
+        "solatro",
+        "solatro mortale",
+        "erba mora",
+        "uva di lupo",
+        "alchechengi",
+        "nachtschade",
+        "nachtschatten",
+        "tollkraut",
+        "wolfsbere",
+        "dollwurz",
+        "judenkirsche",
+        "seidelbast",
+        "bittersüß"
+      ],
+      "crib_by_language": {
+        "la": [
+          "solatrum",
+          "solatrum mortale",
+          "strignum",
+          "morella",
+          "uva lupina",
+          "solanum",
+          "halicacabum",
+          "alkekengi",
+          "laureola",
+          "dulcamara"
+        ],
+        "it": [
+          "solatro",
+          "solatro mortale",
+          "morella",
+          "erba mora",
+          "uva di lupo",
+          "alchechengi",
+          "laureola",
+          "dulcamara"
+        ],
+        "de": [
+          "nachtschade",
+          "nachtschatten",
+          "tollkraut",
+          "wolfsbere",
+          "dollwurz",
+          "judenkirsche",
+          "seidelbast",
+          "bittersüß"
+        ]
+      }
+    },
+    {
+      "page": "3",
+      "folio": "2r",
+      "description": "Three thistle-like flower heads with fringed pale-brown florets on bracteate green involucres dotted red; narrow, palmately/pinnately cut leaves; red-lined stems; red branched root. A knapweed / cornflower / centaury type (Centaurea-like composite).",
+      "candidates_en": [
+        "knapweed",
+        "cornflower",
+        "greater centaury",
+        "thistle",
+        "scabious",
+        "carline thistle"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "centaurea",
+        "centaurea maior",
+        "iacea",
+        "iacea nigra",
+        "cyanus",
+        "flos frumenti",
+        "carduus",
+        "scabiosa",
+        "carlina",
+        "cardopatia",
+        "centaurea maggiore",
+        "fioraliso",
+        "battisegola",
+        "cardo",
+        "scabbiosa",
+        "tusentguldin",
+        "tausendguldenkraut",
+        "kornblume",
+        "flockenblume",
+        "distel",
+        "eberwurz",
+        "scabiose"
+      ],
+      "crib_by_language": {
+        "la": [
+          "centaurea",
+          "centaurea maior",
+          "iacea",
+          "iacea nigra",
+          "cyanus",
+          "flos frumenti",
+          "carduus",
+          "scabiosa",
+          "carlina",
+          "cardopatia"
+        ],
+        "it": [
+          "centaurea",
+          "centaurea maggiore",
+          "iacea",
+          "fioraliso",
+          "battisegola",
+          "cardo",
+          "scabbiosa",
+          "carlina"
+        ],
+        "de": [
+          "tusentguldin",
+          "tausendguldenkraut",
+          "kornblume",
+          "flockenblume",
+          "distel",
+          "eberwurz",
+          "scabiose"
+        ]
+      }
+    },
+    {
+      "page": "4",
+      "folio": "2v",
+      "description": "One huge round, kidney-shaped green leaf with a deep basal notch on a long stem; a small trumpet/bell-shaped white flower with a green calyx at the top; base a strip of small round pebble-like tubercles (perhaps water bed or bulbils). Water lily, asarabacca, pennywort or bindweed type.",
+      "candidates_en": [
+        "water lily",
+        "yellow water lily",
+        "asarabacca",
+        "hazelwort",
+        "pennywort",
+        "navelwort",
+        "bindweed",
+        "coltsfoot"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "nenufar",
+        "nymphaea",
+        "lilium aquaticum",
+        "asarum",
+        "vulgago",
+        "umbilicus veneris",
+        "cotiledon",
+        "convolvulus",
+        "volubilis",
+        "ungula caballina",
+        "nenufaro",
+        "ninfea",
+        "giglio d'acqua",
+        "asaro",
+        "baccara",
+        "ombelico di venere",
+        "vilucchio",
+        "farfaro",
+        "seeblume",
+        "seerose",
+        "mummel",
+        "haselwurz",
+        "nabelkraut",
+        "winde",
+        "huflattich",
+        "rosshuf"
+      ],
+      "crib_by_language": {
+        "la": [
+          "nenufar",
+          "nymphaea",
+          "lilium aquaticum",
+          "asarum",
+          "vulgago",
+          "umbilicus veneris",
+          "cotiledon",
+          "convolvulus",
+          "volubilis",
+          "ungula caballina"
+        ],
+        "it": [
+          "nenufaro",
+          "ninfea",
+          "giglio d'acqua",
+          "asaro",
+          "baccara",
+          "ombelico di venere",
+          "vilucchio",
+          "farfaro"
+        ],
+        "de": [
+          "seeblume",
+          "seerose",
+          "mummel",
+          "haselwurz",
+          "nabelkraut",
+          "winde",
+          "huflattich",
+          "rosshuf"
+        ]
+      }
+    },
+    {
+      "page": "5",
+      "folio": "3r",
+      "description": "Single erect stalk ending in a dense oblong head of stacked wavy crescent bands, alternating green and red, with dotted edges and pointed tips; two broad leaves at the base of the head; fibrous red-brown root bundle. Possibly a coloured-leaf rosette (beet/chard, amaranth/cockscomb), a fern frond, or a palm/aloe drawn schematically.",
+      "candidates_en": [
+        "beet / chard",
+        "amaranth",
+        "cockscomb",
+        "fern",
+        "aloe",
+        "sea squill",
+        "red dock"
+      ],
+      "confidence": "low",
+      "crib": [
+        "beta",
+        "beta rubea",
+        "blitum",
+        "amarantus",
+        "flos amoris",
+        "filix",
+        "aloe",
+        "squilla",
+        "lapathum",
+        "bietola",
+        "bieta rossa",
+        "blito",
+        "amaranto",
+        "fior d'amore",
+        "felce",
+        "aloè",
+        "mangolt",
+        "rote rübe",
+        "bieße",
+        "tausentschön",
+        "farn",
+        "meerzwibel"
+      ],
+      "crib_by_language": {
+        "la": [
+          "beta",
+          "beta rubea",
+          "blitum",
+          "amarantus",
+          "flos amoris",
+          "filix",
+          "aloe",
+          "squilla",
+          "lapathum"
+        ],
+        "it": [
+          "bietola",
+          "bieta rossa",
+          "blito",
+          "amaranto",
+          "fior d'amore",
+          "felce",
+          "aloè",
+          "squilla"
+        ],
+        "de": [
+          "mangolt",
+          "rote rübe",
+          "bieße",
+          "tausentschön",
+          "farn",
+          "aloe",
+          "meerzwibel"
+        ]
+      }
+    },
+    {
+      "page": "6",
+      "folio": "3v",
+      "description": "Stem with six deeply cut claw/star-shaped leaves on curling stalks; two nodding dark blue flower heads (hood-like) each with a pale yellow crosshatched disc or seed face; long segmented reddish root with ring nodes ending in a hook. Monkshood/aconite, hellebore, love-in-a-mist or larkspur type.",
+      "candidates_en": [
+        "monkshood",
+        "aconite",
+        "wolfsbane",
+        "black hellebore",
+        "nigella",
+        "larkspur",
+        "columbine"
+      ],
+      "confidence": "low",
+      "crib": [
+        "aconitum",
+        "napellus",
+        "luparia",
+        "lycoctonum",
+        "elleborus niger",
+        "nigella",
+        "git",
+        "melanthium",
+        "consolida regalis",
+        "aquilegia",
+        "aconito",
+        "napello",
+        "elleboro nero",
+        "gittaione",
+        "speronella",
+        "aquilina",
+        "eisenhut",
+        "wolfswurz",
+        "blaw wolfswurz",
+        "christwurz",
+        "nieswurz",
+        "schwarzkümmel",
+        "rittersporn",
+        "ackelei"
+      ],
+      "crib_by_language": {
+        "la": [
+          "aconitum",
+          "napellus",
+          "luparia",
+          "lycoctonum",
+          "elleborus niger",
+          "nigella",
+          "git",
+          "melanthium",
+          "consolida regalis",
+          "aquilegia"
+        ],
+        "it": [
+          "aconito",
+          "napello",
+          "luparia",
+          "elleboro nero",
+          "nigella",
+          "gittaione",
+          "speronella",
+          "aquilina"
+        ],
+        "de": [
+          "eisenhut",
+          "wolfswurz",
+          "blaw wolfswurz",
+          "christwurz",
+          "nieswurz",
+          "schwarzkümmel",
+          "rittersporn",
+          "ackelei"
+        ]
+      }
+    },
+    {
+      "page": "7",
+      "folio": "4r",
+      "description": "Bushy herb: many upright branches densely set with small narrow paired leaves coloured green and red; small pale nodding bell/tubular flowers at branch tips and a small umbel-like cluster at the top; fine fibrous root. Heath, flax, toadflax, St John's wort, centaury, thyme or hyssop type.",
+      "candidates_en": [
+        "heather",
+        "flax",
+        "toadflax",
+        "St John's wort",
+        "lesser centaury",
+        "hyssop",
+        "thyme",
+        "knotgrass"
+      ],
+      "confidence": "low",
+      "crib": [
+        "erica",
+        "linum",
+        "linaria",
+        "hypericum",
+        "perforata",
+        "centaurea minor",
+        "fel terrae",
+        "hysopus",
+        "thymus",
+        "centinodia",
+        "lino",
+        "iperico",
+        "centaurea minore",
+        "biondella",
+        "issopo",
+        "timo",
+        "heide",
+        "lein",
+        "flachs",
+        "leinkraut",
+        "hartheu",
+        "johanskraut",
+        "tausentguldin",
+        "ysop",
+        "thymian",
+        "wegtritt"
+      ],
+      "crib_by_language": {
+        "la": [
+          "erica",
+          "linum",
+          "linaria",
+          "hypericum",
+          "perforata",
+          "centaurea minor",
+          "fel terrae",
+          "hysopus",
+          "thymus",
+          "centinodia"
+        ],
+        "it": [
+          "erica",
+          "lino",
+          "linaria",
+          "iperico",
+          "perforata",
+          "centaurea minore",
+          "biondella",
+          "issopo",
+          "timo",
+          "centinodia"
+        ],
+        "de": [
+          "heide",
+          "lein",
+          "flachs",
+          "leinkraut",
+          "hartheu",
+          "johanskraut",
+          "tausentguldin",
+          "ysop",
+          "thymian",
+          "wegtritt"
+        ]
+      }
+    },
+    {
+      "page": "8",
+      "folio": "4v",
+      "description": "Dark blue bell/tulip-shaped flower at the top with green star-shaped bracts above and below; spiky star-like whorls on the stem; arching branches with crescent narrow leaves; brown two-knobbed tuberous root with rootlets. Gentian, bellflower or columbine type.",
+      "candidates_en": [
+        "gentian",
+        "bellflower",
+        "campanula",
+        "columbine",
+        "pasque flower",
+        "bluebell"
+      ],
+      "confidence": "low",
+      "crib": [
+        "gentiana",
+        "campanula",
+        "aquilegia",
+        "pulsatilla",
+        "hyacinthus",
+        "viola campanula",
+        "radix gentiane",
+        "genziana",
+        "campanella",
+        "aquilina",
+        "giacinto",
+        "enzian",
+        "glockenblume",
+        "ackelei",
+        "küchenschelle",
+        "hyacint"
+      ],
+      "crib_by_language": {
+        "la": [
+          "gentiana",
+          "campanula",
+          "aquilegia",
+          "pulsatilla",
+          "hyacinthus",
+          "viola campanula",
+          "radix gentiane"
+        ],
+        "it": [
+          "genziana",
+          "campanella",
+          "aquilina",
+          "pulsatilla",
+          "giacinto"
+        ],
+        "de": [
+          "enzian",
+          "glockenblume",
+          "ackelei",
+          "küchenschelle",
+          "hyacint"
+        ]
+      }
+    },
+    {
+      "page": "9",
+      "folio": "5r",
+      "description": "Single stalk through a large rosette of broad, overlapping rounded green leaves (cabbage/umbrella-like); small white flower with drooping petals and a dark crown on top; thin roots with small dotted tubers. Cabbage, mandrake, coltsfoot, plantain or a broad-leaved rosette herb.",
+      "candidates_en": [
+        "cabbage",
+        "mandrake",
+        "coltsfoot",
+        "butterbur",
+        "greater plantain",
+        "monkshood (leaf only)",
+        "lettuce"
+      ],
+      "confidence": "low",
+      "crib": [
+        "caulis",
+        "brassica",
+        "mandragora",
+        "ungula caballina",
+        "farfara",
+        "petasites",
+        "plantago",
+        "arnoglossa",
+        "lactuca",
+        "cavolo",
+        "verza",
+        "mandragola",
+        "farfaro",
+        "petasite",
+        "piantaggine",
+        "lattuga",
+        "kôl",
+        "kabis",
+        "alrûne",
+        "alraun",
+        "huflattich",
+        "pestwurz",
+        "wegerich",
+        "lattich"
+      ],
+      "crib_by_language": {
+        "la": [
+          "caulis",
+          "brassica",
+          "mandragora",
+          "ungula caballina",
+          "farfara",
+          "petasites",
+          "plantago",
+          "arnoglossa",
+          "lactuca"
+        ],
+        "it": [
+          "cavolo",
+          "verza",
+          "mandragola",
+          "farfaro",
+          "petasite",
+          "piantaggine",
+          "lattuga"
+        ],
+        "de": [
+          "kôl",
+          "kabis",
+          "alrûne",
+          "alraun",
+          "huflattich",
+          "pestwurz",
+          "wegerich",
+          "lattich"
+        ]
+      }
+    },
+    {
+      "page": "10",
+      "folio": "5v",
+      "description": "Branching herb with palmately lobed, toothed leaves; small red five-petalled flowers with dark blue sepals and nodding buds; tuberous brown root. Crane's-bill/geranium, herb Robert, mallow or avens type.",
+      "candidates_en": [
+        "crane's-bill",
+        "herb Robert",
+        "dove's-foot",
+        "mallow",
+        "avens",
+        "scarlet pimpernel"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "geranium",
+        "pes columbinus",
+        "rostrum ciconie",
+        "herba roberti",
+        "malva",
+        "gariofilata",
+        "sanamunda",
+        "anagallis",
+        "geranio",
+        "piè di colombo",
+        "becco di grù",
+        "erba roberta",
+        "erba benedetta",
+        "anagallide",
+        "storchschnabel",
+        "taubenfuss",
+        "ruprechtskraut",
+        "pappel",
+        "benedictenwurz",
+        "gauchheil"
+      ],
+      "crib_by_language": {
+        "la": [
+          "geranium",
+          "pes columbinus",
+          "rostrum ciconie",
+          "herba roberti",
+          "malva",
+          "gariofilata",
+          "sanamunda",
+          "anagallis"
+        ],
+        "it": [
+          "geranio",
+          "piè di colombo",
+          "becco di grù",
+          "erba roberta",
+          "malva",
+          "erba benedetta",
+          "anagallide"
+        ],
+        "de": [
+          "storchschnabel",
+          "taubenfuss",
+          "ruprechtskraut",
+          "pappel",
+          "benedictenwurz",
+          "gauchheil"
+        ]
+      }
+    },
+    {
+      "page": "11",
+      "folio": "6r",
+      "description": "Erect stem with three large pinnately lobed leaves with long finger-like lobes near the base; four club/sac-shaped green pods or bladders curving outward, each ending in a red-rimmed open mouth fringed with hairs; twisted, rope-like intertwined roots. Fern-leaved plant with odd pods: acanthus, a fern, a thistle, or a poppy/henbane capsule drawing.",
+      "candidates_en": [
+        "acanthus / bear's breech",
+        "fern",
+        "thistle",
+        "opium poppy capsules",
+        "henbane",
+        "bladder senna"
+      ],
+      "confidence": "low",
+      "crib": [
+        "acanthus",
+        "branca ursina",
+        "filix",
+        "carduus",
+        "papaver",
+        "iusquiamus",
+        "colutea",
+        "acanto",
+        "branca orsina",
+        "felce",
+        "cardo",
+        "papavero",
+        "giusquiamo",
+        "bärenklau",
+        "farn",
+        "distel",
+        "magsamen",
+        "mohn",
+        "bilsenkraut"
+      ],
+      "crib_by_language": {
+        "la": [
+          "acanthus",
+          "branca ursina",
+          "filix",
+          "carduus",
+          "papaver",
+          "iusquiamus",
+          "colutea"
+        ],
+        "it": [
+          "acanto",
+          "branca orsina",
+          "felce",
+          "cardo",
+          "papavero",
+          "giusquiamo"
+        ],
+        "de": [
+          "bärenklau",
+          "farn",
+          "distel",
+          "magsamen",
+          "mohn",
+          "bilsenkraut"
+        ]
+      }
+    },
+    {
+      "page": "12",
+      "folio": "6v",
+      "description": "Plant with deeply palmate star-shaped leaves (5-7 points); round spiny burr-like fruits, green centres ringed in dark blue, bristly, at the top and one on the stem; fibrous root. Castor oil plant, chestnut burr, burdock or thorn-apple type.",
+      "candidates_en": [
+        "castor oil plant",
+        "sweet chestnut",
+        "burdock",
+        "hemp",
+        "cocklebur",
+        "sea holly"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "ricinus",
+        "cataputia maior",
+        "kiki",
+        "castanea",
+        "lappa",
+        "bardana",
+        "cannabis",
+        "xanthium",
+        "lappa minor",
+        "ricino",
+        "catapuzia maggiore",
+        "castagna",
+        "lappola",
+        "canapa",
+        "nappola",
+        "wunderbaum",
+        "kesten",
+        "kastanie",
+        "klette",
+        "hanf",
+        "spitzklette"
+      ],
+      "crib_by_language": {
+        "la": [
+          "ricinus",
+          "cataputia maior",
+          "kiki",
+          "castanea",
+          "lappa",
+          "bardana",
+          "cannabis",
+          "xanthium",
+          "lappa minor"
+        ],
+        "it": [
+          "ricino",
+          "catapuzia maggiore",
+          "castagna",
+          "bardana",
+          "lappola",
+          "canapa",
+          "nappola"
+        ],
+        "de": [
+          "wunderbaum",
+          "kesten",
+          "kastanie",
+          "klette",
+          "hanf",
+          "spitzklette"
+        ]
+      }
+    },
+    {
+      "page": "13",
+      "folio": "7r",
+      "description": "Single stem bearing a giant eight-pointed star rosette of long narrow green leaves with inner pale pinkish striped petal-like leaves; simple forked red root. Star-shaped flower or leaf rosette: star-of-Bethlehem, saffron/crocus, squill, lily or aloe.",
+      "candidates_en": [
+        "star-of-Bethlehem",
+        "saffron crocus",
+        "sea squill",
+        "lily",
+        "aloe",
+        "colchicum"
+      ],
+      "confidence": "low",
+      "crib": [
+        "ornithogalum",
+        "bulbus",
+        "crocus",
+        "crocus hortensis",
+        "squilla",
+        "cepa muris",
+        "lilium",
+        "aloe",
+        "hermodactylus",
+        "colchicum",
+        "latte di gallina",
+        "cipollone",
+        "zafferano",
+        "croco",
+        "giglio",
+        "aloè",
+        "colchico",
+        "vogelmilch",
+        "safran",
+        "meerzwibel",
+        "gilge",
+        "lilie",
+        "zeitlose"
+      ],
+      "crib_by_language": {
+        "la": [
+          "ornithogalum",
+          "bulbus",
+          "crocus",
+          "crocus hortensis",
+          "squilla",
+          "cepa muris",
+          "lilium",
+          "aloe",
+          "hermodactylus",
+          "colchicum"
+        ],
+        "it": [
+          "latte di gallina",
+          "cipollone",
+          "zafferano",
+          "croco",
+          "squilla",
+          "giglio",
+          "aloè",
+          "colchico"
+        ],
+        "de": [
+          "vogelmilch",
+          "safran",
+          "meerzwibel",
+          "gilge",
+          "lilie",
+          "aloe",
+          "zeitlose"
+        ]
+      }
+    },
+    {
+      "page": "14",
+      "folio": "7v",
+      "description": "Basal rosette of oval leaves with hairy/ciliate edges, each marked with a dark blue spot; two leaves on the stem coloured red; tall bare stem with three small dark berries or buds at the top; small tapering root. Spotted leaves strongly suggest lungwort; also spotted persicaria or hound's-tongue.",
+      "candidates_en": [
+        "lungwort",
+        "spotted persicaria / lady's thumb",
+        "hound's-tongue",
+        "spotted orchid",
+        "plantain"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "pulmonaria",
+        "pulmonalis",
+        "persicaria",
+        "cinoglossa",
+        "lingua canis",
+        "satyrion",
+        "plantago",
+        "polmonaria",
+        "erba polmonaria",
+        "erba pesca",
+        "lingua di cane",
+        "satirione",
+        "lungenkraut",
+        "flohkraut",
+        "pfersichkraut",
+        "hundszunge",
+        "knabenkraut",
+        "wegerich"
+      ],
+      "crib_by_language": {
+        "la": [
+          "pulmonaria",
+          "pulmonalis",
+          "persicaria",
+          "cinoglossa",
+          "lingua canis",
+          "satyrion",
+          "plantago"
+        ],
+        "it": [
+          "polmonaria",
+          "erba polmonaria",
+          "persicaria",
+          "erba pesca",
+          "cinoglossa",
+          "lingua di cane",
+          "satirione"
+        ],
+        "de": [
+          "lungenkraut",
+          "flohkraut",
+          "pfersichkraut",
+          "hundszunge",
+          "knabenkraut",
+          "wegerich"
+        ]
+      }
+    },
+    {
+      "page": "15",
+      "folio": "8r",
+      "description": "One tall thin stem with a single large triangular, arrow-shaped (hastate) green leaf at the top and a small lens-shaped leaf lower; text wraps around; branching root with one rootlet ending in a dot. Arum/cuckoo-pint, birthwort, ivy, sorrel, dock or bindweed leaf.",
+      "candidates_en": [
+        "cuckoo-pint / arum",
+        "birthwort",
+        "ivy",
+        "sheep's sorrel",
+        "dock",
+        "bindweed",
+        "Good-King-Henry"
+      ],
+      "confidence": "low",
+      "crib": [
+        "arum",
+        "iarus",
+        "barba aron",
+        "pes vituli",
+        "aristologia",
+        "aristolochia rotunda",
+        "hedera",
+        "acetosa",
+        "lapathum",
+        "bonus henricus",
+        "aro",
+        "gichero",
+        "piè di vitello",
+        "edera",
+        "romice",
+        "lapazio",
+        "aronstab",
+        "pfaffenpint",
+        "osterluzei",
+        "ebhöw",
+        "efeu",
+        "sauerampfer",
+        "ampfer",
+        "guoter heinrich"
+      ],
+      "crib_by_language": {
+        "la": [
+          "arum",
+          "iarus",
+          "barba aron",
+          "pes vituli",
+          "aristologia",
+          "aristolochia rotunda",
+          "hedera",
+          "acetosa",
+          "lapathum",
+          "bonus henricus"
+        ],
+        "it": [
+          "aro",
+          "gichero",
+          "piè di vitello",
+          "aristologia",
+          "edera",
+          "acetosa",
+          "romice",
+          "lapazio"
+        ],
+        "de": [
+          "aronstab",
+          "pfaffenpint",
+          "osterluzei",
+          "ebhöw",
+          "efeu",
+          "sauerampfer",
+          "ampfer",
+          "guoter heinrich"
+        ]
+      }
+    },
+    {
+      "page": "16",
+      "folio": "8v",
+      "description": "Erect leafy stem with ovate pointed leaves; tubular flowers red at the tip, emerging from dark blue striped calyces; spreading brown root. Pink/carnation type, or a borage-family plant whose flowers turn red to blue (comfrey, bugloss, lungwort).",
+      "candidates_en": [
+        "clove pink / carnation",
+        "campion",
+        "soapwort",
+        "comfrey",
+        "viper's bugloss",
+        "alkanet"
+      ],
+      "confidence": "low",
+      "crib": [
+        "gariofilus",
+        "flos tunice",
+        "herba tunica",
+        "saponaria",
+        "consolida maior",
+        "symphytum",
+        "buglossa",
+        "echium",
+        "ancusa",
+        "garofano",
+        "garofanino",
+        "consolida maggiore",
+        "lingua di bue",
+        "negelin",
+        "nägelein",
+        "seifenkraut",
+        "wallwurz",
+        "beinwell",
+        "ochsenzunge",
+        "natterkopf"
+      ],
+      "crib_by_language": {
+        "la": [
+          "gariofilus",
+          "flos tunice",
+          "herba tunica",
+          "saponaria",
+          "consolida maior",
+          "symphytum",
+          "buglossa",
+          "echium",
+          "ancusa"
+        ],
+        "it": [
+          "garofano",
+          "garofanino",
+          "saponaria",
+          "consolida maggiore",
+          "buglossa",
+          "lingua di bue",
+          "ancusa"
+        ],
+        "de": [
+          "negelin",
+          "nägelein",
+          "seifenkraut",
+          "wallwurz",
+          "beinwell",
+          "ochsenzunge",
+          "natterkopf"
+        ]
+      }
+    },
+    {
+      "page": "17",
+      "folio": "9r",
+      "description": "Rosette of roundish crinkled, lobed leaves on red petioles from a thick crown; tall red stem with spike-like clusters of tiny red-brown dotted seeds/flowers; large carrot-like tapered root with hairs and crosshatching. Rhubarb, dock, sorrel, lovage or celery type.",
+      "candidates_en": [
+        "rhubarb",
+        "dock",
+        "sorrel",
+        "lovage",
+        "celery / smallage",
+        "parsley",
+        "beet"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "reubarbarum",
+        "rha ponticum",
+        "rapontico",
+        "lapathum",
+        "rumex",
+        "acetosa",
+        "levisticum",
+        "apium",
+        "petrosilinum",
+        "beta",
+        "reobarbaro",
+        "rabarbaro",
+        "romice",
+        "lapazio",
+        "levistico",
+        "appio",
+        "petrosemolo",
+        "rebarbara",
+        "rhabarber",
+        "ampfer",
+        "sauerampfer",
+        "liebstöckel",
+        "eppich",
+        "peterlin",
+        "petersilie"
+      ],
+      "crib_by_language": {
+        "la": [
+          "reubarbarum",
+          "rha ponticum",
+          "rapontico",
+          "lapathum",
+          "rumex",
+          "acetosa",
+          "levisticum",
+          "apium",
+          "petrosilinum",
+          "beta"
+        ],
+        "it": [
+          "reobarbaro",
+          "rabarbaro",
+          "rapontico",
+          "romice",
+          "lapazio",
+          "acetosa",
+          "levistico",
+          "appio",
+          "petrosemolo"
+        ],
+        "de": [
+          "rebarbara",
+          "rhabarber",
+          "ampfer",
+          "sauerampfer",
+          "liebstöckel",
+          "eppich",
+          "peterlin",
+          "petersilie"
+        ]
+      }
+    },
+    {
+      "page": "18",
+      "folio": "9v",
+      "description": "Five-petalled flowers, blue-violet with some yellow lower petals (two-toned, pansy-like); narrow toothed leaves and narrow cut stipules along the stem; fibrous root. Very likely heartsease / wild pansy or another violet.",
+      "candidates_en": [
+        "heartsease / wild pansy",
+        "violet",
+        "sweet violet",
+        "dog violet"
+      ],
+      "confidence": "high",
+      "crib": [
+        "viola",
+        "viola tricolor",
+        "herba trinitatis",
+        "iacea",
+        "flos trinitatis",
+        "viola purpurea",
+        "viola martia",
+        "viola mammola",
+        "viola del pensiero",
+        "erba trinità",
+        "viola tricolore",
+        "violetta",
+        "veiel",
+        "viol",
+        "veilchen",
+        "freisam",
+        "freisamkraut",
+        "dreifaltigkeitsblume",
+        "stiefmütterlein"
+      ],
+      "crib_by_language": {
+        "la": [
+          "viola",
+          "viola tricolor",
+          "herba trinitatis",
+          "iacea",
+          "flos trinitatis",
+          "viola purpurea",
+          "viola martia"
+        ],
+        "it": [
+          "viola",
+          "viola mammola",
+          "viola del pensiero",
+          "erba trinità",
+          "viola tricolore",
+          "violetta"
+        ],
+        "de": [
+          "veiel",
+          "viol",
+          "veilchen",
+          "freisam",
+          "freisamkraut",
+          "dreifaltigkeitsblume",
+          "stiefmütterlein"
+        ]
+      }
+    },
+    {
+      "page": "19",
+      "folio": "10r",
+      "description": "Leafy erect stem with paired toothed ovate leaves, some green and some olive-brown (wilting), curving down; on a long arching stalk a single radiating blue flower with fringed blue ray florets around a pale yellow oval centre, with a pale bud; horizontal roots ending in two red oval tubers. Cornflower, chicory or scabious type.",
+      "candidates_en": [
+        "cornflower",
+        "chicory",
+        "scabious",
+        "blue aster",
+        "borage"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "cyanus",
+        "flos frumenti",
+        "cicorea",
+        "intiba",
+        "solsequium",
+        "scabiosa",
+        "aster atticus",
+        "borago",
+        "fioraliso",
+        "battisegola",
+        "cicoria",
+        "radicchio",
+        "scabbiosa",
+        "astro",
+        "borragine",
+        "kornblume",
+        "blaver",
+        "wegwarte",
+        "sonnenwirbel",
+        "scabiose",
+        "boretsch"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cyanus",
+          "flos frumenti",
+          "cicorea",
+          "intiba",
+          "solsequium",
+          "scabiosa",
+          "aster atticus",
+          "borago"
+        ],
+        "it": [
+          "fioraliso",
+          "battisegola",
+          "cicoria",
+          "radicchio",
+          "scabbiosa",
+          "astro",
+          "borragine"
+        ],
+        "de": [
+          "kornblume",
+          "blaver",
+          "wegwarte",
+          "sonnenwirbel",
+          "scabiose",
+          "boretsch"
+        ]
+      }
+    },
+    {
+      "page": "20",
+      "folio": "10v",
+      "description": "Stem with paired, wavy, twisting strap-like dark green leaves; two nodding dark blue bell flowers on arching stalks; tuberous rhizome root with pointed rootlets. Bluebell/hyacinth, Solomon's seal, bellflower or monkshood type.",
+      "candidates_en": [
+        "bluebell / wild hyacinth",
+        "Solomon's seal",
+        "bellflower",
+        "comfrey",
+        "monkshood"
+      ],
+      "confidence": "low",
+      "crib": [
+        "hyacinthus",
+        "bulbus vomitorius",
+        "sigillum salomonis",
+        "poligonatum",
+        "campanula",
+        "consolida maior",
+        "aconitum",
+        "giacinto",
+        "sigillo di salomone",
+        "campanella",
+        "consolida",
+        "aconito",
+        "hyacint",
+        "weisswurz",
+        "salomonssiegel",
+        "glockenblume",
+        "wallwurz",
+        "eisenhut"
+      ],
+      "crib_by_language": {
+        "la": [
+          "hyacinthus",
+          "bulbus vomitorius",
+          "sigillum salomonis",
+          "poligonatum",
+          "campanula",
+          "consolida maior",
+          "aconitum"
+        ],
+        "it": [
+          "giacinto",
+          "sigillo di salomone",
+          "campanella",
+          "consolida",
+          "aconito"
+        ],
+        "de": [
+          "hyacint",
+          "weisswurz",
+          "salomonssiegel",
+          "glockenblume",
+          "wallwurz",
+          "eisenhut"
+        ]
+      }
+    },
+    {
+      "page": "21",
+      "folio": "11r",
+      "description": "Dense rounded crown of overlapping scalloped green leaves studded with small dark blue trumpet-shaped flowers; three pale stems arising from three hairy/spiny brownish sheaths that cross; long spiky, hairy roots. Rosemary, lavender, hyssop or a blue-flowered shrublet.",
+      "candidates_en": [
+        "rosemary",
+        "lavender",
+        "hyssop",
+        "sage",
+        "germander",
+        "periwinkle"
+      ],
+      "confidence": "low",
+      "crib": [
+        "rosmarinus",
+        "ros marinus",
+        "anthos",
+        "lavendula",
+        "spica",
+        "hysopus",
+        "salvia",
+        "camedreos",
+        "pervinca",
+        "vinca",
+        "ramerino",
+        "rosmarino",
+        "lavanda",
+        "spigo",
+        "issopo",
+        "camedrio",
+        "rosmarin",
+        "lavendel",
+        "ysop",
+        "salbei",
+        "salvei",
+        "gamander",
+        "singrün"
+      ],
+      "crib_by_language": {
+        "la": [
+          "rosmarinus",
+          "ros marinus",
+          "anthos",
+          "lavendula",
+          "spica",
+          "hysopus",
+          "salvia",
+          "camedreos",
+          "pervinca",
+          "vinca"
+        ],
+        "it": [
+          "ramerino",
+          "rosmarino",
+          "lavanda",
+          "spigo",
+          "issopo",
+          "salvia",
+          "camedrio",
+          "pervinca"
+        ],
+        "de": [
+          "rosmarin",
+          "lavendel",
+          "spica",
+          "ysop",
+          "salbei",
+          "salvei",
+          "gamander",
+          "singrün"
+        ]
+      }
+    },
+    {
+      "page": "22",
+      "folio": "11v",
+      "description": "Tree-like plant: a dense ovoid crown of overlapping scale-like leaves coloured green and russet/brown (like a pine cone, artichoke or hop cone); a blue fan-shaped tuft or flower on top; trunk of many fine red-lined stems; root cluster of cut stubs with fibrous roots. Pine cone, cypress, juniper, artichoke or hop.",
+      "candidates_en": [
+        "stone pine / pine cone",
+        "cypress",
+        "juniper",
+        "artichoke",
+        "hop",
+        "savin"
+      ],
+      "confidence": "low",
+      "crib": [
+        "pinus",
+        "pinea",
+        "nux pinea",
+        "strobilus",
+        "cipressus",
+        "iuniperus",
+        "sabina",
+        "cinara",
+        "carduus domesticus",
+        "lupulus",
+        "pino",
+        "pigna",
+        "pinocchio",
+        "cipresso",
+        "ginepro",
+        "savina",
+        "carciofo",
+        "luppolo",
+        "fichte",
+        "kiefer",
+        "pinapfel",
+        "zypresse",
+        "wacholder",
+        "kranewit",
+        "sevenbaum",
+        "hopfen"
+      ],
+      "crib_by_language": {
+        "la": [
+          "pinus",
+          "pinea",
+          "nux pinea",
+          "strobilus",
+          "cipressus",
+          "iuniperus",
+          "sabina",
+          "cinara",
+          "carduus domesticus",
+          "lupulus"
+        ],
+        "it": [
+          "pino",
+          "pigna",
+          "pinocchio",
+          "cipresso",
+          "ginepro",
+          "savina",
+          "carciofo",
+          "luppolo"
+        ],
+        "de": [
+          "fichte",
+          "kiefer",
+          "pinapfel",
+          "zypresse",
+          "wacholder",
+          "kranewit",
+          "sevenbaum",
+          "hopfen"
+        ]
+      }
+    },
+    {
+      "page": "23",
+      "folio": "13r",
+      "description": "Broad rounded, scalloped/notched leaves on long petioles, half green and half olive-brown; central stalk with a dense club-shaped cluster of pale pod-like buds topped with white dotted tips, the uppermost blue; bulbous red-brown twisted root/corm ringed with white knobs at the crown. Butterbur/coltsfoot (round leaves plus a club flower spike), cyclamen, beet or rhubarb.",
+      "candidates_en": [
+        "butterbur",
+        "coltsfoot",
+        "cyclamen / sowbread",
+        "beet",
+        "rhubarb",
+        "burdock"
+      ],
+      "confidence": "low",
+      "crib": [
+        "petasites",
+        "ungula caballina",
+        "farfara",
+        "cyclamen",
+        "panis porcinus",
+        "arthanita",
+        "beta",
+        "reubarbarum",
+        "lappa",
+        "petasite",
+        "farfaro",
+        "ciclamino",
+        "pan porcino",
+        "bietola",
+        "rabarbaro",
+        "bardana",
+        "pestwurz",
+        "huflattich",
+        "schweinbrot",
+        "erdapfel",
+        "mangolt",
+        "rhabarber",
+        "klette"
+      ],
+      "crib_by_language": {
+        "la": [
+          "petasites",
+          "ungula caballina",
+          "farfara",
+          "cyclamen",
+          "panis porcinus",
+          "arthanita",
+          "beta",
+          "reubarbarum",
+          "lappa"
+        ],
+        "it": [
+          "petasite",
+          "farfaro",
+          "ciclamino",
+          "pan porcino",
+          "bietola",
+          "rabarbaro",
+          "bardana"
+        ],
+        "de": [
+          "pestwurz",
+          "huflattich",
+          "schweinbrot",
+          "erdapfel",
+          "mangolt",
+          "rhabarber",
+          "klette"
+        ]
+      }
+    },
+    {
+      "page": "24",
+      "folio": "13v",
+      "description": "Two stems from one brown root, each with a cylindrical/conical stack of overlapping scale-leaves (green and olive, like an artichoke or cabbage head); the left topped by three dark blue elongated buds with recurved white sepals, the right by a further leafy head. Artichoke/cardoon, cabbage, houseleek or columbine.",
+      "candidates_en": [
+        "artichoke / cardoon",
+        "cabbage",
+        "houseleek",
+        "columbine",
+        "larkspur"
+      ],
+      "confidence": "low",
+      "crib": [
+        "cinara",
+        "cardus",
+        "carduus domesticus",
+        "caulis",
+        "brassica",
+        "semperviva",
+        "barba iovis",
+        "aquilegia",
+        "consolida regalis",
+        "carciofo",
+        "cardo",
+        "cavolo",
+        "semprevivo",
+        "barba di giove",
+        "aquilina",
+        "speronella",
+        "artischock",
+        "kardendistel",
+        "kôl",
+        "hauswurz",
+        "donnerbart",
+        "ackelei",
+        "rittersporn"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cinara",
+          "cardus",
+          "carduus domesticus",
+          "caulis",
+          "brassica",
+          "semperviva",
+          "barba iovis",
+          "aquilegia",
+          "consolida regalis"
+        ],
+        "it": [
+          "carciofo",
+          "cardo",
+          "cavolo",
+          "semprevivo",
+          "barba di giove",
+          "aquilina",
+          "speronella"
+        ],
+        "de": [
+          "artischock",
+          "kardendistel",
+          "kôl",
+          "hauswurz",
+          "donnerbart",
+          "ackelei",
+          "rittersporn"
+        ]
+      }
+    },
+    {
+      "page": "25",
+      "folio": "14r",
+      "description": "Tall stalk with whorls of long narrow, pointed, sword-like leaves on red petioles and red stem; single small red-orange star flower over a dark green oval bud/fruit on top; base of two pale sheathing stems on a large coiled, ring-segmented horizontal rhizome (snake-like). Iris/flag, gladiolus or sweet flag (calamus).",
+      "candidates_en": [
+        "iris / flag",
+        "gladiolus / corn flag",
+        "sweet flag",
+        "yellow flag",
+        "saffron",
+        "leek"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "iris",
+        "ireos",
+        "gladiolus",
+        "acorus",
+        "calamus aromaticus",
+        "spatula fetida",
+        "xiphion",
+        "crocus",
+        "porrum",
+        "iride",
+        "giglio celeste",
+        "gladiolo",
+        "spadacciola",
+        "acoro",
+        "calamo aromatico",
+        "zafferano",
+        "porro",
+        "schwertel",
+        "schwertlilie",
+        "gilge",
+        "blaue gilge",
+        "kalmus",
+        "ackerwurz",
+        "safran",
+        "lauch"
+      ],
+      "crib_by_language": {
+        "la": [
+          "iris",
+          "ireos",
+          "gladiolus",
+          "acorus",
+          "calamus aromaticus",
+          "spatula fetida",
+          "xiphion",
+          "crocus",
+          "porrum"
+        ],
+        "it": [
+          "iride",
+          "ireos",
+          "giglio celeste",
+          "gladiolo",
+          "spadacciola",
+          "acoro",
+          "calamo aromatico",
+          "zafferano",
+          "porro"
+        ],
+        "de": [
+          "schwertel",
+          "schwertlilie",
+          "gilge",
+          "blaue gilge",
+          "kalmus",
+          "ackerwurz",
+          "safran",
+          "lauch"
+        ]
+      }
+    },
+    {
+      "page": "26",
+      "folio": "14v",
+      "description": "Two large spiky-edged, comb-like serrated leaf fans; three stalks with curled pale crozier-like clusters of dotted (seed-filled) flowers with blue dots, like scorpioid cymes; red-brown cross-shaped root with cut-end stubs. Heliotrope (scorpion's-tail), borage-family, fern with sori, thistle or teasel.",
+      "candidates_en": [
+        "heliotrope (scorpion's tail)",
+        "forget-me-not / scorpion grass",
+        "fern",
+        "teasel",
+        "thistle",
+        "comfrey"
+      ],
+      "confidence": "low",
+      "crib": [
+        "heliotropium",
+        "herba scorpionis",
+        "verrucaria",
+        "solsequium",
+        "filix",
+        "dipsacus",
+        "virga pastoris",
+        "carduus",
+        "consolida maior",
+        "eliotropio",
+        "erba porraia",
+        "erba scorpione",
+        "felce",
+        "dipsaco",
+        "verga di pastore",
+        "cardo",
+        "skorpionkraut",
+        "warzenkraut",
+        "vergissmeinnicht",
+        "farn",
+        "karde",
+        "distel"
+      ],
+      "crib_by_language": {
+        "la": [
+          "heliotropium",
+          "herba scorpionis",
+          "verrucaria",
+          "solsequium",
+          "filix",
+          "dipsacus",
+          "virga pastoris",
+          "carduus",
+          "consolida maior"
+        ],
+        "it": [
+          "eliotropio",
+          "erba porraia",
+          "erba scorpione",
+          "felce",
+          "dipsaco",
+          "verga di pastore",
+          "cardo"
+        ],
+        "de": [
+          "skorpionkraut",
+          "warzenkraut",
+          "vergissmeinnicht",
+          "farn",
+          "karde",
+          "distel"
+        ]
+      }
+    },
+    {
+      "page": "27",
+      "folio": "15r",
+      "description": "Stem with oak-leaf-like lobed pinnate leaves, each leaf tip trailing a chain of pale bead/bulbil-like swellings; two long pale vase-shaped capsules or buds with blue-dotted tips; one radiating sunburst flower (fine rays around a pale golden oval disc) at the top; red sheath and red spreading root. Poppy (capsule plus sunburst), salsify/goat's-beard (pappus clock), dandelion or a bulbil-bearing herb.",
+      "candidates_en": [
+        "opium poppy",
+        "goat's-beard / salsify",
+        "dandelion",
+        "coral-root / bulbiferous toothwort",
+        "scabious"
+      ],
+      "confidence": "low",
+      "crib": [
+        "papaver",
+        "papaver album",
+        "papaver nigrum",
+        "tragopogon",
+        "barba hirci",
+        "taraxacon",
+        "dens leonis",
+        "dentaria",
+        "papavero",
+        "papavero bianco",
+        "barba di becco",
+        "tarassaco",
+        "dente di leone",
+        "magsamen",
+        "mohn",
+        "bocksbart",
+        "löwenzahn",
+        "pfaffenröhrlein",
+        "zahnwurz"
+      ],
+      "crib_by_language": {
+        "la": [
+          "papaver",
+          "papaver album",
+          "papaver nigrum",
+          "tragopogon",
+          "barba hirci",
+          "taraxacon",
+          "dens leonis",
+          "dentaria"
+        ],
+        "it": [
+          "papavero",
+          "papavero bianco",
+          "barba di becco",
+          "tarassaco",
+          "dente di leone",
+          "dentaria"
+        ],
+        "de": [
+          "magsamen",
+          "mohn",
+          "bocksbart",
+          "löwenzahn",
+          "pfaffenröhrlein",
+          "zahnwurz"
+        ]
+      }
+    },
+    {
+      "page": "28",
+      "folio": "15v",
+      "description": "Four broad rounded, spade-shaped leaves with curled tips in a cross on a stem; a tall pale stalk ending in a white elongated spathe-like bulb from which a long curled crest of pale yellow drop-shaped florets hangs; fibrous root. Herb Paris (four leaves in a cross), an arum, or lily-of-the-valley type.",
+      "candidates_en": [
+        "herb Paris",
+        "cuckoo-pint / arum",
+        "lily-of-the-valley",
+        "wood sorrel",
+        "trefoil"
+      ],
+      "confidence": "low",
+      "crib": [
+        "herba paris",
+        "uva versa",
+        "solanum quadrifolium",
+        "arum",
+        "iarus",
+        "lilium convallium",
+        "trifolium",
+        "alleluia",
+        "oxys",
+        "uva di volpe",
+        "erba paris",
+        "aro",
+        "gichero",
+        "giglio delle convalli",
+        "trifoglio",
+        "acetosella",
+        "einbeere",
+        "aronstab",
+        "meiblume",
+        "maiblume",
+        "klee",
+        "sauerklee",
+        "buchampfer"
+      ],
+      "crib_by_language": {
+        "la": [
+          "herba paris",
+          "uva versa",
+          "solanum quadrifolium",
+          "arum",
+          "iarus",
+          "lilium convallium",
+          "trifolium",
+          "alleluia",
+          "oxys"
+        ],
+        "it": [
+          "uva di volpe",
+          "erba paris",
+          "aro",
+          "gichero",
+          "giglio delle convalli",
+          "trifoglio",
+          "alleluia",
+          "acetosella"
+        ],
+        "de": [
+          "einbeere",
+          "aronstab",
+          "meiblume",
+          "maiblume",
+          "klee",
+          "sauerklee",
+          "buchampfer"
+        ]
+      }
+    },
+    {
+      "page": "29",
+      "folio": "16r",
+      "description": "Palmately compound leaves with many narrow toothed leaflets (hemp-like); at the top a dense spike of curled clusters of tiny red and white dotted flowers among small green bracts; thick pale root with finger-like hairy lobes. Hemp, hop or chaste tree.",
+      "candidates_en": [
+        "hemp",
+        "hop",
+        "chaste tree",
+        "castor oil plant",
+        "lupin"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "cannabis",
+        "canapus",
+        "canabus",
+        "lupulus",
+        "humulus",
+        "agnus castus",
+        "vitex",
+        "ricinus",
+        "lupinus",
+        "canapa",
+        "canape",
+        "luppolo",
+        "agno casto",
+        "agnocasto",
+        "ricino",
+        "lupino",
+        "hanf",
+        "hopfe",
+        "hopfen",
+        "keuschlamm",
+        "schafmülle",
+        "wunderbaum",
+        "feigbohne"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cannabis",
+          "canapus",
+          "canabus",
+          "lupulus",
+          "humulus",
+          "agnus castus",
+          "vitex",
+          "ricinus",
+          "lupinus"
+        ],
+        "it": [
+          "canapa",
+          "canape",
+          "luppolo",
+          "agno casto",
+          "agnocasto",
+          "ricino",
+          "lupino"
+        ],
+        "de": [
+          "hanf",
+          "hopfe",
+          "hopfen",
+          "keuschlamm",
+          "schafmülle",
+          "wunderbaum",
+          "feigbohne"
+        ]
+      }
+    },
+    {
+      "page": "30",
+      "folio": "16v",
+      "description": "One large blue/teal star flower with fringed bracts and four pale elongated petals round a yellow dotted central disc (sea-holly-like); four red jagged sunburst flowers with toothed dark red rays and pale leafy centres; pale brown sheath-like root. Sea holly/eryngo, carline thistle, or a pomegranate/pink-flowered plant.",
+      "candidates_en": [
+        "sea holly / eryngo",
+        "carline thistle",
+        "star thistle",
+        "pomegranate flower",
+        "red campion",
+        "corncockle"
+      ],
+      "confidence": "low",
+      "crib": [
+        "eryngium",
+        "yringus",
+        "carlina",
+        "cardopatia",
+        "calcitrapa",
+        "balaustium",
+        "malum granatum",
+        "githago",
+        "lychnis",
+        "eringio",
+        "calcatreppola",
+        "cardo stellato",
+        "balaustra",
+        "melagrana",
+        "gittaione",
+        "licnide",
+        "mannstreu",
+        "eberwurz",
+        "sterndistel",
+        "granatapfel",
+        "rade",
+        "kornrade"
+      ],
+      "crib_by_language": {
+        "la": [
+          "eryngium",
+          "yringus",
+          "carlina",
+          "cardopatia",
+          "calcitrapa",
+          "balaustium",
+          "malum granatum",
+          "githago",
+          "lychnis"
+        ],
+        "it": [
+          "eringio",
+          "calcatreppola",
+          "carlina",
+          "cardo stellato",
+          "balaustra",
+          "melagrana",
+          "gittaione",
+          "licnide"
+        ],
+        "de": [
+          "mannstreu",
+          "eberwurz",
+          "sterndistel",
+          "granatapfel",
+          "rade",
+          "kornrade"
+        ]
+      }
+    },
+    {
+      "page": "31",
+      "folio": "17r",
+      "description": "Erect stem with long narrow, ladder-like paired leaves; three dark blue-black brush/thistle-like flower heads with pale fringed tips on green cups; fibrous root marked with two red diamonds. A faint later marginal note runs along the top edge. Globe thistle, knapweed, scabious or cornflower type.",
+      "candidates_en": [
+        "globe thistle",
+        "black knapweed",
+        "scabious",
+        "cornflower",
+        "devil's-bit"
+      ],
+      "confidence": "low",
+      "crib": [
+        "echinops",
+        "iacea nigra",
+        "scabiosa",
+        "morsus diaboli",
+        "succisa",
+        "cyanus",
+        "carduus",
+        "cardo",
+        "iacea",
+        "scabbiosa",
+        "morso del diavolo",
+        "fioraliso",
+        "kugeldistel",
+        "flockenblume",
+        "scabiose",
+        "teufelsabbiss",
+        "kornblume",
+        "distel"
+      ],
+      "crib_by_language": {
+        "la": [
+          "echinops",
+          "iacea nigra",
+          "scabiosa",
+          "morsus diaboli",
+          "succisa",
+          "cyanus",
+          "carduus"
+        ],
+        "it": [
+          "cardo",
+          "iacea",
+          "scabbiosa",
+          "morso del diavolo",
+          "fioraliso"
+        ],
+        "de": [
+          "kugeldistel",
+          "flockenblume",
+          "scabiose",
+          "teufelsabbiss",
+          "kornblume",
+          "distel"
+        ]
+      }
+    },
+    {
+      "page": "32",
+      "folio": "17v",
+      "description": "Climbing vine: long trailing stem with a spiral tendril at left; bunches of red berries along the top; alternate ovate pointed toothed leaves; long hairy jointed brown root, like a segmented hairy rhizome. Bryony (tendrils, red berries, huge root), black bryony, bittersweet nightshade or hop.",
+      "candidates_en": [
+        "white bryony",
+        "black bryony",
+        "bittersweet nightshade",
+        "hop",
+        "grape vine",
+        "redcurrant"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "brionia",
+        "vitis alba",
+        "cucurbita agrestis",
+        "viticella",
+        "tamnus",
+        "vitis nigra",
+        "dulcamara",
+        "lupulus",
+        "vitis",
+        "vite bianca",
+        "zucca selvatica",
+        "tamaro",
+        "vite nera",
+        "luppolo",
+        "vite",
+        "stickwurz",
+        "hundskürbis",
+        "rotwurz",
+        "zaunrübe",
+        "schmerwurz",
+        "bittersüß",
+        "hopfen",
+        "reben"
+      ],
+      "crib_by_language": {
+        "la": [
+          "brionia",
+          "vitis alba",
+          "cucurbita agrestis",
+          "viticella",
+          "tamnus",
+          "vitis nigra",
+          "dulcamara",
+          "lupulus",
+          "vitis"
+        ],
+        "it": [
+          "brionia",
+          "vite bianca",
+          "zucca selvatica",
+          "tamaro",
+          "vite nera",
+          "dulcamara",
+          "luppolo",
+          "vite"
+        ],
+        "de": [
+          "stickwurz",
+          "hundskürbis",
+          "rotwurz",
+          "zaunrübe",
+          "schmerwurz",
+          "bittersüß",
+          "hopfen",
+          "reben"
+        ]
+      }
+    },
+    {
+      "page": "33",
+      "folio": "18r",
+      "description": "Upright stem with smooth spoon-shaped leaves; terminal flower with dark blue ray petals around a red-dotted centre; small white buds with red tips in the leaf axils; fibrous root. Chicory, aster, marigold or blue daisy type.",
+      "candidates_en": [
+        "chicory",
+        "Italian aster",
+        "pot marigold",
+        "cornflower",
+        "blue daisy",
+        "scabious"
+      ],
+      "confidence": "low",
+      "crib": [
+        "cicorea",
+        "intiba",
+        "solsequium",
+        "sponsa solis",
+        "aster atticus",
+        "bubonium",
+        "calendula",
+        "cyanus",
+        "cicoria",
+        "radicchio",
+        "sponsa del sole",
+        "astro",
+        "fiorrancio",
+        "fioraliso",
+        "wegwarte",
+        "sonnenwirbel",
+        "sternkraut",
+        "ringelblume",
+        "kornblume"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cicorea",
+          "intiba",
+          "solsequium",
+          "sponsa solis",
+          "aster atticus",
+          "bubonium",
+          "calendula",
+          "cyanus"
+        ],
+        "it": [
+          "cicoria",
+          "radicchio",
+          "sponsa del sole",
+          "astro",
+          "fiorrancio",
+          "calendula",
+          "fioraliso"
+        ],
+        "de": [
+          "wegwarte",
+          "sonnenwirbel",
+          "sternkraut",
+          "ringelblume",
+          "kornblume"
+        ]
+      }
+    },
+    {
+      "page": "34",
+      "folio": "18v",
+      "description": "Branching stem with groups of rounded, deeply lobed leaflets (celandine/buttercup/parsley-like); at the top a large round flower head with a fringed, hairy outer ring, a cup of overlapping scales and a pale blue-grey disc bearing a cluster of red berries; root a thick bulb with a long horizontal branching fleshy rhizome with many finger-like shoots. Celandine, buttercup, strawberry, avens or wood anemone.",
+      "candidates_en": [
+        "greater celandine",
+        "buttercup",
+        "wild strawberry",
+        "avens / herb bennet",
+        "wood anemone",
+        "columbine"
+      ],
+      "confidence": "low",
+      "crib": [
+        "chelidonia",
+        "celidonia",
+        "ranunculus",
+        "apium risus",
+        "fragaria",
+        "fraga",
+        "gariofilata",
+        "anemone",
+        "aquilegia",
+        "ranuncolo",
+        "piè di gallo",
+        "fragola",
+        "erba benedetta",
+        "aquilina",
+        "schelwurz",
+        "schöllkraut",
+        "hanenfuss",
+        "erdbere",
+        "benedictenwurz",
+        "windröslein",
+        "ackelei"
+      ],
+      "crib_by_language": {
+        "la": [
+          "chelidonia",
+          "celidonia",
+          "ranunculus",
+          "apium risus",
+          "fragaria",
+          "fraga",
+          "gariofilata",
+          "anemone",
+          "aquilegia"
+        ],
+        "it": [
+          "celidonia",
+          "ranuncolo",
+          "piè di gallo",
+          "fragola",
+          "erba benedetta",
+          "anemone",
+          "aquilina"
+        ],
+        "de": [
+          "schelwurz",
+          "schöllkraut",
+          "hanenfuss",
+          "erdbere",
+          "benedictenwurz",
+          "windröslein",
+          "ackelei"
+        ]
+      }
+    },
+    {
+      "page": "35",
+      "folio": "19r",
+      "description": "Two large drooping comb-like (pectinate) arching fronds at the base; an erect stem with smaller toothed narrow leaves; several small blue-and-white cone/cluster buds; one large dark blue three-petalled, lily-like flower with a tan fringed edge on a green leafy cup at the top; pale root crown flaring into fibrous roots. Iris, larkspur, a fern with flower, or spiderwort type.",
+      "candidates_en": [
+        "iris",
+        "larkspur",
+        "bracken",
+        "lavender",
+        "polypody"
+      ],
+      "confidence": "low",
+      "crib": [
+        "iris",
+        "ireos",
+        "consolida regalis",
+        "filix",
+        "pteris",
+        "lavendula",
+        "polipodium",
+        "iride",
+        "speronella",
+        "felce",
+        "felce aquilina",
+        "lavanda",
+        "polipodio",
+        "schwertel",
+        "rittersporn",
+        "farn",
+        "adlerfarn",
+        "lavendel",
+        "engelsüss"
+      ],
+      "crib_by_language": {
+        "la": [
+          "iris",
+          "ireos",
+          "consolida regalis",
+          "filix",
+          "pteris",
+          "lavendula",
+          "polipodium"
+        ],
+        "it": [
+          "iride",
+          "speronella",
+          "felce",
+          "felce aquilina",
+          "lavanda",
+          "polipodio"
+        ],
+        "de": [
+          "schwertel",
+          "rittersporn",
+          "farn",
+          "adlerfarn",
+          "lavendel",
+          "engelsüss"
+        ]
+      }
+    },
+    {
+      "page": "36",
+      "folio": "19v",
+      "description": "Tall pale stem from a red-brown bulbous root with spreading roots; two tiers of dense, fringed, spiky green brush-like foliage on whorled stalks; three long thin stalks at the top each with a small blue three-lobed bud over a pale oval capsule. Horsetail, fennel/dill (feathery foliage), asparagus, leek/onion (bulb plus capsule) or flax.",
+      "candidates_en": [
+        "horsetail",
+        "fennel",
+        "dill",
+        "asparagus",
+        "leek",
+        "flax"
+      ],
+      "confidence": "low",
+      "crib": [
+        "equisetum",
+        "cauda equina",
+        "feniculum",
+        "anetum",
+        "asparagus",
+        "sparagus",
+        "porrum",
+        "linum",
+        "coda cavallina",
+        "equiseto",
+        "finocchio",
+        "aneto",
+        "asparago",
+        "sparagio",
+        "porro",
+        "lino",
+        "schaftelhalm",
+        "katzenzagel",
+        "fenchel",
+        "dille",
+        "spargen",
+        "lauch",
+        "lein"
+      ],
+      "crib_by_language": {
+        "la": [
+          "equisetum",
+          "cauda equina",
+          "feniculum",
+          "anetum",
+          "asparagus",
+          "sparagus",
+          "porrum",
+          "linum"
+        ],
+        "it": [
+          "coda cavallina",
+          "equiseto",
+          "finocchio",
+          "aneto",
+          "asparago",
+          "sparagio",
+          "porro",
+          "lino"
+        ],
+        "de": [
+          "schaftelhalm",
+          "katzenzagel",
+          "fenchel",
+          "dille",
+          "spargen",
+          "lauch",
+          "lein"
+        ]
+      }
+    },
+    {
+      "page": "37",
+      "folio": "20r",
+      "description": "Low bushy herb with pinnate leaves of many small oval leaflets (legume-like); upright racemes with red/pink pod- or keel-shaped flowers and small dark blue buds at the tips; small fibrous root. Vetch, liquorice, sainfoin, goat's-rue or milk-vetch.",
+      "candidates_en": [
+        "vetch",
+        "liquorice",
+        "sainfoin",
+        "goat's rue",
+        "milk-vetch",
+        "bitter vetch"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "vicia",
+        "glycyrrhiza",
+        "liquiritia",
+        "galega",
+        "ruta capraria",
+        "astragalus",
+        "orobus",
+        "ervum",
+        "onobrychis",
+        "veccia",
+        "regolizia",
+        "liquirizia",
+        "lupinella",
+        "ervo",
+        "mochi",
+        "wicke",
+        "süssholz",
+        "geissraute",
+        "esparsette",
+        "erve"
+      ],
+      "crib_by_language": {
+        "la": [
+          "vicia",
+          "glycyrrhiza",
+          "liquiritia",
+          "galega",
+          "ruta capraria",
+          "astragalus",
+          "orobus",
+          "ervum",
+          "onobrychis"
+        ],
+        "it": [
+          "veccia",
+          "regolizia",
+          "liquirizia",
+          "galega",
+          "ruta capraria",
+          "lupinella",
+          "ervo",
+          "mochi"
+        ],
+        "de": [
+          "wicke",
+          "süssholz",
+          "geissraute",
+          "esparsette",
+          "erve"
+        ]
+      }
+    },
+    {
+      "page": "38",
+      "folio": "20v",
+      "description": "Stem with bands of long narrow grass-like leaves held in clasping bundles; many umbel-like flower heads on long stalks, each a pale fringed cup with a dark blue cap or capsule; root mostly cut off at the bottom of the page. Chives/leek or another allium, rush, flax capsules, scabious or cornflower.",
+      "candidates_en": [
+        "chives / leek",
+        "wild garlic",
+        "rush",
+        "flax",
+        "scabious",
+        "cotton-grass"
+      ],
+      "confidence": "low",
+      "crib": [
+        "porrum",
+        "porrum sectivum",
+        "allium",
+        "cepa",
+        "iuncus",
+        "linum",
+        "scabiosa",
+        "porro",
+        "porrina",
+        "aglio",
+        "cipolla",
+        "giunco",
+        "lino",
+        "scabbiosa",
+        "lauch",
+        "schnittlauch",
+        "klobelouch",
+        "zwibel",
+        "binse",
+        "lein",
+        "scabiose"
+      ],
+      "crib_by_language": {
+        "la": [
+          "porrum",
+          "porrum sectivum",
+          "allium",
+          "cepa",
+          "iuncus",
+          "linum",
+          "scabiosa"
+        ],
+        "it": [
+          "porro",
+          "porrina",
+          "aglio",
+          "cipolla",
+          "giunco",
+          "lino",
+          "scabbiosa"
+        ],
+        "de": [
+          "lauch",
+          "schnittlauch",
+          "klobelouch",
+          "zwibel",
+          "binse",
+          "lein",
+          "scabiose"
+        ]
+      }
+    },
+    {
+      "page": "39",
+      "folio": "21r",
+      "description": "Low spreading, radiating bush: many branches with tiny round paired leaves and chains of small tan/brown bead-like flowers or seed clusters along them; faint roots. Wild thyme, knotgrass, stonecrop, chickweed, rupturewort or heather type.",
+      "candidates_en": [
+        "wild thyme",
+        "knotgrass",
+        "stonecrop",
+        "chickweed",
+        "rupturewort",
+        "purslane",
+        "heather"
+      ],
+      "confidence": "low",
+      "crib": [
+        "serpillum",
+        "thymus",
+        "centinodia",
+        "polygonum",
+        "sanguinaria",
+        "crassula",
+        "vermicularis",
+        "morsus gallinae",
+        "herniaria",
+        "portulaca",
+        "serpollo",
+        "timo",
+        "correggiola",
+        "erba grassa",
+        "pinocchiella",
+        "centonchio",
+        "erniaria",
+        "porcellana",
+        "quendel",
+        "thymian",
+        "wegtritt",
+        "weggras",
+        "mauerpfeffer",
+        "vogelmiere",
+        "hühnerdarm",
+        "bruchkraut",
+        "burzelkraut"
+      ],
+      "crib_by_language": {
+        "la": [
+          "serpillum",
+          "thymus",
+          "centinodia",
+          "polygonum",
+          "sanguinaria",
+          "crassula",
+          "vermicularis",
+          "morsus gallinae",
+          "herniaria",
+          "portulaca"
+        ],
+        "it": [
+          "serpollo",
+          "timo",
+          "centinodia",
+          "correggiola",
+          "erba grassa",
+          "pinocchiella",
+          "centonchio",
+          "erniaria",
+          "porcellana"
+        ],
+        "de": [
+          "quendel",
+          "thymian",
+          "wegtritt",
+          "weggras",
+          "mauerpfeffer",
+          "vogelmiere",
+          "hühnerdarm",
+          "bruchkraut",
+          "burzelkraut"
+        ]
+      }
+    },
+    {
+      "page": "40",
+      "folio": "21v",
+      "description": "Stem with pinnate leaves drawn as rows of crescent-shaped green leaflets with white gaps; branched top with many funnel/trumpet flowers, dark blue with red-tipped teeth/stamens; small brown loop-shaped root. Larkspur, bugloss, gentian, or a pinnate-leaved blue-flowered herb (goat's-rue, woad, liquorice).",
+      "candidates_en": [
+        "larkspur",
+        "bugloss",
+        "gentian",
+        "goat's rue",
+        "woad",
+        "Jacob's ladder"
+      ],
+      "confidence": "low",
+      "crib": [
+        "consolida regalis",
+        "delphinium",
+        "buglossa",
+        "gentiana",
+        "galega",
+        "isatis",
+        "glastum",
+        "valeriana graeca",
+        "speronella",
+        "genziana",
+        "guado",
+        "glasto",
+        "rittersporn",
+        "ochsenzunge",
+        "enzian",
+        "geissraute",
+        "weid",
+        "waid"
+      ],
+      "crib_by_language": {
+        "la": [
+          "consolida regalis",
+          "delphinium",
+          "buglossa",
+          "gentiana",
+          "galega",
+          "isatis",
+          "glastum",
+          "valeriana graeca"
+        ],
+        "it": [
+          "speronella",
+          "buglossa",
+          "genziana",
+          "galega",
+          "guado",
+          "glasto"
+        ],
+        "de": [
+          "rittersporn",
+          "ochsenzunge",
+          "enzian",
+          "geissraute",
+          "weid",
+          "waid"
+        ]
+      }
+    },
+    {
+      "page": "41",
+      "folio": "22r",
+      "description": "Upright stem forking from a split pale base; side leaves rounded with pale scalloped inner halves; at the top a dense candelabrum of many erect red-and-white beaded catkin- or spike-like racemes; above them three dark blue-black hanging globes (berries/fruits); red fibrous roots. Bistort or persicaria (red spikes), dock seed spikes, sumac, elder or currant.",
+      "candidates_en": [
+        "bistort",
+        "redshank / persicaria",
+        "dock",
+        "sumac",
+        "elder",
+        "blackcurrant"
+      ],
+      "confidence": "low",
+      "crib": [
+        "bistorta",
+        "serpentaria",
+        "colubrina",
+        "persicaria",
+        "lapathum",
+        "sumach",
+        "rhus",
+        "sambucus",
+        "ribes",
+        "romice",
+        "sommaco",
+        "sambuco",
+        "natterwurz",
+        "schlangenwurz",
+        "flohkraut",
+        "ampfer",
+        "holder",
+        "holunder",
+        "johannsbere"
+      ],
+      "crib_by_language": {
+        "la": [
+          "bistorta",
+          "serpentaria",
+          "colubrina",
+          "persicaria",
+          "lapathum",
+          "sumach",
+          "rhus",
+          "sambucus",
+          "ribes"
+        ],
+        "it": [
+          "bistorta",
+          "serpentaria",
+          "persicaria",
+          "romice",
+          "sommaco",
+          "sambuco",
+          "ribes"
+        ],
+        "de": [
+          "natterwurz",
+          "schlangenwurz",
+          "flohkraut",
+          "ampfer",
+          "sumach",
+          "holder",
+          "holunder",
+          "johannsbere"
+        ]
+      }
+    },
+    {
+      "page": "42",
+      "folio": "22v",
+      "description": "Stem with five fan-shaped leaves, each a bundle of parallel striped (green/yellow/white) segments ending in a broad scalloped green lobe; a single large closed oval flower bud at the top with yellow and blue scales at its tip; horizontal thorny red-brown rhizome with chain links/rings and many vertical rootlets. Thistle or artichoke bud, rose/bramble (thorny root), acanthus or tulip-like bulb.",
+      "candidates_en": [
+        "artichoke / thistle bud",
+        "dog rose",
+        "bramble",
+        "acanthus",
+        "restharrow (thorny root)"
+      ],
+      "confidence": "low",
+      "crib": [
+        "cinara",
+        "carduus",
+        "rosa",
+        "rosa canina",
+        "cynosbatos",
+        "rubus",
+        "acanthus",
+        "branca ursina",
+        "ononis",
+        "resta bovis",
+        "carciofo",
+        "cardo",
+        "rovo",
+        "acanto",
+        "bonaga",
+        "arrestabue",
+        "artischock",
+        "distel",
+        "rose",
+        "hagenbutte",
+        "brombere",
+        "bärenklau",
+        "hauhechel",
+        "stalkraut"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cinara",
+          "carduus",
+          "rosa",
+          "rosa canina",
+          "cynosbatos",
+          "rubus",
+          "acanthus",
+          "branca ursina",
+          "ononis",
+          "resta bovis"
+        ],
+        "it": [
+          "carciofo",
+          "cardo",
+          "rosa",
+          "rosa canina",
+          "rovo",
+          "acanto",
+          "bonaga",
+          "arrestabue"
+        ],
+        "de": [
+          "artischock",
+          "distel",
+          "rose",
+          "hagenbutte",
+          "brombere",
+          "bärenklau",
+          "hauhechel",
+          "stalkraut"
+        ]
+      }
+    },
+    {
+      "page": "43",
+      "folio": "23r",
+      "description": "Two stems from a long horizontal jointed, log-like rhizome with cut ends and many rootlets; palmate, hand-shaped leaves with 5-7 round-toothed fingers; small clusters of blue five-petalled rosette flowers at the top. Cinquefoil, lady's mantle, hellebore, sanicle, or a blue-flowered plant such as periwinkle or forget-me-not.",
+      "candidates_en": [
+        "cinquefoil",
+        "lady's mantle",
+        "black hellebore",
+        "sanicle",
+        "periwinkle",
+        "tormentil"
+      ],
+      "confidence": "low",
+      "crib": [
+        "pentafilon",
+        "quinquefolium",
+        "pes leonis",
+        "alchimilla",
+        "elleborus niger",
+        "sanicula",
+        "pervinca",
+        "tormentilla",
+        "cinquefoglio",
+        "pentafillo",
+        "piè di leone",
+        "elleboro nero",
+        "sanicola",
+        "fünffingerkraut",
+        "sinau",
+        "frauenmantel",
+        "christwurz",
+        "sanikel",
+        "singrün",
+        "blutwurz"
+      ],
+      "crib_by_language": {
+        "la": [
+          "pentafilon",
+          "quinquefolium",
+          "pes leonis",
+          "alchimilla",
+          "elleborus niger",
+          "sanicula",
+          "pervinca",
+          "tormentilla"
+        ],
+        "it": [
+          "cinquefoglio",
+          "pentafillo",
+          "piè di leone",
+          "elleboro nero",
+          "sanicola",
+          "pervinca",
+          "tormentilla"
+        ],
+        "de": [
+          "fünffingerkraut",
+          "sinau",
+          "frauenmantel",
+          "christwurz",
+          "sanikel",
+          "singrün",
+          "blutwurz"
+        ]
+      }
+    },
+    {
+      "page": "44",
+      "folio": "23v",
+      "description": "Tall pale stem from a branching red root; clusters of broad roundish leaves with hairy/fringed edges, green and olive-brown mixed; a large top flower with eight narrow blue petals round a large pale ringed centre, and two small dark blue star flowers on side branches. Borage (hairy leaves, blue star flowers), bugloss or comfrey.",
+      "candidates_en": [
+        "borage",
+        "bugloss",
+        "comfrey",
+        "love-in-a-mist",
+        "star thistle"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "borago",
+        "borrago",
+        "buglossa",
+        "lingua bovis",
+        "consolida maior",
+        "symphytum",
+        "nigella",
+        "git",
+        "borragine",
+        "borrana",
+        "lingua di bue",
+        "consolida maggiore",
+        "boretsch",
+        "burretsch",
+        "ochsenzunge",
+        "wallwurz",
+        "beinwell",
+        "schwarzkümmel"
+      ],
+      "crib_by_language": {
+        "la": [
+          "borago",
+          "borrago",
+          "buglossa",
+          "lingua bovis",
+          "consolida maior",
+          "symphytum",
+          "nigella",
+          "git"
+        ],
+        "it": [
+          "borragine",
+          "borrana",
+          "buglossa",
+          "lingua di bue",
+          "consolida maggiore",
+          "nigella"
+        ],
+        "de": [
+          "boretsch",
+          "burretsch",
+          "ochsenzunge",
+          "wallwurz",
+          "beinwell",
+          "schwarzkümmel"
+        ]
+      }
+    },
+    {
+      "page": "45",
+      "folio": "24r",
+      "description": "Two twisted, intertwined stems with many short-stalked rounded heart/cup-shaped leaves; each stem ends in a large green hooded leaf/spathe holding a white daisy-like flower with many rounded petals and an oval golden centre; long wavy roots. Chamomile, daisy, feverfew or ox-eye daisy; possibly a water lily.",
+      "candidates_en": [
+        "chamomile",
+        "daisy",
+        "feverfew",
+        "ox-eye daisy",
+        "white water lily"
+      ],
+      "confidence": "low",
+      "crib": [
+        "camomilla",
+        "anthemis",
+        "chamemelum",
+        "bellis",
+        "consolida minor",
+        "parthenium",
+        "matricaria",
+        "nenufar album",
+        "camamilla",
+        "pratolina",
+        "margheritina",
+        "matricale",
+        "partenio",
+        "ninfea bianca",
+        "kamille",
+        "gamillen",
+        "massliebe",
+        "gänseblume",
+        "mutterkraut",
+        "seeblume"
+      ],
+      "crib_by_language": {
+        "la": [
+          "camomilla",
+          "anthemis",
+          "chamemelum",
+          "bellis",
+          "consolida minor",
+          "parthenium",
+          "matricaria",
+          "nenufar album"
+        ],
+        "it": [
+          "camomilla",
+          "camamilla",
+          "pratolina",
+          "margheritina",
+          "matricale",
+          "partenio",
+          "ninfea bianca"
+        ],
+        "de": [
+          "kamille",
+          "gamillen",
+          "massliebe",
+          "gänseblume",
+          "mutterkraut",
+          "seeblume"
+        ]
+      }
+    },
+    {
+      "page": "46",
+      "folio": "24v",
+      "description": "Stem with paired, rounded leaves each drawn like a comma or tadpole (round blade with a long tapering point); five dark blue fringed, carnation/cornflower-like flowers in pale cupped calyces at the top; root a cluster of red-brown spindle-shaped tubers. Cornflower/pink type flowers; spindle tubers suggest dropwort, lesser celandine or asphodel.",
+      "candidates_en": [
+        "cornflower",
+        "clove pink",
+        "dropwort",
+        "lesser celandine / pilewort",
+        "asphodel"
+      ],
+      "confidence": "low",
+      "crib": [
+        "cyanus",
+        "gariofilus",
+        "filipendula",
+        "saxifraga rubea",
+        "chelidonia minor",
+        "ficaria",
+        "scrophularia minor",
+        "asphodelus",
+        "albucium",
+        "fioraliso",
+        "garofano",
+        "filipendola",
+        "favagello",
+        "celidonia minore",
+        "asfodelo",
+        "porraccio",
+        "kornblume",
+        "negelin",
+        "rotsteinbrech",
+        "feigwurz",
+        "pfaffenhödlein",
+        "affodill"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cyanus",
+          "gariofilus",
+          "filipendula",
+          "saxifraga rubea",
+          "chelidonia minor",
+          "ficaria",
+          "scrophularia minor",
+          "asphodelus",
+          "albucium"
+        ],
+        "it": [
+          "fioraliso",
+          "garofano",
+          "filipendola",
+          "favagello",
+          "celidonia minore",
+          "asfodelo",
+          "porraccio"
+        ],
+        "de": [
+          "kornblume",
+          "negelin",
+          "rotsteinbrech",
+          "feigwurz",
+          "pfaffenhödlein",
+          "affodill"
+        ]
+      }
+    },
+    {
+      "page": "47",
+      "folio": "25r",
+      "description": "Single thin stem with opposite pairs of broad ovate, softly toothed leaves and a crowded terminal tuft; small red-brown flower or bud pairs at the leaf nodes; thin red branching root. Nettle (small axillary flowers), mint, dead-nettle, dog's mercury, pellitory or balm.",
+      "candidates_en": [
+        "stinging nettle",
+        "mint",
+        "white dead-nettle",
+        "dog's mercury",
+        "pellitory-of-the-wall",
+        "lemon balm",
+        "basil"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "urtica",
+        "urtica mortua",
+        "mentha",
+        "mercurialis",
+        "parietaria",
+        "helxine",
+        "melissa",
+        "citraria",
+        "ocimum",
+        "basilicon",
+        "ortica",
+        "ortica morta",
+        "menta",
+        "mercorella",
+        "vetriola",
+        "cedronella",
+        "basilico",
+        "nessel",
+        "brennessel",
+        "taubnessel",
+        "minze",
+        "bingelkraut",
+        "glaskraut",
+        "melisse",
+        "binsaug",
+        "basilie"
+      ],
+      "crib_by_language": {
+        "la": [
+          "urtica",
+          "urtica mortua",
+          "mentha",
+          "mercurialis",
+          "parietaria",
+          "helxine",
+          "melissa",
+          "citraria",
+          "ocimum",
+          "basilicon"
+        ],
+        "it": [
+          "ortica",
+          "ortica morta",
+          "menta",
+          "mercorella",
+          "parietaria",
+          "vetriola",
+          "melissa",
+          "cedronella",
+          "basilico"
+        ],
+        "de": [
+          "nessel",
+          "brennessel",
+          "taubnessel",
+          "minze",
+          "bingelkraut",
+          "glaskraut",
+          "melisse",
+          "binsaug",
+          "basilie"
+        ]
+      }
+    },
+    {
+      "page": "48",
+      "folio": "25v",
+      "description": "Large star-shaped rosette of long lanceolate, pointed leaves radiating from a short stem; pale reddish fibrous root; at lower right a small upright dragon/lizard-like creature with ears or crest and a long tail on a green stalk, facing the plant. The creature may be a name pun: dragon arum, dragonwort or tarragon (dracunculus), or a snake-root.",
+      "candidates_en": [
+        "dragon arum",
+        "tarragon",
+        "bistort / snakeweed",
+        "ribwort plantain",
+        "sneezewort",
+        "adder's-tongue"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "dracontea",
+        "dracunculus",
+        "serpentaria",
+        "colubrina",
+        "bistorta",
+        "dragontea",
+        "plantago minor",
+        "lanceolata",
+        "ptarmica",
+        "lingua serpentis",
+        "dragoncello",
+        "erba serpentaria",
+        "lanciola",
+        "piantaggine minore",
+        "lingua di serpe",
+        "drachenwurz",
+        "drachant",
+        "dragun",
+        "natterwurz",
+        "schlangenkraut",
+        "spitzwegerich",
+        "natterzunge"
+      ],
+      "crib_by_language": {
+        "la": [
+          "dracontea",
+          "dracunculus",
+          "serpentaria",
+          "colubrina",
+          "bistorta",
+          "dragontea",
+          "plantago minor",
+          "lanceolata",
+          "ptarmica",
+          "lingua serpentis"
+        ],
+        "it": [
+          "dragontea",
+          "dragoncello",
+          "serpentaria",
+          "erba serpentaria",
+          "bistorta",
+          "lanciola",
+          "piantaggine minore",
+          "lingua di serpe"
+        ],
+        "de": [
+          "drachenwurz",
+          "drachant",
+          "dragun",
+          "natterwurz",
+          "schlangenkraut",
+          "spitzwegerich",
+          "natterzunge"
+        ]
+      }
+    },
+    {
+      "page": "49",
+      "folio": "26r",
+      "description": "Stem with roundish wavy-edged, scalloped leaves on stalks; two long forking upper stems each ending in a cluster of small dark blue berries or buds on short pedicels; red root splitting into strands. Bilberry, black nightshade, blackcurrant, elder, ivy berries or grape hyacinth.",
+      "candidates_en": [
+        "bilberry",
+        "black nightshade",
+        "blackcurrant",
+        "dwarf elder",
+        "grape hyacinth",
+        "ivy"
+      ],
+      "confidence": "low",
+      "crib": [
+        "myrtillus",
+        "vaccinia",
+        "solatrum",
+        "morella",
+        "ribes",
+        "ebulus",
+        "hyacinthus",
+        "bulbus",
+        "hedera",
+        "mirtillo",
+        "baggiolo",
+        "solatro",
+        "ebbio",
+        "lampagione",
+        "edera",
+        "heidelbere",
+        "besinge",
+        "nachtschade",
+        "johannsbere",
+        "attich",
+        "efeu"
+      ],
+      "crib_by_language": {
+        "la": [
+          "myrtillus",
+          "vaccinia",
+          "solatrum",
+          "morella",
+          "ribes",
+          "ebulus",
+          "hyacinthus",
+          "bulbus",
+          "hedera"
+        ],
+        "it": [
+          "mirtillo",
+          "baggiolo",
+          "morella",
+          "solatro",
+          "ribes",
+          "ebbio",
+          "lampagione",
+          "edera"
+        ],
+        "de": [
+          "heidelbere",
+          "besinge",
+          "nachtschade",
+          "johannsbere",
+          "attich",
+          "efeu"
+        ]
+      }
+    },
+    {
+      "page": "50",
+      "folio": "26v",
+      "description": "Tree or shrub with pinnate fronds of many rounded leaflets drawn as rows of green lumps; at the top a cluster of many cup-shaped fruits: pale dotted cups with blue-black caps, acorn-like; red tangled roots. Oak with acorns, ash, sumac, elder, rowan or walnut.",
+      "candidates_en": [
+        "oak (acorns)",
+        "ash",
+        "sumac",
+        "elder",
+        "rowan / service tree",
+        "walnut"
+      ],
+      "confidence": "low",
+      "crib": [
+        "quercus",
+        "glans",
+        "galla",
+        "fraxinus",
+        "sumach",
+        "rhus",
+        "sambucus",
+        "sorbus",
+        "nux",
+        "quercia",
+        "rovere",
+        "ghianda",
+        "frassino",
+        "sommaco",
+        "sambuco",
+        "sorbo",
+        "noce",
+        "eiche",
+        "eichel",
+        "gallapfel",
+        "esche",
+        "holder",
+        "sperbaum",
+        "nuss"
+      ],
+      "crib_by_language": {
+        "la": [
+          "quercus",
+          "glans",
+          "galla",
+          "fraxinus",
+          "sumach",
+          "rhus",
+          "sambucus",
+          "sorbus",
+          "nux"
+        ],
+        "it": [
+          "quercia",
+          "rovere",
+          "ghianda",
+          "galla",
+          "frassino",
+          "sommaco",
+          "sambuco",
+          "sorbo",
+          "noce"
+        ],
+        "de": [
+          "eiche",
+          "eichel",
+          "gallapfel",
+          "esche",
+          "sumach",
+          "holder",
+          "sperbaum",
+          "nuss"
+        ]
+      }
+    },
+    {
+      "page": "51",
+      "folio": "27r",
+      "description": "Two plants. Main: a cluster of large broad, lanceolate, parallel-veined leaves on a single stem; two small dark blue-black fringed flower cups and a small leafy sprig at the top; forked root. Secondary small plant at lower right: three round scalloped leaves on a forked stem with fibrous root. White hellebore, ramsons, lily-of-the-valley, plantain or Solomon's seal; the small plant suggests ground ivy, pennywort or moneywort.",
+      "candidates_en": [
+        "white hellebore / false hellebore",
+        "ramsons / wild garlic",
+        "lily-of-the-valley",
+        "greater plantain",
+        "ground ivy",
+        "moneywort"
+      ],
+      "confidence": "low",
+      "crib": [
+        "elleborus albus",
+        "veratrum",
+        "allium ursinum",
+        "lilium convallium",
+        "plantago",
+        "arnoglossa",
+        "hedera terrestris",
+        "nummularia",
+        "centimorbia",
+        "elleboro bianco",
+        "veratro",
+        "aglio orsino",
+        "giglio delle convalli",
+        "piantaggine",
+        "edera terrestre",
+        "germer",
+        "weisse nieswurz",
+        "ramsen",
+        "bärlauch",
+        "meiblume",
+        "wegerich",
+        "gundelrebe",
+        "pfennigkraut"
+      ],
+      "crib_by_language": {
+        "la": [
+          "elleborus albus",
+          "veratrum",
+          "allium ursinum",
+          "lilium convallium",
+          "plantago",
+          "arnoglossa",
+          "hedera terrestris",
+          "nummularia",
+          "centimorbia"
+        ],
+        "it": [
+          "elleboro bianco",
+          "veratro",
+          "aglio orsino",
+          "giglio delle convalli",
+          "piantaggine",
+          "edera terrestre",
+          "nummularia"
+        ],
+        "de": [
+          "germer",
+          "weisse nieswurz",
+          "ramsen",
+          "bärlauch",
+          "meiblume",
+          "wegerich",
+          "gundelrebe",
+          "pfennigkraut"
+        ]
+      }
+    },
+    {
+      "page": "52",
+      "folio": "27v",
+      "description": "Shrubby herb with arching branches of serrated, pinnately arranged leaflets; long pale flower stalks with small radiating starburst flowers (fine white rays round a red centre) and pairs of curled blue buds; pale lumpy root with brown patches. Valerian, agrimony, elder, feverfew/chamomile or a pimpernel-like star flower.",
+      "candidates_en": [
+        "valerian",
+        "agrimony",
+        "elder",
+        "feverfew",
+        "scarlet pimpernel",
+        "chickweed"
+      ],
+      "confidence": "low",
+      "crib": [
+        "valeriana",
+        "fu",
+        "phu",
+        "agrimonia",
+        "eupatorium",
+        "sambucus",
+        "parthenium",
+        "anagallis",
+        "morsus gallinae",
+        "eupatorio",
+        "sambuco",
+        "partenio",
+        "anagallide",
+        "centonchio",
+        "baldrian",
+        "odermennig",
+        "holder",
+        "mutterkraut",
+        "gauchheil",
+        "vogelmiere"
+      ],
+      "crib_by_language": {
+        "la": [
+          "valeriana",
+          "fu",
+          "phu",
+          "agrimonia",
+          "eupatorium",
+          "sambucus",
+          "parthenium",
+          "anagallis",
+          "morsus gallinae"
+        ],
+        "it": [
+          "valeriana",
+          "agrimonia",
+          "eupatorio",
+          "sambuco",
+          "partenio",
+          "anagallide",
+          "centonchio"
+        ],
+        "de": [
+          "baldrian",
+          "odermennig",
+          "holder",
+          "mutterkraut",
+          "gauchheil",
+          "vogelmiere"
+        ]
+      }
+    },
+    {
+      "page": "53",
+      "folio": "28r",
+      "description": "Long pale pinkish stem piercing a large pinwheel whorl of wavy green leaves with curled tips; three segmented, ribbed, cocoon-like cones stacked on the stem, the topmost with a yellow cap and a red berry; red bulbous root with tentacle-like branches. Horsetail (whorls plus segmented cone), mullein spike or plantain spike.",
+      "candidates_en": [
+        "horsetail",
+        "mullein",
+        "plantain (seed spike)",
+        "spikenard",
+        "clubmoss"
+      ],
+      "confidence": "low",
+      "crib": [
+        "equisetum",
+        "cauda equina",
+        "hippuris",
+        "tapsus barbatus",
+        "verbascum",
+        "plantago",
+        "spica nardi",
+        "muscus terrestris",
+        "coda cavallina",
+        "equiseto",
+        "tasso barbasso",
+        "verbasco",
+        "piantaggine",
+        "spigonardo",
+        "schaftelhalm",
+        "katzenzagel",
+        "zinnkraut",
+        "wollkraut",
+        "königskerze",
+        "wegerich",
+        "bärlapp"
+      ],
+      "crib_by_language": {
+        "la": [
+          "equisetum",
+          "cauda equina",
+          "hippuris",
+          "tapsus barbatus",
+          "verbascum",
+          "plantago",
+          "spica nardi",
+          "muscus terrestris"
+        ],
+        "it": [
+          "coda cavallina",
+          "equiseto",
+          "tasso barbasso",
+          "verbasco",
+          "piantaggine",
+          "spigonardo"
+        ],
+        "de": [
+          "schaftelhalm",
+          "katzenzagel",
+          "zinnkraut",
+          "wollkraut",
+          "königskerze",
+          "wegerich",
+          "bärlapp"
+        ]
+      }
+    },
+    {
+      "page": "54",
+      "folio": "28v",
+      "description": "Stem with two opposite leaves; above, a large circular wreath of about sixteen wavy, narrow green leaflets or flame-like segments on fine stalks round an empty centre, with a small spike at its base; pale tuberous root with fingers. Whorled-leaved plant (woodruff, madder, cleavers), herb Paris, or a seed-head 'clock'.",
+      "candidates_en": [
+        "woodruff",
+        "madder",
+        "cleavers / goosegrass",
+        "herb Paris",
+        "dandelion clock"
+      ],
+      "confidence": "low",
+      "crib": [
+        "asperula",
+        "hepatica stellata",
+        "rubia",
+        "rubea tinctorum",
+        "aparine",
+        "philanthropos",
+        "herba paris",
+        "taraxacon",
+        "stellina odorosa",
+        "robbia",
+        "attaccamani",
+        "erba paris",
+        "tarassaco",
+        "waldmeister",
+        "meserich",
+        "krapp",
+        "röte",
+        "kleber",
+        "klebkraut",
+        "einbeere",
+        "löwenzahn"
+      ],
+      "crib_by_language": {
+        "la": [
+          "asperula",
+          "hepatica stellata",
+          "rubia",
+          "rubea tinctorum",
+          "aparine",
+          "philanthropos",
+          "herba paris",
+          "taraxacon"
+        ],
+        "it": [
+          "asperula",
+          "stellina odorosa",
+          "robbia",
+          "attaccamani",
+          "erba paris",
+          "tarassaco"
+        ],
+        "de": [
+          "waldmeister",
+          "meserich",
+          "krapp",
+          "röte",
+          "kleber",
+          "klebkraut",
+          "einbeere",
+          "löwenzahn"
+        ]
+      }
+    },
+    {
+      "page": "55",
+      "folio": "29r",
+      "description": "Stem rising from a fan of broad, arching, overlapping hood-like leaves coloured green, olive and slate blue (cabbage/kale-like); at the top an elongated dotted cylindrical spike with a red-rimmed opening at its tip; below it a cluster of five red berries over a fringed cup; roots drawn as straight radiating lines spreading horizontally. Arum / cuckoo-pint (spadix plus red berries) or cabbage/kale.",
+      "candidates_en": [
+        "cuckoo-pint / lords-and-ladies",
+        "dragon arum",
+        "cabbage / kale",
+        "sea kale",
+        "plantain"
+      ],
+      "confidence": "low",
+      "crib": [
+        "arum",
+        "iarus",
+        "barba aron",
+        "pes vituli",
+        "dracontea",
+        "caulis",
+        "brassica",
+        "crambe",
+        "aro",
+        "gichero",
+        "piè di vitello",
+        "dragontea",
+        "cavolo",
+        "cavolo nero",
+        "aronstab",
+        "pfaffenpint",
+        "zehrwurz",
+        "drachenwurz",
+        "kôl",
+        "kabis"
+      ],
+      "crib_by_language": {
+        "la": [
+          "arum",
+          "iarus",
+          "barba aron",
+          "pes vituli",
+          "dracontea",
+          "caulis",
+          "brassica",
+          "crambe"
+        ],
+        "it": [
+          "aro",
+          "gichero",
+          "piè di vitello",
+          "dragontea",
+          "cavolo",
+          "cavolo nero"
+        ],
+        "de": [
+          "aronstab",
+          "pfaffenpint",
+          "zehrwurz",
+          "drachenwurz",
+          "kôl",
+          "kabis"
+        ]
+      }
+    },
+    {
+      "page": "56",
+      "folio": "29v",
+      "description": "Pair of spreading, arching comb-toothed olive leaves at the base; tall stalks bearing many green urn/tulip-shaped spiky-tipped buds or capsules, the topmost opening dark blue with petals; thick horizontal rhizome with comb-like rootlets. Thistle, teasel, larkspur/monkshood (blue spiky buds), columbine or love-in-a-mist.",
+      "candidates_en": [
+        "thistle",
+        "teasel",
+        "monkshood",
+        "larkspur",
+        "love-in-a-mist",
+        "carline thistle"
+      ],
+      "confidence": "low",
+      "crib": [
+        "carduus",
+        "dipsacus",
+        "labrum veneris",
+        "aconitum",
+        "napellus",
+        "consolida regalis",
+        "nigella",
+        "carlina",
+        "cardo",
+        "dipsaco",
+        "cardo dei lanaioli",
+        "aconito",
+        "napello",
+        "speronella",
+        "distel",
+        "karde",
+        "weberkarde",
+        "eisenhut",
+        "rittersporn",
+        "schwarzkümmel",
+        "eberwurz"
+      ],
+      "crib_by_language": {
+        "la": [
+          "carduus",
+          "dipsacus",
+          "labrum veneris",
+          "aconitum",
+          "napellus",
+          "consolida regalis",
+          "nigella",
+          "carlina"
+        ],
+        "it": [
+          "cardo",
+          "dipsaco",
+          "cardo dei lanaioli",
+          "aconito",
+          "napello",
+          "speronella",
+          "nigella",
+          "carlina"
+        ],
+        "de": [
+          "distel",
+          "karde",
+          "weberkarde",
+          "eisenhut",
+          "rittersporn",
+          "schwarzkümmel",
+          "eberwurz"
+        ]
+      }
+    },
+    {
+      "page": "57",
+      "folio": "30r",
+      "description": "Two clumps of lanceolate leaves (lower and middle) on a thin stem with a fibrous root; a curved, arching one-sided raceme of small hanging dark blue bell flowers. Lily-of-the-valley form in blue: bluebell/wild hyacinth, grape hyacinth, Solomon's seal or bellflower.",
+      "candidates_en": [
+        "bluebell / wild hyacinth",
+        "lily-of-the-valley",
+        "Solomon's seal",
+        "grape hyacinth",
+        "bellflower"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "hyacinthus",
+        "lilium convallium",
+        "sigillum salomonis",
+        "bulbus",
+        "campanula",
+        "giacinto",
+        "giglio delle convalli",
+        "mughetto",
+        "sigillo di salomone",
+        "lampagione",
+        "campanella",
+        "hyacint",
+        "meiblume",
+        "maiglöckel",
+        "weisswurz",
+        "glockenblume"
+      ],
+      "crib_by_language": {
+        "la": [
+          "hyacinthus",
+          "lilium convallium",
+          "sigillum salomonis",
+          "bulbus",
+          "campanula"
+        ],
+        "it": [
+          "giacinto",
+          "giglio delle convalli",
+          "mughetto",
+          "sigillo di salomone",
+          "lampagione",
+          "campanella"
+        ],
+        "de": [
+          "hyacint",
+          "meiblume",
+          "maiglöckel",
+          "weisswurz",
+          "glockenblume"
+        ]
+      }
+    },
+    {
+      "page": "58",
+      "folio": "30v",
+      "description": "Stem with paired olive-brown ovate serrated leaflets (pinnate); top two curling forked stalks lined with small round yellowish-tan knobs on short stalks (seed/berry-like); wavy horizontal brown root. Agrimony (toothed pinnate leaves plus burr fruits along a spike), moonwort or a fern, barberry or elder.",
+      "candidates_en": [
+        "agrimony",
+        "moonwort",
+        "polypody fern",
+        "barberry",
+        "elder",
+        "honesty"
+      ],
+      "confidence": "low",
+      "crib": [
+        "agrimonia",
+        "eupatorium",
+        "lunaria",
+        "lunaria minor",
+        "polipodium",
+        "filix",
+        "berberis",
+        "oxyacantha",
+        "sambucus",
+        "eupatorio",
+        "polipodio",
+        "felce",
+        "crespino",
+        "sambuco",
+        "odermennig",
+        "mondraute",
+        "engelsüss",
+        "farn",
+        "sauerdorn",
+        "holder"
+      ],
+      "crib_by_language": {
+        "la": [
+          "agrimonia",
+          "eupatorium",
+          "lunaria",
+          "lunaria minor",
+          "polipodium",
+          "filix",
+          "berberis",
+          "oxyacantha",
+          "sambucus"
+        ],
+        "it": [
+          "agrimonia",
+          "eupatorio",
+          "lunaria",
+          "polipodio",
+          "felce",
+          "crespino",
+          "sambuco"
+        ],
+        "de": [
+          "odermennig",
+          "mondraute",
+          "engelsüss",
+          "farn",
+          "sauerdorn",
+          "holder"
+        ]
+      }
+    },
+    {
+      "page": "59",
+      "folio": "31r",
+      "description": "Stout erect stem with a few very large, broad, crumpled dark green leaves low down; several pale composite flower heads (yellowish fringed discs with scaly cups) at the top and on side branches; a huge long red-brown horizontal root branching into many rootlets at both ends. Burdock or elecampane (big leaves, composite heads, massive root); also butterbur or comfrey.",
+      "candidates_en": [
+        "burdock",
+        "elecampane",
+        "butterbur",
+        "comfrey",
+        "tansy",
+        "coltsfoot"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "lappa",
+        "bardana",
+        "personata",
+        "enula",
+        "enula campana",
+        "inula",
+        "helenium",
+        "petasites",
+        "consolida maior",
+        "tanacetum",
+        "lappola",
+        "elenio",
+        "petasite",
+        "consolida maggiore",
+        "aniseto",
+        "klette",
+        "grosse klette",
+        "alant",
+        "olant",
+        "pestwurz",
+        "wallwurz",
+        "reinfar"
+      ],
+      "crib_by_language": {
+        "la": [
+          "lappa",
+          "bardana",
+          "personata",
+          "enula",
+          "enula campana",
+          "inula",
+          "helenium",
+          "petasites",
+          "consolida maior",
+          "tanacetum"
+        ],
+        "it": [
+          "bardana",
+          "lappola",
+          "enula",
+          "enula campana",
+          "elenio",
+          "petasite",
+          "consolida maggiore",
+          "aniseto"
+        ],
+        "de": [
+          "klette",
+          "grosse klette",
+          "alant",
+          "olant",
+          "pestwurz",
+          "wallwurz",
+          "reinfar"
+        ]
+      }
+    },
+    {
+      "page": "60",
+      "folio": "31v",
+      "description": "Odd plant: a block of stacked chevron/zigzag green leaves with a lower band of brown (withered) leaves; a long stalk with a round head covered in small dots/circles and fine radiating lines (a seed or umbel head); two side stalks with green leafy calyx cups holding dark blue-black ovoid fruits; long straight thin roots. Allium umbel (onion/leek/garlic), poppy head, or a nightshade with black berries in calyces.",
+      "candidates_en": [
+        "onion / leek",
+        "garlic",
+        "opium poppy",
+        "deadly nightshade",
+        "juniper",
+        "fern"
+      ],
+      "confidence": "low",
+      "crib": [
+        "cepa",
+        "porrum",
+        "allium",
+        "papaver",
+        "codia",
+        "solatrum",
+        "strignum",
+        "iuniperus",
+        "filix",
+        "cipolla",
+        "porro",
+        "aglio",
+        "papavero",
+        "testa di papavero",
+        "solatro",
+        "ginepro",
+        "felce",
+        "zwibel",
+        "lauch",
+        "klobelouch",
+        "magsamen",
+        "mohnkopf",
+        "nachtschade",
+        "wacholder",
+        "farn"
+      ],
+      "crib_by_language": {
+        "la": [
+          "cepa",
+          "porrum",
+          "allium",
+          "papaver",
+          "codia",
+          "solatrum",
+          "strignum",
+          "iuniperus",
+          "filix"
+        ],
+        "it": [
+          "cipolla",
+          "porro",
+          "aglio",
+          "papavero",
+          "testa di papavero",
+          "solatro",
+          "ginepro",
+          "felce"
+        ],
+        "de": [
+          "zwibel",
+          "lauch",
+          "klobelouch",
+          "magsamen",
+          "mohnkopf",
+          "nachtschade",
+          "wacholder",
+          "farn"
+        ]
+      }
+    },
+    {
+      "page": "61",
+      "folio": "32r",
+      "description": "Branching stem with alternate ovate, smooth-edged leaves; four or five dense rounded flower heads of small white flowers spotted blue, each topped with yellow star-like tufts; horizontal green ground lines at the base. Self-heal, bugle, oregano/marjoram, basil, calamint or betony type (labiate).",
+      "candidates_en": [
+        "self-heal",
+        "bugle",
+        "marjoram / oregano",
+        "basil",
+        "calamint",
+        "betony"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "brunella",
+        "prunella",
+        "consolida media",
+        "bugula",
+        "maiorana",
+        "origanum",
+        "ocimum",
+        "calamentum",
+        "betonica",
+        "bugola",
+        "maggiorana",
+        "persia",
+        "origano",
+        "basilico",
+        "nepitella",
+        "bettonica",
+        "brunelle",
+        "gottheil",
+        "günsel",
+        "meieran",
+        "dost",
+        "dosten",
+        "basilie",
+        "steinminze",
+        "betonie"
+      ],
+      "crib_by_language": {
+        "la": [
+          "brunella",
+          "prunella",
+          "consolida media",
+          "bugula",
+          "maiorana",
+          "origanum",
+          "ocimum",
+          "calamentum",
+          "betonica"
+        ],
+        "it": [
+          "brunella",
+          "consolida media",
+          "bugola",
+          "maggiorana",
+          "persia",
+          "origano",
+          "basilico",
+          "nepitella",
+          "bettonica"
+        ],
+        "de": [
+          "brunelle",
+          "gottheil",
+          "günsel",
+          "meieran",
+          "dost",
+          "dosten",
+          "basilie",
+          "steinminze",
+          "betonie"
+        ]
+      }
+    },
+    {
+      "page": "62",
+      "folio": "32v",
+      "description": "Stem with many small star-shaped five-pointed (ivy/maple-like) leaves on side shoots; three large dark blue trumpet/funnel flowers with pale calyx tubes and protruding stamens, plus smaller pale buds at the top; thick pale root with lateral rootlets, brown at the crown. Columbine (palmate leaves plus blue flowers), bellflower, bindweed/morning glory, monkshood or larkspur.",
+      "candidates_en": [
+        "columbine",
+        "bellflower",
+        "morning glory / bindweed",
+        "monkshood",
+        "larkspur"
+      ],
+      "confidence": "low",
+      "crib": [
+        "aquilegia",
+        "aquilina",
+        "campanula",
+        "convolvulus",
+        "volubilis",
+        "aconitum",
+        "consolida regalis",
+        "campanella",
+        "vilucchio",
+        "aconito",
+        "speronella",
+        "ackelei",
+        "agelei",
+        "glockenblume",
+        "winde",
+        "eisenhut",
+        "rittersporn"
+      ],
+      "crib_by_language": {
+        "la": [
+          "aquilegia",
+          "aquilina",
+          "campanula",
+          "convolvulus",
+          "volubilis",
+          "aconitum",
+          "consolida regalis"
+        ],
+        "it": [
+          "aquilina",
+          "aquilegia",
+          "campanella",
+          "vilucchio",
+          "aconito",
+          "speronella"
+        ],
+        "de": [
+          "ackelei",
+          "agelei",
+          "glockenblume",
+          "winde",
+          "eisenhut",
+          "rittersporn"
+        ]
+      }
+    },
+    {
+      "page": "63",
+      "folio": "33r",
+      "description": "Bushy plant with ovate pointed, slightly toothed leaves; two large pale green ribbed, speckled urn-shaped calyces (inflated) crowned by round radiating discs (green striped petals around a ring of small seeds/stamens), plus a smaller bud; orange-brown root spreading horizontally and ending left and right in drawn faces or animal heads. Henbane (urn calyx, lidded seed capsule), mandrake (faces on the root), poppy or bladder campion.",
+      "candidates_en": [
+        "henbane",
+        "mandrake",
+        "opium poppy",
+        "bladder campion",
+        "winter cherry"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "iusquiamus",
+        "hyoscyamus",
+        "simphoniaca",
+        "apollinaris",
+        "mandragora",
+        "papaver",
+        "alkekengi",
+        "giusquiamo",
+        "iusquiamo",
+        "dente cavallino",
+        "mandragola",
+        "papavero",
+        "alchechengi",
+        "bilsenkraut",
+        "bilse",
+        "alrûne",
+        "alraun",
+        "mohn",
+        "judenkirsche"
+      ],
+      "crib_by_language": {
+        "la": [
+          "iusquiamus",
+          "hyoscyamus",
+          "simphoniaca",
+          "apollinaris",
+          "mandragora",
+          "papaver",
+          "alkekengi"
+        ],
+        "it": [
+          "giusquiamo",
+          "iusquiamo",
+          "dente cavallino",
+          "mandragola",
+          "mandragora",
+          "papavero",
+          "alchechengi"
+        ],
+        "de": [
+          "bilsenkraut",
+          "bilse",
+          "alrûne",
+          "alraun",
+          "mohn",
+          "judenkirsche"
+        ]
+      }
+    },
+    {
+      "page": "64",
+      "folio": "33v",
+      "description": "Two huge oval flower heads drooping on long stalks: a ring of dark blue heart-shaped florets round an oval yellow centre packed with seeds in rows; below, star-shaped, deeply lobed green and olive leaves in whorls; root with three round brown radial structures (like cut root slices, seed pods or spoked wheels) at the tips. Composite with big seed disc: globe/carline thistle, artichoke/cardoon, teasel; root discs might be cut tubers.",
+      "candidates_en": [
+        "carline thistle",
+        "artichoke / cardoon",
+        "globe thistle",
+        "teasel",
+        "cyclamen (tubers)",
+        "castor oil plant"
+      ],
+      "confidence": "low",
+      "crib": [
+        "carlina",
+        "cardopatia",
+        "cinara",
+        "carduus",
+        "echinops",
+        "dipsacus",
+        "cyclamen",
+        "panis porcinus",
+        "ricinus",
+        "carciofo",
+        "cardo",
+        "dipsaco",
+        "ciclamino",
+        "pan porcino",
+        "ricino",
+        "eberwurz",
+        "artischock",
+        "distel",
+        "karde",
+        "schweinbrot",
+        "wunderbaum"
+      ],
+      "crib_by_language": {
+        "la": [
+          "carlina",
+          "cardopatia",
+          "cinara",
+          "carduus",
+          "echinops",
+          "dipsacus",
+          "cyclamen",
+          "panis porcinus",
+          "ricinus"
+        ],
+        "it": [
+          "carlina",
+          "carciofo",
+          "cardo",
+          "dipsaco",
+          "ciclamino",
+          "pan porcino",
+          "ricino"
+        ],
+        "de": [
+          "eberwurz",
+          "artischock",
+          "distel",
+          "karde",
+          "schweinbrot",
+          "wunderbaum"
+        ]
+      }
+    },
+    {
+      "page": "65",
+      "folio": "34r",
+      "description": "Tall stem with broad fan- or hand-shaped leaves with fringed, jagged tips; three nodding flower heads, each a green fringed cup holding a blue scaly oval centre; pink-orange root with many flat strap-like roots. Thistle/scabious/knapweed heads; palmate leaves with nodding heads might also suggest hellebore.",
+      "candidates_en": [
+        "thistle",
+        "scabious",
+        "knapweed",
+        "black hellebore",
+        "cotton thistle",
+        "burdock"
+      ],
+      "confidence": "low",
+      "crib": [
+        "carduus",
+        "scabiosa",
+        "iacea",
+        "elleborus niger",
+        "onopordon",
+        "acanthium",
+        "lappa",
+        "cardo",
+        "scabbiosa",
+        "elleboro nero",
+        "cardo asinino",
+        "bardana",
+        "distel",
+        "scabiose",
+        "flockenblume",
+        "christwurz",
+        "eselsdistel",
+        "klette"
+      ],
+      "crib_by_language": {
+        "la": [
+          "carduus",
+          "scabiosa",
+          "iacea",
+          "elleborus niger",
+          "onopordon",
+          "acanthium",
+          "lappa"
+        ],
+        "it": [
+          "cardo",
+          "scabbiosa",
+          "iacea",
+          "elleboro nero",
+          "cardo asinino",
+          "bardana"
+        ],
+        "de": [
+          "distel",
+          "scabiose",
+          "flockenblume",
+          "christwurz",
+          "eselsdistel",
+          "klette"
+        ]
+      }
+    },
+    {
+      "page": "66",
+      "folio": "34v",
+      "description": "Tree or shrub: branching limbs bearing many round fruits set in fluted, ribbed cups, coloured green, brown, red-brown (various ripeness); three pale scaly cone- or artichoke-like buds at the top; a great spreading orange root tangle with a central oval 'eye'. Fruits in cups strongly suggest oak with acorns or hazelnut; also chestnut, medlar, quince or fig.",
+      "candidates_en": [
+        "oak (acorns)",
+        "hazel (hazelnuts)",
+        "sweet chestnut",
+        "medlar",
+        "quince",
+        "fig",
+        "walnut"
+      ],
+      "confidence": "medium",
+      "crib": [
+        "quercus",
+        "glans",
+        "avellana",
+        "corilus",
+        "nux avellana",
+        "castanea",
+        "mespilus",
+        "cotonea",
+        "malum cydonium",
+        "ficus",
+        "quercia",
+        "ghianda",
+        "nocciuola",
+        "nocciolo",
+        "castagna",
+        "nespola",
+        "cotogna",
+        "fico",
+        "eiche",
+        "eichel",
+        "hasel",
+        "haselnuss",
+        "kesten",
+        "mispel",
+        "kütte",
+        "quitte",
+        "feige"
+      ],
+      "crib_by_language": {
+        "la": [
+          "quercus",
+          "glans",
+          "avellana",
+          "corilus",
+          "nux avellana",
+          "castanea",
+          "mespilus",
+          "cotonea",
+          "malum cydonium",
+          "ficus"
+        ],
+        "it": [
+          "quercia",
+          "ghianda",
+          "avellana",
+          "nocciuola",
+          "nocciolo",
+          "castagna",
+          "nespola",
+          "cotogna",
+          "fico"
+        ],
+        "de": [
+          "eiche",
+          "eichel",
+          "hasel",
+          "haselnuss",
+          "kesten",
+          "mispel",
+          "kütte",
+          "quitte",
+          "feige"
+        ]
+      }
+    },
+    {
+      "page": "67",
+      "folio": "35r",
+      "description": "A single huge cup- or goblet-shaped leaf or bract (olive-brown body with fringed green upper edge, like a calyx or spathe) on a red-lined stem; from its top a stalk with a flower of blue curled, hooked petals round a red-and-white striped centre; root of two pale ribbed spreading lobes. Columbine or aconite flower over an arum-like spathe; or a tulip/lily cup.",
+      "candidates_en": [
+        "columbine",
+        "monkshood",
+        "arum spathe",
+        "love-in-a-mist",
+        "lily"
+      ],
+      "confidence": "low",
+      "crib": [
+        "aquilegia",
+        "aquilina",
+        "aconitum",
+        "napellus",
+        "arum",
+        "iarus",
+        "nigella",
+        "lilium",
+        "aconito",
+        "napello",
+        "aro",
+        "gichero",
+        "giglio",
+        "ackelei",
+        "eisenhut",
+        "aronstab",
+        "schwarzkümmel",
+        "gilge"
+      ],
+      "crib_by_language": {
+        "la": [
+          "aquilegia",
+          "aquilina",
+          "aconitum",
+          "napellus",
+          "arum",
+          "iarus",
+          "nigella",
+          "lilium"
+        ],
+        "it": [
+          "aquilina",
+          "aconito",
+          "napello",
+          "aro",
+          "gichero",
+          "nigella",
+          "giglio"
+        ],
+        "de": [
+          "ackelei",
+          "eisenhut",
+          "aronstab",
+          "schwarzkümmel",
+          "gilge"
+        ]
+      }
+    },
+    {
+      "page": "68",
+      "folio": "35v",
+      "description": "Tall pale green stem with two thinner stems twisting round it like a vine; dense lobed, scalloped green crown at the top; a few separate deeply lobed, oak-like leaves; many clusters of 3-6 small round blue-green berries (one cluster dark red) on short stalks; long red-brown sprawling horizontal roots. Climbing vine with berry clusters: ivy, grape vine, hop, bryony or juniper.",
+      "candidates_en": [
+        "ivy",
+        "grape vine",
+        "hop",
+        "bryony",
+        "juniper",
+        "oak"
+      ],
+      "confidence": "low",
+      "crib": [
+        "hedera",
+        "hedera arborea",
+        "vitis",
+        "uva",
+        "lupulus",
+        "brionia",
+        "iuniperus",
+        "quercus",
+        "edera",
+        "ellera",
+        "vite",
+        "luppolo",
+        "ginepro",
+        "quercia",
+        "efeu",
+        "ebhöw",
+        "reben",
+        "weintraube",
+        "hopfen",
+        "stickwurz",
+        "wacholder",
+        "eiche"
+      ],
+      "crib_by_language": {
+        "la": [
+          "hedera",
+          "hedera arborea",
+          "vitis",
+          "uva",
+          "lupulus",
+          "brionia",
+          "iuniperus",
+          "quercus"
+        ],
+        "it": [
+          "edera",
+          "ellera",
+          "vite",
+          "uva",
+          "luppolo",
+          "brionia",
+          "ginepro",
+          "quercia"
+        ],
+        "de": [
+          "efeu",
+          "ebhöw",
+          "reben",
+          "weintraube",
+          "hopfen",
+          "stickwurz",
+          "wacholder",
+          "eiche"
+        ]
+      }
+    },
+    {
+      "page": "69",
+      "folio": "36r",
+      "description": "Herb with many long-stalked, deeply lobed, crinkled leaves (some coloured pale yellow, as if dried); slender upper stems with small pale dotted seed capsules and tiny blue and yellow five-petalled flowers; thick crown with knotted brown claw-like roots. Greater celandine, crane's-bill, fumitory, buttercup, mugwort/wormwood or a horned poppy.",
+      "candidates_en": [
+        "greater celandine",
+        "crane's-bill",
+        "fumitory",
+        "buttercup",
+        "wormwood",
+        "mugwort",
+        "horned poppy"
+      ],
+      "confidence": "low",
+      "crib": [
+        "chelidonia",
+        "celidonia",
+        "geranium",
+        "fumus terrae",
+        "fumaria",
+        "ranunculus",
+        "absinthium",
+        "artemisia",
+        "glaucium",
+        "geranio",
+        "fumosterno",
+        "ranuncolo",
+        "assenzio",
+        "papavero cornuto",
+        "schelwurz",
+        "schöllkraut",
+        "storchschnabel",
+        "erdrauch",
+        "hanenfuss",
+        "wermut",
+        "beifuss"
+      ],
+      "crib_by_language": {
+        "la": [
+          "chelidonia",
+          "celidonia",
+          "geranium",
+          "fumus terrae",
+          "fumaria",
+          "ranunculus",
+          "absinthium",
+          "artemisia",
+          "glaucium"
+        ],
+        "it": [
+          "celidonia",
+          "geranio",
+          "fumosterno",
+          "fumaria",
+          "ranuncolo",
+          "assenzio",
+          "artemisia",
+          "papavero cornuto"
+        ],
+        "de": [
+          "schelwurz",
+          "schöllkraut",
+          "storchschnabel",
+          "erdrauch",
+          "hanenfuss",
+          "wermut",
+          "beifuss"
+        ]
+      }
+    }
+  ]
+}
