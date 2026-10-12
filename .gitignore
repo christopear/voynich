@@ -32,3 +32,5 @@ docs/_build/
 
 # Laboratory execution artifacts are exported deliberately, not auto-committed.
 results/runs/
+
+data/voynich.pdf
